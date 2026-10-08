@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": ".cursor/hooks/jira-registry-session-sync.sh",
+        "timeout": 120
+      }
+    ]
+  }
+}

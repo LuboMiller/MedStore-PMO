@@ -1,0 +1,37 @@
+{
+  "_comment": "Copy to config/google-directories.json and set real Drive folder IDs. Folder ID = last segment of Drive URL …/folders/<ID>",
+  "version": 1,
+  "default": "main",
+  "directories": [
+    {
+      "key": "main",
+      "label": "Project documents",
+      "folder_id": "REPLACE_WITH_DRIVE_FOLDER_ID",
+      "description": "Shared PMO packs, working docs"
+    },
+    {
+      "key": "commercial",
+      "label": "Commercial / finance root",
+      "folder_id": "REPLACE_WITH_DRIVE_FOLDER_ID",
+      "description": "Burn, Reports, estimation; parent of contracts folder when nested"
+    },
+    {
+      "key": "contracts",
+      "label": "Client contracts (SOW / Договір)",
+      "folder_id": "REPLACE_WITH_DRIVE_FOLDER_ID",
+      "description": "Signed SOW/amendments PDFs/Docs. Pair with config/contracts.json deadlines. Often commercial/Договір."
+    },
+    {
+      "key": "finance",
+      "label": "Burn / priorities / finance",
+      "folder_id": "REPLACE_WITH_DRIVE_FOLDER_ID",
+      "description": "Optional alias if burn lives outside commercial"
+    },
+    {
+      "key": "client-share",
+      "label": "Client-facing exports",
+      "folder_id": "REPLACE_WITH_DRIVE_FOLDER_ID",
+      "description": "Optional second root if client packs live separately"
+    }
+  ]
+}

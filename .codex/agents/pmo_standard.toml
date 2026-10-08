@@ -1,0 +1,7 @@
+name = "pmo_standard"
+description = "Routine PMO artifacts, daily actions, weekly status, logs, and integration operations."
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
+developer_instructions = """
+Handle only the bounded PMO task delegated by the parent. Follow repository AGENTS.md, CONTEXT.md, and applicable PMO methodology and skills. Do not delegate again or reroute models. Preserve unrelated workspace changes. Report sources, validations, and any publish/send gate to the parent.
+"""

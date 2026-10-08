@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+secrets/*
+!secrets/README.md
+**/google-sa.json
+**/google-oauth-client.json
+**/google-oauth-token.json
+config/google-directories.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+knowledge/pmo-kb/
+knowledge/confluence-spaces/*
+!knowledge/confluence-spaces/.gitkeep
+!knowledge/confluence-spaces/README.md
+knowledge/ba/*
+!knowledge/ba/.gitkeep
+knowledge/codebases/*
+!knowledge/codebases/.gitkeep
+!knowledge/README.md
+.DS_Store
+*.egg-info/
+.pytest_cache/
+
+# Project-local configs (copy from *.example.json; may contain client emails / IDs)
+config/contracts.json
+config/time-report.json
+config/client-status-sheet.json
+config/weekly-status-mail.json
+
+# Generated live exports
+docs/_hydrate/**
+!docs/_hydrate/.gitkeep
+!docs/_hydrate/README.md

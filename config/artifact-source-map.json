@@ -1,0 +1,33 @@
+{
+  "description": "Map live Confluence page title patterns and Google Doc names to local PMO artifacts. Used by project hydrate and Google sync.",
+  "confluence_title_patterns": [
+    {"match": "(?i)charter|B1", "local": "docs/project-charter.md", "skill": "pmo-generate-project-charter"},
+    {"match": "(?i)stakeholder|B2", "local": "docs/stakeholder-register.md", "skill": "pmo-manage-stakeholder-register"},
+    {"match": "(?i)kick[- ]?off|B3", "local": "docs/kickoff-deck.md", "skill": "pmo-generate-kickoff-deck"},
+    {"match": "(?i)RACI|DACI|B4", "local": "docs/raci-matrix.md", "skill": "pmo-manage-raci"},
+    {"match": "(?i)glossary|B5|глосар", "local": "docs/glossary.md", "skill": "pmo-manage-glossary"},
+    {"match": "(?i)onboard|B6", "local": "docs/team-onboarding-checklist.md", "skill": "pmo-team-onboarding"},
+    {"match": "(?i)communication|comms|B7|комунік", "local": "docs/communication-plan.md", "skill": "pmo-manage-communication-plan"},
+    {"match": "(?i)PMP|management plan|C1", "local": "docs/project-management-plan.md", "skill": "pmo-generate-pmp"},
+    {"match": "(?i)WBS|breakdown", "local": "docs/wbs.md", "skill": "pmo-generate-wbs"},
+    {"match": "(?i)risk|ризик", "local": "docs/risk-register.md", "skill": "pmo-manage-risk-register"},
+    {"match": "(?i)escalat|C23", "local": "docs/escalation-matrix.md", "skill": "pmo-manage-escalation-matrix"},
+    {"match": "(?i)issue log|D3|журнал проблем", "local": "docs/issue-log.md", "skill": "pmo-manage-issue-log"},
+    {"match": "(?i)decision|рішен", "local": "docs/decisions/index.md", "skill": "pmo-manage-decision-log"},
+    {"match": "(?i)EWS|early warning", "local": "dashboards/ews-dashboard.md", "skill": "pmo-generate-ews-report"},
+    {"match": "(?i)weekly status|тижнев|Project Status Report", "local": "docs/weekly-status/", "skill": "pmo-generate-weekly-status"}
+  ],
+  "google_doc_patterns": [
+    {"match": "(?i)charter", "local": "docs/project-charter.md"},
+    {"match": "(?i)risk", "local": "docs/risk-register.md"},
+    {"match": "(?i)RACI|DACI", "local": "docs/raci-matrix.md"},
+    {"match": "(?i)status|тижнев|Project Status Report", "local": "docs/weekly-status/"},
+    {"match": "(?i)QBR", "local": "docs/qbr/"},
+    {"match": "(?i)meeting|нотатк", "local": "docs/meeting-notes/"}
+  ],
+  "google_sheet_patterns": [
+    {"match": "(?i)risk", "local": "docs/risk-register.md", "note": "Sheets often hold live risk/resource matrices"},
+    {"match": "(?i)capacity|resource|Tempo", "local": "registry/tempo/", "note": "Capacity planning mirror"},
+    {"match": "(?i)stakeholder", "local": "docs/stakeholder-register.md"}
+  ]
+}

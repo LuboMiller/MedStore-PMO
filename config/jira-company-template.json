@@ -1,0 +1,35 @@
+{
+  "name": "devlight-scrum",
+  "description": "Devlight company Jira bootstrap defaults (see knowledge/pmo-kb/00-rules).",
+  "project_type_key": "software",
+  "project_template_key": "com.pyxis.greenhopper.jira:gh-simplified-agility-scrum",
+  "board_type": "scrum",
+  "methodology_label": "devlight-pmo",
+  "expected_statuses": [
+    "Backlog",
+    "To Do",
+    "In Progress",
+    "In Review",
+    "To Test",
+    "Testing",
+    "Done",
+    "Ready for Release",
+    "Released",
+    "Paused",
+    "Blocked",
+    "Canceled"
+  ],
+  "issue_types": ["Epic", "Story", "Task", "Sub-task", "Bug", "Change Request"],
+  "naming": {
+    "epic": "[E-{n}] {name}",
+    "story": "[US-{epic}.{story}] {name}",
+    "task": "[{role}] [US-{epic}] {name}",
+    "subtask": "[{role}] [US-{epic}.{story}] {name}",
+    "cr": "[CR-{n}] [US-{epic}.{story}] {name}"
+  },
+  "roles": ["BA", "UX/UI", "FE", "BE", "QA", "TL", "PM"],
+  "notes": [
+    "Full custom workflow schemes require Jira admin; bootstrap creates Scrum project + board + sprint and documents expected statuses.",
+    "Ticket naming enforced in CLI via --kind helpers and validate_summary warnings."
+  ]
+}

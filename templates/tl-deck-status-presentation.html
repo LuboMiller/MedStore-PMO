@@ -1,0 +1,687 @@
+<!--
+  tl-deck-status-presentation.html — DECK Status Presentation Template
+  Usage: pm-15-generate-project-status-report.md (DECK mode)
+  Populated file saved to: docs/status-reports/deck-{YYYY-MM-DD}.html
+  ─────────────────────────────────────────────────────────────────────
+  PLACEHOLDER REFERENCE
+  ─────────────────────────────────────────────────────────────────────
+  {{DECK_DATE}}              e.g. "08 Jul 2026"
+  {{DECK_SUBTITLE}}          e.g. "Sprint 15 Review" | "Weekly Status" | "Steering Committee"
+  {{RAG_LABEL}}              "ON TRACK" | "AT RISK" | "CRITICAL"
+  {{RAG_CLASS}}              "rag-green" | "rag-amber" | "rag-red"
+  {{PCT_COMPLETE}}           integer 0–100, e.g. 62  ← used TWICE: display number + CSS width
+  {{SPRINT_CURRENT}}         e.g. 15
+  {{SPRINT_TOTAL}}           e.g. 20
+  {{MONTH_CURRENT}}          e.g. 7
+  {{MONTH_TOTAL}}            e.g. 10
+  {{VELOCITY_FACT}}          e.g. 38
+  {{VELOCITY_TARGET}}        e.g. 45
+  {{VELOCITY_CLASS}}         "vel-ok" (≥ target) | "vel-warn" (85–99%) | "vel-low" (< 85%)
+  {{CURRENT_PHASE}}          e.g. "EU Localization — Польща"
+  {{NEXT_MILESTONE}}         e.g. "M7 EU Launch — ⚠️ at risk (+2 weeks)"
+  {{NEXT_MILESTONE_CLASS}}   "nm-on-track" | "nm-at-risk" | "nm-done"
+  {{RISK_CRITICAL_COUNT}}    e.g. 5
+  {{RISK_HIGH_COUNT}}        e.g. 7
+  {{RISK_ROWS}}              <tr> elements — see RISK_ROWS FORMAT below
+  {{MILESTONE_ROWS}}         <tr> elements — see MILESTONE_ROWS FORMAT below
+  {{DECISION_COUNT}}         e.g. "2 decisions needed" | "No action needed from stakeholders"
+  {{DECISION_COUNT_CLASS}}   "has-decisions" | "no-decisions"
+  {{DECISION_ROWS}}          <tr> elements — see DECISION_ROWS FORMAT below
+
+  ─── RISK_ROWS FORMAT ───────────────────────────────────────────────
+  <tr>
+    <td><span class="risk-id risk-crit">R-02</span></td>
+    <td>Legacy backend блокує mobile команду — shared backend не встигає</td>
+    <td><span class="lvl risk-crit">Critical</span></td>
+    <td class="mit">API-контракти зафіксовані; пріоритет backend для mobile API</td>
+  </tr>
+  Severity classes on both .risk-id and .lvl: risk-crit | risk-high | risk-med
+
+  ─── MILESTONE_ROWS FORMAT ──────────────────────────────────────────
+  <tr>
+    <td><span class="ms-icon ms-done">✓</span></td>
+    <td>M4 — Seller Dashboard Launch</td>
+    <td class="ms-date">14 May 2026</td>
+    <td><span class="ms-badge ms-done">Done</span></td>
+  </tr>
+  Classes on .ms-icon and .ms-badge: ms-done | ms-active | ms-plan | ms-risk
+  Icon content: ✓ (done) | → (active/in-progress) | · (planned) | ! (at risk)
+
+  ─── DECISION_ROWS FORMAT ───────────────────────────────────────────
+  <tr>
+    <td class="dec-n">1</td>
+    <td>Підтвердити EU Fast-track vs Standard scope для M7</td>
+    <td class="dec-who">Michał (PO)</td>
+    <td class="dec-by">2026-07-14</td>
+  </tr>
+  If no decisions needed — use this single row instead of DECISION_ROWS:
+  <tr class="no-action"><td colspan="4">No action needed from stakeholders this week.</td></tr>
+-->
+<title>Status Deck — {{PROJECT_NAME}} · {{DECK_DATE}}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+/* ── Tokens (project design) ──────────────────────────────────── */
+:root {
+  --bg:      #0e1117;
+  --surf:    #171d2b;
+  --card:    #1e2639;
+  --rule:    #2a3350;
+  --text:    #dde4f0;
+  --muted:   #6b7a99;
+  --signal:  #c8a84b;
+  --ok:      #3ecf8e;
+  --warn:    #e89c3f;
+  --crit:    #e35d6a;
+  --ok-bg:   rgba(62,207,142,.13);
+  --warn-bg: rgba(232,156,63,.13);
+  --crit-bg: rgba(227,93,106,.13);
+  --fn:      system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --fm:      "SF Mono","Fira Code","Cascadia Code",Consolas,monospace;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg:     #f4f6fa;
+    --surf:   #eef0f5;
+    --card:   #ffffff;
+    --rule:   #dde2ed;
+    --text:   #1a2035;
+    --muted:  #7280a0;
+    --signal: #9a7530;
+  }
+}
+:root[data-theme="light"] {
+  --bg:     #f4f6fa;
+  --surf:   #eef0f5;
+  --card:   #ffffff;
+  --rule:   #dde2ed;
+  --text:   #1a2035;
+  --muted:  #7280a0;
+  --signal: #9a7530;
+}
+:root[data-theme="dark"] {
+  --bg:      #0e1117;
+  --surf:    #171d2b;
+  --card:    #1e2639;
+  --rule:    #2a3350;
+  --text:    #dde4f0;
+  --muted:   #6b7a99;
+  --signal:  #c8a84b;
+}
+
+/* ── Reset ────────────────────────────────────────────────────────── */
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--fn);
+  font-size: 14px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* ── Nav ──────────────────────────────────────────────────────────── */
+.deck-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--surf);
+  border-bottom: 1px solid var(--rule);
+  height: 40px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-title  { font-size: 12px; font-weight: 600; letter-spacing: -.2px; }
+.nav-sep    { width: 1px; height: 16px; background: var(--rule); margin: 0 6px; }
+.nav-sub    { font-size: 11px; color: var(--muted); flex: 1; }
+.nav-slides { display: flex; gap: 3px; }
+.nav-dot {
+  width: 26px; height: 26px;
+  border-radius: 5px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  font-family: var(--fm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background .12s, color .12s, border-color .12s;
+}
+.nav-dot:hover        { background: var(--rule); color: var(--text); }
+.nav-dot.active       { background: var(--signal); border-color: var(--signal); color: var(--bg); }
+.rag-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left: 8px;
+}
+.rag-green { background: var(--ok-bg);   color: var(--ok);   }
+.rag-amber { background: var(--warn-bg); color: var(--warn); }
+.rag-red   { background: var(--crit-bg); color: var(--crit); }
+
+/* ── Slide shell ──────────────────────────────────────────────────── */
+.slide {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 36px 32px 52px;
+}
+.slide + .slide {
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 640px) {
+  .slide { padding: 28px 20px 40px; }
+}
+
+/* ── Slide label ──────────────────────────────────────────────────── */
+.slide-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--signal);
+}
+.slide-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+.sn {
+  font-family: var(--fm);
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--signal);
+  color: var(--bg);
+  border-radius: 3px;
+  padding: 1px 5px;
+  letter-spacing: 0;
+}
+
+/* ── Slide 1: Progress ────────────────────────────────────────────── */
+.s1-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+@media (max-width: 640px) { .s1-layout { grid-template-columns: 1fr; } }
+
+.pct-block { display: flex; flex-direction: column; gap: 6px; }
+.pct-num {
+  font-family: var(--fm);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -4px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.pct-sign {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--muted);
+  margin-left: 2px;
+}
+.pct-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.pct-bar-bg {
+  margin-top: 10px;
+  background: var(--rule);
+  border-radius: 99px;
+  height: 5px;
+  overflow: hidden;
+}
+.pct-bar-fill { height: 100%; border-radius: 99px; background: var(--signal); }
+
+.kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.kpi-tile {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 13px 15px;
+}
+.kpi-lbl {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.kpi-val {
+  font-family: var(--fm);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.kpi-val .denom {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.kpi-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.vel-ok   .kpi-val { color: var(--ok);   }
+.vel-warn .kpi-val { color: var(--warn); }
+.vel-low  .kpi-val { color: var(--crit); }
+.kpi-tile.phase .kpi-val {
+  font-family: var(--fn);
+  font-size: 13px;
+  line-height: 1.3;
+  font-variant-numeric: normal;
+}
+
+.next-ms {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 11px 16px;
+  font-size: 13px;
+}
+.next-ms-lbl {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+.nm-on-track { color: var(--ok);   }
+.nm-at-risk  { color: var(--warn); }
+.nm-done     { color: var(--muted); }
+
+/* ── Slide 2: Risks ───────────────────────────────────────────────── */
+.rc-row { display: flex; gap: 12px; margin-bottom: 20px; }
+.rc-tile {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 12px 20px;
+  min-width: 90px;
+  text-align: center;
+}
+.rc-num {
+  font-family: var(--fm);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.rc-lbl {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.rc-crit .rc-num { color: var(--crit); }
+.rc-high .rc-num { color: var(--warn); }
+
+.risk-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+.risk-tbl thead tr { border-bottom: 1px solid var(--rule); }
+.risk-tbl th {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  padding: 7px 12px 7px 0;
+}
+.risk-tbl td {
+  padding: 9px 12px 9px 0;
+  border-bottom: 1px solid rgba(42,51,80,.5);
+  vertical-align: top;
+  line-height: 1.4;
+}
+.risk-tbl tr:last-child td { border-bottom: none; }
+.risk-id, .lvl {
+  font-family: var(--fm);
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 6px;
+  white-space: nowrap;
+}
+.risk-crit { background: var(--crit-bg); color: var(--crit); }
+.risk-high { background: var(--warn-bg); color: var(--warn); }
+.risk-med  { background: rgba(107,122,153,.15); color: var(--muted); }
+.mit       { color: var(--muted); font-size: 12px; }
+.col-id   { width: 58px; }
+.col-lvl  { width: 76px; }
+.col-mit  { width: 38%; }
+
+/* ── Slide 3: Timeline ────────────────────────────────────────────── */
+.tl-bar-wrap {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+.tl-meta {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--fm);
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.tl-track {
+  background: var(--rule);
+  border-radius: 99px;
+  height: 7px;
+  position: relative;
+}
+.tl-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: var(--signal);
+  position: relative;
+}
+.tl-dot {
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--signal);
+  border: 2px solid var(--bg);
+}
+
+.ms-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+.ms-tbl thead tr { border-bottom: 1px solid var(--rule); }
+.ms-tbl th {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  padding: 7px 12px 7px 0;
+}
+.ms-tbl td {
+  padding: 9px 12px 9px 0;
+  border-bottom: 1px solid rgba(42,51,80,.5);
+  vertical-align: middle;
+}
+.ms-tbl tr:last-child td { border-bottom: none; }
+.ms-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 700;
+  border: 1px solid;
+}
+.ms-badge {
+  font-family: var(--fm);
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+.ms-done   { background: var(--ok-bg);   color: var(--ok);   border-color: var(--ok);   }
+.ms-active { background: var(--warn-bg); color: var(--warn); border-color: var(--warn); }
+.ms-plan   { background: transparent;    color: var(--muted); border-color: var(--rule); }
+.ms-risk   { background: var(--crit-bg); color: var(--crit);  border-color: var(--crit); }
+.ms-date { font-family: var(--fm); font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+/* ── Slide 4: Decisions ───────────────────────────────────────────── */
+.dec-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.has-decisions { background: var(--warn-bg); color: var(--warn); }
+.no-decisions  { background: var(--ok-bg);   color: var(--ok);   }
+
+.dec-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+.dec-tbl thead tr { border-bottom: 1px solid var(--rule); }
+.dec-tbl th {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  padding: 7px 12px 7px 0;
+}
+.dec-tbl td {
+  padding: 10px 12px 10px 0;
+  border-bottom: 1px solid rgba(42,51,80,.5);
+  vertical-align: top;
+  line-height: 1.4;
+}
+.dec-tbl tr:last-child td { border-bottom: none; }
+.dec-n   { font-family: var(--fm); font-weight: 700; color: var(--signal); width: 30px; }
+.dec-who { font-weight: 500; white-space: nowrap; width: 130px; }
+.dec-by  { font-family: var(--fm); font-size: 12px; color: var(--muted); white-space: nowrap; width: 100px; }
+tr.no-action td {
+  color: var(--muted);
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: none;
+}
+
+/* ── Footer ───────────────────────────────────────────────────────── */
+.deck-footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--fm);
+  font-size: 11px;
+  color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+
+<!-- ── Nav ──────────────────────────────────────────────────────── -->
+<nav class="deck-nav">
+  <span class="nav-title">{{PROJECT_NAME}}</span>
+  <div class="nav-sep"></div>
+  <span class="nav-sub">{{DECK_SUBTITLE}}</span>
+  <div class="nav-slides">
+    <a href="#s1" class="nav-dot active" aria-label="Slide 1: Progress">01</a>
+    <a href="#s2" class="nav-dot" aria-label="Slide 2: Risks">02</a>
+    <a href="#s3" class="nav-dot" aria-label="Slide 3: Timeline">03</a>
+    <a href="#s4" class="nav-dot" aria-label="Slide 4: Decisions">04</a>
+  </div>
+  <span class="rag-badge {{RAG_CLASS}}">{{RAG_LABEL}}</span>
+</nav>
+
+<!-- ── Slide 1: Progress ────────────────────────────────────────── -->
+<section id="s1" class="slide">
+  <div class="slide-label"><span class="sn">01</span>Progress</div>
+  <div class="s1-layout">
+
+    <div class="pct-block">
+      <div class="pct-num">{{PCT_COMPLETE}}<span class="pct-sign">%</span></div>
+      <div class="pct-label">Project Complete</div>
+      <div class="pct-bar-bg">
+        <div class="pct-bar-fill" style="width:{{PCT_COMPLETE}}%"></div>
+      </div>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi-tile">
+        <div class="kpi-lbl">Sprint</div>
+        <div class="kpi-val">{{SPRINT_CURRENT}}<span class="denom">/{{SPRINT_TOTAL}}</span></div>
+        <div class="kpi-sub">Current sprint</div>
+      </div>
+      <div class="kpi-tile">
+        <div class="kpi-lbl">Month</div>
+        <div class="kpi-val">{{MONTH_CURRENT}}<span class="denom">/{{MONTH_TOTAL}}</span></div>
+        <div class="kpi-sub">Project month</div>
+      </div>
+      <div class="kpi-tile {{VELOCITY_CLASS}}">
+        <div class="kpi-lbl">Velocity</div>
+        <div class="kpi-val">{{VELOCITY_FACT}}<span class="denom"> SP</span></div>
+        <div class="kpi-sub">Target: {{VELOCITY_TARGET}} SP</div>
+      </div>
+      <div class="kpi-tile phase">
+        <div class="kpi-lbl">Phase</div>
+        <div class="kpi-val">{{CURRENT_PHASE}}</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="next-ms">
+    <span class="next-ms-lbl">Next Milestone</span>
+    <span class="{{NEXT_MILESTONE_CLASS}}">{{NEXT_MILESTONE}}</span>
+  </div>
+</section>
+
+<!-- ── Slide 2: Risks & Mitigations ─────────────────────────────── -->
+<section id="s2" class="slide">
+  <div class="slide-label"><span class="sn">02</span>Risks &amp; Mitigations</div>
+  <div class="rc-row">
+    <div class="rc-tile rc-crit">
+      <div class="rc-num">{{RISK_CRITICAL_COUNT}}</div>
+      <div class="rc-lbl">Critical</div>
+    </div>
+    <div class="rc-tile rc-high">
+      <div class="rc-num">{{RISK_HIGH_COUNT}}</div>
+      <div class="rc-lbl">High</div>
+    </div>
+  </div>
+  <div style="overflow-x:auto">
+    <table class="risk-tbl">
+      <colgroup>
+        <col class="col-id">
+        <col>
+        <col class="col-lvl">
+        <col class="col-mit">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Risk</th>
+          <th>Level</th>
+          <th>Mitigation</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{RISK_ROWS}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── Slide 3: Timeline ────────────────────────────────────────── -->
+<section id="s3" class="slide">
+  <div class="slide-label"><span class="sn">03</span>Timeline</div>
+  <div class="tl-bar-wrap">
+    <div class="tl-meta">
+      <span>Jan 2026</span>
+      <span>Today: {{DECK_DATE}} — {{PCT_COMPLETE}}% complete</span>
+      <span>Oct 2026</span>
+    </div>
+    <div class="tl-track">
+      <div class="tl-fill" style="width:{{PCT_COMPLETE}}%">
+        <div class="tl-dot"></div>
+      </div>
+    </div>
+  </div>
+  <div style="overflow-x:auto">
+    <table class="ms-tbl">
+      <thead>
+        <tr>
+          <th style="width:34px"></th>
+          <th>Milestone</th>
+          <th>Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{MILESTONE_ROWS}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── Slide 4: Decisions & Support Needed ──────────────────────── -->
+<section id="s4" class="slide">
+  <div class="slide-label"><span class="sn">04</span>Decisions &amp; Support Needed</div>
+  <div class="dec-badge {{DECISION_COUNT_CLASS}}">{{DECISION_COUNT}}</div>
+  <div style="overflow-x:auto">
+    <table class="dec-tbl">
+      <thead>
+        <tr>
+          <th style="width:30px">#</th>
+          <th>Decision / Question</th>
+          <th>From</th>
+          <th>By</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{DECISION_ROWS}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── Footer ───────────────────────────────────────────────────── -->
+<footer class="deck-footer">
+  <span>{{PROJECT_NAME}}</span>
+  <span>{{DECK_DATE}} · {{DECK_SUBTITLE}}</span>
+  <span>Prepared by PM</span>
+</footer>
+
+<script>
+(function () {
+  var dots   = document.querySelectorAll('.nav-dot');
+  var slides = document.querySelectorAll('.slide');
+  function update() {
+    var best = 0, bestDist = Infinity;
+    slides.forEach(function (s, i) {
+      var d = Math.abs(s.getBoundingClientRect().top - 40);
+      if (d < bestDist) { bestDist = d; best = i; }
+    });
+    dots.forEach(function (d, i) { d.classList.toggle('active', i === best); });
+  }
+  window.addEventListener('scroll', update, { passive: true });
+})();
+</script>

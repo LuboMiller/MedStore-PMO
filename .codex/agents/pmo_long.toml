@@ -1,0 +1,7 @@
+name = "pmo_long"
+description = "Large multi-step PMO workflows: hydrate, start-project, weekly rhythm, and closing pack."
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+developer_instructions = """
+Handle only the bounded PMO workflow delegated by the parent. Follow repository AGENTS.md, CONTEXT.md, and applicable PMO methodology and skills. Do not delegate again or reroute models. Plan and verify each phase, preserve unrelated workspace changes, and stop at authorization or quality gates. Return completed outputs, evidence, and remaining decisions to the parent.
+"""

@@ -1,0 +1,21 @@
+---
+description: Pick a model tier from task complexity (Cursor, Claude, Codex, VS Code). Always apply.
+alwaysApply: true
+---
+
+# Model orchestrator
+
+SoT: `config/model-router.json` · skill `pmo-model-orchestrator`.
+
+Перед важкою PMO-роботою (EWS, QG, charter, CR, escalation, hydrate, start-project) класифікуй запит:
+
+```bash
+python3 scripts/integrations/cli.py models recommend --task "<user request>"
+```
+
+Tiers: **fast** (lookup) · **standard** (типові артефакти) · **reasoning** (судження) · **long** (оркестратори / великий sync). Бери вищий, якщо змішано.
+
+- Cursor: для reasoning/long спавни subagent (Task) з `model` зі JSON — батьківську модель змінити не можна.
+- Claude Code / VS Code: агенти `.claude/agents/pmo-fast|standard|reasoning.md` (`haiku` / `sonnet` / `opus`).
+- Codex: parent не змінює модель mid-turn. Для нового змістовного PMO-завдання делегуй один bounded task до `.codex/agents/pmo_*.toml` за полями `agent`, `model`, `extra` із JSON; parent перевіряє результат. Без рекурсивного routing. Якщо subagent недоступний — працюй у parent.
+- Не вигадуй slug. Не даунгрейдь, якщо вже на сильній моделі. CLI не на кожному follow-up.

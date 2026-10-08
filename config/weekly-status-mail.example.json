@@ -1,0 +1,12 @@
+{
+  "default_to": [
+    "po@example.com"
+  ],
+  "default_cc": [],
+  "append_gmail_signature": true,
+  "links": {
+    "timeline": "https://docs.google.com/spreadsheets/d/REPLACE_TIMELINE_ID/edit?gid=0#gid=0",
+    "budget": "https://docs.google.com/spreadsheets/d/REPLACE_BUDGET_ID/edit?usp=sharing"
+  },
+  "notes": "Recipients for google gmail-draft. Cover email: Confluence URL in MD body; timeline/budget are stable Sheets links."
+}

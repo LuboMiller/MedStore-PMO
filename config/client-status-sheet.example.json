@@ -1,0 +1,14 @@
+{
+  "_comment": "Copy to config/client-status-sheet.json. Spreadsheet ID = last segment of Sheets URL …/d/<ID>/edit",
+  "version": 1,
+  "spreadsheet_id": "REPLACE_WITH_SPREADSHEET_ID",
+  "label": "Client Project status report",
+  "daily_tabs": [
+    "Overview",
+    "Scope Dashboard",
+    "CSAT log",
+    "СHANGE REQUESTS",
+    "Monthly Budget"
+  ],
+  "out_dir_template": "docs/_hydrate/google/sheets/client-status-live-{date}"
+}

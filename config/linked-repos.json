@@ -1,0 +1,5 @@
+{
+  "_comment": "Optional linked repositories. Copy fields from linked-repos.example.json. Paths may be local checkouts OR remotes (url+ref). Mirrors land under knowledge/ (gitignored).",
+  "ba_repos": [],
+  "codebase_repos": []
+}

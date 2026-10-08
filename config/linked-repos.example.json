@@ -1,0 +1,54 @@
+{
+  "_comment": "Example — copy entries into config/linked-repos.json. EARLY pipeline step (after CONTEXT). If ba_repos is non-empty → BA mirror is SoT for functional specs; maintain via pull → edit → push. Do NOT use docs/functional-specs/.",
+  "ba_repos": [
+    {
+      "id": "acme-ba",
+      "kind": "ba",
+      "url": "git@github.com:org/acme-ba-docs.git",
+      "path": null,
+      "ref": "main",
+      "local_mirror": "knowledge/ba/acme-ba",
+      "sync": "bidirectional",
+      "context_files": [
+        "CONTEXT.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "CLAUDE-PROJECT.md",
+        "README.md",
+        "docs/**"
+      ],
+      "agent_entrypoints": [
+        "CLAUDE.md",
+        "CLAUDE-PROJECT.md",
+        "AGENTS.md",
+        "CONTEXT.md",
+        "README.md"
+      ],
+      "skills_glob": ".cursor/skills/**/SKILL.md",
+      "prompts_globs": [
+        "docs/ba/prompts/**/*.md",
+        "docs/ba/prompts/**/*.mdc"
+      ],
+      "rules_globs": [
+        "docs/ba/rules/**/*",
+        ".cursor/rules/**/*"
+      ],
+      "notes": "When present: replaces docs/functional-specs entirely (FS SoT = this repo). PMO maintains BA as a dependency via pmo-ba-repos (discover reports agent_mode)."
+    }
+  ],
+  "codebase_repos": [
+    {
+      "id": "acme-web",
+      "kind": "codebase",
+      "url": null,
+      "path": "../acme-web",
+      "ref": "main",
+      "local_mirror": "knowledge/codebases/acme-web",
+      "sync": "pull",
+      "include": ["README.md", "docs/**", "apps/*/README.md", "package.json"],
+      "exclude": ["node_modules", "dist", ".git", "build", "coverage"],
+      "purpose": "context-only",
+      "notes": "Read-only context for scope/tech risks; do not treat as delivery SoT"
+    }
+  ]
+}

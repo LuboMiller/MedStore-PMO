@@ -1,0 +1,36 @@
+{
+  "_comment": "Copy to config/contracts.json. Local SoT for contract + stage deadlines; Drive PDFs/Docs live under google-directories key `contracts` (usually commercial/Договір). CLI: google contracts-status.",
+  "version": 1,
+  "dir_key": "contracts",
+  "warn_days": 14,
+  "critical_days": 7,
+  "contracts": [
+    {
+      "id": "CTR-001",
+      "title": "Client SOW / Master Agreement",
+      "type": "SOW",
+      "status": "active",
+      "signed_date": null,
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "contract_value_usd": null,
+      "currency": "USD",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_web_link": null,
+      "owner": "PM",
+      "notes": "Link Drive file after upload into contracts folder",
+      "stages": [
+        {
+          "id": "STG-01",
+          "title": "Phase / milestone name",
+          "status": "active",
+          "start_date": "YYYY-MM-DD",
+          "end_date": "YYYY-MM-DD",
+          "acceptance_date": null,
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

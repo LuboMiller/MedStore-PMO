@@ -1,0 +1,42 @@
+{
+  "_comment": "Copy to config/time-report.json. Used by google time-report / pmo-prepare-monthly-act.",
+  "version": 1,
+  "project_name": "{{PROJECT_NAME}}",
+  "jira_project_key": "{{JIRA_KEY}}",
+  "tempo_project_id": null,
+  "dir_key": "commercial",
+  "reports_folder_name": "Reports",
+  "spreadsheet_id": null,
+  "name_pattern": "Time Report",
+  "create_title_template": "{project_name} | {year} Time Report",
+  "overwrite_month_tab": false,
+  "rates": {
+    "BA": 38.0,
+    "BE": 45.0,
+    "Design": 38.0,
+    "DevOps": 80.0,
+    "FE": 45.0,
+    "Flutter": 45.0,
+    "PM": 38.0,
+    "QA": 30.0,
+    "Sol. Arch.": 80.0
+  },
+  "rate_labels": {
+    "BA": "Business Analyst",
+    "BE": "Backend",
+    "Design": "UI/UX Designer",
+    "DevOps": "DevOps",
+    "FE": "FrontEnd",
+    "Flutter": "Flutter",
+    "PM": "Project Manager",
+    "QA": "QA",
+    "Sol. Arch.": "Solution Architect"
+  },
+  "people": [
+    {
+      "account_id": "REPLACE_ACCOUNT_ID",
+      "display_name": "Full Name",
+      "role": "BE"
+    }
+  ]
+}

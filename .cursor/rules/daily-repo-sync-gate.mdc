@@ -1,0 +1,38 @@
+---
+description: Before daily PMO work, check/run morning sync via automation-prompt and remind if stale.
+alwaysApply: true
+---
+
+# Daily repo sync gate
+
+Перед **першою змістовною** PMO-роботою сьогодні (Europe/Kyiv) — не на кожному follow-up — перевір і за потреби онови локальне дзеркало live SoT.
+
+SoT процедури: `.cursor/skills/pmo-daily-pm-actions/automation-prompt.md` (Phase A → потім Phase B / daily-actions). Skill: `pmo-daily-pm-actions`.
+
+## Freshness check
+
+Синк за сьогодні вважається свіжим, якщо є **обидва**:
+
+1. `docs/_hydrate/google/sheets/client-status-live-YYYY-MM-DD/` (після `google export-sheets`)
+2. `docs/daily-actions/YYYY-MM-DD.md`
+
+Додаткові сигнали (не замінюють hydrate): mtime `registry/confluence/`, `registry/google/`, `registry/tempo/` за сьогодні. Сам `registry/jira/` може оновлюватись sessionStart hook — цього **недостатньо** як morning sync.
+
+## Якщо stale / відсутнє
+
+1. Коротко нагадай PM: morning sync за сьогодні ще не пройшов (або частковий).
+2. Прочитай `automation-prompt.md` і виконай **Phase A** (A1→A4): registries → `google export-sheets` → optional repos/Fireflies/Tempo → local reconcile. Лише pull/export + local files; без remote write.
+3. Потім **Phase B** — `pmo-daily-pm-actions` → `docs/daily-actions/YYYY-MM-DD.md`.
+4. Лише після цього — запит користувача (EWS, weekly, CR, charter, …).
+
+Не починай важкі артефакти на stale даних без явного «skip sync» / «без sync».
+
+## Якщо вже свіжо
+
+Одне коротке підтвердження («sync за сьогодні є») і працюй далі. Не ганяй повний Phase A повторно в тій самій сесії без потреби.
+
+## Винятки (gate не блокує)
+
+- Питання саме про sync / automation / freshness
+- Lookup / typo / шлях до файлу без live SoT
+- Користувач явно сказав пропустити sync

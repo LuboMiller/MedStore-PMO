@@ -1,0 +1,716 @@
+<!--
+  tl-project-status-report.html — Project Status Report Template
+  Usage: pm-14-generate-project-status-report.md
+  Replace all {{PLACEHOLDER}} values with real data before saving to dashboards/project-status-report.html
+  ────────────────────────────────────────────────────────────────
+  PLACEHOLDER REFERENCE:
+  {{REPORT_DATE}}             Date of generation, e.g. "07 Jul 2026"
+  {{REPORT_SPRINT}}           Current sprint number, e.g. "14"
+  {{REPORT_MONTH}}            Current month of project, e.g. "7"
+  {{PROJECT_STATUS_LABEL}}    "ON TRACK" | "AT RISK" | "OFF TRACK"
+  {{PROJECT_STATUS_CLASS}}    "rag-green" | "rag-amber" | "rag-red"
+  {{DATE_START}}              e.g. "02 Jan 2026"
+  {{DATE_BASELINE_END}}       e.g. "08 Oct 2026"
+  {{DATE_CURRENT}}            e.g. "07 Jul 2026"
+  {{DATE_ESTIM_END}}          e.g. "21 Oct 2026"
+  {{SCHEDULE_DELTA}}          e.g. "+13 days" | "On schedule"
+  {{SCHEDULE_DELTA_CLASS}}    "delta-over" | "delta-ok"
+  {{COST_BASELINE}}           e.g. "$320,000"
+  {{COST_CURRENT}}            AC to date, e.g. "$211,200"
+  {{COST_CURRENT_PCT}}        e.g. "66%"
+  {{COST_EAC}}                Estimate at Completion, e.g. "$338,700"
+  {{COST_VAC}}                Variance, e.g. "−$18,700"
+  {{COST_VAC_CLASS}}          "delta-over" | "delta-ok"
+  {{COST_CR}}                 Change request total, e.g. "N/A"
+  {{COST_CR_COLOR}}           "var(--ok)" | "var(--warn)" | "var(--crit)" — based on CR Cost as % of budget reserve (CONTEXT.md), NOT hardcoded var(--muted): <=30% reserve=ok, 30-70%=warn, >70%=bad. If COST_CR is "N/A", use var(--muted).
+  {{COST_ADDL_SCOPE}}         Additional scope cost, e.g. "N/A"
+  {{PCT_PROJECT}}             Project completion %, e.g. "62.4"
+  {{PCT_BUDGET}}              Budget used %, e.g. "66.0"
+  {{PCT_BUDGET_BAR_COLOR}}    "var(--ok)" | "var(--warn)" | "var(--crit)" — based on (PCT_BUDGET - PCT_PROJECT): <=0=ok, 0-10pp=warn, >10pp=bad. NOT hardcoded var(--warn).
+  {{METRIC_BUG_COUNT}}        Raw open bug count, e.g. "2"
+  {{METRIC_BUG_COUNT_CLASS}}  "metric-ok" | "metric-warn" | "metric-bad"
+  {{METRIC_BUG_RATE}}         Defect density % = total bugs / total completed tasks (project-wide), e.g. "3.2%" or "N/A"
+  {{METRIC_BUG_RATE_CLASS}}   "metric-ok" | "metric-warn" | "metric-bad"
+  {{METRIC_BUG_RATE_BAR}}     Fill width % relative to benchmark (rate/10*100), e.g. "32" for 3.2% at benchmark 10%
+  {{METRIC_BUG_RATE_BAR_COLOR}} CSS var for bar color: "var(--ok)" | "var(--warn)" | "var(--crit)"
+  {{METRIC_CR_COUNT}}         Raw open CR count, e.g. "1"
+  {{METRIC_CR_COUNT_CLASS}}   "metric-ok" | "metric-warn" | "metric-bad"
+  {{METRIC_CR_RATE}}          Scope change % = CR SP / baseline SP, e.g. "2.2%" or "N/A"
+  {{METRIC_CR_RATE_CLASS}}    "metric-ok" | "metric-warn" | "metric-bad"
+  {{CPI_VALUE}}               e.g. "0.945"
+  {{CPI_CLASS}}               "metric-ok" | "metric-warn" | "metric-bad"
+  {{SPI_VALUE}}               e.g. "0.981"
+  {{SPI_CLASS}}               "metric-ok" | "metric-warn" | "metric-bad"
+  {{SV_DAYS}}                 SV is its OWN separate .perf tile right after SPI in the grid — NOT a badge merged inside the SPI tile. Value e.g. "≈ −8 днів", business translation of SPI (same idea as VAC being CPI's dollar translation, but VAC stays inside the EAC tile as a sub-line; SV gets a whole tile of its own because it's requested as a standalone block beside SPI)
+  {{SV_DAYS_CLASS}}           "metric-ok" | "metric-warn" | "metric-bad" — OWN threshold in days (see pm-14 threshold table), same pattern as VAC having its own sign-based color independent of CPI_CLASS. Do NOT copy SPI_CLASS: SV exists to surface what the ratio-based SPI threshold can hide on long projects; mirroring SPI_CLASS makes SV a decorative duplicate instead of an independent signal.
+  ────────────────────────────────────────────────────────────────
+  LANGUAGE: this report's body language is Ukrainian (per CLAUDE.md).
+  Do not mix an English word/phrase into an otherwise-Ukrainian
+  kpi-sub sentence (e.g. "перенесено з Sprint 14 close" is wrong —
+  use "перенесено із закриття Sprint 14"). Keep universal acronyms
+  (CPI, SPI, EAC, VAC, SV, US-NN, CR-NN) as-is; translate everything
+  else in the same sentence consistently.
+  {{VELOCITY_SVG_AREA}}       SVG path d= for filled area under velocity line
+  {{VELOCITY_SVG_LINE}}       SVG path d= for velocity line
+  {{VELOCITY_TARGET_Y}}       Y coordinate of target line (45 SP)
+  {{VELOCITY_DOTS}}           SVG circle elements for each sprint data point
+  {{VELOCITY_LABELS}}         SVG text labels for sprint numbers
+  {{SPRINT_TABLE_ROWS}}       <tr> rows for last-5-sprints summary table
+  {{RISK_CRITICAL_COUNT}}     e.g. "5"
+  {{RISK_HIGH_COUNT}}         e.g. "7"
+  {{RISK_CRITICAL_COUNT}}     e.g. "5"
+  {{RISK_HIGH_COUNT}}         e.g. "4"
+  {{RISK_UNDER_CONTROL_COUNT}} e.g. "3"
+  {{RISK_ROWS}}               <li class="risk-item-card"> items for active risks (Категорія + Митигація + Contingency)
+  {{RISK_UNDER_ROWS}}         <li class="risk-item"> items for under-control risks (strikethrough)
+  {{MILESTONE_ROWS}}          <div class="milestone"> elements
+  {{GANTT_TODAY}}             JS date args for TODAY, e.g. "2026, 6, 7"
+  {{GANTT_PHASES}}            JS array literal — phases with {lbl,s,e,done,active}
+  {{GANTT_MILESTONES}}        JS array literal — milestones with {d,lbl,row,risk}
+-->
+<title>Project Status — {{PROJECT_NAME}}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+/* ── Tokens ─────────────────────────────────────────────────────── */
+:root {
+  --ink:      #0e1117;
+  --surface:  #171d2b;
+  --card:     #1e2639;
+  --rule:     #2a3350;
+  --text:     #dde4f0;
+  --muted:    #6b7a99;
+  --signal:   #c8a84b;
+  --ok:       #3ecf8e;
+  --warn:     #e89c3f;
+  --crit:     #e35d6a;
+  --ok-bg:    rgba(62,207,142,.12);
+  --warn-bg:  rgba(232,156,63,.12);
+  --crit-bg:  rgba(227,93,106,.12);
+  --font-ui:  system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --font-num: "SF Mono","Fira Code","Cascadia Code",Consolas,monospace;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --ink:     #ffffff;
+    --surface: #f4f6fa;
+    --card:    #ffffff;
+    --rule:    #dde2ed;
+    --text:    #1a2035;
+    --muted:   #6b7a99;
+    --signal:  #a8853a;
+  }
+}
+:root[data-theme="light"] {
+  --ink:     #ffffff;
+  --surface: #f4f6fa;
+  --card:    #ffffff;
+  --rule:    #dde2ed;
+  --text:    #1a2035;
+  --muted:   #6b7a99;
+  --signal:  #a8853a;
+}
+:root[data-theme="dark"] {
+  --ink:      #0e1117;
+  --surface:  #171d2b;
+  --card:     #1e2639;
+  --rule:     #2a3350;
+  --text:     #dde4f0;
+  --muted:    #6b7a99;
+  --signal:   #c8a84b;
+}
+
+/* ── Reset ──────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--surface); color: var(--text); font-family: var(--font-ui); font-size: 14px; line-height: 1.5; }
+body { min-height: 100vh; }
+
+/* ── Report shell ───────────────────────────────────────────────── */
+.report { max-width: 1200px; margin: 0 auto; padding: 20px 24px 48px; }
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.report-header {
+  background: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.header-title { font-size: 17px; font-weight: 600; letter-spacing: -.3px; flex: 1; }
+.header-sprint {
+  font-family: var(--font-num);
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: .04em;
+}
+.rag-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.rag-green { background: var(--ok-bg); color: var(--ok); }
+.rag-amber { background: var(--warn-bg); color: var(--warn); }
+.rag-red   { background: var(--crit-bg); color: var(--crit); }
+.header-date {
+  font-family: var(--font-num);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ── KPI band ───────────────────────────────────────────────────── */
+.kpi-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.kpi {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.kpi-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.kpi-value {
+  font-family: var(--font-num);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  line-height: 1.2;
+}
+.kpi-sub { font-size: 11px; color: var(--muted); }
+
+/* ── Delta pills ────────────────────────────────────────────────── */
+.delta { font-size: 11px; font-weight: 600; border-radius: 4px; padding: 1px 6px; display: inline-block; }
+.delta-over { background: var(--crit-bg); color: var(--crit); }
+.delta-ok   { background: var(--ok-bg);   color: var(--ok);   }
+.delta-warn { background: var(--warn-bg); color: var(--warn); }
+
+/* ── Perf band ──────────────────────────────────────────────────── */
+.perf-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.perf {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.metric-ok   .kpi-value { color: var(--ok);   }
+.metric-warn .kpi-value { color: var(--warn);  }
+.metric-bad  .kpi-value { color: var(--crit);  }
+
+/* ── Progress bar ───────────────────────────────────────────────── */
+.progress-wrap { margin-top: 6px; }
+.progress-bar-bg {
+  background: var(--rule);
+  border-radius: 99px;
+  height: 4px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: var(--signal);
+  transition: width .4s ease;
+}
+
+/* ── Main grid ──────────────────────────────────────────────────── */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 10px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .main-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Panel ──────────────────────────────────────────────────────── */
+.panel {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.panel-header {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--rule);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panel-body { padding: 16px; }
+
+/* ── Velocity chart ─────────────────────────────────────────────── */
+.velocity-chart { width: 100%; }
+.velocity-chart svg { display: block; width: 100%; height: 150px; overflow: visible; }
+.v-area { fill: rgba(200,168,75,.12); }
+.v-line { fill: none; stroke: var(--signal); stroke-width: 2; stroke-linejoin: round; }
+.v-target { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+.v-dot { fill: var(--signal); }
+.v-dot.low { fill: var(--crit); }
+.v-dot.active { fill: var(--ok); }
+.v-label { font-family: var(--font-num); font-size: 9px; fill: var(--muted); }
+.v-axis { stroke: var(--rule); stroke-width: 1; }
+
+/* ── Sprint table ───────────────────────────────────────────────── */
+.sprint-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.sprint-table th {
+  text-align: left;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.sprint-table td { padding: 6px 0; border-bottom: 1px solid rgba(42,51,80,.5); }
+.sprint-table tr:last-child td { border-bottom: none; }
+.sprint-table .sp-val { font-family: var(--font-num); }
+.sprint-table .active-row td { color: var(--ok); }
+
+/* ── Risk panel ─────────────────────────────────────────────────── */
+.risk-counts { display: flex; gap: 8px; }
+.risk-count {
+  flex: 1;
+  background: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+.risk-count .rc-num {
+  font-family: var(--font-num);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.risk-count .rc-label { font-size: 10px; color: var(--muted); margin-top: 3px; }
+.rc-crit .rc-num { color: var(--crit); }
+.rc-high .rc-num { color: var(--warn); }
+
+.risk-list { margin-top: 12px; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.risk-list-full {
+  margin-top: 14px; list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.risk-list-under {
+  margin-top: 8px; list-style: none;
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+@media (max-width: 900px) {
+  .risk-list-full { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .risk-list-full { grid-template-columns: 1fr; }
+}
+.risk-item { font-size: 12px; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4; }
+.risk-item-card {
+  font-size: 12px; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;
+  background: var(--ink); border: 1px solid var(--rule); border-radius: 6px; padding: 10px;
+}
+.risk-id { font-family: var(--font-num); font-size: 10px; font-weight: 700; flex-shrink: 0; padding: 2px 6px; border-radius: 4px; }
+.risk-id.crit { background: var(--crit-bg); color: var(--crit); }
+.risk-id.high { background: var(--warn-bg); color: var(--warn); }
+.risk-desc { color: var(--text); }
+.rcat {
+  font-size: 9px; font-weight: 600; padding: 1px 5px; border-radius: 3px;
+  background: var(--ink); border: 1px solid var(--rule); color: var(--muted);
+  flex-shrink: 0; align-self: flex-start; margin-top: 1px; white-space: nowrap;
+}
+.risk-con {
+  font-size: 11px; color: var(--crit); margin-top: 3px;
+  border-left: 2px solid var(--crit-bg); padding-left: 6px; line-height: 1.4; opacity: .85;
+}
+
+/* ── Milestone panel ────────────────────────────────────────────── */
+.milestone-list { display: flex; flex-direction: column; gap: 8px; }
+.milestone-item { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; }
+.ms-dot {
+  width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+  border: 2px solid var(--rule);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; margin-top: 1px;
+}
+.ms-dot.done   { background: var(--ok-bg);   border-color: var(--ok);   color: var(--ok); }
+.ms-dot.active { background: var(--warn-bg);  border-color: var(--warn);  color: var(--warn); }
+.ms-dot.plan   { background: var(--ink);      border-color: var(--rule);  color: var(--muted); }
+.ms-dot.risk   { background: var(--crit-bg);  border-color: var(--crit);  color: var(--crit); }
+.ms-info { flex: 1; }
+.ms-name { font-weight: 500; line-height: 1.3; }
+.ms-date { font-size: 10px; color: var(--muted); font-family: var(--font-num); margin-top: 1px; }
+
+/* ── Section divider ────────────────────────────────────────────── */
+.section-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 16px 0 8px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 6px;
+}
+/* ── Gantt chart ─────────────────────────────────────────────── */
+canvas#ganttChart { display: block; width: 100%; height: 195px; }
+.risk-mit {
+  font-size: 11px; color: var(--muted); margin-top: 4px;
+  border-left: 2px solid var(--rule); padding-left: 6px; line-height: 1.4;
+}
+.risk-con {
+  font-size: 11px; color: var(--crit); margin-top: 3px;
+  border-left: 2px solid var(--crit-bg); padding-left: 6px; line-height: 1.4; opacity: .85;
+}
+</style>
+
+<div class="report">
+
+  <!-- ── Header ────────────────────────────────────── -->
+  <header class="report-header">
+    <div>
+      <div class="header-title">{{PROJECT_NAME}}</div>
+      <div class="header-sprint">Sprint {{REPORT_SPRINT}} / 20 &nbsp;·&nbsp; Month {{REPORT_MONTH}} / 10</div>
+    </div>
+    <div class="rag-badge {{PROJECT_STATUS_CLASS}}">{{PROJECT_STATUS_LABEL}}</div>
+    <div class="header-date">{{REPORT_DATE}}</div>
+  </header>
+
+  <!-- ── KPI Band — Dates & Costs ───────────────────── -->
+  <p class="section-label">Schedule &amp; Budget Overview</p>
+  <div class="kpi-band">
+    <div class="kpi">
+      <span class="kpi-label">Start Date</span>
+      <span class="kpi-value" style="font-size:16px">{{DATE_START}}</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Baseline End</span>
+      <span class="kpi-value" style="font-size:16px">{{DATE_BASELINE_END}}</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Current Date</span>
+      <span class="kpi-value" style="font-size:16px">{{DATE_CURRENT}}</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Est. Completion</span>
+      <span class="kpi-value" style="font-size:16px">{{DATE_ESTIM_END}}</span>
+      <span class="kpi-sub"><span class="delta {{SCHEDULE_DELTA_CLASS}}">{{SCHEDULE_DELTA}}</span></span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Baseline Cost</span>
+      <span class="kpi-value">{{COST_BASELINE}}</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Current Cost (AC)</span>
+      <span class="kpi-value">{{COST_CURRENT}}</span>
+      <span class="kpi-sub">{{COST_CURRENT_PCT}} of baseline used</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">CR Cost</span>
+      <span class="kpi-value" style="font-size:16px;color:{{COST_CR_COLOR}}">{{COST_CR}}</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-label">Addl. Scope Cost</span>
+      <span class="kpi-value" style="font-size:16px;color:var(--muted)">{{COST_ADDL_SCOPE}}</span>
+    </div>
+  </div>
+
+  <!-- ── Perf Band ─────────────────────────────────── -->
+  <p class="section-label">Performance Indices</p>
+  <div class="perf-band">
+    <div class="perf">
+      <span class="kpi-label">Project Completion</span>
+      <span class="kpi-value">{{PCT_PROJECT}}%</span>
+      <div class="progress-wrap">
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:{{PCT_PROJECT}}%"></div></div>
+      </div>
+    </div>
+    <div class="perf">
+      <span class="kpi-label">Budget Completion</span>
+      <span class="kpi-value">{{PCT_BUDGET}}%</span>
+      <div class="progress-wrap">
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:{{PCT_BUDGET}}%;background:{{PCT_BUDGET_BAR_COLOR}}"></div></div>
+      </div>
+    </div>
+    <div class="perf">
+      <span class="kpi-label">Est. Cost (EAC)</span>
+      <span class="kpi-value">{{COST_EAC}}</span>
+      <span class="kpi-sub"><span class="delta {{COST_VAC_CLASS}}">{{COST_VAC}}</span> vs baseline</span>
+    </div>
+    <div class="perf {{CPI_CLASS}}">
+      <span class="kpi-label">CPI</span>
+      <span class="kpi-value">{{CPI_VALUE}}</span>
+      <span class="kpi-sub">Індекс виконання вартості</span>
+    </div>
+    <div class="perf {{SPI_CLASS}}">
+      <span class="kpi-label">SPI</span>
+      <span class="kpi-value">{{SPI_VALUE}}</span>
+      <span class="kpi-sub">Індекс виконання графіка</span>
+    </div>
+    <div class="perf {{SV_DAYS_CLASS}}">
+      <span class="kpi-label">SV (днів)</span>
+      <span class="kpi-value">{{SV_DAYS}}</span>
+      <span class="kpi-sub">Відхилення графіка на сьогодні (бізнес-переклад SPI)</span>
+    </div>
+    <div class="perf {{METRIC_BUG_COUNT_CLASS}}">
+      <span class="kpi-label">Bug Count</span>
+      <span class="kpi-value">{{METRIC_BUG_COUNT}}</span>
+      <span class="kpi-sub">open defects</span>
+    </div>
+    <div class="perf {{METRIC_BUG_RATE_CLASS}}">
+      <span class="kpi-label">Bug Rate</span>
+      <span class="kpi-value">{{METRIC_BUG_RATE}}</span>
+      <span class="kpi-sub">bugs / completed tasks (project-wide)</span>
+      <div class="progress-wrap">
+        <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--muted);margin-bottom:3px">
+          <span>0%</span><span>benchmark ≤10%</span>
+        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:{{METRIC_BUG_RATE_BAR}}%;background:{{METRIC_BUG_RATE_BAR_COLOR}}"></div></div>
+      </div>
+    </div>
+    <div class="perf {{METRIC_CR_COUNT_CLASS}}">
+      <span class="kpi-label">CR Count</span>
+      <span class="kpi-value">{{METRIC_CR_COUNT}}</span>
+      <span class="kpi-sub">active change requests</span>
+    </div>
+    <div class="perf {{METRIC_CR_RATE_CLASS}}">
+      <span class="kpi-label">CR Rate</span>
+      <span class="kpi-value">{{METRIC_CR_RATE}}</span>
+      <span class="kpi-sub">CR SP / baseline SP</span>
+    </div>
+  </div>
+
+  <!-- ── Gantt chart ───────────────────────────────── -->
+  <p class="section-label">Project Timeline</p>
+  <div class="panel">
+    <div class="panel-header">
+      <span>Gantt — Phase Overview</span>
+      <span style="color:var(--signal)">Today: {{DATE_CURRENT}}</span>
+    </div>
+    <div class="panel-body" style="padding-bottom:10px">
+      <canvas id="ganttChart"></canvas>
+      <div style="display:flex;gap:14px;margin-top:8px;font-size:10px;color:var(--muted);font-family:var(--fn-num,monospace)">
+        <span style="display:flex;align-items:center;gap:5px"><span style="width:16px;height:8px;background:var(--signal);opacity:.55;border-radius:1px;display:inline-block"></span>Завершено</span>
+        <span style="display:flex;align-items:center;gap:5px"><span style="width:16px;height:8px;background:var(--rule);border-radius:1px;display:inline-block"></span>Заплановано</span>
+        <span style="display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;background:var(--signal);clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);display:inline-block"></span>Milestone</span>
+        <span style="display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;background:#e35d6a;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);display:inline-block"></span>At risk</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Main 2-column grid ────────────────────────── -->
+  <p class="section-label">Velocity · Roadmap</p>
+  <div class="main-grid">
+
+    <!-- Velocity chart + sprint table -->
+    <div class="panel">
+      <div class="panel-header">
+        <span>Sprint Velocity</span>
+        <span style="color:var(--signal)">Target: 45 SP</span>
+      </div>
+      <div class="panel-body">
+        <div class="velocity-chart">
+          <svg viewBox="0 0 280 100" preserveAspectRatio="none">
+            <line class="v-axis" x1="0" y1="98" x2="280" y2="98"/>
+            <path class="v-target" d="M 0,{{VELOCITY_TARGET_Y}} L 280,{{VELOCITY_TARGET_Y}}"/>
+            <path class="v-area" d="{{VELOCITY_SVG_AREA}}"/>
+            <path class="v-line" d="{{VELOCITY_SVG_LINE}}"/>
+            {{VELOCITY_DOTS}}
+            {{VELOCITY_LABELS}}
+            <text x="282" y="{{VELOCITY_TARGET_Y_LABEL}}" class="v-label" fill="var(--muted)">45</text>
+          </svg>
+        </div>
+        <table class="sprint-table">
+          <thead>
+            <tr><th>Sprint</th><th>Dates</th><th>SP</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            {{SPRINT_TABLE_ROWS}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Milestone panel -->
+    <div class="panel">
+      <div class="panel-header"><span>Roadmap Milestones</span></div>
+      <div class="panel-body">
+        <div class="milestone-list">
+          {{MILESTONE_ROWS}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Full-width Risk panel ─────────────────────── -->
+  <p class="section-label">Active Risks</p>
+  <div class="panel">
+    <div class="panel-header">
+      <span>Risk Register</span>
+      <span style="color:var(--crit)">{{RISK_CRITICAL_COUNT}} critical · {{RISK_HIGH_COUNT}} high · {{RISK_UNDER_CONTROL_COUNT}} under control</span>
+    </div>
+    <div class="panel-body">
+      <div class="risk-counts">
+        <div class="risk-count rc-crit">
+          <div class="rc-num">{{RISK_CRITICAL_COUNT}}</div>
+          <div class="rc-label">Critical</div>
+        </div>
+        <div class="risk-count rc-high">
+          <div class="rc-num">{{RISK_HIGH_COUNT}}</div>
+          <div class="rc-label">High</div>
+        </div>
+        <div class="risk-count" style="flex:1;background:var(--ink);border:1px solid var(--rule);border-radius:6px;padding:10px;text-align:center">
+          <div class="rc-num" style="font-family:var(--font-num);font-size:26px;font-weight:700;line-height:1;color:var(--ok)">{{RISK_UNDER_CONTROL_COUNT}}</div>
+          <div class="rc-label">Under Control</div>
+        </div>
+      </div>
+      <ul class="risk-list-full">
+        {{RISK_ROWS}}
+      </ul>
+      <ul class="risk-list-under" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--rule)">
+        {{RISK_UNDER_ROWS}}
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  var PHASES     = {{GANTT_PHASES}};
+  var MILESTONES = {{GANTT_MILESTONES}};
+  var P_START = new Date(2026, 0, 2);
+  var P_END   = new Date(2026, 9, 8);
+  var TODAY   = new Date({{GANTT_TODAY}});
+  var TOTAL   = (P_END - P_START) / 864e5;
+
+  function dt(a) { return new Date(a[0], a[1], a[2]); }
+  function isDark() {
+    var t = document.documentElement.dataset.theme;
+    if (t === 'dark')  return true;
+    if (t === 'light') return false;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function drawGantt() {
+    var canvas = document.getElementById('ganttChart');
+    if (!canvas) return;
+    var rect = canvas.getBoundingClientRect();
+    if (!rect.width) return;
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width  = rect.width  * dpr;
+    canvas.height = rect.height * dpr;
+    var ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    var W = rect.width, H = rect.height;
+    var dark = isDark();
+    var PAD = { t: 18, r: 12, b: 22, l: 90 };
+    var CW  = W - PAD.l - PAD.r;
+    var CH  = H - PAD.t - PAD.b;
+    var ROW_H = CH / PHASES.length;
+    var BAR_H = Math.max(11, ROW_H * 0.44);
+    var GOLD    = dark ? '#c8a84b' : '#9a7530';
+    var CRIT    = '#e35d6a';
+    var GRID    = dark ? 'rgba(38,48,89,0.85)'  : 'rgba(208,216,236,1)';
+    var LBL     = dark ? '#5a6a8a' : '#8090b0';
+    var TEXT    = dark ? '#e2e8f8' : '#2a3050';
+    var DONE_BG = dark ? 'rgba(200,168,75,0.55)' : 'rgba(154,117,48,0.45)';
+    var ACT_BG  = dark ? 'rgba(200,168,75,0.22)' : 'rgba(154,117,48,0.15)';
+    var PLAN_BG = dark ? 'rgba(38,48,89,0.9)'    : 'rgba(208,216,236,0.9)';
+    function xOf(date) { return PAD.l + ((date - P_START) / 864e5 / TOTAL) * CW; }
+    var MONTHS = [[1,'Feb'],[2,'Mar'],[3,'Apr'],[4,'May'],[5,'Jun'],[6,'Jul'],[7,'Aug'],[8,'Sep'],[9,'Oct']];
+    ctx.font = '8px "SF Mono","Fira Code",Consolas,monospace';
+    MONTHS.forEach(function (m) {
+      var x = xOf(new Date(2026, m[0], 1));
+      ctx.beginPath(); ctx.strokeStyle = GRID; ctx.lineWidth = 0.5; ctx.setLineDash([]);
+      ctx.moveTo(x, PAD.t); ctx.lineTo(x, PAD.t + CH); ctx.stroke();
+      ctx.fillStyle = LBL; ctx.textAlign = 'center';
+      ctx.fillText(m[1], x, H - PAD.b + 13);
+    });
+    ctx.fillStyle = LBL; ctx.textAlign = 'center';
+    ctx.fillText('Jan', xOf(new Date(2026, 0, 15)), H - PAD.b + 13);
+    PHASES.forEach(function (ph, i) {
+      var rowY = PAD.t + i * ROW_H;
+      var barY = rowY + (ROW_H - BAR_H) / 2;
+      var x1 = xOf(dt(ph.s)), x2 = xOf(dt(ph.e));
+      ctx.fillStyle = PLAN_BG; ctx.fillRect(x1, barY, x2 - x1, BAR_H);
+      if (ph.done) {
+        ctx.fillStyle = DONE_BG; ctx.fillRect(x1, barY, x2 - x1, BAR_H);
+      } else if (ph.active) {
+        var xNow = xOf(TODAY);
+        if (xNow > x1) { ctx.fillStyle = DONE_BG; ctx.fillRect(x1, barY, Math.min(xNow-x1, x2-x1), BAR_H); }
+        if (xNow < x2) { ctx.fillStyle = ACT_BG; var aS = Math.max(x1,xNow); ctx.fillRect(aS, barY, x2-aS, BAR_H); }
+      }
+      ctx.fillStyle = TEXT; ctx.font = '10px system-ui,-apple-system,sans-serif';
+      ctx.textAlign = 'right'; ctx.fillText(ph.lbl, PAD.l - 8, rowY + ROW_H / 2 + 4);
+    });
+    var todayX = xOf(TODAY);
+    ctx.beginPath(); ctx.strokeStyle = GOLD; ctx.lineWidth = 1.5; ctx.setLineDash([]);
+    ctx.moveTo(todayX, PAD.t - 5); ctx.lineTo(todayX, PAD.t + CH); ctx.stroke();
+    ctx.fillStyle = GOLD; ctx.font = 'bold 7.5px "SF Mono","Fira Code",Consolas,monospace';
+    ctx.textAlign = 'center'; ctx.fillText('TODAY', todayX, PAD.t - 7);
+    MILESTONES.forEach(function (ms) {
+      var x = xOf(dt(ms.d)), cy = PAD.t + ms.row * ROW_H + ROW_H / 2, sz = 5;
+      var isPast = dt(ms.d) < TODAY;
+      var color = ms.risk ? CRIT : (isPast ? GOLD : (dark ? 'rgba(200,168,75,0.45)' : 'rgba(154,117,48,0.45)'));
+      ctx.beginPath(); ctx.moveTo(x,cy-sz); ctx.lineTo(x+sz,cy); ctx.lineTo(x,cy+sz); ctx.lineTo(x-sz,cy); ctx.closePath();
+      ctx.fillStyle = color; ctx.fill();
+      if (!isPast && !ms.risk) { ctx.strokeStyle = dark ? 'rgba(200,168,75,0.6)' : 'rgba(154,117,48,0.6)'; ctx.lineWidth = 1; ctx.stroke(); }
+      ctx.fillStyle = ms.risk ? CRIT : GOLD; ctx.font = '7.5px "SF Mono","Fira Code",Consolas,monospace';
+      ctx.textAlign = 'center'; ctx.fillText(ms.lbl, x, cy - sz - 3);
+    });
+  }
+
+  function init() {
+    requestAnimationFrame(drawGantt);
+    if (typeof ResizeObserver !== 'undefined') {
+      var ro = new ResizeObserver(function () { requestAnimationFrame(drawGantt); });
+      var el = document.getElementById('ganttChart'); if (el) ro.observe(el);
+    }
+    var mo = new MutationObserver(function () { requestAnimationFrame(drawGantt); });
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () { requestAnimationFrame(drawGantt); });
+  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); } else { init(); }
+})();
+</script>

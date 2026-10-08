@@ -1,0 +1,194 @@
+{
+  "_comment": "Portable model orchestrator. Tiers are environment-agnostic; adapters map to Cursor / Claude Code / Codex / VS Code. Edit slugs when a vendor renames models. CLI: python3 scripts/integrations/cli.py models recommend --task \"…\"",
+  "version": 2,
+  "default_tier": "standard",
+  "tiers": ["fast", "standard", "reasoning", "long"],
+  "environments": {
+    "cursor": {
+      "label": "Cursor",
+      "spawn": "Task tool / subagent with model= slug",
+      "models": {
+        "fast": "composer-2.5-fast",
+        "standard": "claude-4.6-sonnet-medium-thinking",
+        "reasoning": "claude-4.6-opus-high-thinking",
+        "long": "claude-4.6-opus-high-thinking"
+      }
+    },
+    "claude": {
+      "label": "Claude Code (CLI or VS Code)",
+      "spawn": "subagent in .claude/agents or claude --model",
+      "models": {
+        "fast": "haiku",
+        "standard": "sonnet",
+        "reasoning": "opus",
+        "long": "opus"
+      }
+    },
+    "vscode_claude": {
+      "label": "VS Code + Claude / Copilot custom agents",
+      "spawn": ".claude/agents/*.md (shared with Claude Code) or .github/agents",
+      "models": {
+        "fast": "haiku",
+        "standard": "sonnet",
+        "reasoning": "opus",
+        "long": "opus"
+      }
+    },
+    "codex": {
+      "label": "OpenAI Codex (CLI / IDE)",
+      "spawn": "delegate one bounded task to the matching project subagent; parent validates and responds",
+      "models": {
+        "fast": "gpt-5.6-luna",
+        "standard": "gpt-5.6-terra",
+        "reasoning": "gpt-5.6-sol",
+        "long": "gpt-6-astra"
+      },
+      "agents": {
+        "fast": "pmo_fast",
+        "standard": "pmo_standard",
+        "reasoning": "pmo_reasoning",
+        "long": "pmo_long"
+      },
+      "extra": {
+        "fast": { "model_reasoning_effort": "low" },
+        "standard": { "model_reasoning_effort": "medium" },
+        "reasoning": { "model_reasoning_effort": "high" },
+        "long": { "model_reasoning_effort": "high" }
+      }
+    },
+    "generic": {
+      "label": "Unknown IDE — print all mappings",
+      "spawn": "tell the user which model to pick in the picker",
+      "models": {
+        "fast": "fast / haiku / gpt-5.6-luna",
+        "standard": "sonnet / gpt-5.6-terra / default",
+        "reasoning": "opus / gpt-5.6-sol high-reasoning",
+        "long": "opus / gpt-6-astra high-reasoning"
+      }
+    }
+  },
+  "skill_tiers": {
+    "pmo-generate-ews-report": "reasoning",
+    "pmo-qg-review-project-charter": "reasoning",
+    "pmo-qg-review-wbs": "reasoning",
+    "pmo-qg-review-user-stories": "reasoning",
+    "pmo-qg-review-functional-spec": "reasoning",
+    "pmo-qg-review-status-consistency": "reasoning",
+    "pmo-generate-escalation-memo": "reasoning",
+    "pmo-generate-project-charter": "reasoning",
+    "pmo-analyze-scope-change": "reasoning",
+    "pmo-analyze-acceleration": "reasoning",
+    "pmo-generate-client-health-report": "reasoning",
+    "pmo-generate-qbr": "reasoning",
+    "pmo-start-project": "long",
+    "pmo-hydrate-project": "long",
+    "pmo-weekly-rhythm": "long",
+    "pmo-closing-pack": "long",
+    "pmo-daily-pm-actions": "standard",
+    "pmo-generate-weekly-status": "standard",
+    "pmo-extract-meeting-notes": "standard",
+    "pmo-manage-issue-log": "standard",
+    "pmo-manage-risk-register": "standard",
+    "pmo-manage-decision-log": "standard",
+    "pmo-manage-client-status-sheet": "standard",
+    "pmo-prepare-monthly-act": "standard",
+    "pmo-google-ops": "standard",
+    "pmo-jira-ops": "standard",
+    "pmo-tempo-ops": "standard",
+    "pmo-confluence-ops": "standard",
+    "pmo-fireflies-ops": "standard",
+    "pmo-integrations-health": "fast",
+    "pmo-setup-wizard": "fast",
+    "pmo-pm-playbook": "fast",
+    "pmo-model-orchestrator": "fast"
+  },
+  "signals": {
+    "long": {
+      "keywords": [
+        "hydrate",
+        "start-project",
+        "pmo-start-project",
+        "weekly-rhythm",
+        "повний тиждень",
+        "весь тиждень",
+        "sync-pull --all",
+        "sync-pull --all-dirs",
+        "closing pack",
+        "closing-pack",
+        "з нуля",
+        "bootstrap all",
+        "catch-up",
+        "оркестратор"
+      ]
+    },
+    "reasoning": {
+      "keywords": [
+        "ews",
+        "early warning",
+        "traffic light",
+        "чесність",
+        "qg",
+        "quality gate",
+        "charter",
+        "хартія",
+        "escalation",
+        "ескалац",
+        "memo",
+        "cr impact",
+        "change request",
+        "scope change",
+        "acceleration",
+        "клієнтський health",
+        "client health",
+        "qbr",
+        "конфлікт джерел",
+        "cpi",
+        "spi",
+        "eac",
+        "honesty"
+      ]
+    },
+    "standard": {
+      "keywords": [
+        "daily actions",
+        "що сьогодні",
+        "що мені зробити",
+        "weekly status",
+        "тижневий статус",
+        "issue log",
+        "open questions",
+        "meeting notes",
+        "протокол",
+        "gmail-draft",
+        "time report",
+        "акт",
+        "contracts-status",
+        "контракт",
+        "raci",
+        "glossary",
+        "глосарій",
+        "kickoff",
+        "stakeholder"
+      ]
+    },
+    "fast": {
+      "keywords": [
+        "де лежить",
+        "де файл",
+        "where is",
+        "шлях до",
+        "list skills",
+        "список skills",
+        "що означає",
+        "translate",
+        "переклад",
+        "typo",
+        "опечатка",
+        "format table",
+        "поправ таблицю",
+        "health check",
+        "ping"
+      ]
+    }
+  }
+}
