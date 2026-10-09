@@ -1,12 +1,12 @@
 {
   "key": "DOBDWH-15",
   "id": "101355",
-  "summary": "[SA+DE+AIE] Проєктна комунікація",
+  "summary": "Проєктна комунікація за регламентом",
   "status": "In Progress",
   "issuetype": "Task",
   "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
   "assignee_display": "Dmytro Yefimenko",
-  "parent_key": "DOBDWH-24",
+  "parent_key": "DOBDWH-30",
   "priority": "Medium",
   "labels": [],
   "description_adf": {
@@ -14,7 +14,7 @@
     "version": 1,
     "content": []
   },
-  "jira_updated": "2026-09-30T15:58:49.877+0300",
+  "jira_updated": "2026-10-09T11:58:51.659+0300",
   "jira_created": "2026-09-16T15:58:13.990+0300",
   "raw_fields": {
     "timetracking": {
@@ -30,6 +30,6 @@
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "0b5fa6c811d87027",
-  "local_updated": "2026-10-08T11:48:29.568377+00:00"
+  "content_hash": "0d2592000c8b4a6f",
+  "local_updated": "2026-10-09T08:58:58.284637+00:00"
 }

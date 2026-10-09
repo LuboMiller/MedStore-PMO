@@ -68,17 +68,25 @@ Tempo / Jira
 
 ---
 
-## 3. SETUP T–V (обов’язково для NEW features)
+## 3. SETUP mapping (MedStore: **Task → WBS**)
 
-| Col | Поле | Зміст |
+У цьому проєкті rollup іде **по задачах**, не по епіках (усі delivery tasks під `[DISCOVERY]`).
+
+| Col (SETUP) | Поле | Зміст |
 |---|---|---|
-| **T** | Epic JIRA | Назва(и) епіка як у Jira |
-| **U** | Epic JIRA Keys | `{{JIRA_KEY}}-…` |
-| **V** | New epic name (unified WBS) | Ім’я для **WBS ESTIM / Scope Dashboard / Data** — exact match з plan-рядком |
+| **U** | Task JIRA | Summary задачі **як у Jira** (exact match з тим, що AppScript пише в `Data` lookup-колонку) |
+| **V** | WBS name (unified) | Ім’я leaf у **WBS ESTIM / Scope Dashboard** — exact match |
 
-Без T–V нові епіки не потрапляють коректно в fact rollup після AppScript.
+`Data` формула: `VLOOKUP(lookup_col; SETUP!U:V; 2; FALSE)`.
 
-**CR і NEW:** назва групи / plan-рядка = значення **V**. Parent Jira epic мапиться через SETUP T–U → V. Не ставити raw Jira epic summary як ім’я групи.
+**Критично:** lookup-колонка (`Data!E` = Task JIRA) має містити **summary Task**, не parent Epic.
+
+- Патч для Apps Script: `docs/client-status-sheet/appscript-task-lookup-patch.md`
+- Обхід / заміна імпорту: `python3 scripts/integrations/client_status_data_import.py`
+
+Поки нічний AppScript знову пише `[DISCOVERY]` — або пропатч скрипт, або вимкни тригер і ганяй Python-імпорт.
+
+**CR / NEW:** група plan-рядка = значення **V** (unified WBS name).
 
 ---
 

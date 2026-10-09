@@ -140,7 +140,7 @@
 | Google Drive folders | `config/google-directories.json` · registry: `registry/google/` |
 | Client contracts / SOW | `config/contracts.json` · `docs/contracts/` · `google contracts-status --write` |
 | Time Report (monthly act) | `config/time-report.json` · `docs/acts/` · skill `pmo-prepare-monthly-act` |
-| Client Project status sheet | `config/client-status-sheet.json` (ID: `10ZMnANJBez-7elA59-j_0jE6zOQMC7b-gdDI0j_-rCo`) · playbook `docs/client-status-sheet/operating-playbook.md` |
+| Client Project status sheet | `config/client-status-sheet.json` (ID: `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo`) · playbook `docs/client-status-sheet/operating-playbook.md` |
 | Client calendar plan | Google Sheets `100F5PIfBaTrr1u_hji9-witEhKkIBIWXFAy5uoxcizQ` |
 | CHANGE REQUESTS (D4) | `docs/change-requests/README.md` |
 | Fireflies | `FIREFLIES_API_KEY` → `docs/meeting-notes/` (0 transcripts знайдено) |
@@ -156,7 +156,7 @@
 - Hydrated: 2026-10-08
 
 <!-- hydrate:google -->
-- Client status sheet: `10ZMnANJBez-7elA59-j_0jE6zOQMC7b-gdDI0j_-rCo`
+- Client status sheet: `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo`
 - Calendar plan: `100F5PIfBaTrr1u_hji9-witEhKkIBIWXFAy5uoxcizQ`
 - Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-10-08/`
 - Drive folders: BLOCKED — PM має надати folder IDs для `config/google-directories.json`

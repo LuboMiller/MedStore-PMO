@@ -1,0 +1,41 @@
+{
+  "key": "DOBDWH-31",
+  "id": "103053",
+  "summary": "[Team] General Activities",
+  "status": "Backlog",
+  "issuetype": "Task",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-30",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Загальні активності команди (мітинги, coordination). Сюди перенесено трекінг з epic E-1."
+          }
+        ]
+      }
+    ]
+  },
+  "jira_updated": "2026-10-09T11:56:10.953+0300",
+  "jira_created": "2026-10-09T11:50:45.512+0300",
+  "raw_fields": {
+    "timetracking": {
+      "timeSpent": "3h",
+      "timeSpentSeconds": 10800
+    },
+    "timeoriginalestimate": null,
+    "timespent": 10800,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "7d23d51a25718278",
+  "local_updated": "2026-10-09T08:58:58.290285+00:00"
+}

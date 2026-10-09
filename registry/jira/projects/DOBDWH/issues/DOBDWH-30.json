@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-30",
+  "id": "103044",
+  "summary": "[DISCOVERY]",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-10-09T10:45:10.848+0300",
+  "jira_created": "2026-10-09T10:45:10.172+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "35771c53843c6c00",
+  "local_updated": "2026-10-09T08:58:58.291458+00:00"
+}

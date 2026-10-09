@@ -1,12 +1,12 @@
 {
   "key": "DOBDWH-5",
   "id": "98638",
-  "summary": "[SA+DE+AIE] Інжест і завантаження корпусу",
+  "summary": "Інжест і завантаження корпусу",
   "status": "In Progress",
-  "issuetype": "Story",
+  "issuetype": "Task",
   "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
   "assignee_display": "Dmytro Yefimenko",
-  "parent_key": "DOBDWH-19",
+  "parent_key": "DOBDWH-30",
   "priority": "Medium",
   "labels": [],
   "description_adf": {
@@ -14,7 +14,7 @@
     "version": 1,
     "content": []
   },
-  "jira_updated": "2026-09-29T09:16:40.168+0300",
+  "jira_updated": "2026-10-09T11:58:45.357+0300",
   "jira_created": "2026-08-18T18:13:51.696+0300",
   "raw_fields": {
     "timetracking": {
@@ -30,6 +30,6 @@
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "4c51e26a78cdb526",
-  "local_updated": "2026-10-08T11:48:29.581688+00:00"
+  "content_hash": "bcf6f2faa84d8cd2",
+  "local_updated": "2026-10-09T08:58:58.289053+00:00"
 }

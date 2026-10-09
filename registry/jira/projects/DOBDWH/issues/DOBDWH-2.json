@@ -10,18 +10,18 @@
   "priority": "Medium",
   "labels": [],
   "description_adf": null,
-  "jira_updated": "2026-09-30T12:20:58.471+0300",
+  "jira_updated": "2026-10-09T11:55:57.702+0300",
   "jira_created": "2026-08-18T18:12:28.968+0300",
   "raw_fields": {
     "timetracking": {
-      "timeSpent": "3h",
-      "timeSpentSeconds": 10800
+      "timeSpent": "0m",
+      "timeSpentSeconds": 0
     },
     "timeoriginalestimate": null,
-    "timespent": 10800,
+    "timespent": 0,
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "b0dccc63d31434c0",
-  "local_updated": "2026-10-08T11:48:29.571645+00:00"
+  "content_hash": "3d8bdaf1bcc16f66",
+  "local_updated": "2026-10-09T08:58:58.290934+00:00"
 }
