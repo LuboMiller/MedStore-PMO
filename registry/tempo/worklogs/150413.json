@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150413",
+  "tempoWorklogId": 150413,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101875",
+    "id": 101875
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "create PR and resolved AI comments",
+  "createdAt": "2026-10-08T10:08:45Z",
+  "updatedAt": "2026-10-08T10:08:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150413/work-attribute-values",
+    "values": []
+  }
+}

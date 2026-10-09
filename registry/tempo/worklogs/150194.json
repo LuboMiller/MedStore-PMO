@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150194",
+  "tempoWorklogId": 150194,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99719",
+    "id": 99719
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-06",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-06T10:00:00Z",
+  "description": "Додано навичку та правило зворотного поширення помилки.\n\nОновлено документацію для агента-власника після виникнення помилки сеансу, щоб запобігти повторенню цієї помилки.",
+  "createdAt": "2026-10-06T11:26:54Z",
+  "updatedAt": "2026-10-06T11:26:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150194/work-attribute-values",
+    "values": []
+  }
+}

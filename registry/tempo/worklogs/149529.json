@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149529",
+  "tempoWorklogId": 149529,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-01T07:00:00Z",
+  "description": "Підготовка інвойсів",
+  "createdAt": "2026-10-01T19:11:55Z",
+  "updatedAt": "2026-10-01T19:11:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149529/work-attribute-values",
+    "values": []
+  }
+}

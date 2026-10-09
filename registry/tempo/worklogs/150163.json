@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150163",
+  "tempoWorklogId": 150163,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102735",
+    "id": 102735
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-05",
+  "startTime": "16:45:00",
+  "startDateTimeUtc": "2026-10-05T13:45:00Z",
+  "description": "Дзвінок з Павлом та дейлі",
+  "createdAt": "2026-10-06T08:14:35Z",
+  "updatedAt": "2026-10-06T08:14:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150163/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-19",
+  "id": "101727",
+  "summary": "[E-4] Інджест",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:21:07.527+0300",
+  "jira_created": "2026-09-21T15:59:52.091+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "0147d114a7de38e4",
+  "local_updated": "2026-10-08T11:48:29.577261+00:00"
+}

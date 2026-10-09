@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150027",
+  "tempoWorklogId": 150027,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/80233",
+    "id": 80233
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T06:00:00Z",
+  "description": "-фікси по функціоналу",
+  "createdAt": "2026-10-05T13:40:48Z",
+  "updatedAt": "2026-10-05T13:40:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150027/work-attribute-values",
+    "values": []
+  }
+}

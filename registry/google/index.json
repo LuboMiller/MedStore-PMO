@@ -1,0 +1,34 @@
+{
+  "dir_key": "main",
+  "folder_id": "1m4tbtVUaxMnR6gdt1uKkt6qJftrHRRuJ",
+  "files": [
+    {
+      "mimeType": "application/vnd.google-apps.spreadsheet",
+      "webViewLink": "https://docs.google.com/spreadsheets/d/1nkCJrHnGvxNTECnfHjFscqXwfTYFKIElwwSqNrp20T4/edit?usp=drivesdk",
+      "id": "1nkCJrHnGvxNTECnfHjFscqXwfTYFKIElwwSqNrp20T4",
+      "name": "Оновлений план",
+      "modifiedTime": "2026-09-28T08:12:09.027Z"
+    },
+    {
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1Uc8fgkJtKwf93Xl7MsZk7HXVrwgnchPd/view?usp=drivesdk",
+      "id": "1Uc8fgkJtKwf93Xl7MsZk7HXVrwgnchPd",
+      "name": "discovery-plan.md",
+      "modifiedTime": "2026-09-25T08:23:00.039Z"
+    },
+    {
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "webViewLink": "https://docs.google.com/document/d/1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw/edit?usp=drivesdk&ouid=101662441014452178645&rtpof=true&sd=true",
+      "id": "1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw",
+      "name": "discovery-sow-v1.0.docx",
+      "modifiedTime": "2026-09-25T08:00:48.748Z"
+    },
+    {
+      "mimeType": "application/pdf",
+      "webViewLink": "https://drive.google.com/file/d/1GMOVDv-eF_7mCkT6-lhviRQsNuhda7ll/view?usp=drivesdk",
+      "id": "1GMOVDv-eF_7mCkT6-lhviRQsNuhda7ll",
+      "name": "discovery-sow (2) (4).pdf",
+      "modifiedTime": "2026-09-24T07:22:21.372Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150213",
+  "tempoWorklogId": 150213,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101284",
+    "id": 101284
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-06",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-06T10:30:00Z",
+  "description": "Refactored the smoke and regression test suites against the BA as-built specifications and the 2.1.0 release changes",
+  "createdAt": "2026-10-06T15:03:34Z",
+  "updatedAt": "2026-10-06T15:03:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150213/work-attribute-values",
+    "values": []
+  }
+}

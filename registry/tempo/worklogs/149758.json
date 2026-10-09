@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149758",
+  "tempoWorklogId": 149758,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101827",
+    "id": 101827
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-02",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-02T09:00:00Z",
+  "description": "Імплементація асинхронного стягування даних. Уніфікація в один метод. Вилка логіки лише для перевірки наявності (перехід з деталей товару) (в процесі)",
+  "createdAt": "2026-10-02T14:52:29Z",
+  "updatedAt": "2026-10-02T14:52:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149758/work-attribute-values",
+    "values": []
+  }
+}

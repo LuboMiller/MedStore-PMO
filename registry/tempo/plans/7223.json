@@ -1,0 +1,34 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7223",
+  "id": 7223,
+  "startDate": "2026-10-05",
+  "endDate": "2026-10-18",
+  "description": "Leave #4675769",
+  "createdAt": "2026-08-28T14:21:44Z",
+  "updatedAt": "2026-08-28T14:21:44Z",
+  "plannedSecondsPerDay": 28800,
+  "totalPlannedSeconds": 403200,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": true,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-18",
+  "startTime": "09:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=627904558395420069673b37",
+    "id": "627904558395420069673b37",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28924",
+    "id": "28924",
+    "type": "ISSUE"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7223?from=2026-10-05&to=2026-10-18"
+    }
+  },
+  "totalPlannedSecondsInScope": 115200,
+  "planCreatorId": "5cc2cfeb8869dd0e78a03b04"
+}

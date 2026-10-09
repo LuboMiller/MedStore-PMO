@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149425",
+  "tempoWorklogId": 149425,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33311",
+    "id": 33311
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-01",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-01T08:30:00Z",
+  "description": "Оновлення пінів наявності на мапі",
+  "createdAt": "2026-10-01T09:16:15Z",
+  "updatedAt": "2026-10-01T09:16:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149425/work-attribute-values",
+    "values": []
+  }
+}

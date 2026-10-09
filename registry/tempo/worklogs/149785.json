@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149785",
+  "tempoWorklogId": 149785,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/86598",
+    "id": 86598
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "Фікс багів по записах. Оновлення бібліотек. Неохідність оновлення modiface (16KB requirement) і адаптація логіки зображення галереї через braking changes нової версії. Фікс креша карти зумовленого оптимізацією DEX і агресивних proguard/R8.  ",
+  "createdAt": "2026-10-02T18:13:30Z",
+  "updatedAt": "2026-10-02T18:13:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149785/work-attribute-values",
+    "values": []
+  }
+}

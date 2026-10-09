@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149561",
+  "tempoWorklogId": 149561,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102440",
+    "id": 102440
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-01",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-01T07:00:00Z",
+  "description": "Writing contracts for the landing logic",
+  "createdAt": "2026-10-02T07:12:22Z",
+  "updatedAt": "2026-10-02T07:12:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149561/work-attribute-values",
+    "values": []
+  }
+}

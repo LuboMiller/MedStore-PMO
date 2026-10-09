@@ -1,0 +1,48 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7465",
+  "id": 7465,
+  "startDate": "2026-09-01",
+  "endDate": "2026-10-31",
+  "createdAt": "2026-09-22T10:39:16Z",
+  "updatedAt": "2026-09-28T09:15:19Z",
+  "plannedSecondsPerDay": 28800,
+  "totalPlannedSeconds": 1267200,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": false,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-31",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "id": "712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/project/10216",
+    "id": "10216",
+    "type": "PROJECT"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7465?from=2026-09-01&to=2026-10-31"
+    }
+  },
+  "totalPlannedSecondsInScope": 172800,
+  "planApproval": {
+    "status": "REQUESTED",
+    "reviewer": {
+      "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+      "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+    },
+    "actor": {
+      "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+      "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+    },
+    "requester": {
+      "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+      "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+    }
+  },
+  "planCreatorId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+}

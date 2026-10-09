@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149683",
+  "tempoWorklogId": 149683,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89531",
+    "id": 89531
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-01",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-01T07:30:00Z",
+  "description": "Prepare business requirements for Operational module & Helpdesk",
+  "createdAt": "2026-10-02T11:41:04Z",
+  "updatedAt": "2026-10-02T11:41:04Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149683/work-attribute-values",
+    "values": []
+  }
+}

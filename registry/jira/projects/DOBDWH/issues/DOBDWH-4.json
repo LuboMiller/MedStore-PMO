@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-4",
+  "id": "98637",
+  "summary": "[DE] Вихлоп DLL: обхід, покриття типів/версій, дефекти encode-decode",
+  "status": "Cancelled",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-25",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-28T11:17:04.289+0300",
+  "jira_created": "2026-08-18T18:13:29.756+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1w",
+      "remainingEstimate": "4d 6h",
+      "timeSpent": "2h",
+      "originalEstimateSeconds": 144000,
+      "remainingEstimateSeconds": 136800,
+      "timeSpentSeconds": 7200
+    },
+    "timeoriginalestimate": 144000,
+    "timespent": 7200,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "d0ef3e6d3e630249",
+  "local_updated": "2026-10-08T11:48:29.583889+00:00"
+}

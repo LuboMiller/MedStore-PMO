@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-25",
+  "id": "102074",
+  "summary": "Cancelled",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-25T11:32:25.749+0300",
+  "jira_created": "2026-09-25T11:32:25.545+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "ec01bd49d2e62a77",
+  "local_updated": "2026-10-08T11:48:29.589582+00:00"
+}

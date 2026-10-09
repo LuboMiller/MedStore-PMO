@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149950",
+  "tempoWorklogId": 149950,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90491",
+    "id": 90491
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-02T08:45:00Z",
+  "description": "Registration Flow Update",
+  "createdAt": "2026-10-05T07:10:32Z",
+  "updatedAt": "2026-10-05T07:10:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149950/work-attribute-values",
+    "values": []
+  }
+}

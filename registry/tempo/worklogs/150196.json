@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150196",
+  "tempoWorklogId": 150196,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/23834",
+    "id": 23834
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-06",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-06T11:00:00Z",
+  "description": "Обговорення напливу користувачів після глобальної пуш розсилки ",
+  "createdAt": "2026-10-06T11:34:55Z",
+  "updatedAt": "2026-10-06T11:34:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150196/work-attribute-values",
+    "values": []
+  }
+}

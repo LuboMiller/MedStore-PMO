@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149478",
+  "tempoWorklogId": 149478,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-01",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-01T06:45:00Z",
+  "description": "Improving wireframes Epic 1,2,3",
+  "createdAt": "2026-10-01T13:05:23Z",
+  "updatedAt": "2026-10-01T13:10:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149478/work-attribute-values",
+    "values": []
+  }
+}

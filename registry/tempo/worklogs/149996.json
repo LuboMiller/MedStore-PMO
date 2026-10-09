@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149996",
+  "tempoWorklogId": 149996,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101580",
+    "id": 101580
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-05T11:00:00Z",
+  "description": "AG-2384",
+  "createdAt": "2026-10-05T10:22:14Z",
+  "updatedAt": "2026-10-05T10:22:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149996/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149965",
+  "tempoWorklogId": 149965,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102610",
+    "id": 102610
+  },
+  "timeSpentSeconds": 2280,
+  "billableSeconds": 2280,
+  "startDate": "2026-10-05",
+  "startTime": "08:52:00",
+  "startDateTimeUtc": "2026-10-05T05:52:00Z",
+  "description": "Testing TR-974 [CR-73] FIMIJO - регрес iOS + Android",
+  "createdAt": "2026-10-05T07:42:33Z",
+  "updatedAt": "2026-10-05T07:42:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149965/work-attribute-values",
+    "values": []
+  }
+}

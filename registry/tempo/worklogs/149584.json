@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149584",
+  "tempoWorklogId": 149584,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102438",
+    "id": 102438
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "Збереження стану для переглянутих нових фічей в інформаційних картках ",
+  "createdAt": "2026-10-02T08:56:38Z",
+  "updatedAt": "2026-10-02T08:56:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149584/work-attribute-values",
+    "values": []
+  }
+}

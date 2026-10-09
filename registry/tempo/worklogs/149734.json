@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149734",
+  "tempoWorklogId": 149734,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "avalon e2e - salesforce usecases verification / dnipro m testrun & feedback/ R-104 (5)/ retests (9 ok, 2 reopen)",
+  "createdAt": "2026-10-02T13:46:02Z",
+  "updatedAt": "2026-10-06T06:04:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149734/work-attribute-values",
+    "values": []
+  }
+}

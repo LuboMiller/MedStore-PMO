@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150195",
+  "tempoWorklogId": 150195,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102818",
+    "id": 102818
+  },
+  "timeSpentSeconds": 7920,
+  "billableSeconds": 7920,
+  "startDate": "2026-10-06",
+  "startTime": "11:18:00",
+  "startDateTimeUtc": "2026-10-06T08:18:00Z",
+  "description": "Testing TR-977 Smoke Test Run v2.1.0-prod (266)",
+  "createdAt": "2026-10-06T11:31:15Z",
+  "updatedAt": "2026-10-06T11:31:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150195/work-attribute-values",
+    "values": []
+  }
+}

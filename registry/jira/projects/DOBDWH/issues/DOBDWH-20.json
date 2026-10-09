@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-20",
+  "id": "101728",
+  "summary": "[E-5] MediaCache",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:21:48.144+0300",
+  "jira_created": "2026-09-21T16:00:03.188+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "3e9a70898aed38ac",
+  "local_updated": "2026-10-08T11:48:29.576690+00:00"
+}

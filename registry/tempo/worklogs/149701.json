@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149701",
+  "tempoWorklogId": 149701,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34363",
+    "id": 34363
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-05T07:00:00Z",
+  "description": "Демо",
+  "createdAt": "2026-10-02T12:26:18Z",
+  "updatedAt": "2026-10-02T12:26:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149701/work-attribute-values",
+    "values": []
+  }
+}

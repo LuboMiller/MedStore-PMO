@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150308",
+  "tempoWorklogId": 150308,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99343",
+    "id": 99343
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-07",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-07T08:30:00Z",
+  "description": "Підняття залежностей в 9 репозиторіях та тестування",
+  "createdAt": "2026-10-07T13:11:38Z",
+  "updatedAt": "2026-10-07T13:11:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150308/work-attribute-values",
+    "values": []
+  }
+}

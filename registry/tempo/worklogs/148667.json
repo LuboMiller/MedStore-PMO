@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/148667",
+  "tempoWorklogId": 148667,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/86379",
+    "id": 86379
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "- перевірка пр;",
+  "createdAt": "2026-09-28T10:03:57Z",
+  "updatedAt": "2026-09-28T10:03:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/148667/work-attribute-values",
+    "values": []
+  }
+}

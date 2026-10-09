@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149779",
+  "tempoWorklogId": 149779,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102615",
+    "id": 102615
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-01T11:00:00Z",
+  "description": "Working with slides",
+  "createdAt": "2026-10-02T16:05:27Z",
+  "updatedAt": "2026-10-06T06:03:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149779/work-attribute-values",
+    "values": []
+  }
+}

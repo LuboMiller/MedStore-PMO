@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149510",
+  "tempoWorklogId": 149510,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/80239",
+    "id": 80239
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "Тестування іос. Фіксування баг",
+  "createdAt": "2026-10-01T15:16:10Z",
+  "updatedAt": "2026-10-01T15:16:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149510/work-attribute-values",
+    "values": []
+  }
+}

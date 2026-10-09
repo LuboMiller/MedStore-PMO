@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150324",
+  "tempoWorklogId": 150324,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102821",
+    "id": 102821
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-07",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-07T08:30:00Z",
+  "description": "Внесення змін після дзвінка з замовником",
+  "createdAt": "2026-10-07T14:59:37Z",
+  "updatedAt": "2026-10-07T14:59:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150324/work-attribute-values",
+    "values": []
+  }
+}

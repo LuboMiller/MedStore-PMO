@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150369",
+  "tempoWorklogId": 150369,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69572",
+    "id": 69572
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-08",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-08T07:45:00Z",
+  "description": "Presale Plugin",
+  "createdAt": "2026-10-08T06:27:37Z",
+  "updatedAt": "2026-10-08T06:27:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150369/work-attribute-values",
+    "values": []
+  }
+}

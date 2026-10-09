@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149967",
+  "tempoWorklogId": 149967,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/36369",
+    "id": 36369
+  },
+  "timeSpentSeconds": 840,
+  "billableSeconds": 840,
+  "startDate": "2026-10-05",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-05T06:30:00Z",
+  "description": "\nMIT MIT | TEAM DAILY",
+  "createdAt": "2026-10-05T07:44:20Z",
+  "updatedAt": "2026-10-05T07:44:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149967/work-attribute-values",
+    "values": []
+  }
+}

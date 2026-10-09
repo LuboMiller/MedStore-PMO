@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150176",
+  "tempoWorklogId": 150176,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99927",
+    "id": 99927
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-06",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-06T06:30:00Z",
+  "description": "Повний перехід на SPM",
+  "createdAt": "2026-10-06T08:48:01Z",
+  "updatedAt": "2026-10-06T08:48:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150176/work-attribute-values",
+    "values": []
+  }
+}

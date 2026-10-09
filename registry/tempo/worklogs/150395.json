@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150395",
+  "tempoWorklogId": 150395,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101875",
+    "id": 101875
+  },
+  "timeSpentSeconds": 22800,
+  "billableSeconds": 22800,
+  "startDate": "2026-10-07",
+  "startTime": "09:40:00",
+  "startDateTimeUtc": "2026-10-07T06:40:00Z",
+  "description": "offer details actions and logic",
+  "createdAt": "2026-10-08T07:21:06Z",
+  "updatedAt": "2026-10-08T07:21:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150395/work-attribute-values",
+    "values": []
+  }
+}

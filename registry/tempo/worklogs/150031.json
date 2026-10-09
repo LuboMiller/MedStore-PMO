@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150031",
+  "tempoWorklogId": 150031,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/36535",
+    "id": 36535
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-02",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-02T09:00:00Z",
+  "description": "-Product List Performance",
+  "createdAt": "2026-10-05T13:43:02Z",
+  "updatedAt": "2026-10-05T13:43:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150031/work-attribute-values",
+    "values": []
+  }
+}

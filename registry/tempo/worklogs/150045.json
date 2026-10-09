@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150045",
+  "tempoWorklogId": 150045,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 0,
+  "startDate": "2026-10-06",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-06T06:15:00Z",
+  "description": "Комунікація з Олегом С.",
+  "createdAt": "2026-10-05T14:23:22Z",
+  "updatedAt": "2026-10-05T14:23:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150045/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149458",
+  "tempoWorklogId": 149458,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102534",
+    "id": 102534
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-01",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-01T09:00:00Z",
+  "description": "Виправлення токену кольору за дизайном",
+  "createdAt": "2026-10-01T11:00:45Z",
+  "updatedAt": "2026-10-01T11:36:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149458/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "key": "DOBDWH-29",
+  "id": "102078",
+  "summary": "[SA+DE+AIE] MediaCache: дослідження",
+  "status": "In Progress",
+  "issuetype": "Story",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-20",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-29T09:16:49.567+0300",
+  "jira_created": "2026-09-25T11:47:47.648+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "ad99ec82a27ff9e6",
+  "local_updated": "2026-10-08T11:48:29.581098+00:00"
+}

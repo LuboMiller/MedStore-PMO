@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150409",
+  "tempoWorklogId": 150409,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101933",
+    "id": 101933
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-07",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-07T07:00:00Z",
+  "description": "Carcass deployment for local development across the api-gateway and core-app repositories",
+  "createdAt": "2026-10-08T09:49:21Z",
+  "updatedAt": "2026-10-08T09:49:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150409/work-attribute-values",
+    "values": []
+  }
+}

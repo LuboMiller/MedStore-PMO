@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150099",
+  "tempoWorklogId": 150099,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98641",
+    "id": 98641
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-03",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-03T12:00:00Z",
+  "description": "Знеособлення: правила, модель, контрольна вибірка, вимір повноти: Відтворюваність знеособлення: уривки йдуть у модель окремими входами замість склейки. 0 розбіжностей між проходами, повнота без змін, влучність кешу 67% (пакетний варіант давав 3%)",
+  "createdAt": "2026-10-05T21:09:41Z",
+  "updatedAt": "2026-10-05T21:09:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150099/work-attribute-values",
+    "values": []
+  }
+}

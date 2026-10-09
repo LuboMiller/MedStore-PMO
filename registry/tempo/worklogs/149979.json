@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149979",
+  "tempoWorklogId": 149979,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-05",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-05T05:00:00Z",
+  "description": "MOB-4344: Loyalty Program DeepLinks. Fix comments to PR",
+  "createdAt": "2026-10-05T09:19:18Z",
+  "updatedAt": "2026-10-05T09:19:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149979/work-attribute-values",
+    "values": []
+  }
+}

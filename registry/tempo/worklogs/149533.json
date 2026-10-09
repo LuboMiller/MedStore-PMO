@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149533",
+  "tempoWorklogId": 149533,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/95289",
+    "id": 95289
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "- Daily\n- Refinement for new features\n- C&C Checkout tested\n- Retested fixes",
+  "createdAt": "2026-10-02T06:16:12Z",
+  "updatedAt": "2026-10-02T06:16:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:30d44439-619e-48bb-8269-d35d469f5d5d",
+    "accountId": "712020:30d44439-619e-48bb-8269-d35d469f5d5d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149533/work-attribute-values",
+    "values": []
+  }
+}

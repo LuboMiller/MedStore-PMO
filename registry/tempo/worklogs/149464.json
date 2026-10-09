@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149464",
+  "tempoWorklogId": 149464,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97492",
+    "id": 97492
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-01",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-01T13:30:00Z",
+  "description": "Dnipro-M AI agent | BA question session",
+  "createdAt": "2026-10-01T11:18:24Z",
+  "updatedAt": "2026-10-01T11:18:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149464/work-attribute-values",
+    "values": []
+  }
+}

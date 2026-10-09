@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149450",
+  "tempoWorklogId": 149450,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101873",
+    "id": 101873
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-01",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-01T07:30:00Z",
+  "description": "Реалізація локального списки для збереження доданих на сповіщення продуктів про їх появу.",
+  "createdAt": "2026-10-01T10:51:07Z",
+  "updatedAt": "2026-10-01T10:51:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149450/work-attribute-values",
+    "values": []
+  }
+}

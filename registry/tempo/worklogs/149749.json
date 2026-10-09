@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149749",
+  "tempoWorklogId": 149749,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/29447",
+    "id": 29447
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-02T06:00:00Z",
+  "description": "Виявлення, репорт проблем з запитами обраного. Застосування обхідного механізму, що фіксить постійну перезавантаження даних щоразу при заході на сторінку \"обране\". Глобальна зміна - ігнорування всіх часткових помилок (у випадку якщо є валідні дані відповіді), окрім одиничних випадків.",
+  "createdAt": "2026-10-02T14:13:07Z",
+  "updatedAt": "2026-10-02T14:13:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149749/work-attribute-values",
+    "values": []
+  }
+}

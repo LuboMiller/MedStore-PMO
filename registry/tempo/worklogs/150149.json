@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150149",
+  "tempoWorklogId": 150149,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102624",
+    "id": 102624
+  },
+  "timeSpentSeconds": 2520,
+  "billableSeconds": 2520,
+  "startDate": "2026-10-06",
+  "startTime": "08:23:00",
+  "startDateTimeUtc": "2026-10-06T05:23:00Z",
+  "description": "Testing the implemented fix",
+  "createdAt": "2026-10-06T07:04:57Z",
+  "updatedAt": "2026-10-06T07:04:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150149/work-attribute-values",
+    "values": []
+  }
+}

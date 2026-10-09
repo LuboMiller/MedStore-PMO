@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149507",
+  "tempoWorklogId": 149507,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99488",
+    "id": 99488
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-01",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-01T10:30:00Z",
+  "description": "Smock test",
+  "createdAt": "2026-10-01T15:12:00Z",
+  "updatedAt": "2026-10-01T15:12:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149507/work-attribute-values",
+    "values": []
+  }
+}

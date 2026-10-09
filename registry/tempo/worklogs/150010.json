@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150010",
+  "tempoWorklogId": 150010,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101737",
+    "id": 101737
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-05T10:00:00Z",
+  "description": "Тестування аос. Фіксація баг.",
+  "createdAt": "2026-10-05T11:55:08Z",
+  "updatedAt": "2026-10-05T11:55:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150010/work-attribute-values",
+    "values": []
+  }
+}

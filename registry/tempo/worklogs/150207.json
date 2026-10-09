@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150207",
+  "tempoWorklogId": 150207,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99698",
+    "id": 99698
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-06",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-06T11:30:00Z",
+  "description": "Додано аналізатор тестового середовища та цикл перевірки.\nСформовано масив `skills[]` на основі таблиці відповідності та згенеровано три дерева запитів.\nДодано обгортку для перевірки (виконання `flutter analyze`, а потім `flutter test`) і простий маршрутизатор агентів.",
+  "createdAt": "2026-10-06T13:09:10Z",
+  "updatedAt": "2026-10-06T13:09:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150207/work-attribute-values",
+    "values": []
+  }
+}

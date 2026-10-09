@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-23",
+  "id": "101731",
+  "summary": "[E-8] Модель данних",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:24:27.377+0300",
+  "jira_created": "2026-09-21T16:00:26.301+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "e6a9620f8f8fdc77",
+  "local_updated": "2026-10-08T11:48:29.574195+00:00"
+}

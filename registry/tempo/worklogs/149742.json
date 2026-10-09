@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149742",
+  "tempoWorklogId": 149742,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90149",
+    "id": 90149
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-02",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-02T10:45:00Z",
+  "description": "Worked on the Loyalty Anniversary flow and Mystery Box animation.",
+  "createdAt": "2026-10-02T13:50:34Z",
+  "updatedAt": "2026-10-02T13:50:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149742/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150270",
+  "tempoWorklogId": 150270,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102000",
+    "id": 102000
+  },
+  "timeSpentSeconds": 23400,
+  "billableSeconds": 23400,
+  "startDate": "2026-10-07",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-07T07:30:00Z",
+  "description": "VESELKA-535: [FE] [F-02.12] Переглянути головне меню",
+  "createdAt": "2026-10-07T07:21:08Z",
+  "updatedAt": "2026-10-07T07:21:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150270/work-attribute-values",
+    "values": []
+  }
+}

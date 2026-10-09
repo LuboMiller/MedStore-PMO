@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150175",
+  "tempoWorklogId": 150175,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99922",
+    "id": 99922
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-06",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-06T05:00:00Z",
+  "description": "Виправлення помилок PR + витрпавлення помилок білду для iOS",
+  "createdAt": "2026-10-06T08:47:38Z",
+  "updatedAt": "2026-10-06T08:47:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150175/work-attribute-values",
+    "values": []
+  }
+}

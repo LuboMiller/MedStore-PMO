@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150373",
+  "tempoWorklogId": 150373,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90498",
+    "id": 90498
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-08",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-08T11:00:00Z",
+  "description": "Align requirements with Cognito",
+  "createdAt": "2026-10-08T07:04:37Z",
+  "updatedAt": "2026-10-08T10:00:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150373/work-attribute-values",
+    "values": []
+  }
+}

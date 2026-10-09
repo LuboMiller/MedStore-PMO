@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149955",
+  "tempoWorklogId": 149955,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/71885",
+    "id": 71885
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-05",
+  "startTime": "07:15:00",
+  "startDateTimeUtc": "2026-10-05T04:15:00Z",
+  "description": "правки по кп",
+  "createdAt": "2026-10-05T07:22:38Z",
+  "updatedAt": "2026-10-05T07:22:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3e07b58e-5f9c-4db5-a3a3-f1b6f9e5c576",
+    "accountId": "712020:3e07b58e-5f9c-4db5-a3a3-f1b6f9e5c576"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149955/work-attribute-values",
+    "values": []
+  }
+}

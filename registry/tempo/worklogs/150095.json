@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150095",
+  "tempoWorklogId": 150095,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92041",
+    "id": 92041
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-02T12:00:00Z",
+  "description": "AllSettled - team support + docs changes: Правки за зауваженням Віктора від 30.09: Valkey і ще три статуси рішень приведено до фактичного стану, поправка про ретеншен auth-подій в ADR-008, єдиний словник статусів. Гілку feature/arch-text-fixes-ba-alignment запушено (4 коміти)",
+  "createdAt": "2026-10-05T21:09:39Z",
+  "updatedAt": "2026-10-05T21:09:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150095/work-attribute-values",
+    "values": []
+  }
+}

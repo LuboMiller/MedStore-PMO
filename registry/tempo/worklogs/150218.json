@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150218",
+  "tempoWorklogId": 150218,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102821",
+    "id": 102821
+  },
+  "timeSpentSeconds": 22500,
+  "billableSeconds": 22500,
+  "startDate": "2026-10-06",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-06T09:45:00Z",
+  "description": "Опис 11.5, 11.6, 11.7, 11.8, 11.10. Комунікація з Павлом П. щодо структури пейлоаду пушів",
+  "createdAt": "2026-10-06T15:44:30Z",
+  "updatedAt": "2026-10-07T10:50:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150218/work-attribute-values",
+    "values": []
+  }
+}

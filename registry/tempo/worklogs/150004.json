@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150004",
+  "tempoWorklogId": 150004,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102614",
+    "id": 102614
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-05",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-05T12:30:00Z",
+  "description": "AG-2444: [FE][Графіки - Ринок України] - додати одиницю виміру priceUnit в тултіп графіку",
+  "createdAt": "2026-10-05T10:59:18Z",
+  "updatedAt": "2026-10-05T10:59:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150004/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "key": "DOBDWH-12",
+  "id": "98645",
+  "summary": "[DE] Чекліст по підготовці Добробуту для старту",
+  "status": "In Review",
+  "issuetype": "Sub-task",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-3",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-03T14:40:58.380+0300",
+  "jira_created": "2026-08-18T18:17:22.723+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1d",
+      "remainingEstimate": "5h 27m",
+      "timeSpent": "2h 33m",
+      "originalEstimateSeconds": 28800,
+      "remainingEstimateSeconds": 19620,
+      "timeSpentSeconds": 9180
+    },
+    "timeoriginalestimate": 28800,
+    "timespent": 9180,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "35c1792cd08dab81",
+  "local_updated": "2026-10-08T11:48:29.593728+00:00"
+}

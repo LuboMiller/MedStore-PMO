@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149774",
+  "tempoWorklogId": 149774,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40268",
+    "id": 40268
+  },
+  "timeSpentSeconds": 2100,
+  "billableSeconds": 2100,
+  "startDate": "2026-10-02",
+  "startTime": "09:25:00",
+  "startDateTimeUtc": "2026-10-02T07:25:00Z",
+  "description": "communication with QA about 18 epic bugs + bugs research",
+  "createdAt": "2026-10-02T15:36:16Z",
+  "updatedAt": "2026-10-02T15:36:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149774/work-attribute-values",
+    "values": []
+  }
+}

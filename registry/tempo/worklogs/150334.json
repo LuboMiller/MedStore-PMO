@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150334",
+  "tempoWorklogId": 150334,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-07",
+  "startTime": "17:30:00",
+  "startDateTimeUtc": "2026-10-07T14:30:00Z",
+  "description": "Spaceplace About",
+  "createdAt": "2026-10-07T15:24:33Z",
+  "updatedAt": "2026-10-07T15:24:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150334/work-attribute-values",
+    "values": []
+  }
+}

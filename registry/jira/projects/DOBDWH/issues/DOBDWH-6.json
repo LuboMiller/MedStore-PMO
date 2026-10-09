@@ -1,0 +1,29 @@
+{
+  "key": "DOBDWH-6",
+  "id": "98639",
+  "summary": "[AI E] Чанкінг / реренкінг / NER + вимір recall/precision",
+  "status": "Cancelled",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-25",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-25T11:35:26.776+0300",
+  "jira_created": "2026-08-18T18:14:25.747+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1w 3d",
+      "remainingEstimate": "1w 3d",
+      "originalEstimateSeconds": 230400,
+      "remainingEstimateSeconds": 230400
+    },
+    "timeoriginalestimate": 230400,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "1a4121b8ddbcc4aa",
+  "local_updated": "2026-10-08T11:48:29.587022+00:00"
+}

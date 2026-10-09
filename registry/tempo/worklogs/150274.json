@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150274",
+  "tempoWorklogId": 150274,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-06",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-06T05:00:00Z",
+  "description": "doc 1-5 - partially done, partially blocked (M and V received feedback)/ R-106 (5)/ retests (2 reopen, 6 ok)/ dnipro-m calls task",
+  "createdAt": "2026-10-07T08:00:04Z",
+  "updatedAt": "2026-10-07T08:00:04Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150274/work-attribute-values",
+    "values": []
+  }
+}

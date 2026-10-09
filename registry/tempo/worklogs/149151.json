@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149151",
+  "tempoWorklogId": 149151,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/70695",
+    "id": 70695
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-02T02:00:00Z",
+  "description": "time for operational availability and task readiness",
+  "createdAt": "2026-09-30T10:49:28Z",
+  "updatedAt": "2026-09-30T10:49:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b51007b2-ada0-4021-90cc-cbd972e1a622",
+    "accountId": "712020:b51007b2-ada0-4021-90cc-cbd972e1a622"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149151/work-attribute-values",
+    "values": []
+  }
+}

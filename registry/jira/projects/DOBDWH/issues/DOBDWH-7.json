@@ -1,0 +1,29 @@
+{
+  "key": "DOBDWH-7",
+  "id": "98640",
+  "summary": "[AI E] Бенчмарк моделей/LLM і технологічні розвилки",
+  "status": "Cancelled",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-25",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-25T11:33:49.568+0300",
+  "jira_created": "2026-08-18T18:14:59.046+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "4d",
+      "remainingEstimate": "4d",
+      "originalEstimateSeconds": 115200,
+      "remainingEstimateSeconds": 115200
+    },
+    "timeoriginalestimate": 115200,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "134ad99f4407d398",
+  "local_updated": "2026-10-08T11:48:29.588947+00:00"
+}

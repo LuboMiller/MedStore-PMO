@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149377",
+  "tempoWorklogId": 149377,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102528",
+    "id": 102528
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "Заміна на повний лоадер для екрану деталей без продукту",
+  "createdAt": "2026-10-01T07:34:55Z",
+  "updatedAt": "2026-10-01T07:44:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149377/work-attribute-values",
+    "values": []
+  }
+}

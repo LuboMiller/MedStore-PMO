@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150283",
+  "tempoWorklogId": 150283,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/31697",
+    "id": 31697
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-07",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-07T07:00:00Z",
+  "description": "Dnipro-M | Daily + перегляд крашлітики",
+  "createdAt": "2026-10-07T09:12:52Z",
+  "updatedAt": "2026-10-07T09:13:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150283/work-attribute-values",
+    "values": []
+  }
+}

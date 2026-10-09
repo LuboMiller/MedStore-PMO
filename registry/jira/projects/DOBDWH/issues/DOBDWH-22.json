@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-22",
+  "id": "101730",
+  "summary": "[E-7] Pilot v1. Розгортання",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:23:06.478+0300",
+  "jira_created": "2026-09-21T16:00:19.633+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "d340d4c7db9cd829",
+  "local_updated": "2026-10-08T11:48:29.575232+00:00"
+}

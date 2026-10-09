@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149744",
+  "tempoWorklogId": 149744,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101875",
+    "id": 101875
+  },
+  "timeSpentSeconds": 18900,
+  "billableSeconds": 18900,
+  "startDate": "2026-10-02",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-02T07:30:00Z",
+  "description": "catalog offer details(update requirements and logic)",
+  "createdAt": "2026-10-02T13:53:32Z",
+  "updatedAt": "2026-10-02T14:39:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149744/work-attribute-values",
+    "values": []
+  }
+}

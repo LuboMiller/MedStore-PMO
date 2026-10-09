@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150242",
+  "tempoWorklogId": 150242,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/83945",
+    "id": 83945
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-06",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-06T05:00:00Z",
+  "description": "Podorozhnyk PL and BM PL site updates (content, language, markdown)",
+  "createdAt": "2026-10-06T18:58:44Z",
+  "updatedAt": "2026-10-06T18:58:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8",
+    "accountId": "712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150242/work-attribute-values",
+    "values": []
+  }
+}

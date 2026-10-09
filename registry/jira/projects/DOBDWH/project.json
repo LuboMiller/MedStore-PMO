@@ -1,0 +1,124 @@
+{
+  "expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+  "self": "https://devlight.atlassian.net/rest/api/3/project/11831",
+  "id": "11831",
+  "key": "DOBDWH",
+  "description": "",
+  "lead": {
+    "self": "https://devlight.atlassian.net/rest/api/3/user?accountId=627904558395420069673b37",
+    "accountId": "627904558395420069673b37",
+    "avatarUrls": {
+      "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/627904558395420069673b37/f53c3229-3f5f-4f44-860f-f4e76afb8b9e/48",
+      "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/627904558395420069673b37/f53c3229-3f5f-4f44-860f-f4e76afb8b9e/24",
+      "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/627904558395420069673b37/f53c3229-3f5f-4f44-860f-f4e76afb8b9e/16",
+      "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/627904558395420069673b37/f53c3229-3f5f-4f44-860f-f4e76afb8b9e/32"
+    },
+    "displayName": "Viktoriia Sukharevska",
+    "active": true
+  },
+  "components": [],
+  "issueTypes": [
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10000",
+      "id": "10000",
+      "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+      "iconUrl": "https://devlight.atlassian.net/images/icons/issuetypes/epic.svg",
+      "name": "Epic",
+      "subtask": false,
+      "hierarchyLevel": 1
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10004",
+      "id": "10004",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://devlight.atlassian.net/images/icons/issuetypes/story.svg",
+      "name": "Story",
+      "subtask": false,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10010",
+      "id": "10010",
+      "description": "",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Task",
+      "subtask": false,
+      "avatarId": 10318,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10014",
+      "id": "10014",
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10013",
+      "id": "10013",
+      "description": "The sub-task of the issue",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+      "name": "Sub-task",
+      "subtask": true,
+      "avatarId": 10316,
+      "hierarchyLevel": -1
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10188",
+      "id": "10188",
+      "description": "The sub-bug of the issue",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10304?size=medium",
+      "name": "Sub-bug",
+      "subtask": true,
+      "avatarId": 10304,
+      "hierarchyLevel": -1
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10516",
+      "id": "10516",
+      "description": "A change request is a formal, documented proposal to modify a project's scope, deliverables, costs, or schedule, ensuring all alterations are assessed, approved, and tracked to minimize disruptions.",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10322?size=medium",
+      "name": "Change request",
+      "subtask": false,
+      "avatarId": 10322,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://devlight.atlassian.net/rest/api/3/issuetype/10549",
+      "id": "10549",
+      "description": "",
+      "iconUrl": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10322?size=medium",
+      "name": "Sub-change",
+      "subtask": true,
+      "avatarId": 10322,
+      "hierarchyLevel": -1
+    }
+  ],
+  "assigneeType": "UNASSIGNED",
+  "versions": [],
+  "name": "MedStore",
+  "roles": {
+    "Team member": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10108",
+    "atlassian-addons-project-access": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10003",
+    "Service Desk Team": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10703",
+    "jira-guest-member": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10736",
+    "Service Desk Customers": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10702",
+    "Administrators": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10002",
+    "Financier": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10113",
+    "Client": "https://devlight.atlassian.net/rest/api/3/project/11831/role/10122"
+  },
+  "avatarUrls": {
+    "48x48": "https://devlight.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+    "24x24": "https://devlight.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+    "16x16": "https://devlight.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+    "32x32": "https://devlight.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+  },
+  "projectTypeKey": "software",
+  "simplified": false,
+  "style": "classic",
+  "isPrivate": false,
+  "properties": {}
+}

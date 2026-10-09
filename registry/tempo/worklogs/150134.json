@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150134",
+  "tempoWorklogId": 150134,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102082",
+    "id": 102082
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-02",
+  "startTime": "13:45:00",
+  "startDateTimeUtc": "2026-10-02T10:45:00Z",
+  "description": "merchant-portal-qa-round - merchant-portal-qa-round",
+  "createdAt": "2026-10-06T07:01:57Z",
+  "updatedAt": "2026-10-06T07:02:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150134/work-attribute-values",
+    "values": []
+  }
+}

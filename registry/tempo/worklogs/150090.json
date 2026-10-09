@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150090",
+  "tempoWorklogId": 150090,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 6420,
+  "billableSeconds": 6420,
+  "startDate": "2026-10-01",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-01T12:00:00Z",
+  "description": "Avrora - FinOps і інфраструктура: Навантажувальне тестування: вивантаження з Grafana метрик заліза проду за 31.08 і 28.09; розбір лог-архіву застосунку разом із метриками інфраструктури; правки в конфігурації квот на 600/1200 RPS, профіль навантаження з логів для k6 у звірці з автотестами, межа search/catalog, повторна перевірка оптимізації квот",
+  "createdAt": "2026-10-05T21:09:36Z",
+  "updatedAt": "2026-10-05T21:09:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150090/work-attribute-values",
+    "values": []
+  }
+}

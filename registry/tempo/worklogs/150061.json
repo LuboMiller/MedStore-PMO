@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150061",
+  "tempoWorklogId": 150061,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-05T06:30:00Z",
+  "description": "AI agents presentation",
+  "createdAt": "2026-10-05T15:57:29Z",
+  "updatedAt": "2026-10-06T06:03:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150061/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150079",
+  "tempoWorklogId": 150079,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28375",
+    "id": 28375
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-06",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-06T07:00:00Z",
+  "description": "Зустріч - Product List Performance",
+  "createdAt": "2026-10-05T19:06:18Z",
+  "updatedAt": "2026-10-05T19:06:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150079/work-attribute-values",
+    "values": []
+  }
+}

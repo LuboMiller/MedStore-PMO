@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150328",
+  "tempoWorklogId": 150328,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-07",
+  "startTime": "10:40:00",
+  "startDateTimeUtc": "2026-10-07T07:40:00Z",
+  "description": "Website Redesign | sync",
+  "createdAt": "2026-10-07T15:23:19Z",
+  "updatedAt": "2026-10-07T15:23:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150328/work-attribute-values",
+    "values": []
+  }
+}

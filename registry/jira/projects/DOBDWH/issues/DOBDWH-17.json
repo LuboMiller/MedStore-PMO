@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-17",
+  "id": "101725",
+  "summary": "[E-2] Передумови та доступ до данних",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:19:11.082+0300",
+  "jira_created": "2026-09-21T15:59:32.990+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "98c8a3723c1928d3",
+  "local_updated": "2026-10-08T11:48:29.579196+00:00"
+}

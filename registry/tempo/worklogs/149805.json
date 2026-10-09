@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149805",
+  "tempoWorklogId": 149805,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33447",
+    "id": 33447
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-02T06:00:00Z",
+  "description": "invoices prep",
+  "createdAt": "2026-10-04T10:32:22Z",
+  "updatedAt": "2026-10-04T10:32:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149805/work-attribute-values",
+    "values": []
+  }
+}

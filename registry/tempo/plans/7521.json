@@ -1,0 +1,33 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7521",
+  "id": 7521,
+  "startDate": "2026-09-16",
+  "endDate": "2026-10-08",
+  "description": "1.9.0: Loyalty Program - C&C Promocodes\n2.0.0: Find Rori Feature, Rori Animations Update",
+  "createdAt": "2026-09-28T11:08:42Z",
+  "updatedAt": "2026-09-28T11:08:44Z",
+  "plannedSecondsPerDay": 28800,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": false,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-08",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:bd38168b-ad32-4f32-82be-8d82b993c676",
+    "id": "712020:bd38168b-ad32-4f32-82be-8d82b993c676",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/project/10212",
+    "id": "10212",
+    "type": "PROJECT"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7521?from=2026-09-16&to=2026-10-08"
+    }
+  },
+  "totalPlannedSecondsInScope": 172800,
+  "planCreatorId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+}

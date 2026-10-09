@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150075",
+  "tempoWorklogId": 150075,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/84016",
+    "id": 84016
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-05",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-05T05:30:00Z",
+  "description": "Координація по задачам",
+  "createdAt": "2026-10-05T18:31:30Z",
+  "updatedAt": "2026-10-05T18:31:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150075/work-attribute-values",
+    "values": []
+  }
+}

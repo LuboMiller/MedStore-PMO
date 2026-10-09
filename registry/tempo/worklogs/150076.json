@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150076",
+  "tempoWorklogId": 150076,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-05T05:45:00Z",
+  "description": "Перегляд звітності за місяць",
+  "createdAt": "2026-10-05T18:31:46Z",
+  "updatedAt": "2026-10-05T18:31:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150076/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150171",
+  "tempoWorklogId": 150171,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97806",
+    "id": 97806
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-02T11:00:00Z",
+  "description": "Closed open questions, worked on requirements, ran specs through gates, identified and fixed logical conflicts, drafted new OQs.",
+  "createdAt": "2026-10-06T08:23:44Z",
+  "updatedAt": "2026-10-06T08:23:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150171/work-attribute-values",
+    "values": []
+  }
+}

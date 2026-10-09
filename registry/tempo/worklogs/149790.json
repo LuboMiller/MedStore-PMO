@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149790",
+  "tempoWorklogId": 149790,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-02",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-02T05:15:00Z",
+  "description": "PMO sync: AI pipeline",
+  "createdAt": "2026-10-02T19:36:10Z",
+  "updatedAt": "2026-10-02T19:36:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149790/work-attribute-values",
+    "values": []
+  }
+}

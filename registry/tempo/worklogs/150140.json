@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150140",
+  "tempoWorklogId": 150140,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102082",
+    "id": 102082
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "16:15:00",
+  "startDateTimeUtc": "2026-10-02T13:15:00Z",
+  "description": "f-16.1-16.2-charges-closure - f-16.1-16.2-charges-closure",
+  "createdAt": "2026-10-06T07:01:57Z",
+  "updatedAt": "2026-10-06T07:02:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150140/work-attribute-values",
+    "values": []
+  }
+}

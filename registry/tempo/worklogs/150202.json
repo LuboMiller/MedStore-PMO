@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150202",
+  "tempoWorklogId": 150202,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97492",
+    "id": 97492
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-07",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-07T11:30:00Z",
+  "description": "Dnipro-M | AI agent design sync",
+  "createdAt": "2026-10-06T12:53:40Z",
+  "updatedAt": "2026-10-07T10:44:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150202/work-attribute-values",
+    "values": []
+  }
+}

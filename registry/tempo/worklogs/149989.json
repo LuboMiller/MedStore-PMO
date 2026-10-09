@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149989",
+  "tempoWorklogId": 149989,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102220",
+    "id": 102220
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-02",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-02T13:30:00Z",
+  "description": "T7 customer auth events: architect retention/scope decisions, Cognito DeleteUser WAF tripwire, prepare and design frame",
+  "createdAt": "2026-10-05T09:22:39Z",
+  "updatedAt": "2026-10-05T09:22:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149989/work-attribute-values",
+    "values": []
+  }
+}

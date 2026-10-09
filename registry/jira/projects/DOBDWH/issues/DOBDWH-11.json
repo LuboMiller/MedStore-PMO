@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-11",
+  "id": "98644",
+  "summary": "[SA+DE+AIE] Архітектура пілота, канонічна модель, скоуп, оцінка повномасштабного впровадження, звіт",
+  "status": "In Progress",
+  "issuetype": "Story",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-24",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-30T15:58:47.538+0300",
+  "jira_created": "2026-08-18T18:16:33.042+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "4d",
+      "remainingEstimate": "3d 3h 15m",
+      "timeSpent": "4h 45m",
+      "originalEstimateSeconds": 115200,
+      "remainingEstimateSeconds": 98100,
+      "timeSpentSeconds": 17100
+    },
+    "timeoriginalestimate": 115200,
+    "timespent": 17100,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "20ca784ffc3aac53",
+  "local_updated": "2026-10-08T11:48:29.569111+00:00"
+}

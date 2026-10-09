@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150071",
+  "tempoWorklogId": 150071,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-02T06:00:00Z",
+  "description": "MOB-6487: Логування токенів і кроків Apple/Google sign-in у Debug Menu (LOGS → Social sign-in) для web- і нативного флоу, білд 6.0.0 (24) для QA.",
+  "createdAt": "2026-10-05T16:23:01Z",
+  "updatedAt": "2026-10-05T16:23:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150071/work-attribute-values",
+    "values": []
+  }
+}

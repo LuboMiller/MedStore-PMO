@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/148136",
+  "tempoWorklogId": 148136,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101718",
+    "id": 101718
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "Специфікації 6.3, 6.4. ",
+  "createdAt": "2026-09-24T15:07:33Z",
+  "updatedAt": "2026-10-05T14:24:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/148136/work-attribute-values",
+    "values": []
+  }
+}

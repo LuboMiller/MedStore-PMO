@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149795",
+  "tempoWorklogId": 149795,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101817",
+    "id": 101817
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-03",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-03T05:15:00Z",
+  "description": "Огляд беклогу, фідбек щодо результатів робіт",
+  "createdAt": "2026-10-03T12:26:38Z",
+  "updatedAt": "2026-10-03T12:26:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149795/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-24",
+  "id": "101732",
+  "summary": "[E-9] Архітектура пілота. Скоуп. Оцінка",
+  "status": "Backlog",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-29T09:25:21.308+0300",
+  "jira_created": "2026-09-21T16:01:11.177+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "c7eef95c1a2512ab",
+  "local_updated": "2026-10-08T11:48:29.573467+00:00"
+}

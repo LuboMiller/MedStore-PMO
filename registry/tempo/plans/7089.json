@@ -1,0 +1,33 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7089",
+  "id": 7089,
+  "startDate": "2026-09-07",
+  "endDate": "2026-12-01",
+  "createdAt": "2026-08-11T14:28:38Z",
+  "updatedAt": "2026-08-20T10:48:09Z",
+  "plannedSecondsPerDay": 18000,
+  "totalPlannedSeconds": 1116000,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": false,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-12-01",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/project/11831",
+    "id": "11831",
+    "type": "PROJECT"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7089?from=2026-09-07&to=2026-12-01"
+    }
+  },
+  "totalPlannedSecondsInScope": 108000,
+  "planCreatorId": "712020:db4f2a9e-8c72-4de8-ba4d-aada0524b2a8"
+}

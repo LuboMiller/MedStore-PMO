@@ -4,6 +4,6 @@
 
 | Дата | Файл | Топ фокус |
 |---|---|---|
-| | | |
+| 2026-10-08 | [2026-10-08.md](2026-10-08.md) | RACI/risks next · OQ tracking · D11 Fri prep |
 
 Новий день → запусти skill або ранкову Cursor Automation (див. `.cursor/skills/pmo-daily-pm-actions/automation-prompt.md`).

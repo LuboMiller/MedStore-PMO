@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149780",
+  "tempoWorklogId": 149780,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/95289",
+    "id": 95289
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "- Daily\n- Tested Analytics for Checkout\n- Tested Lottery + Analytics",
+  "createdAt": "2026-10-02T16:08:27Z",
+  "updatedAt": "2026-10-02T16:08:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:30d44439-619e-48bb-8269-d35d469f5d5d",
+    "accountId": "712020:30d44439-619e-48bb-8269-d35d469f5d5d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149780/work-attribute-values",
+    "values": []
+  }
+}

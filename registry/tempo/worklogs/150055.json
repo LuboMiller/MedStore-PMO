@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150055",
+  "tempoWorklogId": 150055,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-05T05:00:00Z",
+  "description": "- оцінка;",
+  "createdAt": "2026-10-05T15:32:05Z",
+  "updatedAt": "2026-10-06T06:04:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150055/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "DOBDWH-1",
+  "id": "97168",
+  "summary": "Planning",
+  "status": "Done",
+  "issuetype": "Epic",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": null,
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-08-18T18:20:47.130+0300",
+  "jira_created": "2026-08-11T17:27:44.584+0300",
+  "raw_fields": {
+    "timetracking": {},
+    "timeoriginalestimate": null,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "bf7e0968758b7c9a",
+  "local_updated": "2026-10-08T11:48:29.595269+00:00"
+}

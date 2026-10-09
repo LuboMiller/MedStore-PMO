@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150064",
+  "tempoWorklogId": 150064,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-05T11:00:00Z",
+  "description": "AI agents presentation\nSpaseplace",
+  "createdAt": "2026-10-05T15:59:35Z",
+  "updatedAt": "2026-10-06T06:03:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150064/work-attribute-values",
+    "values": []
+  }
+}

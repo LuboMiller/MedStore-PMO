@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149956",
+  "tempoWorklogId": 149956,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41478",
+    "id": 41478
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "- daily\n- Refinement ABB payment method support in Digital Backend\n- logout issue investigation\n- bug fix retesting\n- bablobank testing",
+  "createdAt": "2026-10-05T07:23:27Z",
+  "updatedAt": "2026-10-05T07:23:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:bd38168b-ad32-4f32-82be-8d82b993c676",
+    "accountId": "712020:bd38168b-ad32-4f32-82be-8d82b993c676"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149956/work-attribute-values",
+    "values": []
+  }
+}

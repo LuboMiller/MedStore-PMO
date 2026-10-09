@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150164",
+  "tempoWorklogId": 150164,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90184",
+    "id": 90184
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-06",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-06T07:30:00Z",
+  "description": "Dobrobut / Обговорення wireframes та user flows",
+  "createdAt": "2026-10-06T08:15:06Z",
+  "updatedAt": "2026-10-06T08:31:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150164/work-attribute-values",
+    "values": []
+  }
+}

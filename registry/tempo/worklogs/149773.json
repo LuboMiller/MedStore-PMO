@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149773",
+  "tempoWorklogId": 149773,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40268",
+    "id": 40268
+  },
+  "timeSpentSeconds": 6300,
+  "billableSeconds": 6300,
+  "startDate": "2026-10-01",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-01T12:15:00Z",
+  "description": "Communication with PO and FE on calendar integrations + small BE fixes for calendar integration",
+  "createdAt": "2026-10-02T15:35:11Z",
+  "updatedAt": "2026-10-02T15:35:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149773/work-attribute-values",
+    "values": []
+  }
+}

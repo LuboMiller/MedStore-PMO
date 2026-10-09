@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149526",
+  "tempoWorklogId": 149526,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102122",
+    "id": 102122
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-01",
+  "startTime": "08:20:00",
+  "startDateTimeUtc": "2026-10-01T05:20:00Z",
+  "description": "Start logic + requests",
+  "createdAt": "2026-10-01T17:28:36Z",
+  "updatedAt": "2026-10-01T17:28:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149526/work-attribute-values",
+    "values": []
+  }
+}

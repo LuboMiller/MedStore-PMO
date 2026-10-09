@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150066",
+  "tempoWorklogId": 150066,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "MOB-6440: Фікс дизайну рефералки за тікетом: прибрав точки зі смуги рівня, підзаголовок «Своїх запроси - Вау злови» для рядка «Реферальна програма» в меню акаунта; візуальна перевірка, коміт.",
+  "createdAt": "2026-10-05T16:22:59Z",
+  "updatedAt": "2026-10-05T16:22:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150066/work-attribute-values",
+    "values": []
+  }
+}

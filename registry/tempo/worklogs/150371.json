@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150371",
+  "tempoWorklogId": 150371,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100069",
+    "id": 100069
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "prices stats tc review & comm with Volodya",
+  "createdAt": "2026-10-08T06:34:02Z",
+  "updatedAt": "2026-10-08T06:34:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150371/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149569",
+  "tempoWorklogId": 149569,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-02",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-02T07:00:00Z",
+  "description": "- зубні щітки;",
+  "createdAt": "2026-10-02T07:50:34Z",
+  "updatedAt": "2026-10-06T06:04:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149569/work-attribute-values",
+    "values": []
+  }
+}

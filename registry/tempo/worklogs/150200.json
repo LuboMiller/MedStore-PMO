@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150200",
+  "tempoWorklogId": 150200,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-06",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-06T07:00:00Z",
+  "description": "Spaceplace Sync",
+  "createdAt": "2026-10-06T12:06:28Z",
+  "updatedAt": "2026-10-06T12:06:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150200/work-attribute-values",
+    "values": []
+  }
+}

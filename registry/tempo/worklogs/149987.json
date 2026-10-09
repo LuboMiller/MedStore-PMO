@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149987",
+  "tempoWorklogId": 149987,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102216",
+    "id": 102216
+  },
+  "timeSpentSeconds": 8100,
+  "billableSeconds": 8100,
+  "startDate": "2026-10-02",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-02T09:00:00Z",
+  "description": "T2b relay switch to service JWT: design, common v0.13.0, backoffice service-JWT customer branch, six relays switched, review round, PRs",
+  "createdAt": "2026-10-05T09:22:37Z",
+  "updatedAt": "2026-10-05T09:22:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149987/work-attribute-values",
+    "values": []
+  }
+}

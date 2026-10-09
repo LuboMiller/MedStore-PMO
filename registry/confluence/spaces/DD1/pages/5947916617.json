@@ -1,0 +1,13 @@
+{
+  "id": "5947916617",
+  "title": "Dobrobut DWH Home",
+  "space_key": "DD1",
+  "parent_id": null,
+  "status": "current",
+  "version": 3,
+  "body_storage": "<ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:local-id=\"5b0b3226d420\" ac:macro-id=\"0fbcdf2e-2927-4c11-aa3a-ebfd2f701090\"><ac:parameter ac:name=\"bgColor\">#E3FCEF</ac:parameter><ac:rich-text-body><h2 local-id=\"1075cc0b11ab\"><strong>Welcome to Dobrobut space!</strong></h2><p local-id=\"ea1a3213d002\">Dobrobut MedStore &mdash; це побудова окремого, деперсоналізованого сховища медичних даних для мережі клінік &laquo;Добробут&raquo;, незалежного від їхньої операційної МІС &laquo;Доктор Елекс&raquo;.</p><p local-id=\"eb99770a56eb\">Зараз усі медичні дані живуть у ДЕ в пропрієтарному закодованому форматі &mdash; це унеможливлює когортний пошук (за діагнозом, препаратом, лаб. показниками), семантичний пошук по текстах висновків та підключення зовнішніх AI-інструментів. MedStore має це вирішити: дані декодуються, деперсоналізуються (весь зв'язок лише через внутрішній <code>patient_id</code>, без відкритого PII) і конвертуються в LLM-friendly шар (факти + чанки + вектори), поверх якого працює Query Interface з трьома типами пошуку &mdash; когортний, по пацієнту, семантичний.</p></ac:rich-text-body></ac:structured-macro><p local-id=\"db6f87c7e25c\" /><h2 local-id=\"66bee0b03fd0\" style=\"text-align: center;\">Команда</h2><p local-id=\"76ceebaa65a1\"><ac:link><ri:user ri:account-id=\"712020:db4f2a9e-8c72-4de8-ba4d-aada0524b2a8\" ri:local-id=\"aabd6abe-05fe-4a4d-9c94-5f06c1313af3\" /></ac:link>  - проектний менеджер</p><p local-id=\"4e6f065d81fd\"><ac:link><ri:user ri:account-id=\"712020:a096e2c8-7a24-4535-a380-270c70b4c839\" ri:local-id=\"380ad7f3-16cd-4717-be79-29d3a0a7ae2f\" /></ac:link>  - архітектор</p><p local-id=\"328fce28a357\"><ac:link><ri:user ri:account-id=\"712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436\" ri:local-id=\"e8e8eea7-9671-421d-a30c-514af702b002\" /></ac:link> - BA</p><p local-id=\"39efaa16150f\" /><p local-id=\"f26eac75ef3b\" />",
+  "webui": "/spaces/DD1/overview",
+  "dirty": false,
+  "content_hash": "64f596c7361a3eb8",
+  "local_updated": "2026-10-08T11:48:29.569336+00:00"
+}

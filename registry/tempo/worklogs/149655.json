@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149655",
+  "tempoWorklogId": 149655,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 780,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-01T12:00:00Z",
+  "description": "Sync with Stas Dovbii",
+  "createdAt": "2026-10-02T10:04:32Z",
+  "updatedAt": "2026-10-02T10:04:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149655/work-attribute-values",
+    "values": []
+  }
+}

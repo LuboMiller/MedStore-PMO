@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-28",
+  "id": "102077",
+  "summary": "[SA+DE+AIE] Модель даних, індекси, якість пошуку",
+  "status": "In Progress",
+  "issuetype": "Story",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-23",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-10-06T00:09:42.559+0300",
+  "jira_created": "2026-09-25T11:44:32.367+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "0m",
+      "remainingEstimate": "0m",
+      "timeSpent": "1d 6h 37m",
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 52620
+    },
+    "timeoriginalestimate": 0,
+    "timespent": 52620,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "237190c0a1be9553",
+  "local_updated": "2026-10-08T11:48:29.566888+00:00"
+}

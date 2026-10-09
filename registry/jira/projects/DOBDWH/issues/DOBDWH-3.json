@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-3",
+  "id": "98636",
+  "summary": "[SA+DE+AIE] Передумова й доступ до даних",
+  "status": "In Review",
+  "issuetype": "Story",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-17",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-29T09:16:28.640+0300",
+  "jira_created": "2026-08-18T18:12:53.901+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "0m",
+      "remainingEstimate": "0m",
+      "timeSpent": "3d 2h 15m",
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 94500
+    },
+    "timeoriginalestimate": 0,
+    "timespent": 94500,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "7caf890a7db09b6f",
+  "local_updated": "2026-10-08T11:48:29.582190+00:00"
+}

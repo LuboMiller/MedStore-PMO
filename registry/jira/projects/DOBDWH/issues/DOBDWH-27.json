@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-27",
+  "id": "102076",
+  "summary": "[SA+DE+AIE] Розпакування документів: власний декодер, покриття шаблонів",
+  "status": "To Do",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-18",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-30T15:58:46.061+0300",
+  "jira_created": "2026-09-25T11:41:47.826+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "0m",
+      "remainingEstimate": "0m",
+      "timeSpent": "1d 4h 44m",
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 45840
+    },
+    "timeoriginalestimate": 0,
+    "timespent": 45840,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "bd5cf22ac89a5cb1",
+  "local_updated": "2026-10-08T11:48:29.570907+00:00"
+}

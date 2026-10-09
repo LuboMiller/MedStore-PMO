@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149656",
+  "tempoWorklogId": 149656,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/32463",
+    "id": 32463
+  },
+  "timeSpentSeconds": 4320,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "16:05:00",
+  "startDateTimeUtc": "2026-10-01T13:05:00Z",
+  "description": "Sync with Oleh Sotula",
+  "createdAt": "2026-10-02T10:04:32Z",
+  "updatedAt": "2026-10-06T06:02:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149656/work-attribute-values",
+    "values": []
+  }
+}

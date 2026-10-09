@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150345",
+  "tempoWorklogId": 150345,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102563",
+    "id": 102563
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-07",
+  "startTime": "10:10:00",
+  "startDateTimeUtc": "2026-10-07T07:10:00Z",
+  "description": "Change style ",
+  "createdAt": "2026-10-07T18:37:01Z",
+  "updatedAt": "2026-10-07T18:37:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150345/work-attribute-values",
+    "values": []
+  }
+}

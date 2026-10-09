@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150181",
+  "tempoWorklogId": 150181,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102812",
+    "id": 102812
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-06",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-06T07:30:00Z",
+  "description": "Сетап тікетів та підправка спек на v1 без діплінок",
+  "createdAt": "2026-10-06T09:41:49Z",
+  "updatedAt": "2026-10-06T09:41:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150181/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-8",
+  "id": "98641",
+  "summary": "[SA+DE+AIE] Знеособлення: правила, модель, контрольна вибірка, вимір повноти",
+  "status": "In Progress",
+  "issuetype": "Story",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-2",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-10-06T00:09:41.322+0300",
+  "jira_created": "2026-08-18T18:15:35.967+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1w",
+      "remainingEstimate": "0m",
+      "timeSpent": "1w 1d 3h 26m",
+      "originalEstimateSeconds": 144000,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 185160
+    },
+    "timeoriginalestimate": 144000,
+    "timespent": 185160,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "ee28c9b919e533c5",
+  "local_updated": "2026-10-08T11:48:29.567703+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150068",
+  "tempoWorklogId": 150068,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-01",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-01T10:30:00Z",
+  "description": "MOB-6448: Після фіксу WEB-15402 підготовка гілки до QA-білда: push, перевірка розходження з unified-auth.",
+  "createdAt": "2026-10-05T16:23:00Z",
+  "updatedAt": "2026-10-05T16:23:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150068/work-attribute-values",
+    "values": []
+  }
+}

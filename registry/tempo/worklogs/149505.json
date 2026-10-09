@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149505",
+  "tempoWorklogId": 149505,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99486",
+    "id": 99486
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "Functiona Testing, Invistigating and reporting issues in Jira: PST-1688, PST-1689, PST-1690, PST-1691, PST-1692, PST-1693, PST-1702",
+  "createdAt": "2026-10-01T15:08:58Z",
+  "updatedAt": "2026-10-01T15:08:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149505/work-attribute-values",
+    "values": []
+  }
+}

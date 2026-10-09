@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150287",
+  "tempoWorklogId": 150287,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69572",
+    "id": 69572
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-07",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-07T12:00:00Z",
+  "description": "Agrigator || BA pipeline - презентація пайплайну розробниками, Q&A",
+  "createdAt": "2026-10-07T09:26:36Z",
+  "updatedAt": "2026-10-07T13:30:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150287/work-attribute-values",
+    "values": []
+  }
+}

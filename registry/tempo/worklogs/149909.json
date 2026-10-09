@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149909",
+  "tempoWorklogId": 149909,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-01",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-01T10:15:00Z",
+  "description": "additional team communication: 2.1.0 before 3.0.0 approve; external IP's error handling",
+  "createdAt": "2026-10-05T05:20:15Z",
+  "updatedAt": "2026-10-05T05:20:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149909/work-attribute-values",
+    "values": []
+  }
+}

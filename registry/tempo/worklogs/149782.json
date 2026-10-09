@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149782",
+  "tempoWorklogId": 149782,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101576",
+    "id": 101576
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-02",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-02T11:00:00Z",
+  "description": "AG-2380, AG-2393, AG-2397, AG-2392, AG-2402",
+  "createdAt": "2026-10-02T16:50:35Z",
+  "updatedAt": "2026-10-02T16:50:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149782/work-attribute-values",
+    "values": []
+  }
+}

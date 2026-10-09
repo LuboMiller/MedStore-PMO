@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149943",
+  "tempoWorklogId": 149943,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89645",
+    "id": 89645
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-02",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-02T10:30:00Z",
+  "description": "27.3-6 Updates ",
+  "createdAt": "2026-10-05T07:08:34Z",
+  "updatedAt": "2026-10-05T07:10:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149943/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150040",
+  "tempoWorklogId": 150040,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102179",
+    "id": 102179
+  },
+  "timeSpentSeconds": 26100,
+  "billableSeconds": 26100,
+  "startDate": "2026-10-01",
+  "startTime": "09:45:00",
+  "startDateTimeUtc": "2026-10-01T06:45:00Z",
+  "description": " QBO setup research",
+  "createdAt": "2026-10-05T13:45:06Z",
+  "updatedAt": "2026-10-05T13:45:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150040/work-attribute-values",
+    "values": []
+  }
+}

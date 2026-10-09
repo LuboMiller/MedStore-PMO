@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149714",
+  "tempoWorklogId": 149714,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/83945",
+    "id": 83945
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-02T05:00:00Z",
+  "description": "Updated BM PL website",
+  "createdAt": "2026-10-02T12:44:47Z",
+  "updatedAt": "2026-10-02T12:44:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8",
+    "accountId": "712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149714/work-attribute-values",
+    "values": []
+  }
+}

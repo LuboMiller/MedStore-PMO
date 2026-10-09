@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150015",
+  "tempoWorklogId": 150015,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/30925",
+    "id": 30925
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-05T12:00:00Z",
+  "description": "Ознайомлення з листом Агрігатор",
+  "createdAt": "2026-10-05T12:17:52Z",
+  "updatedAt": "2026-10-05T12:18:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150015/work-attribute-values",
+    "values": []
+  }
+}

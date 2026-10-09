@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2652,
+    "self": "https://devlight.atlassian.net/rest/agile/1.0/board/2652",
+    "name": "Dobrobut MedStore",
+    "type": "kanban",
+    "location": {
+      "projectId": 11831,
+      "displayName": "MedStore (DOBDWH)",
+      "projectName": "MedStore",
+      "projectKey": "DOBDWH",
+      "projectTypeKey": "software",
+      "avatarURI": "https://devlight.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10413?size=small",
+      "name": "MedStore (DOBDWH)"
+    },
+    "isPrivate": false
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150330",
+  "tempoWorklogId": 150330,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-07",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-07T09:00:00Z",
+  "description": "Design Dep. / Status sync",
+  "createdAt": "2026-10-07T15:23:56Z",
+  "updatedAt": "2026-10-07T15:23:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150330/work-attribute-values",
+    "values": []
+  }
+}

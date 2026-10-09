@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149970",
+  "tempoWorklogId": 149970,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101827",
+    "id": 101827
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-05",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-05T05:00:00Z",
+  "description": "- Reworked stores and product availability loading (backend optimizations)",
+  "createdAt": "2026-10-05T08:16:41Z",
+  "updatedAt": "2026-10-05T08:16:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149970/work-attribute-values",
+    "values": []
+  }
+}

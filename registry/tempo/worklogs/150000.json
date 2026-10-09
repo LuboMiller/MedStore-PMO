@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150000",
+  "tempoWorklogId": 150000,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102022",
+    "id": 102022
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-05",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-05T08:00:00Z",
+  "description": "Редизайе список сповіщень, карток та пустого стейту + тестування на моканих даних ",
+  "createdAt": "2026-10-05T10:57:13Z",
+  "updatedAt": "2026-10-05T10:57:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150000/work-attribute-values",
+    "values": []
+  }
+}

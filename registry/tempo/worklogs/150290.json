@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150290",
+  "tempoWorklogId": 150290,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-07",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-07T05:00:00Z",
+  "description": "QA team sync",
+  "createdAt": "2026-10-07T09:48:18Z",
+  "updatedAt": "2026-10-07T09:48:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150290/work-attribute-values",
+    "values": []
+  }
+}

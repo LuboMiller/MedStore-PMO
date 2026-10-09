@@ -1,0 +1,31 @@
+{
+  "key": "DOBDWH-13",
+  "id": "99572",
+  "summary": "[BA] Аналіз \"золотого набору\"",
+  "status": "To Do",
+  "issuetype": "Sub-task",
+  "assignee_account_id": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+  "assignee_display": "Kateryna Kovshar",
+  "parent_key": "DOBDWH-9",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": null,
+  "jira_updated": "2026-09-04T08:59:16.906+0300",
+  "jira_created": "2026-08-24T15:04:54.125+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1w",
+      "remainingEstimate": "4d 5h 15m",
+      "timeSpent": "2h 45m",
+      "originalEstimateSeconds": 144000,
+      "remainingEstimateSeconds": 134100,
+      "timeSpentSeconds": 9900
+    },
+    "timeoriginalestimate": 144000,
+    "timespent": 9900,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "58cb0059eafbbb8f",
+  "local_updated": "2026-10-08T11:48:29.591035+00:00"
+}

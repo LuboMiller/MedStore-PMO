@@ -1,0 +1,46 @@
+{
+  "key": "DOBDWH-14",
+  "id": "99573",
+  "summary": "Internal kickoff meeting",
+  "status": "Released",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-1",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Підготовка та участь у внутрішеьому Kickoff Dobrobut MedStore."
+          }
+        ],
+        "attrs": {
+          "localId": "2967848851e8"
+        }
+      }
+    ]
+  },
+  "jira_updated": "2026-09-01T11:41:20.685+0300",
+  "jira_created": "2026-08-24T15:16:02.314+0300",
+  "raw_fields": {
+    "timetracking": {
+      "remainingEstimate": "0m",
+      "timeSpent": "4h 34m",
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 16440
+    },
+    "timeoriginalestimate": null,
+    "timespent": 16440,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "675ca737f0ff20f2",
+  "local_updated": "2026-10-08T11:48:29.594848+00:00"
+}

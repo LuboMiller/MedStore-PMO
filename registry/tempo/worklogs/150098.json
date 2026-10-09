@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150098",
+  "tempoWorklogId": 150098,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-02",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-02T12:00:00Z",
+  "description": "Avrora - Фронт-статистика: звірка матриці подій і карток із контрактом, оцінка готовності, організація роботи між ПО, фронтом, беком і ДС, розбір нових версій xlsx, переписка",
+  "createdAt": "2026-10-05T21:09:40Z",
+  "updatedAt": "2026-10-05T21:09:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150098/work-attribute-values",
+    "values": []
+  }
+}

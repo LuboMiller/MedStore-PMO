@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150048",
+  "tempoWorklogId": 150048,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/79066",
+    "id": 79066
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-05",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-05T11:00:00Z",
+  "description": "Smoke testing after fixing bugs",
+  "createdAt": "2026-10-05T14:42:17Z",
+  "updatedAt": "2026-10-05T14:42:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150048/work-attribute-values",
+    "values": []
+  }
+}

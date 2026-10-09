@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149929",
+  "tempoWorklogId": 149929,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/86987",
+    "id": 86987
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-02T06:00:00Z",
+  "description": "Auto-tracked from PeopleForce",
+  "createdAt": "2026-10-05T06:16:27Z",
+  "updatedAt": "2026-10-05T06:16:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=623081d575f257006a999c7b",
+    "accountId": "623081d575f257006a999c7b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149929/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149579",
+  "tempoWorklogId": 149579,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102350",
+    "id": 102350
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-02",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-02T07:45:00Z",
+  "description": "Denis / Kateryna: weekly sync",
+  "createdAt": "2026-10-02T08:31:22Z",
+  "updatedAt": "2026-10-02T11:40:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149579/work-attribute-values",
+    "values": []
+  }
+}

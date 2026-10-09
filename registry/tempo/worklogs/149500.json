@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149500",
+  "tempoWorklogId": 149500,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-01T13:30:00Z",
+  "description": "AI AGENTS презентація",
+  "createdAt": "2026-10-01T14:59:58Z",
+  "updatedAt": "2026-10-06T06:03:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149500/work-attribute-values",
+    "values": []
+  }
+}

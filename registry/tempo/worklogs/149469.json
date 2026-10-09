@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149469",
+  "tempoWorklogId": 149469,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "20:00:00",
+  "startDateTimeUtc": "2026-10-01T17:00:00Z",
+  "description": "Підготовка WBS",
+  "createdAt": "2026-10-01T11:37:19Z",
+  "updatedAt": "2026-10-06T06:03:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149469/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "DOBDWH-10",
+  "id": "98643",
+  "summary": "[SA+DE+AIE] Пілот v1: розгортання, інтерфейс, прогін сценаріїв",
+  "status": "Backlog",
+  "issuetype": "Story",
+  "assignee_account_id": null,
+  "assignee_display": null,
+  "parent_key": "DOBDWH-22",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-29T09:17:12.467+0300",
+  "jira_created": "2026-08-18T18:16:18.441+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "1w",
+      "remainingEstimate": "1w",
+      "originalEstimateSeconds": 144000,
+      "remainingEstimateSeconds": 144000
+    },
+    "timeoriginalestimate": 144000,
+    "timespent": null,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "31fae16c7e86d807",
+  "local_updated": "2026-10-08T11:48:29.579832+00:00"
+}

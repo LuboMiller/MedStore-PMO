@@ -1,0 +1,35 @@
+{
+  "key": "DOBDWH-16",
+  "id": "101356",
+  "summary": "[SA+DE+AI] R&D: тестові вибірки, декодінг, анонімізація",
+  "status": "Done",
+  "issuetype": "Task",
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
+  "parent_key": "DOBDWH-25",
+  "priority": "Medium",
+  "labels": [],
+  "description_adf": {
+    "type": "doc",
+    "version": 1,
+    "content": []
+  },
+  "jira_updated": "2026-09-28T11:18:04.459+0300",
+  "jira_created": "2026-09-16T15:58:50.685+0300",
+  "raw_fields": {
+    "timetracking": {
+      "originalEstimate": "2d 6h 13m",
+      "remainingEstimate": "2d 6h 13m",
+      "timeSpent": "0m",
+      "originalEstimateSeconds": 79980,
+      "remainingEstimateSeconds": 79980,
+      "timeSpentSeconds": 0
+    },
+    "timeoriginalestimate": 79980,
+    "timespent": 0,
+    "customfield_10016": null
+  },
+  "dirty": false,
+  "content_hash": "96797c43095831ea",
+  "local_updated": "2026-10-08T11:48:29.582784+00:00"
+}

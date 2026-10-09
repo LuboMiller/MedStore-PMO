@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150069",
+  "tempoWorklogId": 150069,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-01",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-01T12:00:00Z",
+  "description": "MOB-4658: Daily call with a team",
+  "createdAt": "2026-10-05T16:23:01Z",
+  "updatedAt": "2026-10-05T16:23:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150069/work-attribute-values",
+    "values": []
+  }
+}

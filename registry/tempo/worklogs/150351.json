@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150351",
+  "tempoWorklogId": 150351,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-07",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-07T06:00:00Z",
+  "description": "oct 6-7 updates verification/ facebook check &feedback",
+  "createdAt": "2026-10-07T18:56:26Z",
+  "updatedAt": "2026-10-07T18:56:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150351/work-attribute-values",
+    "values": []
+  }
+}

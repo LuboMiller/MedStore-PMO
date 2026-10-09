@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/149981",
+  "tempoWorklogId": 149981,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102217",
+    "id": 102217
+  },
+  "timeSpentSeconds": 9900,
+  "billableSeconds": 9900,
+  "startDate": "2026-10-01",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-01T08:30:00Z",
+  "description": "T3 gateway issuer registry: design approved, Cognito/Kinde profiles, route policy, signup lane, common v0.11.0 audit contract, infra C16, review fixes common #11, gateway PR",
+  "createdAt": "2026-10-05T09:22:34Z",
+  "updatedAt": "2026-10-05T09:22:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/149981/work-attribute-values",
+    "values": []
+  }
+}
