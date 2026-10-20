@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151513",
+  "tempoWorklogId": 151513,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101962",
+    "id": 101962
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-14",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-14T07:00:00Z",
+  "description": "VESELKA-497: [FE] [F-06.02] Переглянути профіль лікаря",
+  "createdAt": "2026-10-13T16:30:20Z",
+  "updatedAt": "2026-10-14T10:41:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151513/work-attribute-values",
+    "values": []
+  }
+}

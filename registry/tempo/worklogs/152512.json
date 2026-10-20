@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152512",
+  "tempoWorklogId": 152512,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-13T10:00:00Z",
+  "description": "MOB-6501: Чернетка контракту даних для BFF (MOB-6503), план v1 сторіс «Твій рік».",
+  "createdAt": "2026-10-20T08:29:46Z",
+  "updatedAt": "2026-10-20T08:29:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152512/work-attribute-values",
+    "values": []
+  }
+}

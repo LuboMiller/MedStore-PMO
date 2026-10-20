@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151857",
+  "tempoWorklogId": 151857,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103458",
+    "id": 103458
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-16",
+  "startTime": "15:45:00",
+  "startDateTimeUtc": "2026-10-16T12:45:00Z",
+  "description": "Updated the catalog filtering and sorting UI based on the revised F-5.2 documentation. Adjusted user flows, filter components, sorting options, and UI states for web and mobile to align with the updated requirements.",
+  "createdAt": "2026-10-16T18:39:37Z",
+  "updatedAt": "2026-10-16T18:39:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151857/work-attribute-values",
+    "values": []
+  }
+}

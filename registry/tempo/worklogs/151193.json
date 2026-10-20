@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151193",
+  "tempoWorklogId": 151193,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98641",
+    "id": 98641
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-10",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-10T12:00:00Z",
+  "description": "Знеособлення: правила, модель, контрольна вибірка, вимір повноти: прогін 2.8: нагляд + відновлення після падіння + завершення та аналіз результатів",
+  "createdAt": "2026-10-12T15:37:37Z",
+  "updatedAt": "2026-10-12T15:37:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151193/work-attribute-values",
+    "values": []
+  }
+}

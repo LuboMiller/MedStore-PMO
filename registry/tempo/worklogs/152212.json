@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152212",
+  "tempoWorklogId": 152212,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102095",
+    "id": 102095
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-19",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-19T09:30:00Z",
+  "description": "Testing",
+  "createdAt": "2026-10-19T11:41:47Z",
+  "updatedAt": "2026-10-19T11:41:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152212/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152051",
+  "tempoWorklogId": 152051,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102163",
+    "id": 102163
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "17:30:00",
+  "startDateTimeUtc": "2026-10-12T14:30:00Z",
+  "description": "Active sessions IP address: PR #261 review fixes, develop-heroku merge",
+  "createdAt": "2026-10-19T08:16:01Z",
+  "updatedAt": "2026-10-19T08:16:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152051/work-attribute-values",
+    "values": []
+  }
+}

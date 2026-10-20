@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151558",
+  "tempoWorklogId": 151558,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T06:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- MOB-4439 Smartico requests issue\n- MOB-4454 Pushes. Push notifications are not received after login\n- MOB-4405 analytics | Відображення терміну дії знижки на сторінці товару",
+  "createdAt": "2026-10-14T12:55:17Z",
+  "updatedAt": "2026-10-14T12:55:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151558/work-attribute-values",
+    "values": []
+  }
+}

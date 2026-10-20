@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151554",
+  "tempoWorklogId": 151554,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/80239",
+    "id": 80239
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-16",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-16T13:30:00Z",
+  "description": "Ретест аос після виправлення баг.",
+  "createdAt": "2026-10-14T12:37:42Z",
+  "updatedAt": "2026-10-16T15:26:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151554/work-attribute-values",
+    "values": []
+  }
+}

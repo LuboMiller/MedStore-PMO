@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151634",
+  "tempoWorklogId": 151634,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102815",
+    "id": 102815
+  },
+  "timeSpentSeconds": 2760,
+  "billableSeconds": 2760,
+  "startDate": "2026-10-15",
+  "startTime": "10:14:00",
+  "startDateTimeUtc": "2026-10-15T07:14:00Z",
+  "description": "Testing the implemented changes ",
+  "createdAt": "2026-10-15T09:01:18Z",
+  "updatedAt": "2026-10-15T09:01:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151634/work-attribute-values",
+    "values": []
+  }
+}

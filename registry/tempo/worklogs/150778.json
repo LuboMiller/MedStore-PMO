@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150778",
+  "tempoWorklogId": 150778,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75347",
+    "id": 75347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "MOB-4425 Перенести id пакету (кулька) із локалізаційних стрічок firestore в remote config\nMOB-4438 [Crash] Crashlytics 2026-10-09: duplicate key in C&C basket, 4K feed video decoder failure, refresh 401 noise",
+  "createdAt": "2026-10-11T21:52:47Z",
+  "updatedAt": "2026-10-11T21:52:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6cc65fc-d88c-4b83-b421-8973371c405b",
+    "accountId": "712020:f6cc65fc-d88c-4b83-b421-8973371c405b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150778/work-attribute-values",
+    "values": []
+  }
+}

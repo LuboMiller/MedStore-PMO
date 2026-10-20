@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152010",
+  "tempoWorklogId": 152010,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/36535",
+    "id": 36535
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-15",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-15T13:30:00Z",
+  "description": "-комунікація стосовно хендлингу роботи з deferred deeplink в контексті реферальної програми з Мельник М",
+  "createdAt": "2026-10-19T07:35:18Z",
+  "updatedAt": "2026-10-19T07:35:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152010/work-attribute-values",
+    "values": []
+  }
+}

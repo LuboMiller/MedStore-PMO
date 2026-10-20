@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150570",
+  "tempoWorklogId": 150570,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102618",
+    "id": 102618
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T05:00:00Z",
+  "description": "Виправлення тексту кнопки пуша для NPS",
+  "createdAt": "2026-10-09T09:51:43Z",
+  "updatedAt": "2026-10-12T07:55:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150570/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150596",
+  "tempoWorklogId": 150596,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102759",
+    "id": 102759
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T05:00:00Z",
+  "description": "Тестування. Синк з iOS стосовно невеликих змін до firebase perf trace і параметрів розрізнення (оптимізований флов чи ні)",
+  "createdAt": "2026-10-09T10:40:31Z",
+  "updatedAt": "2026-10-09T13:08:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150596/work-attribute-values",
+    "values": []
+  }
+}

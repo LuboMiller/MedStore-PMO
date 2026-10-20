@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152148",
+  "tempoWorklogId": 152148,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/32463",
+    "id": 32463
+  },
+  "timeSpentSeconds": 420,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "18:01:00",
+  "startDateTimeUtc": "2026-10-13T15:01:00Z",
+  "description": "Sync with Nestor Selin",
+  "createdAt": "2026-10-19T10:11:31Z",
+  "updatedAt": "2026-10-20T06:02:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152148/work-attribute-values",
+    "values": []
+  }
+}

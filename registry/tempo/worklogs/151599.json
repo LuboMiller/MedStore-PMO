@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151599",
+  "tempoWorklogId": 151599,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103201",
+    "id": 103201
+  },
+  "timeSpentSeconds": 300,
+  "billableSeconds": 300,
+  "startDate": "2026-10-14",
+  "startTime": "11:10:00",
+  "startDateTimeUtc": "2026-10-14T08:10:00Z",
+  "description": "Remove call onboarding",
+  "createdAt": "2026-10-14T17:01:30Z",
+  "updatedAt": "2026-10-14T17:01:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151599/work-attribute-values",
+    "values": []
+  }
+}

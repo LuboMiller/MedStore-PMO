@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151058",
+  "tempoWorklogId": 151058,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-05",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-05T08:30:00Z",
+  "description": "2.1.0 tickets (Привіт, забрали в роботу:\n\n@Dmytro Zakharchenko \nabb - https://avrora-project.atlassian.net/browse/MOB-4351 \nмаркер активного промокоду: https://avrora-project.atlassian.net/browse/MOB-4348\n\n@Maryna Kyrushok - Відображення терміну дії знижки на сторінці товару - https://avrora-project.atlassian.net/browse/MOB-4349)",
+  "createdAt": "2026-10-12T11:59:35Z",
+  "updatedAt": "2026-10-12T11:59:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151058/work-attribute-values",
+    "values": []
+  }
+}

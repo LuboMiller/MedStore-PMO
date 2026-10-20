@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152224",
+  "tempoWorklogId": 152224,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41588",
+    "id": 41588
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-19",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-19T09:30:00Z",
+  "description": "FocusTime: Reasearch & prepare tempates for Discovery Artifacts regarding Benchmark Analysis",
+  "createdAt": "2026-10-19T13:44:27Z",
+  "updatedAt": "2026-10-20T06:02:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152224/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152084",
+  "tempoWorklogId": 152084,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102848",
+    "id": 102848
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-16",
+  "startTime": "15:15:00",
+  "startDateTimeUtc": "2026-10-16T12:15:00Z",
+  "description": "GST/HST registration: design",
+  "createdAt": "2026-10-19T08:16:19Z",
+  "updatedAt": "2026-10-19T08:16:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152084/work-attribute-values",
+    "values": []
+  }
+}

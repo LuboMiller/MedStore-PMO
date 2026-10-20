@@ -6,13 +6,13 @@
     "id": 32463
   },
   "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "billableSeconds": 0,
   "startDate": "2026-10-02",
   "startTime": "15:00:00",
   "startDateTimeUtc": "2026-10-02T12:00:00Z",
   "description": "Fullstack Weekly",
   "createdAt": "2026-10-06T19:50:43Z",
-  "updatedAt": "2026-10-06T19:50:43Z",
+  "updatedAt": "2026-10-13T06:03:52Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
     "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150594",
+  "tempoWorklogId": 150594,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102759",
+    "id": 102759
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "Firebase RC feature flag, зведення використання методів через шар визначення необхідності оптимізації. Прибирання деяких дублікатів фрагментів (секції головної). Переведення до SSOT шару, що керує розвилкою логіки оптимізації. Написання логіки оптимізації і мерджу з 2 запитів. Адаптації ревалідорів цін, зумовлений рефактором.  ",
+  "createdAt": "2026-10-09T10:32:10Z",
+  "updatedAt": "2026-10-09T10:32:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150594/work-attribute-values",
+    "values": []
+  }
+}

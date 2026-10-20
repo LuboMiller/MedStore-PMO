@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152442",
+  "tempoWorklogId": 152442,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98644",
+    "id": 98644
+  },
+  "timeSpentSeconds": 5100,
+  "billableSeconds": 5100,
+  "startDate": "2026-10-15",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-15T12:00:00Z",
+  "description": "Архітектура, скоуп, оцінка повного пілота, звіт: C1 і доступи для безпеки замовника, вузол агентів і Guardian на діаграмах, тези CLAUDE.md (модель не пише SQL, знеособлення власним декодером)",
+  "createdAt": "2026-10-19T18:46:00Z",
+  "updatedAt": "2026-10-19T18:46:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152442/work-attribute-values",
+    "values": []
+  }
+}

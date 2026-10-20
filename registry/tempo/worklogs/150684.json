@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150684",
+  "tempoWorklogId": 150684,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34360",
+    "id": 34360
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-09",
+  "startTime": "10:20:00",
+  "startDateTimeUtc": "2026-10-09T08:20:00Z",
+  "description": "1x1 planning",
+  "createdAt": "2026-10-09T21:50:10Z",
+  "updatedAt": "2026-10-09T21:50:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150684/work-attribute-values",
+    "values": []
+  }
+}

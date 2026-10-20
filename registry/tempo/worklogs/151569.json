@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151569",
+  "tempoWorklogId": 151569,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-09",
+  "startTime": "16:45:00",
+  "startDateTimeUtc": "2026-10-09T13:45:00Z",
+  "description": "Agrigator || Дизайн сортування та фільтрації",
+  "createdAt": "2026-10-14T14:28:11Z",
+  "updatedAt": "2026-10-15T12:52:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151569/work-attribute-values",
+    "values": []
+  }
+}

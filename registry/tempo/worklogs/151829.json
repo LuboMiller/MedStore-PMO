@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151829",
+  "tempoWorklogId": 151829,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100690",
+    "id": 100690
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-15",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-15T08:00:00Z",
+  "description": "“About” page and author page (mobile version)",
+  "createdAt": "2026-10-16T15:26:54Z",
+  "updatedAt": "2026-10-20T06:03:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151829/work-attribute-values",
+    "values": []
+  }
+}

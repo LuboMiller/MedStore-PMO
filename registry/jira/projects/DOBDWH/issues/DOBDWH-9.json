@@ -2,10 +2,10 @@
   "key": "DOBDWH-9",
   "id": "98642",
   "summary": "Золота когорта: розбір, переліки кодів, критерії приймання",
-  "status": "In Review",
+  "status": "In Progress",
   "issuetype": "Task",
-  "assignee_account_id": null,
-  "assignee_display": null,
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
   "parent_key": "DOBDWH-30",
   "priority": "Medium",
   "labels": [],
@@ -35,22 +35,22 @@
       }
     ]
   },
-  "jira_updated": "2026-10-09T11:58:47.502+0300",
+  "jira_updated": "2026-10-20T03:55:15.872+0300",
   "jira_created": "2026-08-18T18:15:49.734+0300",
   "raw_fields": {
     "timetracking": {
-      "originalEstimate": "0m",
+      "originalEstimate": "1w 3d",
       "remainingEstimate": "0m",
-      "timeSpent": "2h 57m",
-      "originalEstimateSeconds": 0,
+      "timeSpent": "1d 14m",
+      "originalEstimateSeconds": 230400,
       "remainingEstimateSeconds": 0,
-      "timeSpentSeconds": 10620
+      "timeSpentSeconds": 29640
     },
-    "timeoriginalestimate": 0,
-    "timespent": 10620,
+    "timeoriginalestimate": 230400,
+    "timespent": 29640,
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "83e5b2ae5b55d281",
-  "local_updated": "2026-10-09T08:58:58.288523+00:00"
+  "content_hash": "586f50f0987a88f1",
+  "local_updated": "2026-10-20T09:38:23.558586+00:00"
 }

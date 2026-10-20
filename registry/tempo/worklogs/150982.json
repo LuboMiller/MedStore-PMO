@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150982",
+  "tempoWorklogId": 150982,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102769",
+    "id": 102769
+  },
+  "timeSpentSeconds": 9900,
+  "billableSeconds": 9900,
+  "startDate": "2026-10-08",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-08T11:15:00Z",
+  "description": " Fault mapper and error taxonomy, error-code reference seed (§6)",
+  "createdAt": "2026-10-12T11:26:18Z",
+  "updatedAt": "2026-10-12T11:26:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150982/work-attribute-values",
+    "values": []
+  }
+}

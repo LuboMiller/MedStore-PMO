@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152017",
+  "tempoWorklogId": 152017,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103301",
+    "id": 103301
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-16",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-16T12:00:00Z",
+  "description": "code-review",
+  "createdAt": "2026-10-19T07:50:56Z",
+  "updatedAt": "2026-10-19T07:50:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152017/work-attribute-values",
+    "values": []
+  }
+}

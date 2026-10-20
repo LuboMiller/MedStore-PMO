@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152509",
+  "tempoWorklogId": 152509,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "MOB-6589: Аналіз тікета й макетів блоку «Переглянуті товари» на PDP, оцінка, план v1 зі збереженням історії переглядів, рев'ю плану.",
+  "createdAt": "2026-10-20T08:29:45Z",
+  "updatedAt": "2026-10-20T08:29:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152509/work-attribute-values",
+    "values": []
+  }
+}

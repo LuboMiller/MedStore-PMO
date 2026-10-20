@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152139",
+  "tempoWorklogId": 152139,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101969",
+    "id": 101969
+  },
+  "timeSpentSeconds": 600,
+  "billableSeconds": 600,
+  "startDate": "2026-10-12",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-11T21:00:00Z",
+  "description": "Code Review — veselka-core-application-service#2 + veselka-api-gateway#2",
+  "createdAt": "2026-10-19T10:11:25Z",
+  "updatedAt": "2026-10-19T10:11:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152139/work-attribute-values",
+    "values": []
+  }
+}

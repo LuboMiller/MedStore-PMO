@@ -27,6 +27,6 @@
       "all": "https://api.eu.tempo.io/4/plans/6684?from=2026-08-03&to=2026-11-30"
     }
   },
-  "totalPlannedSecondsInScope": 172800,
+  "totalPlannedSecondsInScope": 403200,
   "planCreatorId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
 }

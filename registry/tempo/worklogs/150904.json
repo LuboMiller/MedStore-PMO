@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150904",
+  "tempoWorklogId": 150904,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102823",
+    "id": 102823
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-06",
+  "startTime": "15:40:00",
+  "startDateTimeUtc": "2026-10-06T12:40:00Z",
+  "description": "Fix booking exports: accept bookingStatus as array of merchant statuses (ms #260)",
+  "createdAt": "2026-10-12T08:01:56Z",
+  "updatedAt": "2026-10-12T08:01:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150904/work-attribute-values",
+    "values": []
+  }
+}

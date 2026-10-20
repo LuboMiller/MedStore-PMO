@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152373",
+  "tempoWorklogId": 152373,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-15",
+  "startTime": "11:40:00",
+  "startDateTimeUtc": "2026-10-15T08:40:00Z",
+  "description": "тікети по тоглі смартіко і відображенню елементів на хоум пейджі",
+  "createdAt": "2026-10-19T16:51:20Z",
+  "updatedAt": "2026-10-19T16:51:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152373/work-attribute-values",
+    "values": []
+  }
+}

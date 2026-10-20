@@ -6,7 +6,6 @@
   "createdAt": "2026-09-22T10:39:16Z",
   "updatedAt": "2026-09-28T09:15:19Z",
   "plannedSecondsPerDay": 28800,
-  "totalPlannedSeconds": 1267200,
   "effortPersistenceType": "SECONDS_PER_DAY",
   "syncSource": "NONE",
   "includeNonWorkingDays": false,
@@ -28,7 +27,7 @@
       "all": "https://api.eu.tempo.io/4/plans/7465?from=2026-09-01&to=2026-10-31"
     }
   },
-  "totalPlannedSecondsInScope": 172800,
+  "totalPlannedSecondsInScope": 403200,
   "planApproval": {
     "status": "REQUESTED",
     "reviewer": {

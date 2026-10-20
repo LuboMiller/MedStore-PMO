@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151330",
+  "tempoWorklogId": 151330,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/95528",
+    "id": 95528
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-13",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-13T05:15:00Z",
+  "description": "Functional Testing, invistigating and reporting issues in Jira: PST-1821, PST-1822, PST-1830, PST-1831",
+  "createdAt": "2026-10-13T11:45:35Z",
+  "updatedAt": "2026-10-13T11:45:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151330/work-attribute-values",
+    "values": []
+  }
+}

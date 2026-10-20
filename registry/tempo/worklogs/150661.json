@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150661",
+  "tempoWorklogId": 150661,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101998",
+    "id": 101998
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-09",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-09T13:00:00Z",
+  "description": "Creation of a public endpoint in veselka-core-application-service and veselka-api-gateway",
+  "createdAt": "2026-10-09T16:01:54Z",
+  "updatedAt": "2026-10-09T16:01:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150661/work-attribute-values",
+    "values": []
+  }
+}

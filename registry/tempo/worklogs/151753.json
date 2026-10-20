@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151753",
+  "tempoWorklogId": 151753,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/31697",
+    "id": 31697
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-16T05:00:00Z",
+  "description": "Dnipro-M | Daily",
+  "createdAt": "2026-10-16T10:18:05Z",
+  "updatedAt": "2026-10-16T10:18:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151753/work-attribute-values",
+    "values": []
+  }
+}

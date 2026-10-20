@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150899",
+  "tempoWorklogId": 150899,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102716",
+    "id": 102716
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-05",
+  "startTime": "17:59:00",
+  "startDateTimeUtc": "2026-10-05T14:59:00Z",
+  "description": "PR review — PST-1707 event not created on manual booking confirm (ms #254)",
+  "createdAt": "2026-10-12T08:01:53Z",
+  "updatedAt": "2026-10-12T08:01:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150899/work-attribute-values",
+    "values": []
+  }
+}

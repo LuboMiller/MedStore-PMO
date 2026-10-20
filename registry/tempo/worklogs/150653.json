@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150653",
+  "tempoWorklogId": 150653,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99299",
+    "id": 99299
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-08",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-08T08:00:00Z",
+  "description": "Translation of Slides and Illustrations",
+  "createdAt": "2026-10-09T15:41:04Z",
+  "updatedAt": "2026-10-13T06:04:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150653/work-attribute-values",
+    "values": []
+  }
+}

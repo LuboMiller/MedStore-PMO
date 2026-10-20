@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150920",
+  "tempoWorklogId": 150920,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/96437",
+    "id": 96437
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-08",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-08T12:30:00Z",
+  "description": "Record cancellation actor in booking status: prepare, design, implement, ps-tests contracts, full-stack SNS verification",
+  "createdAt": "2026-10-12T08:02:04Z",
+  "updatedAt": "2026-10-12T08:02:04Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150920/work-attribute-values",
+    "values": []
+  }
+}

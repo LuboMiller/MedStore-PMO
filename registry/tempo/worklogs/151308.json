@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151308",
+  "tempoWorklogId": 151308,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33449",
+    "id": 33449
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-07",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-07T08:30:00Z",
+  "description": "release planning, communication",
+  "createdAt": "2026-10-13T09:07:18Z",
+  "updatedAt": "2026-10-13T09:07:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151308/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150446",
+  "tempoWorklogId": 150446,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/49835",
+    "id": 49835
+  },
+  "timeSpentSeconds": 9900,
+  "billableSeconds": 9900,
+  "startDate": "2026-10-06",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-06T09:15:00Z",
+  "description": "Проектування правок від клієнта по зменшення масштабу блоків та карток товарів на сторінках PDP та PLP. Тестування на різних девайсах.",
+  "createdAt": "2026-10-08T15:07:43Z",
+  "updatedAt": "2026-10-08T15:11:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150446/work-attribute-values",
+    "values": []
+  }
+}

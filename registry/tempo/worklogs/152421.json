@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152421",
+  "tempoWorklogId": 152421,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-12",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-12T12:00:00Z",
+  "description": "Avrora - code secure analysis + communication: нові коміти, співпіставлення з чеклістом безпеки (техборг)",
+  "createdAt": "2026-10-19T18:45:48Z",
+  "updatedAt": "2026-10-19T18:45:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152421/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151129",
+  "tempoWorklogId": 151129,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99348",
+    "id": 99348
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-12T09:00:00Z",
+  "description": "Сетап SDD підходу для системи",
+  "createdAt": "2026-10-12T12:11:50Z",
+  "updatedAt": "2026-10-13T06:04:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151129/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150722",
+  "tempoWorklogId": 150722,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99866",
+    "id": 99866
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-08",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-08T11:30:00Z",
+  "description": "Дебріф сесії: підбив підсумки мітингу, закрив питання, сформував новий список OQ для архітектора на основі питань, проговорених з Андрієм, оскільки бекенд-частина на Олександрі",
+  "createdAt": "2026-10-11T12:33:26Z",
+  "updatedAt": "2026-10-11T12:33:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150722/work-attribute-values",
+    "values": []
+  }
+}

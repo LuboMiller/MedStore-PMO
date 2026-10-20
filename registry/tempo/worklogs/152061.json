@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152061",
+  "tempoWorklogId": 152061,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100067",
+    "id": 100067
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-13",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-13T13:00:00Z",
+  "description": "Merchant cancel: idempotency, cancel route in merchant-service + gateway, e2e, review fixes, PRs",
+  "createdAt": "2026-10-19T08:16:06Z",
+  "updatedAt": "2026-10-19T08:16:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152061/work-attribute-values",
+    "values": []
+  }
+}

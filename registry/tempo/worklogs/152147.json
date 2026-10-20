@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152147",
+  "tempoWorklogId": 152147,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 4320,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "16:45:00",
+  "startDateTimeUtc": "2026-10-13T13:45:00Z",
+  "description": "CTO/Back-end Lead 1:1",
+  "createdAt": "2026-10-19T10:11:30Z",
+  "updatedAt": "2026-10-19T10:11:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152147/work-attribute-values",
+    "values": []
+  }
+}

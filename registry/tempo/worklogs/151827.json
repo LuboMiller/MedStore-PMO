@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151827",
+  "tempoWorklogId": 151827,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-12T08:00:00Z",
+  "description": "Exporting Logos + Managing Reviews on Mobile Versions of the Website",
+  "createdAt": "2026-10-16T15:24:16Z",
+  "updatedAt": "2026-10-20T06:03:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151827/work-attribute-values",
+    "values": []
+  }
+}

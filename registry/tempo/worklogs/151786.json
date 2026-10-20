@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151786",
+  "tempoWorklogId": 151786,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 27000,
+  "billableSeconds": 27000,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T05:00:00Z",
+  "description": "Правки від Продакт зі сторони добробут\nРозробка Запису + страхого випадоку",
+  "createdAt": "2026-10-16T14:42:51Z",
+  "updatedAt": "2026-10-16T14:46:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151786/work-attribute-values",
+    "values": []
+  }
+}

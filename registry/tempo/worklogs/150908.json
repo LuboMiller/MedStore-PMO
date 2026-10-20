@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150908",
+  "tempoWorklogId": 150908,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102215",
+    "id": 102215
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-06",
+  "startTime": "12:40:00",
+  "startDateTimeUtc": "2026-10-06T09:40:00Z",
+  "description": "Address PR review comments on bo #148 (4 rounds), merge develop across ms/bo/infra branches",
+  "createdAt": "2026-10-12T08:01:56Z",
+  "updatedAt": "2026-10-12T08:01:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150908/work-attribute-values",
+    "values": []
+  }
+}

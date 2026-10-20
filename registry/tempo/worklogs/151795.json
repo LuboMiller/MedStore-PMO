@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151795",
+  "tempoWorklogId": 151795,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103129",
+    "id": 103129
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-15",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-15T10:15:00Z",
+  "description": " Bookings list: filter by booking status and per-status counts",
+  "createdAt": "2026-10-16T14:53:45Z",
+  "updatedAt": "2026-10-16T14:53:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151795/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152099",
+  "tempoWorklogId": 152099,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103242",
+    "id": 103242
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-15",
+  "startTime": "15:39:00",
+  "startDateTimeUtc": "2026-10-15T12:39:00Z",
+  "description": "PR review — PST-1844 attach liability waiver to service",
+  "createdAt": "2026-10-19T08:16:14Z",
+  "updatedAt": "2026-10-19T08:16:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152099/work-attribute-values",
+    "values": []
+  }
+}

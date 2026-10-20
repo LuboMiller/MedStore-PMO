@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152372",
+  "tempoWorklogId": 152372,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-15",
+  "startTime": "11:20:00",
+  "startDateTimeUtc": "2026-10-15T08:20:00Z",
+  "description": "BE tickets status alignment",
+  "createdAt": "2026-10-19T16:51:20Z",
+  "updatedAt": "2026-10-19T16:51:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152372/work-attribute-values",
+    "values": []
+  }
+}

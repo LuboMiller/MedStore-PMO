@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152419",
+  "tempoWorklogId": 152419,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-15",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-15T07:00:00Z",
+  "description": "Аналіз усієї комунікації з клієнтом (пресейл, дзвінки 21.09 і 09.10, відповіді v16 і v18, сайт , конкуренти): карта побажань клієнта, блок Ж — 9 нових питань із пропозиціями",
+  "createdAt": "2026-10-19T17:56:29Z",
+  "updatedAt": "2026-10-19T17:56:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152419/work-attribute-values",
+    "values": []
+  }
+}

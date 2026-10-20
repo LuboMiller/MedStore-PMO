@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151395",
+  "tempoWorklogId": 151395,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102005",
+    "id": 102005
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T06:00:00Z",
+  "description": "-перероблено підхід до трекінгу відображення попапу\n-підготовка PR",
+  "createdAt": "2026-10-13T15:28:41Z",
+  "updatedAt": "2026-10-13T15:28:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151395/work-attribute-values",
+    "values": []
+  }
+}

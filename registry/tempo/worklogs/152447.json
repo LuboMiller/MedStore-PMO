@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152447",
+  "tempoWorklogId": 152447,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102078",
+    "id": 102078
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-16",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-16T12:00:00Z",
+  "description": "MediaCache: дослідження: Підсумки експерименту з медіакешем: типи файлів, проходження знеособлення",
+  "createdAt": "2026-10-19T18:46:02Z",
+  "updatedAt": "2026-10-19T18:46:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152447/work-attribute-values",
+    "values": []
+  }
+}

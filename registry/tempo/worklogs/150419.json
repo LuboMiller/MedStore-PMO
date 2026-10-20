@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150419",
+  "tempoWorklogId": 150419,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102915",
+    "id": 102915
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-08",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-08T08:30:00Z",
+  "description": "Приховання блоку Оплату частинами при відсутній наявності товару ",
+  "createdAt": "2026-10-08T12:54:46Z",
+  "updatedAt": "2026-10-08T12:54:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150419/work-attribute-values",
+    "values": []
+  }
+}

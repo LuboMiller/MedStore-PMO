@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152337",
+  "tempoWorklogId": 152337,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101351",
+    "id": 101351
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-12",
+  "startTime": "19:00:00",
+  "startDateTimeUtc": "2026-10-12T16:00:00Z",
+  "description": "planning: development phase  postpone (2w)",
+  "createdAt": "2026-10-19T16:51:08Z",
+  "updatedAt": "2026-10-19T16:51:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152337/work-attribute-values",
+    "values": []
+  }
+}

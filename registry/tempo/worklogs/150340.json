@@ -6,13 +6,13 @@
     "id": 32813
   },
   "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "billableSeconds": 0,
   "startDate": "2026-10-07",
   "startTime": "12:00:00",
-  "startDateTimeUtc": "2026-10-07T10:00:00Z",
+  "startDateTimeUtc": "2026-10-07T09:00:00Z",
   "description": "Мітинг та заповнення Status Syns",
   "createdAt": "2026-10-07T16:46:49Z",
-  "updatedAt": "2026-10-07T16:46:49Z",
+  "updatedAt": "2026-10-13T06:03:58Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
     "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"

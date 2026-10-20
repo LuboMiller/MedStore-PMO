@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152485",
+  "tempoWorklogId": 152485,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-12",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-12T09:00:00Z",
+  "description": "Розведення CR із сторони замовника",
+  "createdAt": "2026-10-20T07:22:18Z",
+  "updatedAt": "2026-10-20T07:22:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152485/work-attribute-values",
+    "values": []
+  }
+}

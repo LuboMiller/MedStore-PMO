@@ -6,13 +6,13 @@
     "id": 59530
   },
   "timeSpentSeconds": 7200,
-  "billableSeconds": 7200,
+  "billableSeconds": 0,
   "startDate": "2026-10-07",
   "startTime": "12:30:00",
   "startDateTimeUtc": "2026-10-07T09:30:00Z",
   "description": "PreSale Cher17 loyalty program ",
   "createdAt": "2026-10-08T06:27:56Z",
-  "updatedAt": "2026-10-08T06:27:56Z",
+  "updatedAt": "2026-10-13T06:04:36Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
     "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"

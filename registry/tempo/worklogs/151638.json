@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151638",
+  "tempoWorklogId": 151638,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89531",
+    "id": 89531
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-15",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-15T08:00:00Z",
+  "description": "Finilize FA-24",
+  "createdAt": "2026-10-15T09:33:41Z",
+  "updatedAt": "2026-10-15T09:33:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151638/work-attribute-values",
+    "values": []
+  }
+}

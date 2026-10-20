@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150977",
+  "tempoWorklogId": 150977,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102765",
+    "id": 102765
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-06",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-06T06:15:00Z",
+  "description": "Intuit OAuth client: authorize URL, code exchange, refresh, revoke (§4)",
+  "createdAt": "2026-10-12T11:23:08Z",
+  "updatedAt": "2026-10-12T11:23:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150977/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152527",
+  "tempoWorklogId": 152527,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 273600,
+  "startDate": "2026-10-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
+  "description": "- Проведено сінк із командою Totis для обговорення поточних задач та узгодження подальшої роботи.\n- Доопрацювала розділ Brands.\n- Завершила весь обсяг робіт по розділу Sellers та передала на рев’ю.",
+  "createdAt": "2026-10-01T15:28:19Z",
+  "updatedAt": "2026-10-20T09:30:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152527/work-attribute-values",
+    "values": []
+  }
+}

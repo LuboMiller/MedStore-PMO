@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151773",
+  "tempoWorklogId": 151773,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103459",
+    "id": 103459
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-16",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-16T09:15:00Z",
+  "description": "Resource can be deleted despite active AwaitingConfirmation and Confirmed bookings",
+  "createdAt": "2026-10-16T13:29:41Z",
+  "updatedAt": "2026-10-16T13:29:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151773/work-attribute-values",
+    "values": []
+  }
+}

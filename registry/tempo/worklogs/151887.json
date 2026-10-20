@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151887",
+  "tempoWorklogId": 151887,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92843",
+    "id": 92843
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "08:35:00",
+  "startDateTimeUtc": "2026-10-12T05:35:00Z",
+  "description": "Рефактор тестиів, інвестігейт, реестімейт планів",
+  "createdAt": "2026-10-18T20:22:14Z",
+  "updatedAt": "2026-10-20T06:04:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:eec299b8-5455-48b6-bbef-92c7eda17f27",
+    "accountId": "712020:eec299b8-5455-48b6-bbef-92c7eda17f27"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151887/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150736",
+  "tempoWorklogId": 150736,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92843",
+    "id": 92843
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "Робота над рефакторінгом тестів",
+  "createdAt": "2026-10-11T19:56:03Z",
+  "updatedAt": "2026-10-13T06:04:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:eec299b8-5455-48b6-bbef-92c7eda17f27",
+    "accountId": "712020:eec299b8-5455-48b6-bbef-92c7eda17f27"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150736/work-attribute-values",
+    "values": []
+  }
+}

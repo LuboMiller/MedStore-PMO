@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151163",
+  "tempoWorklogId": 151163,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T06:00:00Z",
+  "description": "- avrora | mobile daily\n- MOB-4439 Smartico requests issue\n- MOB-4424 Loyalty Card. Benefit store. Coupon scrolling is not smooth\n- MOB-4440 Checkout. The promocode bottom sheet closes with the header stuck at the bottom",
+  "createdAt": "2026-10-12T15:25:07Z",
+  "updatedAt": "2026-10-12T15:25:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151163/work-attribute-values",
+    "values": []
+  }
+}

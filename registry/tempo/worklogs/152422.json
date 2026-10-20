@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152422",
+  "tempoWorklogId": 152422,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98642",
+    "id": 98642
+  },
+  "timeSpentSeconds": 6300,
+  "billableSeconds": 6300,
+  "startDate": "2026-10-12",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-12T12:00:00Z",
+  "description": "Золота когорта: розбір, переліки кодів, критерії приймання: зустріч + фоллоу-ап (https://app.sparkmailapp.com/web-share/oY1GTJnK1Qr55l3UOrZ1_Cy-vgZHfVrmCeXI5TgI) + питання клініцистів у прогріві, відмови як рекламації",
+  "createdAt": "2026-10-19T18:45:48Z",
+  "updatedAt": "2026-10-19T18:45:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152422/work-attribute-values",
+    "values": []
+  }
+}

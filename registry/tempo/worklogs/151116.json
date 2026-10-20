@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151116",
+  "tempoWorklogId": 151116,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-09",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-09T06:30:00Z",
+  "description": "закомітився віддати UAT збірку колі, побудувати роботу і оновити білди для UAT",
+  "createdAt": "2026-10-12T11:59:55Z",
+  "updatedAt": "2026-10-12T11:59:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151116/work-attribute-values",
+    "values": []
+  }
+}

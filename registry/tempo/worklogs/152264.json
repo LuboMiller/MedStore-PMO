@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152264",
+  "tempoWorklogId": 152264,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-16",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-16T13:00:00Z",
+  "description": "Перегляд завдання по дизайну",
+  "createdAt": "2026-10-19T14:22:27Z",
+  "updatedAt": "2026-10-19T14:22:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152264/work-attribute-values",
+    "values": []
+  }
+}

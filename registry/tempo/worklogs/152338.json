@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152338",
+  "tempoWorklogId": 152338,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 450,
+  "billableSeconds": 450,
+  "startDate": "2026-10-13",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-13T06:15:00Z",
+  "description": "пошта",
+  "createdAt": "2026-10-19T16:51:09Z",
+  "updatedAt": "2026-10-19T16:51:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152338/work-attribute-values",
+    "values": []
+  }
+}

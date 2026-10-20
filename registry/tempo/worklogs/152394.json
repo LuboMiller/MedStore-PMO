@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152394",
+  "tempoWorklogId": 152394,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/76030",
+    "id": 76030
+  },
+  "timeSpentSeconds": 3240,
+  "billableSeconds": 3240,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T05:00:00Z",
+  "description": "designs revirew",
+  "createdAt": "2026-10-19T16:54:04Z",
+  "updatedAt": "2026-10-19T16:54:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152394/work-attribute-values",
+    "values": []
+  }
+}

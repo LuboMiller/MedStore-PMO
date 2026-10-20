@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152172",
+  "tempoWorklogId": 152172,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103304",
+    "id": 103304
+  },
+  "timeSpentSeconds": 1920,
+  "billableSeconds": 1920,
+  "startDate": "2026-10-15",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-15T11:00:00Z",
+  "description": "Veselka CMS",
+  "createdAt": "2026-10-19T10:11:42Z",
+  "updatedAt": "2026-10-19T10:11:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152172/work-attribute-values",
+    "values": []
+  }
+}

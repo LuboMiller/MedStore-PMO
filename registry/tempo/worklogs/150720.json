@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150720",
+  "tempoWorklogId": 150720,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-07",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-07T14:00:00Z",
+  "description": "current design review",
+  "createdAt": "2026-10-11T12:30:36Z",
+  "updatedAt": "2026-10-11T12:30:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150720/work-attribute-values",
+    "values": []
+  }
+}

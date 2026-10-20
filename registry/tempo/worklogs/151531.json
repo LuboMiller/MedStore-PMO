@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151531",
+  "tempoWorklogId": 151531,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-13T06:00:00Z",
+  "description": "Agrigator || Flutter sync",
+  "createdAt": "2026-10-14T09:56:58Z",
+  "updatedAt": "2026-10-14T09:56:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151531/work-attribute-values",
+    "values": []
+  }
+}

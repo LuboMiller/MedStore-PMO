@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150549",
+  "tempoWorklogId": 150549,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69194",
+    "id": 69194
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-06",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-06T09:15:00Z",
+  "description": "\nОбговорення MVP по Дитячій картці",
+  "createdAt": "2026-10-09T08:49:09Z",
+  "updatedAt": "2026-10-09T08:49:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150549/work-attribute-values",
+    "values": []
+  }
+}

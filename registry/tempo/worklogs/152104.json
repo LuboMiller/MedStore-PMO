@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152104",
+  "tempoWorklogId": 152104,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90189",
+    "id": 90189
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-16T11:00:00Z",
+  "description": "Чернетка інструкції (playbook) для юзабіліті-тестів прототипу",
+  "createdAt": "2026-10-19T08:43:16Z",
+  "updatedAt": "2026-10-19T08:43:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2cfeb8869dd0e78a03b04",
+    "accountId": "5cc2cfeb8869dd0e78a03b04"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152104/work-attribute-values",
+    "values": []
+  }
+}

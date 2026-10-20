@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150717",
+  "tempoWorklogId": 150717,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97836",
+    "id": 97836
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-07",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-07T06:00:00Z",
+  "description": "Worked with the repository within the task scope: ran specs through gates, closed previous open questions, raised new ones, fixed logical inconsistencies.",
+  "createdAt": "2026-10-11T12:27:21Z",
+  "updatedAt": "2026-10-11T12:27:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150717/work-attribute-values",
+    "values": []
+  }
+}

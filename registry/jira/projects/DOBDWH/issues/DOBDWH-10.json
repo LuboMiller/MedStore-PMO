@@ -2,10 +2,10 @@
   "key": "DOBDWH-10",
   "id": "98643",
   "summary": "Пілот: розгортання, інтерфейс, прогін сценаріїв",
-  "status": "Backlog",
+  "status": "In Progress",
   "issuetype": "Task",
-  "assignee_account_id": null,
-  "assignee_display": null,
+  "assignee_account_id": "712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+  "assignee_display": "Dmytro Yefimenko",
   "parent_key": "DOBDWH-30",
   "priority": "Medium",
   "labels": [],
@@ -14,20 +14,22 @@
     "version": 1,
     "content": []
   },
-  "jira_updated": "2026-10-09T11:58:49.672+0300",
+  "jira_updated": "2026-10-20T03:55:22.339+0300",
   "jira_created": "2026-08-18T18:16:18.441+0300",
   "raw_fields": {
     "timetracking": {
       "originalEstimate": "1w",
-      "remainingEstimate": "1w",
+      "remainingEstimate": "2d 6h 15m",
+      "timeSpent": "2d 1h 45m",
       "originalEstimateSeconds": 144000,
-      "remainingEstimateSeconds": 144000
+      "remainingEstimateSeconds": 80100,
+      "timeSpentSeconds": 63900
     },
     "timeoriginalestimate": 144000,
-    "timespent": null,
+    "timespent": 63900,
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "3f7957bbcd0790b1",
-  "local_updated": "2026-10-09T08:58:58.286290+00:00"
+  "content_hash": "8b88ab5081ea8edd",
+  "local_updated": "2026-10-20T09:38:23.557938+00:00"
 }

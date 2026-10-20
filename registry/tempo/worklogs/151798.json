@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151798",
+  "tempoWorklogId": 151798,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103222",
+    "id": 103222
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-14",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-14T07:45:00Z",
+  "description": " Extend booking payment/pricing response for Payment info block",
+  "createdAt": "2026-10-16T14:55:26Z",
+  "updatedAt": "2026-10-16T14:55:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151798/work-attribute-values",
+    "values": []
+  }
+}

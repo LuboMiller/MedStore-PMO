@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151528",
+  "tempoWorklogId": 151528,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "prymak-internal-sync ",
+  "createdAt": "2026-10-14T09:55:32Z",
+  "updatedAt": "2026-10-14T09:55:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151528/work-attribute-values",
+    "values": []
+  }
+}

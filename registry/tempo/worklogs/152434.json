@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152434",
+  "tempoWorklogId": 152434,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98641",
+    "id": 98641
+  },
+  "timeSpentSeconds": 8400,
+  "billableSeconds": 8400,
+  "startDate": "2026-10-14",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-14T12:00:00Z",
+  "description": "Знеособлення: правила, модель, контрольна вибірка, вимір повноти: Знеособлення корпусу: аналіз якості на вивантаженні, правка промпта, deid-kit, вибір локальної моделі, прогони блоків з обліком витрат API, перевірка хибних телефонів",
+  "createdAt": "2026-10-19T18:45:56Z",
+  "updatedAt": "2026-10-19T18:45:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152434/work-attribute-values",
+    "values": []
+  }
+}

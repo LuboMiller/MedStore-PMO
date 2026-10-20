@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151165",
+  "tempoWorklogId": 151165,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-05",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-05T12:00:00Z",
+  "description": "Avrora - Фронт-статистика: таблицю мапінгу ДС і картки ПО внесено в контракт, оновлено Events_structure до v2.4 і parquet-контракт до v2.3 (додаткові поля стали string), перегенеровано семпли, зібрано пакети для фронту, беку і ДС. Перевірено розбіжність по logout і fcm, підготовлено повідомлення Михайлу і Мар'яні; розібрано нові xlsx (вихід і fcm додані в мапінг, розбіжностей карток 2 замість 8) і переписки з Мар'яною та мобайлом. Виправлено payload fcm, оновлено документи і пакети",
+  "createdAt": "2026-10-12T15:37:22Z",
+  "updatedAt": "2026-10-12T15:37:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151165/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150800",
+  "tempoWorklogId": 150800,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103053",
+    "id": 103053
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-12T12:00:00Z",
+  "description": "МедДВХ (обговорення прикладів золотої когорти)",
+  "createdAt": "2026-10-12T06:08:44Z",
+  "updatedAt": "2026-10-12T06:08:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150800/work-attribute-values",
+    "values": []
+  }
+}

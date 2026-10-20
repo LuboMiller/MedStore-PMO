@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152108",
+  "tempoWorklogId": 152108,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/36369",
+    "id": 36369
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "-Підготовка специфікацій",
+  "createdAt": "2026-10-19T08:50:10Z",
+  "updatedAt": "2026-10-19T08:50:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2cfeb8869dd0e78a03b04",
+    "accountId": "5cc2cfeb8869dd0e78a03b04"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152108/work-attribute-values",
+    "values": []
+  }
+}

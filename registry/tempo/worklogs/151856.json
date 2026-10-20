@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151856",
+  "tempoWorklogId": 151856,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-16",
+  "startTime": "09:45:00",
+  "startDateTimeUtc": "2026-10-16T06:45:00Z",
+  "description": "Reviewed updated project requirements and client materials in Miro. Worked on updating wireframes and user flows for Epics 1–4.",
+  "createdAt": "2026-10-16T18:38:03Z",
+  "updatedAt": "2026-10-16T18:38:03Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151856/work-attribute-values",
+    "values": []
+  }
+}

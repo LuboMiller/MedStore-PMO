@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150744",
+  "tempoWorklogId": 150744,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100586",
+    "id": 100586
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-06",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-06T10:00:00Z",
+  "description": "Виконання та перевірка плану, впровадження нового функціоналу з урахуванням вже чинного, тестування, та інші задачі",
+  "createdAt": "2026-10-11T20:02:15Z",
+  "updatedAt": "2026-10-11T20:02:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:eec299b8-5455-48b6-bbef-92c7eda17f27",
+    "accountId": "712020:eec299b8-5455-48b6-bbef-92c7eda17f27"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150744/work-attribute-values",
+    "values": []
+  }
+}

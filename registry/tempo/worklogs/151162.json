@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151162",
+  "tempoWorklogId": 151162,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103123",
+    "id": 103123
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-12T12:00:00Z",
+  "description": "Відновлення старих іконок",
+  "createdAt": "2026-10-12T15:21:16Z",
+  "updatedAt": "2026-10-12T15:21:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151162/work-attribute-values",
+    "values": []
+  }
+}

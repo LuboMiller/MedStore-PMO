@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152134",
+  "tempoWorklogId": 152134,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40999",
+    "id": 40999
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-12",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-11T21:00:00Z",
+  "description": "Chart Libraries Review",
+  "createdAt": "2026-10-19T10:11:23Z",
+  "updatedAt": "2026-10-19T10:11:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152134/work-attribute-values",
+    "values": []
+  }
+}

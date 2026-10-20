@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151416",
+  "tempoWorklogId": 151416,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101950",
+    "id": 101950
+  },
+  "timeSpentSeconds": 16200,
+  "billableSeconds": 16200,
+  "startDate": "2026-10-13",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-13T08:30:00Z",
+  "description": "VESELKA-485: [FE] [F-06.01] Переглянути список лікарів",
+  "createdAt": "2026-10-13T16:29:39Z",
+  "updatedAt": "2026-10-13T16:29:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151416/work-attribute-values",
+    "values": []
+  }
+}

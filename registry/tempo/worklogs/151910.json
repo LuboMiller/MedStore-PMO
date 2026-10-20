@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151910",
+  "tempoWorklogId": 151910,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75347",
+    "id": 75347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "MOB-4288 new analytics: FB->BQ setup/investigation\nMOB-4431 android shimmer issue",
+  "createdAt": "2026-10-18T21:56:00Z",
+  "updatedAt": "2026-10-18T21:56:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6cc65fc-d88c-4b83-b421-8973371c405b",
+    "accountId": "712020:f6cc65fc-d88c-4b83-b421-8973371c405b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151910/work-attribute-values",
+    "values": []
+  }
+}

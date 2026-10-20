@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151774",
+  "tempoWorklogId": 151774,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102067",
+    "id": 102067
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-16",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-16T11:15:00Z",
+  "description": " Create portal users active by default",
+  "createdAt": "2026-10-16T13:30:20Z",
+  "updatedAt": "2026-10-16T13:30:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151774/work-attribute-values",
+    "values": []
+  }
+}

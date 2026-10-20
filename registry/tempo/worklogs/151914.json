@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151914",
+  "tempoWorklogId": 151914,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101221",
+    "id": 101221
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-16T08:00:00Z",
+  "description": "Impl",
+  "createdAt": "2026-10-18T22:45:16Z",
+  "updatedAt": "2026-10-18T22:45:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9167ae35-6749-4236-9b45-85a6e502dbc0",
+    "accountId": "712020:9167ae35-6749-4236-9b45-85a6e502dbc0"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151914/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152238",
+  "tempoWorklogId": 152238,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-19T13:30:00Z",
+  "description": "Дзвінок з дизайнером і пм",
+  "createdAt": "2026-10-19T14:08:24Z",
+  "updatedAt": "2026-10-19T14:08:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152238/work-attribute-values",
+    "values": []
+  }
+}

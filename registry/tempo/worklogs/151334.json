@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151334",
+  "tempoWorklogId": 151334,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-13T09:00:00Z",
+  "description": "MOB-4448: [AOS] C&C Promocode Flow. The percentage value is displayed when applying a PERCENT type discount",
+  "createdAt": "2026-10-13T11:52:58Z",
+  "updatedAt": "2026-10-13T11:52:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151334/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152204",
+  "tempoWorklogId": 152204,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66742",
+    "id": 66742
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-13",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-13T11:00:00Z",
+  "description": "Focus time / Survey Design",
+  "createdAt": "2026-10-19T11:32:40Z",
+  "updatedAt": "2026-10-19T11:32:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152204/work-attribute-values",
+    "values": []
+  }
+}

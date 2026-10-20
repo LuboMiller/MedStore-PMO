@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150992",
+  "tempoWorklogId": 150992,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99519",
+    "id": 99519
+  },
+  "timeSpentSeconds": 720,
+  "billableSeconds": 720,
+  "startDate": "2026-10-05",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-04T21:00:00Z",
+  "description": "QBO WBS Review",
+  "createdAt": "2026-10-12T11:41:43Z",
+  "updatedAt": "2026-10-12T11:41:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150992/work-attribute-values",
+    "values": []
+  }
+}

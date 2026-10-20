@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151285",
+  "tempoWorklogId": 151285,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93874",
+    "id": 93874
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-07",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-07T09:15:00Z",
+  "description": "merchant-portal-qa-round - Activity: Bitbucket",
+  "createdAt": "2026-10-13T07:41:55Z",
+  "updatedAt": "2026-10-13T07:43:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151285/work-attribute-values",
+    "values": []
+  }
+}

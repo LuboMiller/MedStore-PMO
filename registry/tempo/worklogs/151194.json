@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151194",
+  "tempoWorklogId": 151194,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-11",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-11T14:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: виправлення помилок розбору + порівняльні тести Qwen3 4b/8b/14b/30b-a3b, phi4:14b, mistral-small3.2:24b + обгортка для моделей розбору на vm-llm + оптимізація пошукової БД + тести достатності аналітів/векторів/чанків на обмеженому (12% скоупі) - недостатня кількість, переробляти",
+  "createdAt": "2026-10-12T15:37:38Z",
+  "updatedAt": "2026-10-12T15:39:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151194/work-attribute-values",
+    "values": []
+  }
+}

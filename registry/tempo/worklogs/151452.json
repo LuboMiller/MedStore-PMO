@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151452",
+  "tempoWorklogId": 151452,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93530",
+    "id": 93530
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-15",
+  "startTime": "15:45:00",
+  "startDateTimeUtc": "2026-10-15T12:45:00Z",
+  "description": "Комунікація, опис, вичитка, фіналізація",
+  "createdAt": "2026-10-13T19:35:07Z",
+  "updatedAt": "2026-10-15T15:23:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151452/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151562",
+  "tempoWorklogId": 151562,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93019",
+    "id": 93019
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-14",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-14T12:00:00Z",
+  "description": "Invistigating and reporting issues in Jira: PST-1869",
+  "createdAt": "2026-10-14T13:52:48Z",
+  "updatedAt": "2026-10-14T13:52:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151562/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150907",
+  "tempoWorklogId": 150907,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103120",
+    "id": 103120
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-07",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-07T07:30:00Z",
+  "description": "Reset gateway develop-heroku CI slot (gw #45), document staging promotion and v106 Heroku dev leak",
+  "createdAt": "2026-10-12T08:01:57Z",
+  "updatedAt": "2026-10-12T08:01:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150907/work-attribute-values",
+    "values": []
+  }
+}

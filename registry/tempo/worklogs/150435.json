@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150435",
+  "tempoWorklogId": 150435,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28924",
+    "id": 28924
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-09",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-08T21:00:00Z",
+  "description": "Leave #4939095",
+  "createdAt": "2026-10-08T14:52:12Z",
+  "updatedAt": "2026-10-08T14:52:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=62bc40d6118b20bee2bc051e",
+    "accountId": "62bc40d6118b20bee2bc051e"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150435/work-attribute-values",
+    "values": []
+  }
+}

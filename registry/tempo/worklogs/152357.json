@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152357",
+  "tempoWorklogId": 152357,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/38154",
+    "id": 38154
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-14",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-14T09:45:00Z",
+  "description": "статус підписання акту",
+  "createdAt": "2026-10-19T16:51:15Z",
+  "updatedAt": "2026-10-20T06:03:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152357/work-attribute-values",
+    "values": []
+  }
+}

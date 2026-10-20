@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150933",
+  "tempoWorklogId": 150933,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-05T09:00:00Z",
+  "description": "MOB-6501: Аналіз тікета й макетів «Рік у INTERTOP Plus»: скоуп екранів, залежність від MOB-6503, джерела вимог.",
+  "createdAt": "2026-10-12T08:15:40Z",
+  "updatedAt": "2026-10-12T08:15:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150933/work-attribute-values",
+    "values": []
+  }
+}

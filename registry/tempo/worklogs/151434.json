@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151434",
+  "tempoWorklogId": 151434,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-05",
+  "startTime": "15:45:00",
+  "startDateTimeUtc": "2026-10-05T12:45:00Z",
+  "description": "Зміни по Агіргатору",
+  "createdAt": "2026-10-13T19:23:34Z",
+  "updatedAt": "2026-10-13T19:23:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151434/work-attribute-values",
+    "values": []
+  }
+}

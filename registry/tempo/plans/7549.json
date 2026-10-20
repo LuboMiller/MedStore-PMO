@@ -1,18 +1,18 @@
 {
   "self": "https://api.eu.tempo.io/4/plans/7549",
   "id": 7549,
-  "startDate": "2026-10-08",
-  "endDate": "2026-10-09",
+  "startDate": "2026-10-19",
+  "endDate": "2026-10-20",
   "description": "Leave #4914623",
   "createdAt": "2026-10-05T07:07:25Z",
-  "updatedAt": "2026-10-05T07:07:25Z",
+  "updatedAt": "2026-10-20T09:07:21Z",
   "plannedSecondsPerDay": 28800,
   "totalPlannedSeconds": 57600,
   "effortPersistenceType": "SECONDS_PER_DAY",
   "syncSource": "NONE",
   "includeNonWorkingDays": false,
   "rule": "NEVER",
-  "recurrenceEndDate": "2026-10-09",
+  "recurrenceEndDate": "2026-10-20",
   "startTime": "09:00",
   "assignee": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
@@ -26,9 +26,9 @@
   },
   "plannedTime": {
     "metadata": {
-      "all": "https://api.eu.tempo.io/4/plans/7549?from=2026-10-08&to=2026-10-09"
+      "all": "https://api.eu.tempo.io/4/plans/7549?from=2026-10-19&to=2026-10-20"
     }
   },
-  "totalPlannedSecondsInScope": 28800,
+  "totalPlannedSecondsInScope": 57600,
   "planCreatorId": "5cc2cfeb8869dd0e78a03b04"
 }

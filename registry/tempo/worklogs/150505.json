@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150505",
+  "tempoWorklogId": 150505,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97492",
+    "id": 97492
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-09",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-09T08:00:00Z",
+  "description": "Dnipro-M: review design",
+  "createdAt": "2026-10-09T07:05:21Z",
+  "updatedAt": "2026-10-09T07:36:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150505/work-attribute-values",
+    "values": []
+  }
+}

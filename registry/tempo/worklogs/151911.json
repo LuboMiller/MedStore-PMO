@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151911",
+  "tempoWorklogId": 151911,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75347",
+    "id": 75347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "MOB-4431 android shimmer issue\nMOB-4449 aos repo bitbucket -> gitlab\nMOB-4368 [AOS] Benefit Store. Loyalty Card. Internet connection error screen is displayed when the WebSocket reconnects\nMOB-4447 [AOS] Unexpected predictive back animation",
+  "createdAt": "2026-10-18T21:56:01Z",
+  "updatedAt": "2026-10-18T21:56:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6cc65fc-d88c-4b83-b421-8973371c405b",
+    "accountId": "712020:f6cc65fc-d88c-4b83-b421-8973371c405b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151911/work-attribute-values",
+    "values": []
+  }
+}

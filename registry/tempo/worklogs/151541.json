@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151541",
+  "tempoWorklogId": 151541,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102705",
+    "id": 102705
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T05:00:00Z",
+  "description": "Fix and Finish with custom icon and info widget",
+  "createdAt": "2026-10-14T10:56:12Z",
+  "updatedAt": "2026-10-14T10:56:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151541/work-attribute-values",
+    "values": []
+  }
+}

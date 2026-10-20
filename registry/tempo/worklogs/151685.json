@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151685",
+  "tempoWorklogId": 151685,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/29447",
+    "id": 29447
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "Фікс проблеми з неможливістю встановлення застосунку, зумовленого оновленням modiface бібліотеки. Оновлена бібліотека містила неправильно запаковані файли і проблема проявилася лише на версії з firebase",
+  "createdAt": "2026-10-15T13:43:23Z",
+  "updatedAt": "2026-10-15T13:43:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151685/work-attribute-values",
+    "values": []
+  }
+}

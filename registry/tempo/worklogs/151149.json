@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151149",
+  "tempoWorklogId": 151149,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/70725",
+    "id": 70725
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-08",
+  "startTime": "15:45:00",
+  "startDateTimeUtc": "2026-10-08T12:45:00Z",
+  "description": "F-13.5 - Manage Service Sections\nF-13.1 - Manage Resource types",
+  "createdAt": "2026-10-09T08:53:37Z",
+  "updatedAt": "2026-10-12T13:56:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151149/work-attribute-values",
+    "values": []
+  }
+}

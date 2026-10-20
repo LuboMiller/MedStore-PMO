@@ -4,8 +4,8 @@
   "startDate": "2026-10-01",
   "endDate": "2027-07-31",
   "createdAt": "2026-08-24T12:19:28Z",
-  "updatedAt": "2026-09-29T20:24:58Z",
-  "plannedSecondsPerDay": 3600,
+  "updatedAt": "2026-10-13T14:02:16Z",
+  "plannedSecondsPerDay": 1800,
   "effortPersistenceType": "SECONDS_PER_DAY",
   "syncSource": "NONE",
   "includeNonWorkingDays": false,
@@ -27,6 +27,6 @@
       "all": "https://api.eu.tempo.io/4/plans/7185?from=2026-10-01&to=2027-07-31"
     }
   },
-  "totalPlannedSecondsInScope": 21600,
+  "totalPlannedSecondsInScope": 25200,
   "planCreatorId": "5cc2cfeb8869dd0e78a03b04"
 }

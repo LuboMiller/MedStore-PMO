@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152005",
+  "tempoWorklogId": 152005,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101923",
+    "id": 101923
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-13",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-13T12:00:00Z",
+  "description": "-інвестігейт вимог, запуск флоу через SDD, проходження перших етапів флоу",
+  "createdAt": "2026-10-19T07:31:27Z",
+  "updatedAt": "2026-10-19T07:31:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152005/work-attribute-values",
+    "values": []
+  }
+}

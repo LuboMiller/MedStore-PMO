@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152446",
+  "tempoWorklogId": 152446,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98636",
+    "id": 98636
+  },
+  "timeSpentSeconds": 7740,
+  "billableSeconds": 7740,
+  "startDate": "2026-10-16",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-16T12:00:00Z",
+  "description": "Доступ до даних, довідники, передумови: Зустріч по довідниках і реєстрах + пересиділи + лист про ітоги зустрічі (https://app.sparkmailapp.com/web-share/8J3c0IsQ36wlRJh6-ebCzolL9xMbFvwocDfZBhlp)",
+  "createdAt": "2026-10-19T18:46:02Z",
+  "updatedAt": "2026-10-19T18:46:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152446/work-attribute-values",
+    "values": []
+  }
+}

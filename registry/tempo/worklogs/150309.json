@@ -6,13 +6,13 @@
     "id": 99922
   },
   "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "billableSeconds": 0,
   "startDate": "2026-10-07",
   "startTime": "08:00:00",
   "startDateTimeUtc": "2026-10-07T05:00:00Z",
   "description": "Виправлення помилок pipeline для aOS",
   "createdAt": "2026-10-07T13:51:00Z",
-  "updatedAt": "2026-10-07T13:51:22Z",
+  "updatedAt": "2026-10-13T06:04:21Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
     "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"

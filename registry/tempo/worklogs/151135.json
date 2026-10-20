@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151135",
+  "tempoWorklogId": 151135,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103134",
+    "id": 103134
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "Валідація оцінки на інтеграцію пристроїв в застосунок",
+  "createdAt": "2026-10-12T13:24:06Z",
+  "updatedAt": "2026-10-12T13:24:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:0d3f0013-48bc-4e18-b359-58d1b14258ed",
+    "accountId": "712020:0d3f0013-48bc-4e18-b359-58d1b14258ed"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151135/work-attribute-values",
+    "values": []
+  }
+}

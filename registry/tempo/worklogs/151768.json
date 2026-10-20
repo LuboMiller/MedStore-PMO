@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151768",
+  "tempoWorklogId": 151768,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103159",
+    "id": 103159
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "Створення UX елементу прогортування бонусів",
+  "createdAt": "2026-10-16T12:56:55Z",
+  "updatedAt": "2026-10-16T12:56:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151768/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150665",
+  "tempoWorklogId": 150665,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90149",
+    "id": 90149
+  },
+  "timeSpentSeconds": 13500,
+  "billableSeconds": 13500,
+  "startDate": "2026-10-08",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-08T06:45:00Z",
+  "description": "Designed Check-in flows and updated UI screens.",
+  "createdAt": "2026-10-09T16:37:45Z",
+  "updatedAt": "2026-10-09T16:38:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150665/work-attribute-values",
+    "values": []
+  }
+}

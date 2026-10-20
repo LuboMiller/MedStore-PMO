@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151832",
+  "tempoWorklogId": 151832,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100450",
+    "id": 100450
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-16",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-16T08:00:00Z",
+  "description": "Adding Updated Graphic Elements",
+  "createdAt": "2026-10-16T15:32:46Z",
+  "updatedAt": "2026-10-20T06:03:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151832/work-attribute-values",
+    "values": []
+  }
+}

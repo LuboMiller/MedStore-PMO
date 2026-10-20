@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152468",
+  "tempoWorklogId": 152468,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/77775",
+    "id": 77775
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-19",
+  "startTime": "10:20:00",
+  "startDateTimeUtc": "2026-10-19T08:20:00Z",
+  "description": "daily, planning",
+  "createdAt": "2026-10-20T00:02:35Z",
+  "updatedAt": "2026-10-20T00:02:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152468/work-attribute-values",
+    "values": []
+  }
+}

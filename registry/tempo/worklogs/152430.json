@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152430",
+  "tempoWorklogId": 152430,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-13",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-13T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Вікно пошуку: прогрес етапів, уточнення без моделі, продовження розмови, варіанти при відмові",
+  "createdAt": "2026-10-19T18:45:54Z",
+  "updatedAt": "2026-10-19T18:45:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152430/work-attribute-values",
+    "values": []
+  }
+}

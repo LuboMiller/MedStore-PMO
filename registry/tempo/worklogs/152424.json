@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152424",
+  "tempoWorklogId": 152424,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 7800,
+  "billableSeconds": 7800,
+  "startDate": "2026-10-12",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-12T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Факти 1.3: ліпідограма і UACR з розірваних рядків, словник синонімів понять, гіпертонія як артеріальна гіпертензія, пріоритет векторизації, ремонт рекламацій",
+  "createdAt": "2026-10-19T18:45:50Z",
+  "updatedAt": "2026-10-19T18:45:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152424/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150539",
+  "tempoWorklogId": 150539,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69194",
+    "id": 69194
+  },
+  "timeSpentSeconds": 2400,
+  "billableSeconds": 2400,
+  "startDate": "2026-10-07",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-07T11:00:00Z",
+  "description": "UKRSIBBANK | Prototype & Testing sync",
+  "createdAt": "2026-10-09T08:47:31Z",
+  "updatedAt": "2026-10-09T08:47:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150539/work-attribute-values",
+    "values": []
+  }
+}

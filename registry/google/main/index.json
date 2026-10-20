@@ -3,6 +3,13 @@
   "folder_id": "1m4tbtVUaxMnR6gdt1uKkt6qJftrHRRuJ",
   "files": [
     {
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "webViewLink": "https://docs.google.com/document/d/1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw/edit?usp=drivesdk&ouid=101662441014452178645&rtpof=true&sd=true",
+      "id": "1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw",
+      "name": "discovery-sow-v1.0.docx",
+      "modifiedTime": "2026-10-09T07:46:29.184Z"
+    },
+    {
       "mimeType": "application/vnd.google-apps.spreadsheet",
       "webViewLink": "https://docs.google.com/spreadsheets/d/1nkCJrHnGvxNTECnfHjFscqXwfTYFKIElwwSqNrp20T4/edit?usp=drivesdk",
       "id": "1nkCJrHnGvxNTECnfHjFscqXwfTYFKIElwwSqNrp20T4",
@@ -15,13 +22,6 @@
       "id": "1Uc8fgkJtKwf93Xl7MsZk7HXVrwgnchPd",
       "name": "discovery-plan.md",
       "modifiedTime": "2026-09-25T08:23:00.039Z"
-    },
-    {
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "webViewLink": "https://docs.google.com/document/d/1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw/edit?usp=drivesdk&ouid=101662441014452178645&rtpof=true&sd=true",
-      "id": "1jdfx2lqjIiO4U2xnUgo6MxfJfAPeohPw",
-      "name": "discovery-sow-v1.0.docx",
-      "modifiedTime": "2026-09-25T08:00:48.748Z"
     },
     {
       "mimeType": "application/pdf",

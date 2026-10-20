@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151173",
+  "tempoWorklogId": 151173,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-06",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-06T12:00:00Z",
+  "description": "Avrora - безпека сайту та бекенду: аналіз кейсу АТБ + аналіз коду + переписка з Богдан, Алекс, Артем",
+  "createdAt": "2026-10-12T15:37:27Z",
+  "updatedAt": "2026-10-12T15:37:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151173/work-attribute-values",
+    "values": []
+  }
+}

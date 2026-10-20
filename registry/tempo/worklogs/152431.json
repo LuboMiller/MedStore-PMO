@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152431",
+  "tempoWorklogId": 152431,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102078",
+    "id": 102078
+  },
+  "timeSpentSeconds": 2100,
+  "billableSeconds": 2100,
+  "startDate": "2026-10-13",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-13T12:00:00Z",
+  "description": "MediaCache: дослідження: Медіакеш: статистика файлів (конвертація чи OCR), місце під моделі на дисках vm-db",
+  "createdAt": "2026-10-19T18:45:54Z",
+  "updatedAt": "2026-10-19T18:45:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152431/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150985",
+  "tempoWorklogId": 150985,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102989",
+    "id": 102989
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-09",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-09T12:00:00Z",
+  "description": " GET calendars returns 500 when provider grant is not found",
+  "createdAt": "2026-10-12T11:28:06Z",
+  "updatedAt": "2026-10-12T11:28:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150985/work-attribute-values",
+    "values": []
+  }
+}

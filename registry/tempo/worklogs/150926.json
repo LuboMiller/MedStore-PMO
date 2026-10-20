@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150926",
+  "tempoWorklogId": 150926,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93034",
+    "id": 93034
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-09",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-09T09:45:00Z",
+  "description": "Merchant cancellation full refund: common v0.14.0 contracts, durable backoffice refund, ms refund and audit recovery, ps-tests suite",
+  "createdAt": "2026-10-12T08:02:09Z",
+  "updatedAt": "2026-10-12T08:02:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150926/work-attribute-values",
+    "values": []
+  }
+}

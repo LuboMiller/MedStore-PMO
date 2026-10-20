@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151788",
+  "tempoWorklogId": 151788,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-16",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-16T05:00:00Z",
+  "description": "Розробка ф-лу додавання родини та послуги (каталог лікарів, клінік, послуг)",
+  "createdAt": "2026-10-16T14:44:02Z",
+  "updatedAt": "2026-10-16T14:46:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151788/work-attribute-values",
+    "values": []
+  }
+}

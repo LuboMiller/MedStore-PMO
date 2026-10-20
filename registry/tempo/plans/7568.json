@@ -1,0 +1,33 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7568",
+  "id": 7568,
+  "startDate": "2026-10-09",
+  "endDate": "2026-12-31",
+  "description": "confirmed: Loyalty program + other business improvements tasks ",
+  "createdAt": "2026-10-08T09:45:59Z",
+  "updatedAt": "2026-10-08T09:46:04Z",
+  "plannedSecondsPerDay": 28800,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": false,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-12-31",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "id": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/project/10212",
+    "id": "10212",
+    "type": "PROJECT"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7568?from=2026-10-09&to=2026-12-31"
+    }
+  },
+  "totalPlannedSecondsInScope": 230400,
+  "planCreatorId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152069",
+  "tempoWorklogId": 152069,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/96437",
+    "id": 96437
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T05:00:00Z",
+  "description": "Cancelling actor: develop merges, PR #280 review fixes, merge",
+  "createdAt": "2026-10-19T08:16:11Z",
+  "updatedAt": "2026-10-19T08:16:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152069/work-attribute-values",
+    "values": []
+  }
+}

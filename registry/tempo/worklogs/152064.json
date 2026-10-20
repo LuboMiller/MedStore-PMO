@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152064",
+  "tempoWorklogId": 152064,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100067",
+    "id": 100067
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-14",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-14T07:15:00Z",
+  "description": "Merchant cancel: develop merges",
+  "createdAt": "2026-10-19T08:16:08Z",
+  "updatedAt": "2026-10-19T08:16:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152064/work-attribute-values",
+    "values": []
+  }
+}

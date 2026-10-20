@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151019",
+  "tempoWorklogId": 151019,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101930",
+    "id": 101930
+  },
+  "timeSpentSeconds": 3120,
+  "billableSeconds": 3120,
+  "startDate": "2026-10-08",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-07T21:00:00Z",
+  "description": "Boilerplate Work — veselka-core-application-service#1",
+  "createdAt": "2026-10-12T11:41:54Z",
+  "updatedAt": "2026-10-12T11:41:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151019/work-attribute-values",
+    "values": []
+  }
+}

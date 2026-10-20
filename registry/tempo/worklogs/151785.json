@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151785",
+  "tempoWorklogId": 151785,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "Правки від Продакт зі сторони добробут",
+  "createdAt": "2026-10-16T14:42:10Z",
+  "updatedAt": "2026-10-16T14:42:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151785/work-attribute-values",
+    "values": []
+  }
+}

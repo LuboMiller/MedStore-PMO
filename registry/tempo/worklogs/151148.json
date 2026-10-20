@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151148",
+  "tempoWorklogId": 151148,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103148",
+    "id": 103148
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-07",
+  "startTime": "19:00:00",
+  "startDateTimeUtc": "2026-10-07T16:00:00Z",
+  "description": "Taxes research: playbook-research skill, FA-27 backend design, gaps, epic audit, WBS-0005, Ontario place-of-supply",
+  "createdAt": "2026-10-12T08:02:01Z",
+  "updatedAt": "2026-10-12T13:51:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151148/work-attribute-values",
+    "values": []
+  }
+}

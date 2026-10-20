@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151657",
+  "tempoWorklogId": 151657,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/52893",
+    "id": 52893
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-13T06:30:00Z",
+  "description": "- дзвінок з клієнтом;",
+  "createdAt": "2026-10-15T11:11:09Z",
+  "updatedAt": "2026-10-20T06:03:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151657/work-attribute-values",
+    "values": []
+  }
+}

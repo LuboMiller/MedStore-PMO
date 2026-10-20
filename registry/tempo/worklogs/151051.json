@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151051",
+  "tempoWorklogId": 151051,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48146",
+    "id": 48146
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-05",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-05T05:30:00Z",
+  "description": "tracking hours management between 3 designers",
+  "createdAt": "2026-10-12T11:59:33Z",
+  "updatedAt": "2026-10-12T11:59:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151051/work-attribute-values",
+    "values": []
+  }
+}

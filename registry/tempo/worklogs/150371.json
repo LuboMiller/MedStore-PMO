@@ -6,13 +6,13 @@
     "id": 100069
   },
   "timeSpentSeconds": 1800,
-  "billableSeconds": 1800,
+  "billableSeconds": 0,
   "startDate": "2026-10-08",
   "startTime": "08:00:00",
   "startDateTimeUtc": "2026-10-08T05:00:00Z",
   "description": "prices stats tc review & comm with Volodya",
   "createdAt": "2026-10-08T06:34:02Z",
-  "updatedAt": "2026-10-08T06:34:02Z",
+  "updatedAt": "2026-10-19T14:07:46Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
     "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"

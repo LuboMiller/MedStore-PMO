@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152128",
+  "tempoWorklogId": 152128,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/67972",
+    "id": 67972
+  },
+  "timeSpentSeconds": 1080,
+  "billableSeconds": 1080,
+  "startDate": "2026-10-12",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-12T08:30:00Z",
+  "description": "Energis | Daily meet",
+  "createdAt": "2026-10-19T10:11:21Z",
+  "updatedAt": "2026-10-19T10:11:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152128/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151701",
+  "tempoWorklogId": 151701,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103419",
+    "id": 103419
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-01",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-01T06:00:00Z",
+  "description": "Комунікація з Максимом по відкритому питанні щодо перевірки цін на флоу відгуку для земельних паїв. Сформувала тікет на зміни та виправлення проблем, які знайшла на фронті.",
+  "createdAt": "2026-10-05T14:24:42Z",
+  "updatedAt": "2026-10-15T15:22:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151701/work-attribute-values",
+    "values": []
+  }
+}

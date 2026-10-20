@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150788",
+  "tempoWorklogId": 150788,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39693",
+    "id": 39693
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-08",
+  "startTime": "06:15:00",
+  "startDateTimeUtc": "2026-10-08T03:15:00Z",
+  "description": "Перевірка гіпотез та альтернативних варіантів для Гугл плей",
+  "createdAt": "2026-10-12T03:16:06Z",
+  "updatedAt": "2026-10-12T03:16:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
+    "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150788/work-attribute-values",
+    "values": []
+  }
+}

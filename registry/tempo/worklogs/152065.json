@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152065",
+  "tempoWorklogId": 152065,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102219",
+    "id": 102219
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-14",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-14T08:15:00Z",
+  "description": "Mobile app Cognito auth on dev: readiness for PM, user registration smoke",
+  "createdAt": "2026-10-19T08:16:09Z",
+  "updatedAt": "2026-10-19T08:16:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152065/work-attribute-values",
+    "values": []
+  }
+}

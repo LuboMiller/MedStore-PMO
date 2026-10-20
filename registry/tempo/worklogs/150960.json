@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150960",
+  "tempoWorklogId": 150960,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99342",
+    "id": 99342
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-12T06:00:00Z",
+  "description": "Допис сторінок в конфі",
+  "createdAt": "2026-10-12T09:44:48Z",
+  "updatedAt": "2026-10-13T06:04:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150960/work-attribute-values",
+    "values": []
+  }
+}

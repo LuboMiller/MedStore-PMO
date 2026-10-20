@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150796",
+  "tempoWorklogId": 150796,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T05:00:00Z",
+  "description": "- daily \n- [MOB-4051] Click&Collect. Tapping outside the quantity counter while editing does not apply the changes \n- code review \n- fix pr and marge ",
+  "createdAt": "2026-10-12T04:26:50Z",
+  "updatedAt": "2026-10-12T04:26:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150796/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151538",
+  "tempoWorklogId": 151538,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/73243",
+    "id": 73243
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-16T06:30:00Z",
+  "description": "Align requirements after PO answers - 16.05, 16.06 ",
+  "createdAt": "2026-10-14T10:37:50Z",
+  "updatedAt": "2026-10-16T07:29:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151538/work-attribute-values",
+    "values": []
+  }
+}

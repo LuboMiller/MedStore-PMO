@@ -6,13 +6,13 @@
     "id": 86815
   },
   "timeSpentSeconds": 1800,
-  "billableSeconds": 1800,
+  "billableSeconds": 7200,
   "startDate": "2026-10-05",
   "startTime": "09:00:00",
   "startDateTimeUtc": "2026-10-05T06:00:00Z",
   "description": "Виправлення поточних 6 помилок + мерж усіх PR робіт та виправлення конфліктів",
   "createdAt": "2026-10-05T08:57:24Z",
-  "updatedAt": "2026-10-05T09:06:39Z",
+  "updatedAt": "2026-10-12T07:55:15Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
     "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"

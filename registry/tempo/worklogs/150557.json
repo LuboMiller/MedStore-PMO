@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150557",
+  "tempoWorklogId": 150557,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41588",
+    "id": 41588
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 0,
+  "startDate": "2026-10-09",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-09T11:30:00Z",
+  "description": "Align BA pipeline to clean up AI slop in prose",
+  "createdAt": "2026-10-09T08:51:13Z",
+  "updatedAt": "2026-10-13T06:03:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150557/work-attribute-values",
+    "values": []
+  }
+}

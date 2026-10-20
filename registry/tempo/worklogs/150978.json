@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150978",
+  "tempoWorklogId": 150978,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102766",
+    "id": 102766
+  },
+  "timeSpentSeconds": 17100,
+  "billableSeconds": 17100,
+  "startDate": "2026-10-06",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-06T09:15:00Z",
+  "description": "Connection service: row-locked refresh with atomic persist, 401 to `reauth_required`, disconnect (§4)",
+  "createdAt": "2026-10-12T11:23:46Z",
+  "updatedAt": "2026-10-12T11:23:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150978/work-attribute-values",
+    "values": []
+  }
+}

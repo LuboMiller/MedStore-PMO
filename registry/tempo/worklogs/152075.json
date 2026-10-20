@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152075",
+  "tempoWorklogId": 152075,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103133",
+    "id": 103133
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-15",
+  "startTime": "15:09:00",
+  "startDateTimeUtc": "2026-10-15T12:09:00Z",
+  "description": "PR review — PST-1802 services no-preference and multiple extra services",
+  "createdAt": "2026-10-19T08:16:14Z",
+  "updatedAt": "2026-10-19T08:16:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152075/work-attribute-values",
+    "values": []
+  }
+}

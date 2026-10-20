@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151792",
+  "tempoWorklogId": 151792,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103231",
+    "id": 103231
+  },
+  "timeSpentSeconds": 6300,
+  "billableSeconds": 6300,
+  "startDate": "2026-10-12",
+  "startTime": "15:15:00",
+  "startDateTimeUtc": "2026-10-12T12:15:00Z",
+  "description": "Template update returns 409 CONCURRENT_MODIFICATION when no concurrent changes were made",
+  "createdAt": "2026-10-16T14:50:01Z",
+  "updatedAt": "2026-10-16T14:50:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151792/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151699",
+  "tempoWorklogId": 151699,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103419",
+    "id": 103419
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-08",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-08T13:00:00Z",
+  "description": "Описувала КП по ід - переписувала після прийняття фінального рішення перенести на пост мвп",
+  "createdAt": "2026-10-15T15:20:28Z",
+  "updatedAt": "2026-10-15T15:20:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151699/work-attribute-values",
+    "values": []
+  }
+}

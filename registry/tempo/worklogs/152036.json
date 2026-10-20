@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152036",
+  "tempoWorklogId": 152036,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100892",
+    "id": 100892
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-13T05:30:00Z",
+  "description": "Teen Card Design and Presentation",
+  "createdAt": "2026-10-19T08:12:19Z",
+  "updatedAt": "2026-10-20T06:03:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152036/work-attribute-values",
+    "values": []
+  }
+}

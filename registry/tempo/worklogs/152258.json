@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152258",
+  "tempoWorklogId": 152258,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-14",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-14T12:30:00Z",
+  "description": "Синк із Малійчуком",
+  "createdAt": "2026-10-19T14:19:08Z",
+  "updatedAt": "2026-10-19T14:19:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152258/work-attribute-values",
+    "values": []
+  }
+}

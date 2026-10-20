@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151809",
+  "tempoWorklogId": 151809,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101396",
+    "id": 101396
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-13T12:00:00Z",
+  "description": "A funded booking draft can confirm onto an archived location",
+  "createdAt": "2026-10-16T14:59:01Z",
+  "updatedAt": "2026-10-16T14:59:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151809/work-attribute-values",
+    "values": []
+  }
+}

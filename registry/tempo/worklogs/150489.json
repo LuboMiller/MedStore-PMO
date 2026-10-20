@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150489",
+  "tempoWorklogId": 150489,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102921",
+    "id": 102921
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T06:00:00Z",
+  "description": "Опрацювання епіку [F-18.1] та додавання єкранів котрих не вистачало для логічного флоу та відображення усіх станів та варіантів ( Dark/Light Mode)",
+  "createdAt": "2026-10-08T16:53:16Z",
+  "updatedAt": "2026-10-08T16:53:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150489/work-attribute-values",
+    "values": []
+  }
+}

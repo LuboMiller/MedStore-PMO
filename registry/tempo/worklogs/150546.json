@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150546",
+  "tempoWorklogId": 150546,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69194",
+    "id": 69194
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-07",
+  "startTime": "15:10:00",
+  "startDateTimeUtc": "2026-10-07T13:10:00Z",
+  "description": "USB Internal Team Sync",
+  "createdAt": "2026-10-09T08:48:37Z",
+  "updatedAt": "2026-10-09T08:48:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150546/work-attribute-values",
+    "values": []
+  }
+}

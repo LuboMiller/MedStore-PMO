@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152439",
+  "tempoWorklogId": 152439,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98642",
+    "id": 98642
+  },
+  "timeSpentSeconds": 5700,
+  "billableSeconds": 5700,
+  "startDate": "2026-10-15",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-15T12:00:00Z",
+  "description": "Золота когорта: розбір, переліки кодів, критерії приймання: Золота когорта: перелік неуспішних питань, відмови як рекламації агента, статистика когорти в прогріві, мета 100% проходження",
+  "createdAt": "2026-10-19T18:45:58Z",
+  "updatedAt": "2026-10-19T18:45:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152439/work-attribute-values",
+    "values": []
+  }
+}

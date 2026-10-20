@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151708",
+  "tempoWorklogId": 151708,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41588",
+    "id": 41588
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-16",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-16T05:00:00Z",
+  "description": "Review",
+  "createdAt": "2026-10-15T17:11:43Z",
+  "updatedAt": "2026-10-20T06:02:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151708/work-attribute-values",
+    "values": []
+  }
+}

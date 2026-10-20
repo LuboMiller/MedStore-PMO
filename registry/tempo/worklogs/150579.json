@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150579",
+  "tempoWorklogId": 150579,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100744",
+    "id": 100744
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "- реалізація ui;",
+  "createdAt": "2026-10-09T10:01:00Z",
+  "updatedAt": "2026-10-09T10:01:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150579/work-attribute-values",
+    "values": []
+  }
+}

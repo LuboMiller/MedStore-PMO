@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151327",
+  "tempoWorklogId": 151327,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89978",
+    "id": 89978
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-13",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-13T08:00:00Z",
+  "description": "Review Design against requirements",
+  "createdAt": "2026-10-13T10:55:27Z",
+  "updatedAt": "2026-10-13T11:53:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151327/work-attribute-values",
+    "values": []
+  }
+}

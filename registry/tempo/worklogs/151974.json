@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151974",
+  "tempoWorklogId": 151974,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "- daily \n- [MOB-4422] Improvement checkout. Min order \n- [MOB-4443] Loyalty onboarding. The animation transition is incorrect",
+  "createdAt": "2026-10-19T06:38:20Z",
+  "updatedAt": "2026-10-19T06:38:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151974/work-attribute-values",
+    "values": []
+  }
+}

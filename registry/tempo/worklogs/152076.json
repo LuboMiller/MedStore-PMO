@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152076",
+  "tempoWorklogId": 152076,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103121",
+    "id": 103121
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-15",
+  "startTime": "16:09:00",
+  "startDateTimeUtc": "2026-10-15T13:09:00Z",
+  "description": "PR review — PST-1797 sortBy/sortOrder on merchant users",
+  "createdAt": "2026-10-19T08:16:15Z",
+  "updatedAt": "2026-10-19T08:16:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152076/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152008",
+  "tempoWorklogId": 152008,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101923",
+    "id": 101923
+  },
+  "timeSpentSeconds": 27000,
+  "billableSeconds": 27000,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T06:00:00Z",
+  "description": "-робота над пошуком та екранами видачі\n-ознайомлення та валідація результатів роботи по SDD",
+  "createdAt": "2026-10-19T07:32:59Z",
+  "updatedAt": "2026-10-19T07:33:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152008/work-attribute-values",
+    "values": []
+  }
+}

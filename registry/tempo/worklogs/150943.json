@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150943",
+  "tempoWorklogId": 150943,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T05:00:00Z",
+  "description": "MOB-6501: План реалізації за дизайном: нарізка екранів і станів з PDF, мок-дані за контрактом до появи ендпоінта MOB-6503, поділитися через Facebook SDK, вибір подарунка й bottom sheet.",
+  "createdAt": "2026-10-12T08:15:45Z",
+  "updatedAt": "2026-10-12T08:15:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150943/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152100",
+  "tempoWorklogId": 152100,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102627",
+    "id": 102627
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T06:00:00Z",
+  "description": "F-13.06 / Service Configuration (Add-Edit service) Flow Updatr",
+  "createdAt": "2026-10-19T08:34:49Z",
+  "updatedAt": "2026-10-19T08:35:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152100/work-attribute-values",
+    "values": []
+  }
+}

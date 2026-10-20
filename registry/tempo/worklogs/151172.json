@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151172",
+  "tempoWorklogId": 151172,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-06",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-06T12:00:00Z",
+  "description": "Avrora - Фронт-статистика: верифікація та актуалізація Картки подій + analytics_events_matrix.xlsx ; переписка з ДС, Марʼяною, фронт-командою",
+  "createdAt": "2026-10-12T15:37:27Z",
+  "updatedAt": "2026-10-12T15:37:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151172/work-attribute-values",
+    "values": []
+  }
+}

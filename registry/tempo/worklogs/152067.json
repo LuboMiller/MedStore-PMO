@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152067",
+  "tempoWorklogId": 152067,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93034",
+    "id": 93034
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-14",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-14T11:15:00Z",
+  "description": "Backoffice develop merge",
+  "createdAt": "2026-10-19T08:16:10Z",
+  "updatedAt": "2026-10-19T08:16:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152067/work-attribute-values",
+    "values": []
+  }
+}

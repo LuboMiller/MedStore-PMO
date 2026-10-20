@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152406",
+  "tempoWorklogId": 152406,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-19",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-19T12:00:00Z",
+  "description": "Рев'ю дизайнів епіків FA-01…FA-04 на відповідність оновленим специфікаціям; підготовлено перелік змін для дизайнера: F-1.1, F-1.4, F-1.5, F-1.9, F-1.11, F-1.12, F-1.14, F-2.1, F-2.2, F-2.3, F-2.4, F-2.5, F-2.6, F-2.7, F-3.1, F-3.4, F-4.1, F-4.2, F-4.3, F-4.4, F-4.5",
+  "createdAt": "2026-10-19T17:56:27Z",
+  "updatedAt": "2026-10-19T17:56:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152406/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151471",
+  "tempoWorklogId": 151471,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34363",
+    "id": 34363
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-09",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-10-09T08:45:00Z",
+  "description": "Формування документу для клієнта по поточним фільтрам і сортуванні",
+  "createdAt": "2026-10-13T20:24:20Z",
+  "updatedAt": "2026-10-13T20:24:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151471/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150619",
+  "tempoWorklogId": 150619,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100033",
+    "id": 100033
+  },
+  "timeSpentSeconds": 8100,
+  "billableSeconds": 8100,
+  "startDate": "2026-10-09",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-09T10:15:00Z",
+  "description": "використання київського часу для КП і графіків, уніфікація по всьому застосунку",
+  "createdAt": "2026-10-09T14:09:52Z",
+  "updatedAt": "2026-10-09T14:09:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150619/work-attribute-values",
+    "values": []
+  }
+}

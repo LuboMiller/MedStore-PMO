@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151340",
+  "tempoWorklogId": 151340,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34359",
+    "id": 34359
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-13T05:15:00Z",
+  "description": "flutter sync",
+  "createdAt": "2026-10-13T12:28:20Z",
+  "updatedAt": "2026-10-13T12:28:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151340/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150655",
+  "tempoWorklogId": 150655,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-09",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-09T09:00:00Z",
+  "description": "About us, Career (mobile version)",
+  "createdAt": "2026-10-09T15:42:22Z",
+  "updatedAt": "2026-10-13T06:04:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150655/work-attribute-values",
+    "values": []
+  }
+}

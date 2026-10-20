@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151326",
+  "tempoWorklogId": 151326,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103205",
+    "id": 103205
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-13T05:15:00Z",
+  "description": "Спека та тікет",
+  "createdAt": "2026-10-13T10:51:01Z",
+  "updatedAt": "2026-10-13T19:34:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151326/work-attribute-values",
+    "values": []
+  }
+}

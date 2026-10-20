@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150533",
+  "tempoWorklogId": 150533,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100892",
+    "id": 100892
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 0,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T05:00:00Z",
+  "description": "Teen Card Flow :\n\nFriends challenges: invitation, shared rules, leaderboard, create flow\nAI assistant: data-backed answers + in-chat plan that moves money to a goal\nAnalytics: period insight, limit/average cards, next-step action\nAge transitions 14 → 18 as three-scene flows + “Your possibilities” roadmap\nCard personalisation: 7 collections + custom accent builder",
+  "createdAt": "2026-10-09T08:46:44Z",
+  "updatedAt": "2026-10-13T06:04:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150533/work-attribute-values",
+    "values": []
+  }
+}

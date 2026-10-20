@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150478",
+  "tempoWorklogId": 150478,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-08",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-08T08:30:00Z",
+  "description": "Дзвінок Agrigator || Обговорення змін по дизайну\n ",
+  "createdAt": "2026-10-08T16:00:09Z",
+  "updatedAt": "2026-10-08T16:00:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150478/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150603",
+  "tempoWorklogId": 150603,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102921",
+    "id": 102921
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-09",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-09T06:00:00Z",
+  "description": "- Відмальовано всі стейті зі спек:\nf-18.2-dialoh-i-stany.md\nf-18.3-nadislaty-repliku.md\nf-18.5-kartka-tovaru-u-vidpovidi.md\nf-18.6-tablytsia-porivniannia.md\n- Описано дизайн рішення найгарнішого варіанту лого",
+  "createdAt": "2026-10-09T12:25:19Z",
+  "updatedAt": "2026-10-09T12:25:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150603/work-attribute-values",
+    "values": []
+  }
+}

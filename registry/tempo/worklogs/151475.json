@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151475",
+  "tempoWorklogId": 151475,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101960",
+    "id": 101960
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-12T08:00:00Z",
+  "description": "Address code review findings",
+  "createdAt": "2026-10-13T20:30:36Z",
+  "updatedAt": "2026-10-13T20:30:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151475/work-attribute-values",
+    "values": []
+  }
+}

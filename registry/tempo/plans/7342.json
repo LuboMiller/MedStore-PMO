@@ -1,17 +1,17 @@
 {
   "self": "https://api.eu.tempo.io/4/plans/7342",
   "id": 7342,
-  "startDate": "2026-10-01",
-  "endDate": "2026-10-20",
+  "startDate": "2026-10-19",
+  "endDate": "2026-11-13",
   "createdAt": "2026-09-08T08:25:31Z",
-  "updatedAt": "2026-09-08T08:31:03Z",
-  "plannedSecondsPerDay": 28800,
-  "totalPlannedSeconds": 403200,
+  "updatedAt": "2026-10-12T16:19:29Z",
+  "plannedSecondsPerDay": 14400,
+  "totalPlannedSeconds": 288000,
   "effortPersistenceType": "SECONDS_PER_DAY",
   "syncSource": "NONE",
   "includeNonWorkingDays": false,
   "rule": "NEVER",
-  "recurrenceEndDate": "2026-10-20",
+  "recurrenceEndDate": "2026-11-13",
   "startTime": "00:00",
   "assignee": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
@@ -25,9 +25,9 @@
   },
   "plannedTime": {
     "metadata": {
-      "all": "https://api.eu.tempo.io/4/plans/7342?from=2026-10-01&to=2026-10-20"
+      "all": "https://api.eu.tempo.io/4/plans/7342?from=2026-10-19&to=2026-11-13"
     }
   },
-  "totalPlannedSecondsInScope": 172800,
+  "totalPlannedSecondsInScope": 28800,
   "planCreatorId": "627904558395420069673b37"
 }

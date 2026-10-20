@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151725",
+  "tempoWorklogId": 151725,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103301",
+    "id": 103301
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-15",
+  "startTime": "08:50:00",
+  "startDateTimeUtc": "2026-10-15T05:50:00Z",
+  "description": "Start task, create repository, models, views, JS bridge to guest token",
+  "createdAt": "2026-10-15T21:11:58Z",
+  "updatedAt": "2026-10-15T21:11:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151725/work-attribute-values",
+    "values": []
+  }
+}

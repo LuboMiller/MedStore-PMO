@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150676",
+  "tempoWorklogId": 150676,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-08",
+  "startTime": "16:30:00",
+  "startDateTimeUtc": "2026-10-08T14:30:00Z",
+  "description": "Attended a project discussion.",
+  "createdAt": "2026-10-09T16:42:45Z",
+  "updatedAt": "2026-10-09T16:42:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150676/work-attribute-values",
+    "values": []
+  }
+}

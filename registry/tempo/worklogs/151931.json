@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151931",
+  "tempoWorklogId": 151931,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100692",
+    "id": 100692
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T06:00:00Z",
+  "description": "Fixed financial reconciliation, refunds, callbacks, Purse, and station flows",
+  "createdAt": "2026-10-18T23:54:33Z",
+  "updatedAt": "2026-10-18T23:54:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "accountId": "712020:464dccdf-73dd-4028-afa8-0887c3508938"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151931/work-attribute-values",
+    "values": []
+  }
+}

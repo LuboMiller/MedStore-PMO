@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152449",
+  "tempoWorklogId": 152449,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101355",
+    "id": 101355
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-16",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-16T12:00:00Z",
+  "description": "Проєктна комунікація за регламентом: зустріч + пересиділи + лист про ітоги зустрічі (https://app.sparkmailapp.com/web-share/8J3c0IsQ36wlRJh6-ebCzolL9xMbFvwocDfZBhlp)+пульс тижня",
+  "createdAt": "2026-10-19T18:46:03Z",
+  "updatedAt": "2026-10-19T18:46:03Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152449/work-attribute-values",
+    "values": []
+  }
+}

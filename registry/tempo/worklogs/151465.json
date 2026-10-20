@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151465",
+  "tempoWorklogId": 151465,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101708",
+    "id": 101708
+  },
+  "timeSpentSeconds": 22500,
+  "billableSeconds": 22500,
+  "startDate": "2026-10-05",
+  "startTime": "09:45:00",
+  "startDateTimeUtc": "2026-10-05T06:45:00Z",
+  "description": "Зміна логіки",
+  "createdAt": "2026-10-13T19:53:00Z",
+  "updatedAt": "2026-10-13T19:53:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3172aa7a-141f-4d74-83fc-b48335430511",
+    "accountId": "712020:3172aa7a-141f-4d74-83fc-b48335430511"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151465/work-attribute-values",
+    "values": []
+  }
+}

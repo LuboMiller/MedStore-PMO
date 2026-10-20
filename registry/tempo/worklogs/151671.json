@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151671",
+  "tempoWorklogId": 151671,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103136",
+    "id": 103136
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-15",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-15T08:30:00Z",
+  "description": "Виправлення крашлітики для кубітів які працювали після завершення роботи.",
+  "createdAt": "2026-10-15T12:46:49Z",
+  "updatedAt": "2026-10-15T12:46:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151671/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151490",
+  "tempoWorklogId": 151490,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-07",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-07T12:30:00Z",
+  "description": "Фолоу-апи",
+  "createdAt": "2026-10-13T20:38:57Z",
+  "updatedAt": "2026-10-13T20:38:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151490/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150467",
+  "tempoWorklogId": 150467,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102827",
+    "id": 102827
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-07",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-07T11:00:00Z",
+  "description": "research, design & planning",
+  "createdAt": "2026-10-08T15:37:22Z",
+  "updatedAt": "2026-10-08T15:37:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150467/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151782",
+  "tempoWorklogId": 151782,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103310",
+    "id": 103310
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-16",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-16T10:15:00Z",
+  "description": "Покращення дизайн елементів та оновлення доків відносно поточного стану спек.",
+  "createdAt": "2026-10-16T14:33:19Z",
+  "updatedAt": "2026-10-16T14:37:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151782/work-attribute-values",
+    "values": []
+  }
+}

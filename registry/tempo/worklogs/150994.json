@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150994",
+  "tempoWorklogId": 150994,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 2460,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-04T21:00:00Z",
+  "description": "Organizational Work",
+  "createdAt": "2026-10-12T11:41:44Z",
+  "updatedAt": "2026-10-12T11:41:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150994/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151393",
+  "tempoWorklogId": 151393,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "ai-workshop",
+  "createdAt": "2026-10-13T15:26:16Z",
+  "updatedAt": "2026-10-13T15:26:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:0d3f0013-48bc-4e18-b359-58d1b14258ed",
+    "accountId": "712020:0d3f0013-48bc-4e18-b359-58d1b14258ed"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151393/work-attribute-values",
+    "values": []
+  }
+}

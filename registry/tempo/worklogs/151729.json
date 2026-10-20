@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151729",
+  "tempoWorklogId": 151729,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33412",
+    "id": 33412
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T06:00:00Z",
+  "description": "retest, заведення баг-репортів",
+  "createdAt": "2026-10-15T22:52:31Z",
+  "updatedAt": "2026-10-15T22:52:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151729/work-attribute-values",
+    "values": []
+  }
+}

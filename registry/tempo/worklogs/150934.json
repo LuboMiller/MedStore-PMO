@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150934",
+  "tempoWorklogId": 150934,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-05T10:00:00Z",
+  "description": "MOB-6498: Аналіз макетів рекомендованого розміру на PDP: стани «дані є / немає в наявності / даних немає / виміри збережено».",
+  "createdAt": "2026-10-12T08:15:41Z",
+  "updatedAt": "2026-10-12T08:15:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150934/work-attribute-values",
+    "values": []
+  }
+}

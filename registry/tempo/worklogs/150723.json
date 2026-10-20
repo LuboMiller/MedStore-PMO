@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150723",
+  "tempoWorklogId": 150723,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-08",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-08T07:00:00Z",
+  "description": "design review and specs ideation on new propositions to the client",
+  "createdAt": "2026-10-11T12:34:17Z",
+  "updatedAt": "2026-10-11T12:34:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150723/work-attribute-values",
+    "values": []
+  }
+}

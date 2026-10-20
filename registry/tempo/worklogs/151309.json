@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151309",
+  "tempoWorklogId": 151309,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40615",
+    "id": 40615
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-07",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-07T10:00:00Z",
+  "description": "tasks updates, communciation",
+  "createdAt": "2026-10-13T09:07:31Z",
+  "updatedAt": "2026-10-13T09:07:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151309/work-attribute-values",
+    "values": []
+  }
+}

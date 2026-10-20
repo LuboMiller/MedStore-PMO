@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151831",
+  "tempoWorklogId": 151831,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103493",
+    "id": 103493
+  },
+  "timeSpentSeconds": 23400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-16",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-16T09:00:00Z",
+  "description": "Working on the presentation",
+  "createdAt": "2026-10-16T15:30:53Z",
+  "updatedAt": "2026-10-20T06:03:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151831/work-attribute-values",
+    "values": []
+  }
+}

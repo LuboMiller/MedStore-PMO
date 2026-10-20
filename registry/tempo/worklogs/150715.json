@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150715",
+  "tempoWorklogId": 150715,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99866",
+    "id": 99866
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-09",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-09T06:30:00Z",
+  "description": "oq preparation and document discussion and proposals from my side",
+  "createdAt": "2026-10-11T12:23:02Z",
+  "updatedAt": "2026-10-11T12:23:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150715/work-attribute-values",
+    "values": []
+  }
+}

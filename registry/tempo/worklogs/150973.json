@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150973",
+  "tempoWorklogId": 150973,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/23834",
+    "id": 23834
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-12",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-12T06:30:00Z",
+  "description": "Обговорення запиту на маркети та двух зайвих маркетів",
+  "createdAt": "2026-10-12T11:16:11Z",
+  "updatedAt": "2026-10-12T11:16:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150973/work-attribute-values",
+    "values": []
+  }
+}

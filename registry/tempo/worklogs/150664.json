@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150664",
+  "tempoWorklogId": 150664,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90149",
+    "id": 90149
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-05",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-05T06:45:00Z",
+  "description": "Worked on Loyalty Anniversary visuals and animation options.",
+  "createdAt": "2026-10-09T16:37:41Z",
+  "updatedAt": "2026-10-09T16:37:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150664/work-attribute-values",
+    "values": []
+  }
+}

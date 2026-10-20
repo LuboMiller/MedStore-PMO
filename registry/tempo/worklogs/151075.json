@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151075",
+  "tempoWorklogId": 151075,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48146",
+    "id": 48146
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-06",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-06T06:15:00Z",
+  "description": "мали віддати лояльність (Спотіфай)",
+  "createdAt": "2026-10-12T11:59:41Z",
+  "updatedAt": "2026-10-12T11:59:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151075/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151740",
+  "tempoWorklogId": 151740,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69572",
+    "id": 69572
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 0,
+  "startDate": "2026-10-16",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-10-16T08:45:00Z",
+  "description": "Extend KB with extra ba tasks for discovery phase",
+  "createdAt": "2026-10-16T08:47:10Z",
+  "updatedAt": "2026-10-20T06:02:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151740/work-attribute-values",
+    "values": []
+  }
+}

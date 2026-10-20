@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151664",
+  "tempoWorklogId": 151664,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/54295",
+    "id": 54295
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-16T07:30:00Z",
+  "description": "- виправлення помилок;",
+  "createdAt": "2026-10-15T11:15:46Z",
+  "updatedAt": "2026-10-15T11:15:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151664/work-attribute-values",
+    "values": []
+  }
+}

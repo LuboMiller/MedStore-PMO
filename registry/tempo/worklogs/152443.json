@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152443",
+  "tempoWorklogId": 152443,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101355",
+    "id": 101355
+  },
+  "timeSpentSeconds": 300,
+  "billableSeconds": 300,
+  "startDate": "2026-10-15",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-15T12:00:00Z",
+  "description": "Проєктна комунікація за регламентом: Пояснення в загальний чат для неспеціалістів",
+  "createdAt": "2026-10-19T18:46:00Z",
+  "updatedAt": "2026-10-19T18:46:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152443/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150785",
+  "tempoWorklogId": 150785,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/50632",
+    "id": 50632
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-05",
+  "startTime": "06:13:00",
+  "startDateTimeUtc": "2026-10-05T03:13:00Z",
+  "description": "Завантаження скріншотів екрану в Гугл Плей і реліз оновлень",
+  "createdAt": "2026-10-12T03:14:20Z",
+  "updatedAt": "2026-10-12T03:14:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
+    "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150785/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150442",
+  "tempoWorklogId": 150442,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100447",
+    "id": 100447
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-07",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-07T08:00:00Z",
+  "description": "Продумування логіки пошуку серед категорій та всередині товару",
+  "createdAt": "2026-10-08T15:03:57Z",
+  "updatedAt": "2026-10-08T15:10:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150442/work-attribute-values",
+    "values": []
+  }
+}

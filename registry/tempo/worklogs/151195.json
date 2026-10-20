@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151195",
+  "tempoWorklogId": 151195,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102078",
+    "id": 102078
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-11",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-11T14:00:00Z",
+  "description": "MediaCache: дослідження: викачка файлів + розбір форматів",
+  "createdAt": "2026-10-12T15:37:38Z",
+  "updatedAt": "2026-10-12T15:38:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151195/work-attribute-values",
+    "values": []
+  }
+}

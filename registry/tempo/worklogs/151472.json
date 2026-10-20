@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151472",
+  "tempoWorklogId": 151472,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102440",
+    "id": 102440
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-12",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-12T15:00:00Z",
+  "description": "Preparing a PR for review in veselka-discovery.",
+  "createdAt": "2026-10-13T20:25:05Z",
+  "updatedAt": "2026-10-13T20:25:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151472/work-attribute-values",
+    "values": []
+  }
+}

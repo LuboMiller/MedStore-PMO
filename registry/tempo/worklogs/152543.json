@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152543",
+  "tempoWorklogId": 152543,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103401",
+    "id": 103401
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-19",
+  "startTime": "17:30:00",
+  "startDateTimeUtc": "2026-10-19T14:30:00Z",
+  "description": "D2. Бенчмарк програм лояльності",
+  "createdAt": "2026-10-20T09:25:11Z",
+  "updatedAt": "2026-10-20T09:25:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152543/work-attribute-values",
+    "values": []
+  }
+}

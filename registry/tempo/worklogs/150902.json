@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150902",
+  "tempoWorklogId": 150902,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100393",
+    "id": 100393
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-05",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-05T10:00:00Z",
+  "description": "Kinde migration: inject backoffice CMS Kinde keys into AWS container, env golden-rule CI check, KINDE_DOMAIN deploy fix",
+  "createdAt": "2026-10-12T08:01:51Z",
+  "updatedAt": "2026-10-12T08:01:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150902/work-attribute-values",
+    "values": []
+  }
+}

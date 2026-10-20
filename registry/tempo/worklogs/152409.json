@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152409",
+  "tempoWorklogId": 152409,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "17:30:00",
+  "startDateTimeUtc": "2026-10-19T14:30:00Z",
+  "description": "Детальний трекінг задач за попередній тиждень (12–18.10): розбивка робіт по днях із посиланнями на змінені специфікації та сторінки Confluence",
+  "createdAt": "2026-10-19T17:56:27Z",
+  "updatedAt": "2026-10-19T17:56:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152409/work-attribute-values",
+    "values": []
+  }
+}

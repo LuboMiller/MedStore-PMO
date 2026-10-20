@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151811",
+  "tempoWorklogId": 151811,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102006",
+    "id": 102006
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-16",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-16T11:00:00Z",
+  "description": "Додавання попапу, розробка і перевірка блуру.",
+  "createdAt": "2026-10-16T15:03:39Z",
+  "updatedAt": "2026-10-16T15:03:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151811/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151975",
+  "tempoWorklogId": 151975,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "- daily \n- code review \n- [MOB-4426] Update DefaultPackProductId with remote config \n- [MOB-4452] Promocodes. Fix error handling labels",
+  "createdAt": "2026-10-19T06:39:01Z",
+  "updatedAt": "2026-10-19T06:39:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151975/work-attribute-values",
+    "values": []
+  }
+}

@@ -14,22 +14,22 @@
     "version": 1,
     "content": []
   },
-  "jira_updated": "2026-10-09T11:58:43.205+0300",
+  "jira_updated": "2026-10-19T21:46:02.533+0300",
   "jira_created": "2026-08-18T18:12:53.901+0300",
   "raw_fields": {
     "timetracking": {
-      "originalEstimate": "0m",
+      "originalEstimate": "2d",
       "remainingEstimate": "0m",
-      "timeSpent": "3d 2h 15m",
-      "originalEstimateSeconds": 0,
+      "timeSpent": "3d 4h 24m",
+      "originalEstimateSeconds": 57600,
       "remainingEstimateSeconds": 0,
-      "timeSpentSeconds": 94500
+      "timeSpentSeconds": 102240
     },
-    "timeoriginalestimate": 0,
-    "timespent": 94500,
+    "timeoriginalestimate": 57600,
+    "timespent": 102240,
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "ca5f8feed3a6a950",
-  "local_updated": "2026-10-09T08:58:58.289628+00:00"
+  "content_hash": "ad9b99b8970ed274",
+  "local_updated": "2026-10-20T09:38:23.560049+00:00"
 }

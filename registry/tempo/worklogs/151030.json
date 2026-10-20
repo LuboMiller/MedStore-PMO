@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151030",
+  "tempoWorklogId": 151030,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69861",
+    "id": 69861
+  },
+  "timeSpentSeconds": 2640,
+  "billableSeconds": 2640,
+  "startDate": "2026-10-09",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-08T21:00:00Z",
+  "description": "[Arch] System Design",
+  "createdAt": "2026-10-12T11:41:59Z",
+  "updatedAt": "2026-10-12T11:41:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151030/work-attribute-values",
+    "values": []
+  }
+}

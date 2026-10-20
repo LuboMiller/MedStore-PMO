@@ -6,13 +6,13 @@
     "id": 74237
   },
   "timeSpentSeconds": 900,
-  "billableSeconds": 900,
+  "billableSeconds": 0,
   "startDate": "2026-10-07",
   "startTime": "11:00:00",
   "startDateTimeUtc": "2026-10-07T08:00:00Z",
   "description": "Перегляд наступних кроків",
   "createdAt": "2026-10-07T19:52:32Z",
-  "updatedAt": "2026-10-07T19:52:32Z",
+  "updatedAt": "2026-10-13T06:04:35Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
     "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"

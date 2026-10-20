@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152012",
+  "tempoWorklogId": 152012,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/29448",
+    "id": 29448
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-16T06:00:00Z",
+  "description": "-інвестігейт можливих рішень для хендлингу роботи з deferred deeplink в контексті реферальної програми",
+  "createdAt": "2026-10-19T07:36:01Z",
+  "updatedAt": "2026-10-19T07:36:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152012/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150667",
+  "tempoWorklogId": 150667,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90149",
+    "id": 90149
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-07",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-07T06:45:00Z",
+  "description": "Reviewed Check-in requirements and existing designs.",
+  "createdAt": "2026-10-09T16:38:43Z",
+  "updatedAt": "2026-10-09T16:38:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150667/work-attribute-values",
+    "values": []
+  }
+}

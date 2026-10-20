@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151273",
+  "tempoWorklogId": 151273,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99495",
+    "id": 99495
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-07",
+  "startTime": "19:45:00",
+  "startDateTimeUtc": "2026-10-07T16:45:00Z",
+  "description": "f-16.1-16.2-charges-closure - Activity: Bitbucket",
+  "createdAt": "2026-10-13T07:38:45Z",
+  "updatedAt": "2026-10-13T07:38:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151273/work-attribute-values",
+    "values": []
+  }
+}

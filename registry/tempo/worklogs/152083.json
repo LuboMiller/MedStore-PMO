@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152083",
+  "tempoWorklogId": 152083,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102842",
+    "id": 102842
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-16",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-16T11:30:00Z",
+  "description": "Tax settings: develop merge, PR #299 review fixes",
+  "createdAt": "2026-10-19T08:16:19Z",
+  "updatedAt": "2026-10-19T08:16:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152083/work-attribute-values",
+    "values": []
+  }
+}

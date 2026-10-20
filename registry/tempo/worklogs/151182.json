@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151182",
+  "tempoWorklogId": 151182,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/77542",
+    "id": 77542
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-07",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-07T12:00:00Z",
+  "description": "Veselka - порівняння БА та арх частин + ТЗ на розширення АРІ Др.Елекс: контроль відповідності архітектури БА частині + відповідні правки + документ для Др.Елекс + врахування результатів зустрічі з Др.Елекс в архітектурі",
+  "createdAt": "2026-10-12T15:37:32Z",
+  "updatedAt": "2026-10-12T15:37:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151182/work-attribute-values",
+    "values": []
+  }
+}

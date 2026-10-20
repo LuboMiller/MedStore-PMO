@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151464",
+  "tempoWorklogId": 151464,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/32305",
+    "id": 32305
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-05",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-05T06:00:00Z",
+  "description": "Комунікація з Мартою",
+  "createdAt": "2026-10-13T19:48:14Z",
+  "updatedAt": "2026-10-13T19:48:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3172aa7a-141f-4d74-83fc-b48335430511",
+    "accountId": "712020:3172aa7a-141f-4d74-83fc-b48335430511"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151464/work-attribute-values",
+    "values": []
+  }
+}

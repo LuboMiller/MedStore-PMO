@@ -6,13 +6,13 @@
     "id": 99300
   },
   "timeSpentSeconds": 7200,
-  "billableSeconds": 7200,
+  "billableSeconds": 0,
   "startDate": "2026-10-06",
   "startTime": "11:00:00",
   "startDateTimeUtc": "2026-10-06T08:00:00Z",
   "description": "AI agents presentation",
   "createdAt": "2026-10-06T15:50:01Z",
-  "updatedAt": "2026-10-06T15:50:07Z",
+  "updatedAt": "2026-10-13T06:04:02Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
     "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"

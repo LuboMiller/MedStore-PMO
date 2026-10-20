@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151668",
+  "tempoWorklogId": 151668,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93530",
+    "id": 93530
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-14",
+  "startTime": "18:30:00",
+  "startDateTimeUtc": "2026-10-14T15:30:00Z",
+  "description": "Внесення правок після нових відповідей ПО",
+  "createdAt": "2026-10-15T11:49:35Z",
+  "updatedAt": "2026-10-15T12:55:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151668/work-attribute-values",
+    "values": []
+  }
+}

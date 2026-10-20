@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151178",
+  "tempoWorklogId": 151178,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/72240",
+    "id": 72240
+  },
+  "timeSpentSeconds": 1260,
+  "billableSeconds": 1260,
+  "startDate": "2026-10-07",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-07T12:00:00Z",
+  "description": "Avrora - CTO+SA weekly sync: зустріч + фоллоу-ап https://docs.google.com/document/d/1NoR2yhReWNWAaaVkGb9kdaeN4XtZVw4rF3_XURTP1Ts/edit?tab=t.0#heading=h.cphs7q9rpyjj",
+  "createdAt": "2026-10-12T15:37:30Z",
+  "updatedAt": "2026-10-12T15:37:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151178/work-attribute-values",
+    "values": []
+  }
+}

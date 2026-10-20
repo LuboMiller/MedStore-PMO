@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152399",
+  "tempoWorklogId": 152399,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 1500,
+  "billableSeconds": 0,
+  "startDate": "2026-10-14",
+  "startTime": "13:20:00",
+  "startDateTimeUtc": "2026-10-14T10:20:00Z",
+  "description": "1 to 1 meeting dedicated to the following steps of the project and item actions ",
+  "createdAt": "2026-10-19T17:17:42Z",
+  "updatedAt": "2026-10-19T17:17:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152399/work-attribute-values",
+    "values": []
+  }
+}

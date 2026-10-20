@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151398",
+  "tempoWorklogId": 151398,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/95532",
+    "id": 95532
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "13:45:00",
+  "startDateTimeUtc": "2026-10-13T10:45:00Z",
+  "description": "Testing + creating issue in Jira: PST-1836",
+  "createdAt": "2026-10-13T15:32:57Z",
+  "updatedAt": "2026-10-13T15:32:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151398/work-attribute-values",
+    "values": []
+  }
+}

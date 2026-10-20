@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151306",
+  "tempoWorklogId": 151306,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-07",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-07T06:00:00Z",
+  "description": "Yaroslav 121",
+  "createdAt": "2026-10-13T09:06:44Z",
+  "updatedAt": "2026-10-13T09:06:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151306/work-attribute-values",
+    "values": []
+  }
+}

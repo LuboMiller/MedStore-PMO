@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151166",
+  "tempoWorklogId": 151166,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98642",
+    "id": 98642
+  },
+  "timeSpentSeconds": 3420,
+  "billableSeconds": 3420,
+  "startDate": "2026-10-05",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-05T12:00:00Z",
+  "description": "Золота когорта: розбір, переліки кодів, критерії приймання: Документація і приклади когорти почищено, додано тексти запитів, перевірено повноту, зроблено експорт у docx, опубліковано на SharePoint + пульс проєкту",
+  "createdAt": "2026-10-12T15:37:23Z",
+  "updatedAt": "2026-10-12T15:37:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151166/work-attribute-values",
+    "values": []
+  }
+}

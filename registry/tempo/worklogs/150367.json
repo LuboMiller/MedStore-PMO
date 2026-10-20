@@ -6,13 +6,13 @@
     "id": 69572
   },
   "timeSpentSeconds": 8100,
-  "billableSeconds": 8100,
+  "billableSeconds": 0,
   "startDate": "2026-10-08",
   "startTime": "08:00:00",
   "startDateTimeUtc": "2026-10-08T05:00:00Z",
   "description": "Presale Plugin",
   "createdAt": "2026-10-08T06:27:18Z",
-  "updatedAt": "2026-10-08T07:04:46Z",
+  "updatedAt": "2026-10-13T06:03:45Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
     "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"

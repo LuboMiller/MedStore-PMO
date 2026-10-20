@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151485",
+  "tempoWorklogId": 151485,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-07",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-07T10:30:00Z",
+  "description": "Оцінювання задач по Агіргатору, оновлення WBS",
+  "createdAt": "2026-10-13T20:37:35Z",
+  "updatedAt": "2026-10-13T20:37:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151485/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150903",
+  "tempoWorklogId": 150903,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102220",
+    "id": 102220
+  },
+  "timeSpentSeconds": 8100,
+  "billableSeconds": 8100,
+  "startDate": "2026-10-05",
+  "startTime": "18:30:00",
+  "startDateTimeUtc": "2026-10-05T15:30:00Z",
+  "description": "Design Q-1..Q-6 (audit, latency, CloudTrail options); implement Cognito auth-event capture from SQS and CloudTrail back-fill; infra #24, ms #253",
+  "createdAt": "2026-10-12T08:01:53Z",
+  "updatedAt": "2026-10-12T08:01:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150903/work-attribute-values",
+    "values": []
+  }
+}

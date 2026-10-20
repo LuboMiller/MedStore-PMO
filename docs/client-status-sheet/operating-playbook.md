@@ -4,15 +4,15 @@
 > Проєктний file id / URL — у `config/client-status-sheet.json` і CONTEXT §8.
 > Скіл: `pmo-manage-client-status-sheet`. Методологія: `knowledge/pmo-kb/04-executing/client-project-status-report.md`.
 
-Заповни шапку після hydrate (`google export-sheets`):
+Шапка після hydrate (`google export-sheets`):
 
 | Поле | Значення |
 |---|---|
-| Файл | {{SHEET_TITLE}} |
-| File ID | з `config/client-status-sheet.json` |
-| URL | Spreadsheet URL |
-| Drive | зазвичай `commercial` / `Reports` |
-| Daily live hydrate | `python3 scripts/integrations/cli.py google export-sheets` → `docs/_hydrate/google/sheets/client-status-live-YYYY-MM-DD/` |
+| Файл | MedStore \| Client Project status report \| Updated 20-10-26 |
+| File ID | `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo` (`config/client-status-sheet.json`) |
+| URL | https://docs.google.com/spreadsheets/d/1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo/edit |
+| Drive modifiedTime | 2026-10-20T01:57:07Z |
+| Daily live hydrate | `docs/_hydrate/google/sheets/client-status-live-2026-10-20/` (export 2026-10-20) |
 
 > Перед live-операціями онови hydrate. AppScript зазвичай оновлює вкладку Data щодня (ніч / ранок).
 

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150824",
+  "tempoWorklogId": 150824,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/82225",
+    "id": 82225
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-10",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-10T05:00:00Z",
+  "description": "-Тижнева командна синхронізація",
+  "createdAt": "2026-10-12T07:14:21Z",
+  "updatedAt": "2026-10-12T07:21:03Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2cfeb8869dd0e78a03b04",
+    "accountId": "5cc2cfeb8869dd0e78a03b04"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150824/work-attribute-values",
+    "values": []
+  }
+}

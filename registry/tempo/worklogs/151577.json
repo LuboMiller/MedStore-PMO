@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151577",
+  "tempoWorklogId": 151577,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103329",
+    "id": 103329
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-14",
+  "startTime": "14:18:00",
+  "startDateTimeUtc": "2026-10-14T11:18:00Z",
+  "description": "Project onboarding: reviewed project docs and specs, studied assigned QA tasks, clarified test environment, set up aOS/iOS test build",
+  "createdAt": "2026-10-14T14:58:42Z",
+  "updatedAt": "2026-10-14T14:58:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151577/work-attribute-values",
+    "values": []
+  }
+}

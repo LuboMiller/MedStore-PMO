@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150936",
+  "tempoWorklogId": 150936,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-05",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-05T12:00:00Z",
+  "description": "MOB-4583: Release planning with a team",
+  "createdAt": "2026-10-12T08:15:42Z",
+  "updatedAt": "2026-10-12T08:15:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150936/work-attribute-values",
+    "values": []
+  }
+}

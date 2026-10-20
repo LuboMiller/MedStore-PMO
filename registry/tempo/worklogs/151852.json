@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151852",
+  "tempoWorklogId": 151852,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102741",
+    "id": 102741
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-16",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-16T07:30:00Z",
+  "description": "Дебриф дзвінка та відповідей, схем та документів від замовника.",
+  "createdAt": "2026-10-16T17:59:50Z",
+  "updatedAt": "2026-10-16T17:59:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151852/work-attribute-values",
+    "values": []
+  }
+}

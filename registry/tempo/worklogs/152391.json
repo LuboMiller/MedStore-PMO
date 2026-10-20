@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152391",
+  "tempoWorklogId": 152391,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-16",
+  "startTime": "16:15:00",
+  "startDateTimeUtc": "2026-10-16T13:15:00Z",
+  "description": "Малітчук доступ до впн/гітлаб - request",
+  "createdAt": "2026-10-19T16:51:26Z",
+  "updatedAt": "2026-10-19T16:51:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152391/work-attribute-values",
+    "values": []
+  }
+}

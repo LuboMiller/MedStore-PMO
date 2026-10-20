@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152415",
+  "tempoWorklogId": 152415,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-14",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-14T11:30:00Z",
+  "description": "Зведено реєстри з перегенерованими специфікаціями, зареєстровано 23 нових питання (реєстр v1.9), перераховано статуси",
+  "createdAt": "2026-10-19T17:56:28Z",
+  "updatedAt": "2026-10-19T17:56:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152415/work-attribute-values",
+    "values": []
+  }
+}

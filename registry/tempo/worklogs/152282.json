@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152282",
+  "tempoWorklogId": 152282,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103384",
+    "id": 103384
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-15",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-15T13:00:00Z",
+  "description": "Вникання у проект",
+  "createdAt": "2026-10-19T14:48:01Z",
+  "updatedAt": "2026-10-19T14:48:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152282/work-attribute-values",
+    "values": []
+  }
+}

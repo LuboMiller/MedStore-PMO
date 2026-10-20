@@ -93,19 +93,23 @@
 
 | Параметр | Значення | Джерело |
 |---|---|---|
-| Baseline cost | €70 633,50 | Client status sheet Overview 2026-10-08 |
-| Current cost (fact) | €16 635,22 | Client status sheet Overview 2026-10-08 |
-| Estim. cost | €99 265,34 | Client status sheet Overview 2026-10-08 |
-| PERT | €71 572 | Scope Dashboard |
+| Baseline cost | $33 520 | Client status sheet Overview 2026-10-20 |
+| Current cost (fact) | $17 365 | Client status sheet Overview 2026-10-20 |
+| Estim. cost | $173 652 | Client status sheet Overview 2026-10-20 |
+| PERT | $34 260 | Scope Dashboard 2026-10-20 |
+| Cost variance | −$14 013 | Overview 2026-10-20 |
 | Contract value | <!-- PM: уточнити --> | |
 | Margin target | <!-- PM: уточнити --> | |
 | Contingency | <!-- PM: уточнити --> | |
-| CPI | 71% | Client status sheet Overview 2026-10-08 |
-| SPI | 21% | Client status sheet Overview 2026-10-08 |
-| Project completion % | 17% | Client status sheet Overview 2026-10-08 |
-| Budget completion % | 24% | Client status sheet Overview 2026-10-08 |
+| CPI | 19% | Client status sheet Overview 2026-10-20 |
+| SPI | 16% | Client status sheet Overview 2026-10-20 |
+| Project completion % | 10% | Client status sheet Overview 2026-10-20 |
+| Budget completion % | 52% | Client status sheet Overview 2026-10-20 |
+| Start date | 01.08.2026 | Overview |
+| Baseline end | 08.12.2026 | Overview |
+| Estim. completion | 09.10.2028 | Overview — ⚠️ підозріло далеко |
 
-> ⚠️ SPI = 21% потребує уваги PM. Overview start date (01.12.2025) виглядає як шаблонне/некоректне значення — PM має верифікувати.
+> ⚠️ CPI 19% / SPI 16% / Estim. completion 09.10.2028 — критична увага PM. Start date виправлено на 01.08.2026 (раніше шаблон 01.12.2025). Валютний символ у sheet змінився з € (зріз 08.10) на $ — PM верифікувати, чи це rebaseline, чи формат відображення.
 
 ---
 
@@ -135,7 +139,7 @@
 | Open questions | `docs/open-questions.md` |
 | Sprint tracker | `dashboards/sprint-tracker.md` |
 | EVM log | `docs/evm-log.md` |
-| Jira project | `DOBDWH` (Kanban board, 28 issues) |
+| Jira project | `DOBDWH` (Kanban board, ~30 issues) |
 | Confluence space | `DD1` · MD mirror: `knowledge/confluence-spaces/DD1/` |
 | Google Drive folders | `config/google-directories.json` · registry: `registry/google/` |
 | Client contracts / SOW | `config/contracts.json` · `docs/contracts/` · `google contracts-status --write` |
@@ -153,19 +157,21 @@
 - Jira: `DOBDWH`
 - Confluence space: `DD1`
 - Lead (Jira): Viktoriia Sukharevska
-- Hydrated: 2026-10-08
+- Hydrated: 2026-10-20 (jira/confluence sync-pull)
 
 <!-- hydrate:google -->
 - Client status sheet: `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo`
+- Drive title: `MedStore | Client Project status report | Updated 20-10-26` (modifiedTime 2026-10-20T01:57Z)
 - Calendar plan: `100F5PIfBaTrr1u_hji9-witEhKkIBIWXFAy5uoxcizQ`
-- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-10-08/`
-- Drive folders: BLOCKED — PM має надати folder IDs для `config/google-directories.json`
+- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-10-20/`
+- Drive folders: `main` + `contracts` OK; `commercial` / `finance` / `client-share` — folder_id not set
 
 ## 9. Нотатки сесії
 
-- 2026-10-08: Path B catch-up після setup + hydrate. CONTEXT дозаповнено з 5 Confluence pages (internal kickoff 20/08, client kickoff 21/08, comms plan, sales handoff, home) + 28 Jira issues + client status sheet Overview.
-- SPI = 21% — критично низький; потребує розслідування PM (можливо некоректний start date в Overview).
-- Overview start date 01.12.2025 виглядає шаблонним — PM верифікувати.
-- Fireflies: 0 транскриптів знайдено (зустрічі через MS Teams, не Fireflies).
-- Google Drive folder IDs не налаштовані — BLOCKED для sync-pull.
-- Контракт: Додаток №3 до Framework Agreement №150626, T&M, аванс, підписано 28.07.2026.
+- 2026-10-20: Morning sync Phase A+B. Overview rebaseline vs 08.10: BAC $33 520 (було €70,6K), AC $17 365, EAC $173 652, completion 10% / budget burn 52%, CPI 19%, SPI 16%. Scope: 1.1.1 і 1.1.7 IN REVIEW (~80% epic); 1.1.2 і 1.1.8 TO DO; решта IN PROGRESS.
+- Jira DOBDWH (зріз sync): Backlog 11 · In Progress 8 · In Review 2 · To Do 2 · Done 2 · Released 1 · Cancelled 4.
+- Estim. completion 09.10.2028 і schedule deviation 671 дн. — далі підозрілі (OQ-006); start date уже 01.08.2026.
+- Fireflies: 0 hits за keyword DWH/MedStore/ДВХ (зустрічі ймовірно MS Teams).
+- Контракт STG-01 (Додаток №3) active, end 2026-11-30, 41 дн. · 🟢.
+- 2026-10-08: Path B catch-up після setup + hydrate. CONTEXT дозаповнено з Confluence + Jira + Overview.
+- Контракт: Додаток №3 до Framework Agreement №150626, T&M, підписано 28.07.2026.

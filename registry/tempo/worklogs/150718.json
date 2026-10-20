@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150718",
+  "tempoWorklogId": 150718,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97815",
+    "id": 97815
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-07",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-07T12:00:00Z",
+  "description": "Session debrief: incorporated client feedback from the call, closed open questions, updated specs.",
+  "createdAt": "2026-10-11T12:28:54Z",
+  "updatedAt": "2026-10-11T12:28:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150718/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151174",
+  "tempoWorklogId": 151174,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92041",
+    "id": 92041
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-06",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-06T12:00:00Z",
+  "description": "QBO vision analysis: ps-playbook/decisions/2026-10-05-qbo-skeleton-review-and-open-decisions.md + https://devlight.slack.com/archives/C0B3EC38KHR/p1790677328891679",
+  "createdAt": "2026-10-12T15:37:28Z",
+  "updatedAt": "2026-10-12T15:37:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151174/work-attribute-values",
+    "values": []
+  }
+}

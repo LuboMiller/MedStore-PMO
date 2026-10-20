@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150890",
+  "tempoWorklogId": 150890,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41058",
+    "id": 41058
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-08",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-08T07:00:00Z",
+  "description": "[MOB-4658] MobApp Daily Meeting [MOB-6525] [Android] Реализовать экран оформленного заказа в checkout",
+  "createdAt": "2026-10-12T07:48:03Z",
+  "updatedAt": "2026-10-12T07:48:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa",
+    "accountId": "712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150890/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150914",
+  "tempoWorklogId": 150914,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102215",
+    "id": 102215
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-07",
+  "startTime": "15:58:00",
+  "startDateTimeUtc": "2026-10-07T12:58:00Z",
+  "description": "Deploy order for WBS-0001-T007, merge PRs (infra #21, common #12, ms #247, bo #148), fix customer mirror deploy",
+  "createdAt": "2026-10-12T08:02:00Z",
+  "updatedAt": "2026-10-12T08:02:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150914/work-attribute-values",
+    "values": []
+  }
+}

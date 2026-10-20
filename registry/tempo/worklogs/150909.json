@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150909",
+  "tempoWorklogId": 150909,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102163",
+    "id": 102163
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-07",
+  "startTime": "11:10:00",
+  "startDateTimeUtc": "2026-10-07T08:10:00Z",
+  "description": "Return full ipAddress in portal active sessions; merge develop, address review comments on ms #261",
+  "createdAt": "2026-10-12T08:01:58Z",
+  "updatedAt": "2026-10-12T08:01:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150909/work-attribute-values",
+    "values": []
+  }
+}

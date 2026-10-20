@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151362",
+  "tempoWorklogId": 151362,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102701",
+    "id": 102701
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "09:55:00",
+  "startDateTimeUtc": "2026-10-13T06:55:00Z",
+  "description": "Finish + optimize size",
+  "createdAt": "2026-10-13T14:23:31Z",
+  "updatedAt": "2026-10-13T14:23:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151362/work-attribute-values",
+    "values": []
+  }
+}

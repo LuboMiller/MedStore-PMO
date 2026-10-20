@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151754",
+  "tempoWorklogId": 151754,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T06:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- MOB-4404 BE | Відображення терміну дії знижки на сторінці товару\n- MOB-4474 mprovement: smartico feature toggle\n- MOB-4472 Migrate to the unified SSE endpoint\n",
+  "createdAt": "2026-10-16T10:21:06Z",
+  "updatedAt": "2026-10-16T10:21:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151754/work-attribute-values",
+    "values": []
+  }
+}

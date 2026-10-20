@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151535",
+  "tempoWorklogId": 151535,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "retests (4 ok, 1 reopen, 4 back to RFD)/ backlog digging/ Regression checklists (admin, desk) review and actualization/ r-110 (6)",
+  "createdAt": "2026-10-14T10:29:45Z",
+  "updatedAt": "2026-10-20T06:04:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151535/work-attribute-values",
+    "values": []
+  }
+}

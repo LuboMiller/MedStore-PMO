@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151049",
+  "tempoWorklogId": 151049,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101351",
+    "id": 101351
+  },
+  "timeSpentSeconds": 360,
+  "billableSeconds": 360,
+  "startDate": "2026-10-05",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-05T05:00:00Z",
+  "description": "робота з оновленням звітності обліку годин",
+  "createdAt": "2026-10-12T11:59:32Z",
+  "updatedAt": "2026-10-12T11:59:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151049/work-attribute-values",
+    "values": []
+  }
+}

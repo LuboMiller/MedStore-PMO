@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152089",
+  "tempoWorklogId": 152089,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102161",
+    "id": 102161
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-13",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-13T11:30:00Z",
+  "description": "Merchant Login 2 Steps Update",
+  "createdAt": "2026-10-19T08:19:03Z",
+  "updatedAt": "2026-10-19T08:19:03Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152089/work-attribute-values",
+    "values": []
+  }
+}

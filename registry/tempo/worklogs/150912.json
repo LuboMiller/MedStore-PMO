@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150912",
+  "tempoWorklogId": 150912,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/95416",
+    "id": 95416
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-07",
+  "startTime": "12:50:00",
+  "startDateTimeUtc": "2026-10-07T09:50:00Z",
+  "description": "PR review — PST-1199 broker transport security",
+  "createdAt": "2026-10-12T08:01:59Z",
+  "updatedAt": "2026-10-12T08:01:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150912/work-attribute-values",
+    "values": []
+  }
+}

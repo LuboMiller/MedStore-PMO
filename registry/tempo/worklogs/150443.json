@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150443",
+  "tempoWorklogId": 150443,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100447",
+    "id": 100447
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-06",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-06T05:00:00Z",
+  "description": "Проектування іконок для усіх типів категорій згідно беку, відображення корнер кейсів та уніфікованого пошуку товарів.",
+  "createdAt": "2026-10-08T15:04:49Z",
+  "updatedAt": "2026-10-08T15:11:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150443/work-attribute-values",
+    "values": []
+  }
+}

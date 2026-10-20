@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151666",
+  "tempoWorklogId": 151666,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103365",
+    "id": 103365
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-15",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-15T07:30:00Z",
+  "description": "Видалення шимеру з опису та зміна сторінки опису читати з сервера",
+  "createdAt": "2026-10-15T11:29:47Z",
+  "updatedAt": "2026-10-15T11:29:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151666/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151470",
+  "tempoWorklogId": 151470,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34360",
+    "id": 34360
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-08",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-08T10:30:00Z",
+  "description": "Інвестігейт по фільтрації як працюють всі поточні фільтри та сортування",
+  "createdAt": "2026-10-08T16:06:09Z",
+  "updatedAt": "2026-10-13T20:23:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151470/work-attribute-values",
+    "values": []
+  }
+}

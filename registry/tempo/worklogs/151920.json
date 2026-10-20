@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151920",
+  "tempoWorklogId": 151920,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101129",
+    "id": 101129
+  },
+  "timeSpentSeconds": 600,
+  "billableSeconds": 600,
+  "startDate": "2026-10-16",
+  "startTime": "12:20:00",
+  "startDateTimeUtc": "2026-10-16T10:20:00Z",
+  "description": "Skeleton loading states",
+  "createdAt": "2026-10-18T22:50:40Z",
+  "updatedAt": "2026-10-18T22:51:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9167ae35-6749-4236-9b45-85a6e502dbc0",
+    "accountId": "712020:9167ae35-6749-4236-9b45-85a6e502dbc0"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151920/work-attribute-values",
+    "values": []
+  }
+}

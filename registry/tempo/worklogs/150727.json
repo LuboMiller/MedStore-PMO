@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150727",
+  "tempoWorklogId": 150727,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101737",
+    "id": 101737
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T05:00:00Z",
+  "description": "Ретест іос після виправлень баг.",
+  "createdAt": "2026-10-11T17:37:22Z",
+  "updatedAt": "2026-10-11T17:37:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150727/work-attribute-values",
+    "values": []
+  }
+}

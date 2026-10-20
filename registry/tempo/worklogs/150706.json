@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150706",
+  "tempoWorklogId": 150706,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-09",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-09T08:00:00Z",
+  "description": "meeting with clients",
+  "createdAt": "2026-10-11T11:01:01Z",
+  "updatedAt": "2026-10-11T11:01:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150706/work-attribute-values",
+    "values": []
+  }
+}

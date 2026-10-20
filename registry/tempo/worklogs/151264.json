@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151264",
+  "tempoWorklogId": 151264,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100403",
+    "id": 100403
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-09",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-09T12:30:00Z",
+  "description": "f-28.2-self-serve-kyb - Activity: Bitbucket",
+  "createdAt": "2026-10-13T07:36:31Z",
+  "updatedAt": "2026-10-13T07:42:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151264/work-attribute-values",
+    "values": []
+  }
+}

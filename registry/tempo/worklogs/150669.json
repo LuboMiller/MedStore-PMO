@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150669",
+  "tempoWorklogId": 150669,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102724",
+    "id": 102724
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-09",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-09T08:45:00Z",
+  "description": "Refined UI screens and reviewed the user flow.",
+  "createdAt": "2026-10-09T16:40:09Z",
+  "updatedAt": "2026-10-09T16:41:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150669/work-attribute-values",
+    "values": []
+  }
+}

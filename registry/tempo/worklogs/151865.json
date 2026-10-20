@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151865",
+  "tempoWorklogId": 151865,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101154",
+    "id": 101154
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-14",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-14T05:00:00Z",
+  "description": "Implement UI",
+  "createdAt": "2026-10-16T22:06:54Z",
+  "updatedAt": "2026-10-16T22:07:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a9d34c-fde3-44c0-842c-4ad8d2a8f79f",
+    "accountId": "712020:c8a9d34c-fde3-44c0-842c-4ad8d2a8f79f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151865/work-attribute-values",
+    "values": []
+  }
+}

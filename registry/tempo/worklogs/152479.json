@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152479",
+  "tempoWorklogId": 152479,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41588",
+    "id": 41588
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-20",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-20T07:00:00Z",
+  "description": "Review design<>requirements process",
+  "createdAt": "2026-10-20T07:08:43Z",
+  "updatedAt": "2026-10-20T09:05:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152479/work-attribute-values",
+    "values": []
+  }
+}

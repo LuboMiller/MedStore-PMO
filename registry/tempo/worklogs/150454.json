@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150454",
+  "tempoWorklogId": 150454,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-09",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-09T09:00:00Z",
+  "description": "MOB-4432: ui/bl/be | Валідація активності торгової точки при створенні замовлення",
+  "createdAt": "2026-10-08T15:22:44Z",
+  "updatedAt": "2026-10-08T15:22:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150454/work-attribute-values",
+    "values": []
+  }
+}

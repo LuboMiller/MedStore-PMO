@@ -7,12 +7,12 @@
   },
   "timeSpentSeconds": 1800,
   "billableSeconds": 1800,
-  "startDate": "2026-10-02",
+  "startDate": "2026-10-05",
   "startTime": "16:30:00",
-  "startDateTimeUtc": "2026-10-02T13:30:00Z",
+  "startDateTimeUtc": "2026-10-05T13:30:00Z",
   "description": "Дейлі",
   "createdAt": "2026-10-05T12:17:22Z",
-  "updatedAt": "2026-10-05T12:17:22Z",
+  "updatedAt": "2026-10-15T12:52:06Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
     "accountId": "631f2155b0ac1ba7b8711614"

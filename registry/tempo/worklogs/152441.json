@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152441",
+  "tempoWorklogId": 152441,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98643",
+    "id": 98643
+  },
+  "timeSpentSeconds": 11100,
+  "billableSeconds": 11100,
+  "startDate": "2026-10-15",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-15T12:00:00Z",
+  "description": "Пілот: розгортання, інтерфейс, прогін сценаріїв: Інтерфейс і розгортання: фільтри історії, сторінка рекламації, автори запитів в історії, nginx на 443, доступ з телефону через VPN, запуск питання прогріву з адмінки, набір іконок, права Data Steward, коміт тижня",
+  "createdAt": "2026-10-19T18:45:59Z",
+  "updatedAt": "2026-10-19T18:45:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152441/work-attribute-values",
+    "values": []
+  }
+}

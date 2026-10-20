@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151833",
+  "tempoWorklogId": 151833,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103492",
+    "id": 103492
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-15",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-15T14:00:00Z",
+  "description": "Illustrations",
+  "createdAt": "2026-10-16T15:33:38Z",
+  "updatedAt": "2026-10-20T06:03:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151833/work-attribute-values",
+    "values": []
+  }
+}

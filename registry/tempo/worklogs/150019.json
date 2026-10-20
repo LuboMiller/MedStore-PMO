@@ -7,12 +7,12 @@
   },
   "timeSpentSeconds": 3600,
   "billableSeconds": 3600,
-  "startDate": "2026-10-06",
+  "startDate": "2026-10-05",
   "startTime": "08:00:00",
-  "startDateTimeUtc": "2026-10-06T05:00:00Z",
+  "startDateTimeUtc": "2026-10-05T05:00:00Z",
   "description": "Переформатування спеки в відгукнутись (прибрала флоу загального створення приватної заявки).",
   "createdAt": "2026-10-05T12:34:25Z",
-  "updatedAt": "2026-10-05T14:21:22Z",
+  "updatedAt": "2026-10-15T12:50:43Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
     "accountId": "631f2155b0ac1ba7b8711614"

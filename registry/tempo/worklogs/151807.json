@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151807",
+  "tempoWorklogId": 151807,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99726",
+    "id": 99726
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-13T09:30:00Z",
+  "description": "Add phone field to GET /api/v1/merchant-users response",
+  "createdAt": "2026-10-16T14:58:16Z",
+  "updatedAt": "2026-10-16T14:58:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151807/work-attribute-values",
+    "values": []
+  }
+}

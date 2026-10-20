@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151126",
+  "tempoWorklogId": 151126,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-09",
+  "startTime": "17:15:00",
+  "startDateTimeUtc": "2026-10-09T14:15:00Z",
+  "description": "Вичитати специфікації по фічах які віддаємо на UAT p.1 + паралельний ПМ тест білдів",
+  "createdAt": "2026-10-12T11:59:58Z",
+  "updatedAt": "2026-10-12T11:59:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151126/work-attribute-values",
+    "values": []
+  }
+}

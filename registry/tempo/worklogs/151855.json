@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151855",
+  "tempoWorklogId": 151855,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102345",
+    "id": 102345
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-19T05:15:00Z",
+  "description": "Тест аос. Повернено на доопрацювання",
+  "createdAt": "2026-10-16T18:24:57Z",
+  "updatedAt": "2026-10-16T18:24:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151855/work-attribute-values",
+    "values": []
+  }
+}

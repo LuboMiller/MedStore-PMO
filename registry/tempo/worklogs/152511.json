@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152511",
+  "tempoWorklogId": 152511,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "MOB-6589: Блок «Переглянуті товари» на PDP: план v2 з кешем у пам'яті (до 15 товарів, очищення при перезапуску, фоні 5 хв, логауті, зміні локалі), реалізація, код-рев'ю, візуальна перевірка, MR !404, передано в тестування.",
+  "createdAt": "2026-10-20T08:29:46Z",
+  "updatedAt": "2026-10-20T08:29:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152511/work-attribute-values",
+    "values": []
+  }
+}

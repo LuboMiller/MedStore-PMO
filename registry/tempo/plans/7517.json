@@ -6,7 +6,6 @@
   "createdAt": "2026-09-28T11:07:41Z",
   "updatedAt": "2026-10-06T13:09:08Z",
   "plannedSecondsPerDay": 7200,
-  "totalPlannedSeconds": 50400,
   "effortPersistenceType": "SECONDS_PER_DAY",
   "syncSource": "NONE",
   "includeNonWorkingDays": false,

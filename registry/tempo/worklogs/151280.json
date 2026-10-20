@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151280",
+  "tempoWorklogId": 151280,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/94678",
+    "id": 94678
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-09",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-09T11:00:00Z",
+  "description": "change-password-kinde-handoff - Activity: Bitbucket",
+  "createdAt": "2026-10-13T07:40:16Z",
+  "updatedAt": "2026-10-13T07:40:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151280/work-attribute-values",
+    "values": []
+  }
+}

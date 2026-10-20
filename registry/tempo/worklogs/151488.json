@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151488",
+  "tempoWorklogId": 151488,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-09",
+  "startTime": "14:45:00",
+  "startDateTimeUtc": "2026-10-09T11:45:00Z",
+  "description": "Підготовка до дзвінка з Русланом",
+  "createdAt": "2026-10-13T20:38:34Z",
+  "updatedAt": "2026-10-13T20:38:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151488/work-attribute-values",
+    "values": []
+  }
+}

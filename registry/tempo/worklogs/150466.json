@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150466",
+  "tempoWorklogId": 150466,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102826",
+    "id": 102826
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-07",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-07T10:15:00Z",
+  "description": "coderabbit review fixes",
+  "createdAt": "2026-10-08T15:35:49Z",
+  "updatedAt": "2026-10-08T15:35:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150466/work-attribute-values",
+    "values": []
+  }
+}

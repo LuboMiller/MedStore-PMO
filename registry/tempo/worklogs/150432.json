@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150432",
+  "tempoWorklogId": 150432,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99342",
+    "id": 99342
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-08",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-08T12:00:00Z",
+  "description": "Сетап документації для кожного кора та вікі.",
+  "createdAt": "2026-10-08T14:25:40Z",
+  "updatedAt": "2026-10-13T06:04:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150432/work-attribute-values",
+    "values": []
+  }
+}

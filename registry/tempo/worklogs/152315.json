@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152315",
+  "tempoWorklogId": 152315,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Cher17 || Sync по проекту і питання до Delivery",
+  "createdAt": "2026-10-19T16:32:13Z",
+  "updatedAt": "2026-10-19T16:32:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152315/work-attribute-values",
+    "values": []
+  }
+}

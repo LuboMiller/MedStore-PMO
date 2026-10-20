@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150738",
+  "tempoWorklogId": 150738,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92843",
+    "id": 92843
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-05",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-05T09:00:00Z",
+  "description": "Spaceplace QA",
+  "createdAt": "2026-10-11T19:57:30Z",
+  "updatedAt": "2026-10-13T06:04:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:eec299b8-5455-48b6-bbef-92c7eda17f27",
+    "accountId": "712020:eec299b8-5455-48b6-bbef-92c7eda17f27"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150738/work-attribute-values",
+    "values": []
+  }
+}

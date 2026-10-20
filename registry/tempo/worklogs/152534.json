@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152534",
+  "tempoWorklogId": 152534,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 19800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-12T05:00:00Z",
+  "description": "- Міти з командою Тотіс\n- \"Page list\" section Admin panel\n- Веб: варіанти хедеру та розробка Хоум пейдж\n- Робота з Styleguide",
+  "createdAt": "2026-10-12T17:53:44Z",
+  "updatedAt": "2026-10-20T08:36:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152534/work-attribute-values",
+    "values": []
+  }
+}

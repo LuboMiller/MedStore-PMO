@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151647",
+  "tempoWorklogId": 151647,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101973",
+    "id": 101973
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-15",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-15T08:00:00Z",
+  "description": "VESELKA-508: [FE] [F-06.03] Шукати лікарів",
+  "createdAt": "2026-10-15T10:43:08Z",
+  "updatedAt": "2026-10-15T10:43:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151647/work-attribute-values",
+    "values": []
+  }
+}

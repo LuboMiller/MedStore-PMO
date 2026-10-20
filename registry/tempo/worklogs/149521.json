@@ -6,13 +6,13 @@
     "id": 100244
   },
   "timeSpentSeconds": 7200,
-  "billableSeconds": 7200,
+  "billableSeconds": 14400,
   "startDate": "2026-10-01",
   "startTime": "13:15:00",
   "startDateTimeUtc": "2026-10-01T10:15:00Z",
   "description": "Редизайн сторіник винагород FreeCards: картка та хедер",
   "createdAt": "2026-10-01T15:27:08Z",
-  "updatedAt": "2026-10-01T15:27:08Z",
+  "updatedAt": "2026-10-12T07:52:35Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
     "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"

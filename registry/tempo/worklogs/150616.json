@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150616",
+  "tempoWorklogId": 150616,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102917",
+    "id": 102917
+  },
+  "timeSpentSeconds": 19200,
+  "billableSeconds": 19200,
+  "startDate": "2026-10-09",
+  "startTime": "09:40:00",
+  "startDateTimeUtc": "2026-10-09T06:40:00Z",
+  "description": "Testing TR-980 Full Regression 2.1.1-prod (269)",
+  "createdAt": "2026-10-09T14:00:11Z",
+  "updatedAt": "2026-10-09T14:00:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150616/work-attribute-values",
+    "values": []
+  }
+}

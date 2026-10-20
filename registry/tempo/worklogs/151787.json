@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151787",
+  "tempoWorklogId": 151787,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T05:00:00Z",
+  "description": "Розробка функціоналу родина та записи",
+  "createdAt": "2026-10-16T14:43:19Z",
+  "updatedAt": "2026-10-16T14:43:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151787/work-attribute-values",
+    "values": []
+  }
+}

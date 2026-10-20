@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-20T10:03:38.250965+00:00",
+  "local_file": "/Users/liubomyr/projects/MedStore-PMO/docs/client-comms/2026-10-20/email-api-tokens-shemet.md",
+  "gmail": {
+    "id": "r7125779688625777429",
+    "message_id": "1a158c43da125cad",
+    "thread_id": "1a158c43da125cad",
+    "to": [
+      "shemet.o@dobrobut.ua"
+    ],
+    "cc": [],
+    "subject": "MedStore / Discovery — погодження витрат на API-токени (~$550)",
+    "body_chars": 879,
+    "html": true,
+    "signature": {
+      "appended": true,
+      "sendAsEmail": "l.miller@devlight.io",
+      "signature_chars": 2549
+    }
+  },
+  "status": "draft_created"
+}

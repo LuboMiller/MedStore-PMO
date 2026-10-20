@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151776",
+  "tempoWorklogId": 151776,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102772",
+    "id": 102772
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-12",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-12T06:15:00Z",
+  "description": "[BE][WBS-0004-T011] `api-gateway` proxy route for the OAuth callback (§5)",
+  "createdAt": "2026-10-16T13:32:27Z",
+  "updatedAt": "2026-10-16T13:32:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151776/work-attribute-values",
+    "values": []
+  }
+}

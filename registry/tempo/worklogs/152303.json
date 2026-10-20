@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152303",
+  "tempoWorklogId": 152303,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40615",
+    "id": 40615
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-13",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-13T09:30:00Z",
+  "description": "status sync, JIRA updates, tasks review and planning",
+  "createdAt": "2026-10-19T15:07:14Z",
+  "updatedAt": "2026-10-19T15:07:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152303/work-attribute-values",
+    "values": []
+  }
+}

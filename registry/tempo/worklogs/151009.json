@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151009",
+  "tempoWorklogId": 151009,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34480",
+    "id": 34480
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-07",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-07T12:00:00Z",
+  "description": "Agrigator || BA pipeline",
+  "createdAt": "2026-10-12T11:41:50Z",
+  "updatedAt": "2026-10-12T11:41:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151009/work-attribute-values",
+    "values": []
+  }
+}

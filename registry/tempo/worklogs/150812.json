@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150812",
+  "tempoWorklogId": 150812,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41478",
+    "id": 41478
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-07",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-07T05:00:00Z",
+  "description": "- daily\n- supershans testing\n- bug fix retesting\n-- support issue investigation: users with the 1k requests",
+  "createdAt": "2026-10-12T07:11:13Z",
+  "updatedAt": "2026-10-12T07:23:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:bd38168b-ad32-4f32-82be-8d82b993c676",
+    "accountId": "712020:bd38168b-ad32-4f32-82be-8d82b993c676"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150812/work-attribute-values",
+    "values": []
+  }
+}

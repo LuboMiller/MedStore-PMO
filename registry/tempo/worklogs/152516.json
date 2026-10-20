@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152516",
+  "tempoWorklogId": 152516,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 16200,
+  "billableSeconds": 16200,
+  "startDate": "2026-10-15",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-15T05:00:00Z",
+  "description": "MOB-6501: Сторіс «Твій рік»: звірка з дизайном, тихе відкриття за гайдом бекенду, анімація на правій половині бонусної картки, конверт на третину картки; порівняння з Android, передано в тестування.",
+  "createdAt": "2026-10-20T08:29:48Z",
+  "updatedAt": "2026-10-20T08:29:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152516/work-attribute-values",
+    "values": []
+  }
+}

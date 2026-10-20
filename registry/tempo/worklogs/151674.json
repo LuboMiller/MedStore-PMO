@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151674",
+  "tempoWorklogId": 151674,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/30925",
+    "id": 30925
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-16",
+  "startTime": "20:30:00",
+  "startDateTimeUtc": "2026-10-16T17:30:00Z",
+  "description": "Логування і перевірка часу",
+  "createdAt": "2026-10-15T12:49:16Z",
+  "updatedAt": "2026-10-15T12:49:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151674/work-attribute-values",
+    "values": []
+  }
+}

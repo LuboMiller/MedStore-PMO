@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151076",
+  "tempoWorklogId": 151076,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-06",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-06T06:30:00Z",
+  "description": "Термін дії контракту ВП до 31.10.2026, продовжити.",
+  "createdAt": "2026-10-12T11:59:41Z",
+  "updatedAt": "2026-10-12T11:59:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151076/work-attribute-values",
+    "values": []
+  }
+}

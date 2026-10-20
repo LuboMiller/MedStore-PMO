@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150601",
+  "tempoWorklogId": 150601,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103054",
+    "id": 103054
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-09",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-09T08:30:00Z",
+  "description": "Прибирання кешування сторінки підкатеголрій, завжди показувати дані по запиту ",
+  "createdAt": "2026-10-09T11:31:13Z",
+  "updatedAt": "2026-10-09T11:31:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150601/work-attribute-values",
+    "values": []
+  }
+}

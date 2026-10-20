@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150808",
+  "tempoWorklogId": 150808,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/55154",
+    "id": 55154
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-12T06:00:00Z",
+  "description": "Cher17 kick-off loyalty - prepare pipeline",
+  "createdAt": "2026-10-12T06:46:13Z",
+  "updatedAt": "2026-10-13T06:04:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150808/work-attribute-values",
+    "values": []
+  }
+}

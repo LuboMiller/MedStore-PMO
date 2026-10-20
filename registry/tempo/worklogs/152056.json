@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152056",
+  "tempoWorklogId": 152056,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89645",
+    "id": 89645
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T06:00:00Z",
+  "description": "Creation, viewing, editing – services and extra services, statuses and layout for Merchant Admin and Staff\nUpdated layout of the services table (new columns and statuses)\nUpdated layout of the extra services table (new columns and statuses)\nAdding extra services via the driver\nCharacter count indicators for service and extra service names\nLogic for displaying fields depending on Booking Mode (whether ‘duration’ is displayed or not)\nTooltip for the ‘Capacity’ field",
+  "createdAt": "2026-10-19T08:16:04Z",
+  "updatedAt": "2026-10-19T08:16:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152056/work-attribute-values",
+    "values": []
+  }
+}

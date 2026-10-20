@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150440",
+  "tempoWorklogId": 150440,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100447",
+    "id": 100447
+  },
+  "timeSpentSeconds": 19800,
+  "billableSeconds": 19800,
+  "startDate": "2026-10-08",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-08T07:30:00Z",
+  "description": "Фіналізація каталогу, дзвінок з клієнтами, сторення клікабельного прототипу для швидкої демки.",
+  "createdAt": "2026-10-08T15:02:45Z",
+  "updatedAt": "2026-10-08T15:02:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150440/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150437",
+  "tempoWorklogId": 150437,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "Обговорення прототипів, зміна родиного акануту та інфо на головній (фолов ап описав в чаті 08.10.2026)",
+  "createdAt": "2026-10-08T15:00:06Z",
+  "updatedAt": "2026-10-08T15:00:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150437/work-attribute-values",
+    "values": []
+  }
+}

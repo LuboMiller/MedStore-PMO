@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151161",
+  "tempoWorklogId": 151161,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103125",
+    "id": 103125
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-12",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-12T10:00:00Z",
+  "description": "Використання нового SDD для задачі... + реалізація",
+  "createdAt": "2026-10-12T15:06:42Z",
+  "updatedAt": "2026-10-12T15:06:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151161/work-attribute-values",
+    "values": []
+  }
+}

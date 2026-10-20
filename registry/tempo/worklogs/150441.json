@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150441",
+  "tempoWorklogId": 150441,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 27000,
+  "billableSeconds": 0,
+  "startDate": "2026-10-08",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-08T05:30:00Z",
+  "description": "oct 6-7 doc verification - done/ insta issue investigation/ regression on prod for sandbox and yarkovytsya agents/ R-107(9)/ retests",
+  "createdAt": "2026-10-08T15:03:52Z",
+  "updatedAt": "2026-10-13T06:04:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150441/work-attribute-values",
+    "values": []
+  }
+}

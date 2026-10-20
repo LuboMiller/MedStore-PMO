@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151346",
+  "tempoWorklogId": 151346,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 23400,
+  "billableSeconds": 23400,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T06:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- MOB-4451 Technical Debt: Adaptation to Xcode 27 / Swift 6.4\n- Support requests. Push notification issue ",
+  "createdAt": "2026-10-13T13:29:50Z",
+  "updatedAt": "2026-10-13T13:29:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151346/work-attribute-values",
+    "values": []
+  }
+}

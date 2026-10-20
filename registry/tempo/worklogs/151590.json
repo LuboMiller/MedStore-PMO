@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/151590",
+  "tempoWorklogId": 151590,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103311",
+    "id": 103311
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-14",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-14T09:45:00Z",
+  "description": "Реалізація частину станів для діалогу 18.2 + оформлення UI",
+  "createdAt": "2026-10-14T15:35:14Z",
+  "updatedAt": "2026-10-14T15:35:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/151590/work-attribute-values",
+    "values": []
+  }
+}
