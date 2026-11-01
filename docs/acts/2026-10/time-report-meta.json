@@ -1,0 +1,18 @@
+{
+  "month": "2026-10",
+  "from_date": "2026-10-01",
+  "to_date": "2026-10-31",
+  "tab_title": "Жовтень 2026",
+  "spreadsheet_id": "12hH7PAJzvpfThQAGv_ksn9xcWcQG9crC27segcNdM8U",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/12hH7PAJzvpfThQAGv_ksn9xcWcQG9crC27segcNdM8U/edit?usp=drivesdk",
+  "spreadsheet_created": false,
+  "tab_created": false,
+  "dry_run": false,
+  "generated_at": "2026-11-01T23:11:32.749974+00:00",
+  "worklog_count": 113,
+  "bill_row_count": 11,
+  "warnings": [],
+  "row_count": 11,
+  "total_hours": 168.17999999999998,
+  "total_cost": 13334.400000000001
+}

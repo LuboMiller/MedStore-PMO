@@ -429,6 +429,14 @@ def cmd_google(args: argparse.Namespace) -> int:
 
         subject = (getattr(args, "subject", None) or parsed.subject).strip()
         body = parsed.body
+        attachments: list[Path] = []
+        for raw in getattr(args, "attach", None) or []:
+            p = Path(raw)
+            if not p.is_absolute():
+                p = Path.cwd() / p
+            if not p.is_file():
+                raise SystemExit(f"Attachment not found: {p}")
+            attachments.append(p)
         if getattr(args, "dry_run", False):
             sig_meta: dict = {"append": append_sig, "fetched": False}
             sig_html = ""
@@ -461,6 +469,7 @@ def cmd_google(args: argparse.Namespace) -> int:
                     "body_chars": len(plain_out),
                     "html": bool(html_out),
                     "signature": sig_meta,
+                    "attachments": [p.name for p in attachments],
                     "file": str(file_path),
                 }
             )
@@ -474,6 +483,7 @@ def cmd_google(args: argparse.Namespace) -> int:
                 body=body,
                 append_signature=append_sig,
                 send_as_email=send_as,
+                attachments=attachments or None,
             )
         except GoogleNotConfigured as e:
             raise SystemExit(str(e)) from e
@@ -512,6 +522,7 @@ def cmd_google(args: argparse.Namespace) -> int:
                 dry_run=bool(getattr(args, "dry_run", False)),
                 force=bool(getattr(args, "force", False)),
                 create_if_missing=not bool(getattr(args, "no_create", False)),
+                expenses_only=bool(getattr(args, "expenses_only", False)),
             )
         except FileNotFoundError as e:
             raise SystemExit(str(e)) from e
@@ -1429,6 +1440,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="time-report: overwrite non-empty month tab",
     )
     g.add_argument(
+        "--expenses-only",
+        action="store_true",
+        help="time-report: write only the expenses tab (e.g. «Жовтень (Токени)») from docs/acts/YYYY-MM/expenses.csv",
+    )
+    g.add_argument(
         "--no-create",
         action="store_true",
         help="time-report: fail if spreadsheet missing (do not create)",
@@ -1441,6 +1457,12 @@ def build_parser() -> argparse.ArgumentParser:
     g.add_argument("--to", default=None, help="gmail-draft: comma-separated To emails")
     g.add_argument("--cc", default=None, help="gmail-draft: comma-separated Cc emails")
     g.add_argument("--subject", default=None, help="gmail-draft: override subject")
+    g.add_argument(
+        "--attach",
+        action="append",
+        default=None,
+        help="gmail-draft: file to attach (repeatable)",
+    )
     g.add_argument(
         "--mail-config",
         default=None,

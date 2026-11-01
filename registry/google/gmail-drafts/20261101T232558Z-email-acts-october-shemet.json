@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-11-01T23:25:58.386226+00:00",
+  "local_file": "/Users/liubomyr/projects/MedStore-PMO/docs/client-comms/2026-11-02/email-acts-october-shemet.md",
+  "gmail": {
+    "id": "r2814047270599482634",
+    "message_id": "1a1996f1a8e2a42c",
+    "thread_id": "1a1996f1a8e2a42c",
+    "to": [
+      "shemet.o@dobrobut.ua"
+    ],
+    "cc": [],
+    "subject": "MedStore / Discovery — акти за жовтень 2026 на погодження",
+    "body_chars": 459,
+    "html": true,
+    "signature": {
+      "appended": true,
+      "sendAsEmail": "l.miller@devlight.io",
+      "signature_chars": 2549
+    },
+    "attachments": [
+      "MedStore-Time-Report-Жовтень-2026.pdf",
+      "MedStore-Токени-Жовтень-2026.pdf"
+    ]
+  },
+  "status": "draft_created"
+}

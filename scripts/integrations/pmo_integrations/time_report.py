@@ -4,6 +4,16 @@ Layout + formatting for Devlight month tabs (Time Report act):
   A–G main table (# | Person | Work | Hours | Role | Rate | Cost)
   I–K role pivot (aligned to first data row)
   Nunito/Calibri fonts, borders, number format #,##0.00, frozen header
+
+Config ``"layout": "compact"`` switches to the client-act layout without Person
+(e.g. MedStore «Серпень/Вересень 2026»):
+  row 1 blank · row 2 header A–F (# | Work | Hours | Role | Rate | Cost)
+  rows 3.. data (work × role) · blank row · totals row
+  H–K role pivot from row 2 (Role | SUM hours | SUM cost | rate = J/I)
+
+Optional expenses tab (``"expenses_tab"`` in config): pass-through costs such as
+API tokens, read from ``docs/acts/YYYY-MM/expenses.csv`` and written to a
+separate tab (e.g. «Жовтень (Токени)»). Skipped while the CSV has no rows.
 """
 
 from __future__ import annotations
@@ -54,6 +64,44 @@ HEADER = [
     "Вартість USD, без ПДВ",
 ]
 
+COMPACT_HEADER = [
+    "",
+    "Назва етапу/робіт",
+    "Кількість годин",
+    "Роль/кваліфікація спеціаліста",
+    "Вартість USD/год, без ПДВ",
+    "Вартість USD, без ПДВ",
+]
+
+COMPACT_PIVOT_HEADER = [
+    "Роль/кваліфікація спеціаліста",
+    "SUM з Кількість годин",
+    "SUM з Вартість USD, без ПДВ",
+    "rate",
+]
+
+# Column pixel widths from MedStore «Вересень 2026» (A–K).
+COMPACT_COLUMN_WIDTHS_PX = [100, 616, 100, 100, 100, 100, 100, 150, 100, 100, 100]
+
+
+def is_compact_layout(cfg: dict[str, Any]) -> bool:
+    return str(cfg.get("layout") or "").strip().lower() == "compact"
+
+
+EXPENSES_CSV_NAME = "expenses.csv"
+EXPENSES_CSV_HEADER = ["Назва витрат", "Провайдер / сервіс", "Вартість USD, без ПДВ", "Примітка"]
+EXPENSES_HEADER = ["", *EXPENSES_CSV_HEADER]
+# A–E widths for the expenses tab.
+EXPENSES_COLUMN_WIDTHS_PX = [100, 450, 200, 150, 400]
+
+
+@dataclass
+class ExpenseRow:
+    title: str
+    provider: str
+    amount: float
+    note: str = ""
+
 
 @dataclass
 class TimeReportRow:
@@ -85,6 +133,9 @@ class TimeReportResult:
     local_dir: str = ""
     warnings: list[str] = field(default_factory=list)
     dry_run: bool = False
+    expenses_tab_title: str = ""
+    expenses: list[ExpenseRow] = field(default_factory=list)
+    expenses_total: float = 0.0
 
 
 def load_time_report_config(path: Optional[Path] = None) -> dict[str, Any]:
@@ -190,9 +241,22 @@ def aggregate_bill_rows(
     cfg: dict[str, Any],
     issues_by_id: dict[str, dict[str, Any]],
 ) -> tuple[list[TimeReportRow], list[str]]:
-    """Aggregate Tempo bill hours → Time Report rows (person × work title × role)."""
+    """Aggregate Tempo bill hours → Time Report rows (person × work title × role).
+
+    Compact layout groups by work title × role (person left blank) and orders
+    rows by ``role_order`` then title. ``work_title_overrides`` maps a Jira key
+    to the title used in the act; ``title_prefix_by_role`` prepends e.g.
+    ``[BA]`` to every title of that role.
+    """
     people = _people_index(cfg)
     rates: dict[str, float] = {str(k): float(v) for k, v in (cfg.get("rates") or {}).items()}
+    compact = is_compact_layout(cfg)
+    title_overrides: dict[str, str] = {
+        str(k): str(v) for k, v in (cfg.get("work_title_overrides") or {}).items()
+    }
+    role_prefixes: dict[str, str] = {
+        str(k): str(v).strip() for k, v in (cfg.get("title_prefix_by_role") or {}).items()
+    }
     warnings: list[str] = []
     # key → seconds
     buckets: dict[tuple[str, str, str], float] = defaultdict(float)
@@ -213,9 +277,16 @@ def aggregate_bill_rows(
             role = "BE"
         iid = _issue_id(wl)
         issue = issues_by_id.get(iid) if iid else None
-        title = (issue or {}).get("summary") or ""
+        title = title_overrides.get(str((issue or {}).get("key") or "")) or (
+            (issue or {}).get("summary") or ""
+        )
         if not title:
             title = (wl.get("description") or "").strip() or f"Issue {iid or 'unknown'}"
+        prefix = role_prefixes.get(role)
+        if prefix and not title.startswith(prefix):
+            title = f"{prefix} {title}"
+        if compact:
+            person = ""
         buckets[(person, title, role)] += secs / 3600.0
 
     if unknown_people:
@@ -224,10 +295,17 @@ def aggregate_bill_rows(
             + ", ".join(sorted(unknown_people))
         )
 
+    role_order = [str(r) for r in (cfg.get("role_order") or [])]
+
+    def _sort_key(item: tuple[tuple[str, str, str], float]) -> tuple[Any, ...]:
+        person, title, role = item[0]
+        if compact:
+            rank = role_order.index(role) if role in role_order else len(role_order)
+            return (rank, role, title.lower())
+        return (person.lower(), title.lower())
+
     rows: list[TimeReportRow] = []
-    for (person, title, role), hours in sorted(
-        buckets.items(), key=lambda x: (x[0][0].lower(), x[0][1].lower())
-    ):
+    for (person, title, role), hours in sorted(buckets.items(), key=_sort_key):
         rate = float(rates.get(role, rates.get("BE", 45.0)))
         rows.append(
             TimeReportRow(
@@ -338,6 +416,429 @@ def build_sheet_values(rows: list[TimeReportRow]) -> list[list[Any]]:
     fr[6] = f"=SUM(G3:G{last_data_sheet_row})"
 
     return values
+
+
+def build_compact_sheet_values(rows: list[TimeReportRow]) -> list[list[Any]]:
+    """Sheet matrix matching MedStore «Вересень 2026» layout.
+
+    Structure (1-based sheet rows):
+      1      — blank
+      2      — headers A–F; pivot header H–K
+      3..N   — data; F is ``=E{r}*C{r}``
+      N+1    — blank (bordered)
+      N+2    — totals ``=SUM(C3:C{N+1})`` / ``=SUM(F3:F{N+1})``
+
+    Pivot H–K (from row 3): blank 0-row → roles (K = J/I) → «Загальний результат».
+    """
+    values: list[list[Any]] = [[], list(COMPACT_HEADER) + [""] + list(COMPACT_PIVOT_HEADER)]
+
+    by_role_hours: dict[str, float] = defaultdict(float)
+    by_role_cost: dict[str, float] = defaultdict(float)
+    role_seen: list[str] = []
+    for i, row in enumerate(rows, start=1):
+        sheet_row = i + 2  # data starts at sheet row 3
+        values.append(
+            [
+                i,
+                row.work_title,
+                round(row.hours, 2),
+                row.role,
+                round(row.rate, 2),
+                f"=E{sheet_row}*C{sheet_row}",
+            ]
+        )
+        by_role_hours[row.role] += row.hours
+        by_role_cost[row.role] += row.cost
+        if row.role not in role_seen:
+            role_seen.append(row.role)
+
+    n = len(rows)
+    blank_sheet_row = n + 3
+    values.append([])  # blank bordered row under data
+    values.append(
+        ["", "", f"=SUM(C3:C{blank_sheet_row})", "", "", f"=SUM(F3:F{blank_sheet_row})"]
+    )
+
+    pivot_blocks: list[list[Any]] = [["", 0, 0.0]]
+    for role in sorted(role_seen):
+        r = 3 + len(pivot_blocks)  # sheet row of this pivot line (0-row is row 3)
+        pivot_blocks.append(
+            [role, round(by_role_hours[role], 2), round(by_role_cost[role], 2), f"=J{r}/I{r}"]
+        )
+    pivot_blocks.append(
+        [
+            "Загальний результат",
+            round(sum(by_role_hours.values()), 2),
+            round(sum(by_role_cost.values()), 2),
+        ]
+    )
+
+    data_start = 2  # 0-based index of sheet row 3
+    for offset, block in enumerate(pivot_blocks):
+        target = data_start + offset
+        while len(values) <= target:
+            values.append([])
+        row = values[target]
+        if len(row) < 7:
+            row.extend([""] * (7 - len(row)))
+        else:
+            del row[7:]
+        row.extend(block)
+
+    return values
+
+
+def build_compact_tab_format_requests(
+    sheet_id: int,
+    *,
+    data_row_count: int,
+    role_count: int,
+) -> list[dict[str, Any]]:
+    """batchUpdate requests matching MedStore «Вересень 2026» styling."""
+    if data_row_count < 0 or role_count < 0:
+        raise ValueError("data_row_count and role_count must be >= 0")
+
+    header_row = 1  # 0-indexed sheet row 2
+    data_start = 2
+    data_end = data_start + data_row_count
+    blank_row = data_end
+    footer_row = data_end + 1
+    pivot_blank_row = data_start
+    pivot_roles_start = data_start + 1
+    pivot_roles_end = pivot_roles_start + role_count
+    pivot_total_row = pivot_roles_end
+    last_content_row = max(footer_row + 1, pivot_total_row + 1)
+
+    reqs: list[dict[str, Any]] = []
+    for i, px in enumerate(COMPACT_COLUMN_WIDTHS_PX):
+        reqs.append(
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "sheetId": sheet_id,
+                        "dimension": "COLUMNS",
+                        "startIndex": i,
+                        "endIndex": i + 1,
+                    },
+                    "properties": {"pixelSize": px},
+                    "fields": "pixelSize",
+                }
+            }
+        )
+
+    reqs.append(
+        _repeat_cell(
+            sheet_id,
+            start_row=0,
+            end_row=max(last_content_row, 3),
+            start_col=0,
+            end_col=11,
+            cell={"userEnteredFormat": {}},
+            fields="userEnteredFormat",
+        )
+    )
+
+    border = _solid_border()
+    num_fmt = {"type": "NUMBER", "pattern": "#,##0.00"}
+    fmt_fields = "userEnteredFormat(textFormat,horizontalAlignment,verticalAlignment,wrapStrategy,numberFormat,borders)"
+
+    def cell(
+        *,
+        tf: dict[str, Any],
+        h: str,
+        v: str = "BOTTOM",
+        wrap: str = "WRAP",
+        num: bool = False,
+        borders: Optional[dict[str, Any]] = None,
+    ) -> dict[str, Any]:
+        fmt: dict[str, Any] = {
+            "textFormat": tf,
+            "horizontalAlignment": h,
+            "verticalAlignment": v,
+            "wrapStrategy": wrap,
+            "borders": border if borders is None else borders,
+        }
+        if num:
+            fmt["numberFormat"] = num_fmt
+        return {"userEnteredFormat": fmt}
+
+    # Header A–F: Nunito 11 bold, wrap, borders; B left, rest center.
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=0, end_col=6,
+            cell=cell(tf=_text_format(bold=True), h="CENTER"), fields=fmt_fields,
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=1, end_col=2,
+            cell={"userEnteredFormat": {"horizontalAlignment": "LEFT"}},
+            fields="userEnteredFormat.horizontalAlignment",
+        )
+    )
+
+    if data_row_count > 0:
+        column_cells = [
+            (0, 1, cell(tf=_text_format(), h="CENTER", v="TOP")),
+            (1, 2, cell(tf=_text_format(font="Arial", size=10), h="LEFT", wrap="OVERFLOW_CELL")),
+            (2, 3, cell(tf=_text_format(font="Arial", size=10), h="RIGHT", wrap="OVERFLOW_CELL")),
+            (3, 4, cell(tf=_text_format(), h="CENTER")),
+            (4, 6, cell(tf=_text_format(), h="CENTER", num=True)),
+        ]
+        for c0, c1, c in column_cells:
+            reqs.append(
+                _repeat_cell(
+                    sheet_id, start_row=data_start, end_row=data_end, start_col=c0, end_col=c1,
+                    cell=c, fields=fmt_fields,
+                )
+            )
+
+    # Blank + totals rows: bordered A–F; totals C/F Arial 12 bold center.
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=blank_row, end_row=footer_row + 1, start_col=0, end_col=6,
+            cell=cell(tf=_text_format(font="Arial", size=10), h="LEFT", wrap="OVERFLOW_CELL"),
+            fields=fmt_fields,
+        )
+    )
+    for col in (2, 5):
+        reqs.append(
+            _repeat_cell(
+                sheet_id, start_row=footer_row, end_row=footer_row + 1, start_col=col, end_col=col + 1,
+                cell=cell(
+                    tf=_text_format(font="Arial", size=12, bold=True),
+                    h="CENTER", wrap="OVERFLOW_CELL", num=(col == 5),
+                ),
+                fields=fmt_fields,
+            )
+        )
+
+    # Pivot header H (role) + I–J (values) + K (rate).
+    pivot_tf = _text_format(font="Arial", size=10)
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=7, end_col=8,
+            cell={"userEnteredFormat": {
+                "textFormat": pivot_tf,
+                "backgroundColor": _PIVOT_HEADER_ROLE_BG,
+                "borders": {"bottom": {"style": "SOLID_THICK"}},
+            }},
+            fields="userEnteredFormat(textFormat,backgroundColor,borders)",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=8, end_col=10,
+            cell={"userEnteredFormat": {
+                "textFormat": _text_format(font="Arial", size=10, fg=_WHITE),
+                "backgroundColor": _PIVOT_HEADER_VALUE_BG,
+                "borders": {"bottom": {"style": "SOLID_THICK"}},
+            }},
+            fields="userEnteredFormat(textFormat,backgroundColor,borders)",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=10, end_col=11,
+            cell={"userEnteredFormat": {"textFormat": pivot_tf, "horizontalAlignment": "CENTER"}},
+            fields="userEnteredFormat(textFormat,horizontalAlignment)",
+        )
+    )
+
+    # Pivot 0-row + role rows: H grey label, I–K right-aligned numbers.
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_blank_row, end_row=pivot_roles_end, start_col=7, end_col=8,
+            cell={"userEnteredFormat": {
+                "textFormat": pivot_tf,
+                "backgroundColor": _PIVOT_ROLE_BG,
+                "borders": {"right": {"style": "SOLID"}},
+            }},
+            fields="userEnteredFormat(textFormat,backgroundColor,borders)",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_blank_row, end_row=pivot_roles_end, start_col=8, end_col=11,
+            cell={"userEnteredFormat": {"textFormat": pivot_tf, "horizontalAlignment": "RIGHT"}},
+            fields="userEnteredFormat(textFormat,horizontalAlignment)",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_blank_row, end_row=pivot_roles_end, start_col=9, end_col=10,
+            cell={"userEnteredFormat": {"numberFormat": num_fmt}},
+            fields="userEnteredFormat.numberFormat",
+        )
+    )
+
+    # Pivot total H–J.
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_total_row, end_row=pivot_total_row + 1, start_col=7, end_col=10,
+            cell={"userEnteredFormat": {
+                "textFormat": _text_format(font="Arial", size=10, bold=True),
+                "backgroundColor": _PIVOT_HEADER_ROLE_BG,
+                "borders": {"top": {"style": "SOLID"}},
+                "horizontalAlignment": "RIGHT",
+            }},
+            fields="userEnteredFormat(textFormat,backgroundColor,borders,horizontalAlignment)",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_total_row, end_row=pivot_total_row + 1, start_col=7, end_col=8,
+            cell={"userEnteredFormat": {"horizontalAlignment": "LEFT"}},
+            fields="userEnteredFormat.horizontalAlignment",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=pivot_total_row, end_row=pivot_total_row + 1, start_col=9, end_col=10,
+            cell={"userEnteredFormat": {"numberFormat": num_fmt}},
+            fields="userEnteredFormat.numberFormat",
+        )
+    )
+
+    return reqs
+
+
+def expenses_tab_title(cfg: dict[str, Any], d: date) -> str:
+    tpl = str((cfg.get("expenses_tab") or {}).get("title_template") or "{month_name} (Токени)")
+    return tpl.format(month_name=UA_MONTHS[d.month], year=d.year)
+
+
+def _parse_amount(raw: str) -> float:
+    s = str(raw or "").replace("$", "").replace("\xa0", "").replace(" ", "").replace(",", ".")
+    return float(s) if s else 0.0
+
+
+def load_expenses_csv(path: Path) -> list[ExpenseRow]:
+    """Read pass-through expenses (header ``EXPENSES_CSV_HEADER``); blank rows skipped."""
+    if not path.exists():
+        return []
+    out: list[ExpenseRow] = []
+    with path.open(encoding="utf-8", newline="") as fh:
+        reader = csv.reader(fh)
+        next(reader, None)
+        for row in reader:
+            row = [c.strip() for c in row] + [""] * (4 - len(row))
+            if not row[0] and not row[2]:
+                continue
+            out.append(
+                ExpenseRow(title=row[0], provider=row[1], amount=_parse_amount(row[2]), note=row[3])
+            )
+    return out
+
+
+def ensure_expenses_csv(path: Path) -> None:
+    """Create an empty expenses CSV (header only) for the PM to fill from invoices."""
+    if path.exists():
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        csv.writer(fh).writerow(EXPENSES_CSV_HEADER)
+
+
+def build_expenses_sheet_values(rows: list[ExpenseRow]) -> list[list[Any]]:
+    """Row 1 blank · row 2 header A–E · rows 3.. data · blank · total ``=SUM(D…)``."""
+    values: list[list[Any]] = [[], list(EXPENSES_HEADER)]
+    for i, row in enumerate(rows, start=1):
+        values.append([i, row.title, row.provider, round(row.amount, 2), row.note])
+    blank_sheet_row = len(rows) + 3
+    values.append([])
+    values.append(["", "Разом", "", f"=SUM(D3:D{blank_sheet_row})", ""])
+    return values
+
+
+def build_expenses_tab_format_requests(sheet_id: int, *, data_row_count: int) -> list[dict[str, Any]]:
+    """Compact-act styling for the expenses tab (A–E)."""
+    header_row, data_start = 1, 2
+    data_end = data_start + data_row_count
+    footer_row = data_end + 1
+    border = _solid_border()
+    num_fmt = {"type": "NUMBER", "pattern": "#,##0.00"}
+    fields = "userEnteredFormat(textFormat,horizontalAlignment,verticalAlignment,wrapStrategy,numberFormat,borders)"
+
+    def fmt(tf: dict[str, Any], h: str, *, num: bool = False, v: str = "BOTTOM") -> dict[str, Any]:
+        f: dict[str, Any] = {
+            "textFormat": tf,
+            "horizontalAlignment": h,
+            "verticalAlignment": v,
+            "wrapStrategy": "WRAP",
+            "borders": border,
+        }
+        if num:
+            f["numberFormat"] = num_fmt
+        return {"userEnteredFormat": f}
+
+    reqs: list[dict[str, Any]] = []
+    for i, px in enumerate(EXPENSES_COLUMN_WIDTHS_PX):
+        reqs.append(
+            {
+                "updateDimensionProperties": {
+                    "range": {"sheetId": sheet_id, "dimension": "COLUMNS", "startIndex": i, "endIndex": i + 1},
+                    "properties": {"pixelSize": px},
+                    "fields": "pixelSize",
+                }
+            }
+        )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=0, end_row=footer_row + 1, start_col=0, end_col=5,
+            cell={"userEnteredFormat": {}}, fields="userEnteredFormat",
+        )
+    )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=header_row, end_row=header_row + 1, start_col=0, end_col=5,
+            cell=fmt(_text_format(bold=True), "CENTER"), fields=fields,
+        )
+    )
+    body = [
+        (0, 1, fmt(_text_format(), "CENTER", v="TOP")),
+        (1, 3, fmt(_text_format(font="Arial", size=10), "LEFT")),
+        (3, 4, fmt(_text_format(), "CENTER", num=True)),
+        (4, 5, fmt(_text_format(font="Arial", size=10), "LEFT")),
+    ]
+    for c0, c1, c in body:
+        reqs.append(
+            _repeat_cell(
+                sheet_id, start_row=data_start, end_row=footer_row, start_col=c0, end_col=c1,
+                cell=c, fields=fields,
+            )
+        )
+    reqs.append(
+        _repeat_cell(
+            sheet_id, start_row=footer_row, end_row=footer_row + 1, start_col=0, end_col=5,
+            cell=fmt(_text_format(font="Arial", size=12, bold=True), "CENTER", num=True), fields=fields,
+        )
+    )
+    return reqs
+
+
+def _write_tab(
+    google: GoogleWorkspaceClient,
+    sid: str,
+    title: str,
+    *,
+    force: bool,
+    allow_overwrite: bool,
+) -> tuple[str, bool]:
+    """Find or add tab ``title``; refuse to overwrite data unless allowed. Returns (real_title, created)."""
+    existing = {t.strip(): t for t in google.list_sheet_titles(sid)}
+    if title in existing:
+        real_title = existing[title]
+        if not force and not allow_overwrite:
+            existing_vals = google.read_sheet_values(sid, f"'{real_title}'!A1:G5")
+            if [r for r in existing_vals[1:] if any(str(c).strip() for c in r)]:
+                raise RuntimeError(
+                    f"Tab '{real_title}' already has data. Re-run with --force to overwrite."
+                )
+        google.clear_sheet_values(sid, f"'{real_title}'!A:K")
+        return real_title, False
+    google.add_sheet(sid, title)
+    return title, True
 
 
 def _solid_border(style: str = "SOLID") -> dict[str, Any]:
@@ -784,10 +1285,12 @@ def apply_month_tab_formatting(
     *,
     data_row_count: int,
     role_count: int,
+    compact: bool = False,
 ) -> None:
-    """Apply July/August visual style to a filled month tab."""
+    """Apply July/August (or compact MedStore) visual style to a filled month tab."""
     sheet_id = client.get_sheet_id(spreadsheet_id, sheet_title)
-    requests = build_month_tab_format_requests(
+    builder = build_compact_tab_format_requests if compact else build_month_tab_format_requests
+    requests = builder(
         sheet_id,
         data_row_count=data_row_count,
         role_count=role_count,
@@ -985,12 +1488,32 @@ def prepare_monthly_act(
     dry_run: bool = False,
     force: bool = False,
     create_if_missing: bool = True,
+    expenses_only: bool = False,
 ) -> TimeReportResult:
-    """End-to-end: Tempo bill → aggregate → local draft → Sheets create/fill."""
+    """End-to-end: Tempo bill → aggregate → local draft → Sheets create/fill.
+
+    With ``expenses_tab`` configured, also writes the expenses tab from
+    ``docs/acts/YYYY-MM/expenses.csv`` (a separate act). ``expenses_only`` skips
+    the month tab so the expenses act can be filed after the hours act.
+    """
     tr_cfg = load_time_report_config(cfg_path)
     d0, d1 = month_bounds(month)
     tab_title = ua_tab_title(d0)
     warnings: list[str] = []
+
+    exp_cfg = tr_cfg.get("expenses_tab") or {}
+    exp_title = expenses_tab_title(tr_cfg, d0) if exp_cfg else ""
+    exp_csv = ACTS_DIR / month / EXPENSES_CSV_NAME
+    expenses: list[ExpenseRow] = []
+    if exp_cfg:
+        ensure_expenses_csv(exp_csv)
+        expenses = load_expenses_csv(exp_csv)
+        if not expenses:
+            warnings.append(
+                f"expenses: {exp_csv.relative_to(ROOT)} has no rows — tab '{exp_title}' not written"
+            )
+    elif expenses_only:
+        raise ValueError("--expenses-only needs \"expenses_tab\" in config/time-report.json")
 
     integ = load_config(require=("tempo",))
     tempo = TempoClient.from_config(integ)
@@ -1037,38 +1560,44 @@ def prepare_monthly_act(
         if dry_run:
             warnings.append("dry_run: skipped Google Sheets write")
         elif sid != "DRY_RUN_NEW":
-            titles = google.list_sheet_titles(sid)
-            # Normalize match (strip spaces — some tabs have leading space)
-            existing = {t.strip(): t for t in titles}
-            if tab_title in existing:
-                real_title = existing[tab_title]
-                if not force and not tr_cfg.get("overwrite_month_tab"):
-                    # Check if tab has data beyond header
-                    existing_vals = google.read_sheet_values(sid, f"'{real_title}'!A1:G5")
-                    nonempty = [
-                        r for r in existing_vals[1:] if any(str(c).strip() for c in r)
-                    ]
-                    if nonempty:
-                        raise RuntimeError(
-                            f"Tab '{real_title}' already has data. "
-                            "Re-run with --force to overwrite."
-                        )
-                google.clear_sheet_values(sid, f"'{real_title}'!A:K")
-                sheet_title = real_title
-            else:
-                google.add_sheet(sid, tab_title)
-                sheet_title = tab_title
-                tab_created = True
-            values = build_sheet_values(rows)
-            google.write_sheet_values(sid, f"'{sheet_title}'!A1", values)
-            role_count = len({r.role for r in rows})
-            apply_month_tab_formatting(
-                google,
-                sid,
-                sheet_title,
-                data_row_count=len(rows),
-                role_count=role_count,
-            )
+            if not expenses_only:
+                # Tab match strips spaces — some tabs have leading space.
+                sheet_title, tab_created = _write_tab(
+                    google,
+                    sid,
+                    tab_title,
+                    force=force,
+                    allow_overwrite=bool(tr_cfg.get("overwrite_month_tab")),
+                )
+                compact = is_compact_layout(tr_cfg)
+                values = build_compact_sheet_values(rows) if compact else build_sheet_values(rows)
+                google.write_sheet_values(sid, f"'{sheet_title}'!A1", values)
+                role_count = len({r.role for r in rows})
+                apply_month_tab_formatting(
+                    google,
+                    sid,
+                    sheet_title,
+                    data_row_count=len(rows),
+                    role_count=role_count,
+                    compact=compact,
+                )
+            if expenses:
+                exp_title, _ = _write_tab(
+                    google,
+                    sid,
+                    exp_title,
+                    force=force,
+                    allow_overwrite=bool(exp_cfg.get("overwrite")),
+                )
+                google.write_sheet_values(
+                    sid, f"'{exp_title}'!A1", build_expenses_sheet_values(expenses)
+                )
+                google.batch_update_spreadsheet(
+                    sid,
+                    build_expenses_tab_format_requests(
+                        google.get_sheet_id(sid, exp_title), data_row_count=len(expenses)
+                    ),
+                )
 
     totals_by_role: dict[str, dict[str, float]] = defaultdict(lambda: {"hours": 0.0, "cost": 0.0})
     for r in rows:
@@ -1112,6 +1641,9 @@ def prepare_monthly_act(
         local_dir=str(local_dir.relative_to(ROOT)),
         warnings=warnings,
         dry_run=dry_run,
+        expenses_tab_title=exp_title,
+        expenses=expenses,
+        expenses_total=round(sum(e.amount for e in expenses), 2),
     )
 
 

@@ -520,14 +520,18 @@ class GoogleWorkspaceClient:
         html_body: Optional[str] = None,
         append_signature: bool = True,
         send_as_email: Optional[str] = None,
+        attachments: Optional[list[Path]] = None,
     ) -> dict[str, Any]:
         """Create a Gmail draft (does not send).
 
         Requires gmail.compose. When append_signature=True (default), fetches the
         account HTML signature (gmail.settings.basic) and builds multipart/alternative
-        so styled footers render in Gmail.
+        so styled footers render in Gmail. ``attachments`` wraps the body in
+        multipart/mixed with one part per file.
         """
         import base64
+        import mimetypes
+        from email.mime.application import MIMEApplication
         from email.mime.multipart import MIMEMultipart
         from email.mime.text import MIMEText
 
@@ -569,6 +573,19 @@ class GoogleWorkspaceClient:
         else:
             message = MIMEText(plain, _charset="utf-8")
 
+        attached: list[str] = []
+        if attachments:
+            body_part = message
+            message = MIMEMultipart("mixed")
+            message.attach(body_part)
+            for path in attachments:
+                path = Path(path)
+                ctype = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+                part = MIMEApplication(path.read_bytes(), _subtype=ctype.split("/", 1)[1])
+                part.add_header("Content-Disposition", "attachment", filename=("utf-8", "", path.name))
+                message.attach(part)
+                attached.append(path.name)
+
         message["To"] = ", ".join(to)
         if cc:
             message["Cc"] = ", ".join(cc)
@@ -597,6 +614,7 @@ class GoogleWorkspaceClient:
             "body_chars": len(plain),
             "html": bool(html),
             "signature": signature_meta,
+            "attachments": attached,
         }
 
     def get_file_meta(self, file_id: str) -> dict:
