@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153200",
+  "tempoWorklogId": 153200,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66688",
+    "id": 66688
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-20",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-20T11:30:00Z",
+  "description": "Loyalty Prototype Update",
+  "createdAt": "2026-10-26T08:04:06Z",
+  "updatedAt": "2026-10-26T08:06:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153200/work-attribute-values",
+    "values": []
+  }
+}

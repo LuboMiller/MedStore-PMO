@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154256",
+  "tempoWorklogId": 154256,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-27",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-27T08:30:00Z",
+  "description": "Опрацьовано відповіді інсталятора HikCentral по ЖК «Республіка» (ТОВ «МатіасБуд Контракт», ред. 2.0 від 21.10): зроблено текстову копію документа, виділено 18 рішень і 3 нові питання. Відповіді звірено з відкритими питаннями до KAN щодо оплат, SMS і боржників: питання про блокування авто боржника для «Республіки» звужено, бо паркінг там на тому ж сервері. Підготовлено відповідь у робочий чат і розподілено, хто веде комерційні питання (супровід замірів, тестовий сервер, ліміт відвідувачів).",
+  "createdAt": "2026-10-30T21:39:13Z",
+  "updatedAt": "2026-10-30T21:39:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154256/work-attribute-values",
+    "values": []
+  }
+}

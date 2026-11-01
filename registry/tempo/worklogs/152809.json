@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152809",
+  "tempoWorklogId": 152809,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 23400,
+  "billableSeconds": 23400,
+  "startDate": "2026-10-22",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-22T05:00:00Z",
+  "description": "Рев’ю з Totis\n- Провели рев’ю екранів реєстрації, авторизації, відновлення пароля, Home Page та My Profile.\n- Для кожного з розділів внесла погоджені правки до відповідних екранів і всіх передбачених станів.\n\nProduct Listing Page\n- Розробила дефолтний стан сторінки товарів.\n- Опрацювала стан активного фільтра.\n- Розробила стан активного пошуку (Search Bar).\n- Підготувала стан сторінки з результатами пошуку.\n- Розробила Empty State для випадку, коли за пошуковим запитом нічого не знайдено.\n\nUI Kit\n- Доповнила UI Kit новими компонентами, використаними під час розробки Product Listing Page.\n- Внесла відповідні зміни до наявних компонентів для підтримки нових станів інтерфейсу.",
+  "createdAt": "2026-10-22T14:52:12Z",
+  "updatedAt": "2026-10-22T14:52:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152809/work-attribute-values",
+    "values": []
+  }
+}

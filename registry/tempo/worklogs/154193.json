@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154193",
+  "tempoWorklogId": 154193,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-30",
+  "startTime": "11:10:00",
+  "startDateTimeUtc": "2026-10-30T09:10:00Z",
+  "description": "Наповнення Claude прототипу, тестування",
+  "createdAt": "2026-10-30T15:46:18Z",
+  "updatedAt": "2026-10-30T15:50:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154193/work-attribute-values",
+    "values": []
+  }
+}

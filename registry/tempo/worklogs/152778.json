@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152778",
+  "tempoWorklogId": 152778,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97492",
+    "id": 97492
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-22",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-22T10:15:00Z",
+  "description": "Оновлення вимог після сінку",
+  "createdAt": "2026-10-22T10:15:51Z",
+  "updatedAt": "2026-10-22T10:15:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152778/work-attribute-values",
+    "values": []
+  }
+}

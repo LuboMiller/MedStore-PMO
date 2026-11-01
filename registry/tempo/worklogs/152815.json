@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152815",
+  "tempoWorklogId": 152815,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102741",
+    "id": 102741
+  },
+  "timeSpentSeconds": 26100,
+  "billableSeconds": 26100,
+  "startDate": "2026-10-21",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-21T06:15:00Z",
+  "description": "Вичитка, звірка фловів, зміна і закриття питань по ФА-1 (1.1-1.13) для МЗ",
+  "createdAt": "2026-10-22T15:30:18Z",
+  "updatedAt": "2026-10-22T15:34:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152815/work-attribute-values",
+    "values": []
+  }
+}

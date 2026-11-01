@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152949",
+  "tempoWorklogId": 152949,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102921",
+    "id": 102921
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-23",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-23T11:00:00Z",
+  "description": "Опрацювання коментарів, додавання нових екранів. Додала нові кольорові рішення до кнопки АІ",
+  "createdAt": "2026-10-23T15:01:24Z",
+  "updatedAt": "2026-10-23T15:01:41Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152949/work-attribute-values",
+    "values": []
+  }
+}

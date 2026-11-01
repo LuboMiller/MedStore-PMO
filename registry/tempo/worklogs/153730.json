@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153730",
+  "tempoWorklogId": 153730,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103722",
+    "id": 103722
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-23",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-23T07:00:00Z",
+  "description": "Implement screen with base logic",
+  "createdAt": "2026-10-27T11:07:53Z",
+  "updatedAt": "2026-10-27T11:11:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a9d34c-fde3-44c0-842c-4ad8d2a8f79f",
+    "accountId": "712020:c8a9d34c-fde3-44c0-842c-4ad8d2a8f79f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153730/work-attribute-values",
+    "values": []
+  }
+}

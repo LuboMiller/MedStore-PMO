@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154412",
+  "tempoWorklogId": 154412,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98643",
+    "id": 98643
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-27",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-27T12:00:00Z",
+  "description": "Пілот: розгортання, інтерфейс, прогін сценаріїв: Фільтр історії \"тільки від людей\"; нічна звірка діаграм архітектури з кодом і машинами, вихідних зʼєднань і портів зі списком винятків (Architecture Steward) зі сповіщенням; реєстр агентів, мітка золотої когорти -> Quality Sentinel; моделі прибрано з vm-db (лишились вектори), gemma4:31b для нічних AI-саммарі на vm-llm (окремий Ollama, воркер, таблиця локальних саммарі, блок у відповіді з посиланнями на документи, сторінка саммарі); перевірка VPN; розширення диска vm-llm",
+  "createdAt": "2026-11-01T19:36:25Z",
+  "updatedAt": "2026-11-01T19:36:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154412/work-attribute-values",
+    "values": []
+  }
+}

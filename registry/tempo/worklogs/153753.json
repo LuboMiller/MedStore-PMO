@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153753",
+  "tempoWorklogId": 153753,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103604",
+    "id": 103604
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-27",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-10-27T09:45:00Z",
+  "description": "Investigating Created issues in Jira: PST-1957",
+  "createdAt": "2026-10-27T14:37:17Z",
+  "updatedAt": "2026-10-27T14:37:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153753/work-attribute-values",
+    "values": []
+  }
+}

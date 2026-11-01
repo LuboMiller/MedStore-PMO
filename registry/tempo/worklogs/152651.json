@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152651",
+  "tempoWorklogId": 152651,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-20",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-20T07:15:00Z",
+  "description": "Рефаймент фільтрів і підготовка",
+  "createdAt": "2026-10-20T19:20:07Z",
+  "updatedAt": "2026-10-20T19:20:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152651/work-attribute-values",
+    "values": []
+  }
+}

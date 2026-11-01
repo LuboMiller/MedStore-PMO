@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153297",
+  "tempoWorklogId": 153297,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102848",
+    "id": 102848
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-22",
+  "startTime": "16:31:00",
+  "startDateTimeUtc": "2026-10-22T13:31:00Z",
+  "description": "GST/HST registration: develop merges and review pass",
+  "createdAt": "2026-10-26T09:23:33Z",
+  "updatedAt": "2026-10-26T09:23:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153297/work-attribute-values",
+    "values": []
+  }
+}

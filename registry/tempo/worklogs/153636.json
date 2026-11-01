@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153636",
+  "tempoWorklogId": 153636,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101954",
+    "id": 101954
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-26",
+  "startTime": "18:45:00",
+  "startDateTimeUtc": "2026-10-26T16:45:00Z",
+  "description": "Activity: Bitbucket",
+  "createdAt": "2026-10-26T17:10:39Z",
+  "updatedAt": "2026-10-26T17:10:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153636/work-attribute-values",
+    "values": []
+  }
+}

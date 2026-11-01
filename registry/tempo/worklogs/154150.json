@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154150",
+  "tempoWorklogId": 154150,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102760",
+    "id": 102760
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-02",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-11-02T08:30:00Z",
+  "description": "Перевірка іос",
+  "createdAt": "2026-10-30T13:34:05Z",
+  "updatedAt": "2026-10-30T13:34:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154150/work-attribute-values",
+    "values": []
+  }
+}

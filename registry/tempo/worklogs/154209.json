@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154209",
+  "tempoWorklogId": 154209,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-30",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-30T08:00:00Z",
+  "description": "FRI-575 - Фільтр по ціні",
+  "createdAt": "2026-10-30T17:48:54Z",
+  "updatedAt": "2026-10-30T17:48:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154209/work-attribute-values",
+    "values": []
+  }
+}

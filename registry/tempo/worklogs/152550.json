@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152550",
+  "tempoWorklogId": 152550,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100692",
+    "id": 100692
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-15",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-15T14:00:00Z",
+  "description": "01/Oct/26: Fixed mPOS product type, stock synchronization, and Django admin issues\n",
+  "createdAt": "2026-10-20T09:48:44Z",
+  "updatedAt": "2026-10-20T09:48:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "accountId": "712020:464dccdf-73dd-4028-afa8-0887c3508938"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152550/work-attribute-values",
+    "values": []
+  }
+}

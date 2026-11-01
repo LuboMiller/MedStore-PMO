@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154378",
+  "tempoWorklogId": 154378,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66797",
+    "id": 66797
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-28",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-28T14:00:00Z",
+  "description": "M1 · UX Strategy Research B2C weekly",
+  "createdAt": "2026-11-01T13:51:28Z",
+  "updatedAt": "2026-11-01T13:51:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154378/work-attribute-values",
+    "values": []
+  }
+}

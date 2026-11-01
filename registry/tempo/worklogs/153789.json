@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153789",
+  "tempoWorklogId": 153789,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/83945",
+    "id": 83945
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-27",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-27T06:00:00Z",
+  "description": "Podorozhnyk PL and BM PL updates",
+  "createdAt": "2026-10-27T19:00:38Z",
+  "updatedAt": "2026-10-27T19:00:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8",
+    "accountId": "712020:63fe2f5d-7eb1-4952-99fb-8f93980fbfe8"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153789/work-attribute-values",
+    "values": []
+  }
+}

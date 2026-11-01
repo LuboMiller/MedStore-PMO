@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154076",
+  "tempoWorklogId": 154076,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 30000,
+  "billableSeconds": 30000,
+  "startDate": "2026-10-29",
+  "startTime": "08:40:00",
+  "startDateTimeUtc": "2026-10-29T06:40:00Z",
+  "description": "- протягом дня проводила сінки з Костянтином, у межах яких зробили комплексне рев’ю всіх сторінок, секцій і їхніх станів у проєкті Froomo. \n- За результатами рев’ю внесла правки до всіх сторінок і станів, оновила наявні UI-компоненти, створила нові варіанти кнопок, змінила дизайн таб-бара та доповнила UI Kit відсутніми кнопками й компонентами та додала компоненти до дизайну який не вистачало ",
+  "createdAt": "2026-10-29T16:19:54Z",
+  "updatedAt": "2026-10-29T16:19:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154076/work-attribute-values",
+    "values": []
+  }
+}

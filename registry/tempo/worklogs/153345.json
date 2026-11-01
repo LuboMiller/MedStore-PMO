@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153345",
+  "tempoWorklogId": 153345,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-20",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-20T09:45:00Z",
+  "description": "resource allocation communication → Denis Regera BA",
+  "createdAt": "2026-10-26T11:01:48Z",
+  "updatedAt": "2026-10-26T11:01:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153345/work-attribute-values",
+    "values": []
+  }
+}

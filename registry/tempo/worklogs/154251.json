@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154251",
+  "tempoWorklogId": 154251,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-26",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-26T09:00:00Z",
+  "description": "Зустріч: апдейт від RSG щодо змін у процесі видачі кредиту.",
+  "createdAt": "2026-10-30T21:32:25Z",
+  "updatedAt": "2026-10-30T21:32:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154251/work-attribute-values",
+    "values": []
+  }
+}

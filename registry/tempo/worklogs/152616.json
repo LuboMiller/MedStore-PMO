@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152616",
+  "tempoWorklogId": 152616,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 15600,
+  "billableSeconds": 15600,
+  "startDate": "2026-10-20",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-20T05:00:00Z",
+  "description": "-Продовжила роботу над сторінкою замовлень у профілі, відмалювала три екрани з різними статусами замовлень. \n- Розробила розділ «Обране» з дефолтним станом, відображенням створених списків та модальними вікнами створення, видалення й переміщення товарів між списками. \n- мітинг з Totis, після чого внесла невеликі правки до сторінки Product Detail Page. Т\n- Намалювала сторінки 503 та Under Construction \n- доповнила UI Kit новими компонентами",
+  "createdAt": "2026-10-20T14:22:45Z",
+  "updatedAt": "2026-10-20T14:22:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152616/work-attribute-values",
+    "values": []
+  }
+}

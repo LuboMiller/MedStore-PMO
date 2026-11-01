@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154303",
+  "tempoWorklogId": 154303,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102259",
+    "id": 102259
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-30",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-30T13:00:00Z",
+  "description": "Clinic details",
+  "createdAt": "2026-10-30T22:40:45Z",
+  "updatedAt": "2026-10-30T22:40:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154303/work-attribute-values",
+    "values": []
+  }
+}

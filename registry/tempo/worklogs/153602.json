@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153602",
+  "tempoWorklogId": 153602,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93876",
+    "id": 93876
+  },
+  "timeSpentSeconds": 7800,
+  "billableSeconds": 7800,
+  "startDate": "2026-10-26",
+  "startTime": "13:10:00",
+  "startDateTimeUtc": "2026-10-26T11:10:00Z",
+  "description": "Functional Testing, invistigating and reporting issues in Jira: PST-1953",
+  "createdAt": "2026-10-26T15:18:14Z",
+  "updatedAt": "2026-10-26T15:18:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153602/work-attribute-values",
+    "values": []
+  }
+}

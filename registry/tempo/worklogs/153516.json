@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153516",
+  "tempoWorklogId": 153516,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103711",
+    "id": 103711
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-20",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-20T06:00:00Z",
+  "description": "Implemented sCard hold and purchase API clients",
+  "createdAt": "2026-10-26T13:35:10Z",
+  "updatedAt": "2026-10-26T13:35:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "accountId": "712020:464dccdf-73dd-4028-afa8-0887c3508938"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153516/work-attribute-values",
+    "values": []
+  }
+}

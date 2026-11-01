@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154278",
+  "tempoWorklogId": 154278,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-29",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-29T09:30:00Z",
+  "description": "Описи всіх 143 функцій для клієнта перегенеровано в єдиному форматі: спершу частина для клієнта, під нею згорнутий блок «Для команди». З описів прибрано технічні питання, до клієнта лишилось одне (строк гостьової перепустки в Тетріс Холі). Виправлено знайдені суперечності між специфікаціями (зокрема F-01.07 і F-01.09, F-04.03, F-06.03, F-08.03, F-08.07, F-10.03, F-14.03, F-18.12). Сторінку оновлено за тим самим посиланням: https://devlight.atlassian.net/wiki/spaces/KA/pages/6145867784/KAN. Також пошукано документ з порівнянням платіжних провайдерів: по KAN його немає, бо архітектура одразу будується на iPay.",
+  "createdAt": "2026-10-30T22:02:13Z",
+  "updatedAt": "2026-10-30T22:02:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154278/work-attribute-values",
+    "values": []
+  }
+}

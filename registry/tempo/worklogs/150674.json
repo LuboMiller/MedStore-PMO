@@ -9,10 +9,10 @@
   "billableSeconds": 3600,
   "startDate": "2026-10-05",
   "startTime": "15:45:00",
-  "startDateTimeUtc": "2026-10-05T13:45:00Z",
-  "description": "Worked on wireframes based on project specifications.",
+  "startDateTimeUtc": "2026-10-05T12:45:00Z",
+  "description": "Worked on RSG application wireframes, reviewing and refining screen layouts and user interactions according to project specifications. Continued improving navigation and consistency across the existing user flows.",
   "createdAt": "2026-10-09T16:42:06Z",
-  "updatedAt": "2026-10-09T16:42:06Z",
+  "updatedAt": "2026-10-20T11:21:31Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
     "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"

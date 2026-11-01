@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153725",
+  "tempoWorklogId": 153725,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101947",
+    "id": 101947
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-26",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-26T08:00:00Z",
+  "description": "VESELKA-482: [FE] [F-07.01] Переглянути список напрямків",
+  "createdAt": "2026-10-27T10:41:45Z",
+  "updatedAt": "2026-10-27T10:41:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153725/work-attribute-values",
+    "values": []
+  }
+}

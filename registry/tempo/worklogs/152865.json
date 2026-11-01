@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152865",
+  "tempoWorklogId": 152865,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103257",
+    "id": 103257
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-20",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-20T11:00:00Z",
+  "description": "PST-1856 · [BE] [F-30.01] [Merchant Portal] View customer directory across all locations",
+  "createdAt": "2026-10-23T09:10:30Z",
+  "updatedAt": "2026-10-23T09:13:04Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152865/work-attribute-values",
+    "values": []
+  }
+}

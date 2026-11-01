@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153853",
+  "tempoWorklogId": 153853,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101341",
+    "id": 101341
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-26",
+  "startTime": "17:15:00",
+  "startDateTimeUtc": "2026-10-26T15:15:00Z",
+  "description": "Спейс плейс - операйшин",
+  "createdAt": "2026-10-28T05:58:39Z",
+  "updatedAt": "2026-10-28T05:58:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153853/work-attribute-values",
+    "values": []
+  }
+}

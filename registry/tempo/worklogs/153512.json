@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153512",
+  "tempoWorklogId": 153512,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92482",
+    "id": 92482
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-23",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-23T07:00:00Z",
+  "description": "Складання драфту архітектурної записки: фіксація рішень, що вже звучали (оплати, страхова, запрошення в родину), формування переліку відкритих питань до клієнта, ризики",
+  "createdAt": "2026-10-26T12:41:45Z",
+  "updatedAt": "2026-10-26T12:41:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:be4c11e6-0741-4175-ba81-b721bb496b68",
+    "accountId": "712020:be4c11e6-0741-4175-ba81-b721bb496b68"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153512/work-attribute-values",
+    "values": []
+  }
+}

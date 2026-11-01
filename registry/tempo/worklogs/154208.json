@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154208",
+  "tempoWorklogId": 154208,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-30",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-30T12:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- preparing beta build with special configurations\n- MOB-4533 Product details. Missing divider after the \"Всі товари цієї категорії\" block\n- MOB-4534 Product Details. PDP is reloaded after returning from category/subcategory",
+  "createdAt": "2026-10-30T16:32:08Z",
+  "updatedAt": "2026-10-30T16:32:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154208/work-attribute-values",
+    "values": []
+  }
+}

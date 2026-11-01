@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153787",
+  "tempoWorklogId": 153787,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74421",
+    "id": 74421
+  },
+  "timeSpentSeconds": 27000,
+  "billableSeconds": 27000,
+  "startDate": "2026-10-22",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-22T05:30:00Z",
+  "description": "Сінк на бекенді",
+  "createdAt": "2026-10-27T18:48:35Z",
+  "updatedAt": "2026-10-27T18:48:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3172aa7a-141f-4d74-83fc-b48335430511",
+    "accountId": "712020:3172aa7a-141f-4d74-83fc-b48335430511"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153787/work-attribute-values",
+    "values": []
+  }
+}

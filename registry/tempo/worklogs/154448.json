@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154448",
+  "tempoWorklogId": 154448,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103118",
+    "id": 103118
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-30",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-30T07:00:00Z",
+  "description": "Auto-tracked from PeopleForce",
+  "createdAt": "2026-11-01T21:09:14Z",
+  "updatedAt": "2026-11-01T21:09:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:658b254d-8b9b-4032-8436-e2f1242629f9",
+    "accountId": "712020:658b254d-8b9b-4032-8436-e2f1242629f9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154448/work-attribute-values",
+    "values": []
+  }
+}

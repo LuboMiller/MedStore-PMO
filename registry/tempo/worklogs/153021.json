@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153021",
+  "tempoWorklogId": 153021,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101955",
+    "id": 101955
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-23",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-23T15:00:00Z",
+  "description": "directions limit list",
+  "createdAt": "2026-10-23T18:57:39Z",
+  "updatedAt": "2026-10-23T18:57:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153021/work-attribute-values",
+    "values": []
+  }
+}

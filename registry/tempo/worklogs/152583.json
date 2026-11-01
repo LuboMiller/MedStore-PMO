@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152583",
+  "tempoWorklogId": 152583,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69040",
+    "id": 69040
+  },
+  "timeSpentSeconds": 2460,
+  "billableSeconds": 2460,
+  "startDate": "2026-10-20",
+  "startTime": "13:01:00",
+  "startDateTimeUtc": "2026-10-20T10:01:00Z",
+  "description": "Testing the implemented functional ",
+  "createdAt": "2026-10-20T11:42:36Z",
+  "updatedAt": "2026-10-20T11:42:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152583/work-attribute-values",
+    "values": []
+  }
+}

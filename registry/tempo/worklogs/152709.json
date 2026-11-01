@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152709",
+  "tempoWorklogId": 152709,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T06:00:00Z",
+  "description": "- avrora | mobile daily\n- avrora | haptic feedback refinement\n- MOB-4497 Social Feed. Error handling on the Home screen\n- MOB-4050 Catalogue search. CURSOR_PAGINATION_ERROR while scrolling the page\n- MOB-4493 Tech debt. Штрихкод на касі: максимальна яскравість і без автоблокування екрана",
+  "createdAt": "2026-10-21T13:42:53Z",
+  "updatedAt": "2026-10-21T13:43:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152709/work-attribute-values",
+    "values": []
+  }
+}

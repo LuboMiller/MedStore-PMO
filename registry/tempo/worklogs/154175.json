@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154175",
+  "tempoWorklogId": 154175,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103624",
+    "id": 103624
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-30",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-30T09:30:00Z",
+  "description": "Закриття реалізація видалення з порівняння ",
+  "createdAt": "2026-10-30T15:13:33Z",
+  "updatedAt": "2026-10-30T15:13:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154175/work-attribute-values",
+    "values": []
+  }
+}

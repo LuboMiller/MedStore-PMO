@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153070",
+  "tempoWorklogId": 153070,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34514",
+    "id": 34514
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-01",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-09-30T21:00:00Z",
+  "description": "Презентація ASO для подорожник ",
+  "createdAt": "2026-10-25T21:06:40Z",
+  "updatedAt": "2026-10-27T06:04:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153070/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153210",
+  "tempoWorklogId": 153210,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-23",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-23T06:45:00Z",
+  "description": "Completed the wireframes for Epics 5–9, covering the required user flows, screens, and related interface states. Finalized the designs and shared the completed wireframes with the team for review.\n\nParticipated in an internal review focused on Epic 5. Discussed the proposed UX solutions, identified areas requiring adjustments, and collected feedback for the next design iteration.",
+  "createdAt": "2026-10-26T08:12:07Z",
+  "updatedAt": "2026-10-26T08:12:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153210/work-attribute-values",
+    "values": []
+  }
+}

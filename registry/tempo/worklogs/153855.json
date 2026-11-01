@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153855",
+  "tempoWorklogId": 153855,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101341",
+    "id": 101341
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-27",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-27T11:00:00Z",
+  "description": "Спейсплейс операшіон",
+  "createdAt": "2026-10-28T05:59:38Z",
+  "updatedAt": "2026-10-28T05:59:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153855/work-attribute-values",
+    "values": []
+  }
+}

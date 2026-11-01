@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153644",
+  "tempoWorklogId": 153644,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 10920,
+  "billableSeconds": 10920,
+  "startDate": "2026-10-19",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-19T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Рекламації і знахідки Quality Sentinel: хвилі виправлень 335, 336, 341 і 342 (загострення, переліки АБО, вік у другій частині, тяжкий перебіг астми, вигадана госпіталізація, послідовності, перевірка форм слова в Sentinel), розбір знахідок 58..63, перелік питань до лікарів і рішень, відповіді на питання лікарів, які можемо дати самі",
+  "createdAt": "2026-10-26T18:21:46Z",
+  "updatedAt": "2026-10-26T18:21:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153644/work-attribute-values",
+    "values": []
+  }
+}

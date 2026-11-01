@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152990",
+  "tempoWorklogId": 152990,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66688",
+    "id": 66688
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-22",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-22T13:00:00Z",
+  "description": " UKRSIBBANK | Prototype & Testing sync",
+  "createdAt": "2026-10-23T16:20:08Z",
+  "updatedAt": "2026-10-23T16:20:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152990/work-attribute-values",
+    "values": []
+  }
+}

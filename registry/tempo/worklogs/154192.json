@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154192",
+  "tempoWorklogId": 154192,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-29",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-29T06:00:00Z",
+  "description": "Дзвінок з Павлом по напрацюваннях\nПравки, зміни по всьому файлу фіналізація",
+  "createdAt": "2026-10-30T15:45:16Z",
+  "updatedAt": "2026-10-30T15:45:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154192/work-attribute-values",
+    "values": []
+  }
+}

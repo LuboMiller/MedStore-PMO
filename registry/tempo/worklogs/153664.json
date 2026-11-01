@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153664",
+  "tempoWorklogId": 153664,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92041",
+    "id": 92041
+  },
+  "timeSpentSeconds": 3300,
+  "billableSeconds": 3300,
+  "startDate": "2026-10-22",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-22T12:00:00Z",
+  "description": "AllSettled - operations cockpit research+taxes processing: PRs: #29, #32, #33",
+  "createdAt": "2026-10-26T18:21:58Z",
+  "updatedAt": "2026-10-26T18:21:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153664/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153912",
+  "tempoWorklogId": 153912,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-28",
+  "startTime": "16:13:43",
+  "startDateTimeUtc": "2026-10-28T14:13:43Z",
+  "description": "AG-2274 (F-5.2): розбір питань розробника (BA-NOTES.md), відповіді BA і правки до спеки, дебриф рішень.",
+  "createdAt": "2026-10-28T14:13:43Z",
+  "updatedAt": "2026-10-28T14:13:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153912/work-attribute-values",
+    "values": []
+  }
+}

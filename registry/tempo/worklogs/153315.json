@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153315",
+  "tempoWorklogId": 153315,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90189",
+    "id": 90189
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-21",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-21T06:00:00Z",
+  "description": "Інфраструктура для роботи з прототипами (підготовка тест-середовища)",
+  "createdAt": "2026-10-26T09:53:38Z",
+  "updatedAt": "2026-10-26T09:53:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2cfeb8869dd0e78a03b04",
+    "accountId": "5cc2cfeb8869dd0e78a03b04"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153315/work-attribute-values",
+    "values": []
+  }
+}

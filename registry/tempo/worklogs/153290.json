@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153290",
+  "tempoWorklogId": 153290,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102067",
+    "id": 102067
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-22",
+  "startTime": "13:46:00",
+  "startDateTimeUtc": "2026-10-22T10:46:00Z",
+  "description": "PR review - PST-1597 portal users active by default",
+  "createdAt": "2026-10-26T09:23:30Z",
+  "updatedAt": "2026-10-26T09:23:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153290/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7718",
+  "id": 7718,
+  "startDate": "2026-10-08",
+  "endDate": "2026-10-08",
+  "description": "генерація відео контенту для рілс відео, дизайн Ui елементів",
+  "createdAt": "2026-10-25T21:00:08Z",
+  "updatedAt": "2026-10-25T21:00:08Z",
+  "plannedSecondsPerDay": 14400,
+  "totalPlannedSeconds": 14400,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": true,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-08",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "id": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93025",
+    "id": "93025",
+    "type": "ISSUE"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7718?from=2026-10-08&to=2026-10-08"
+    }
+  },
+  "totalPlannedSecondsInScope": 14400,
+  "planCreatorId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+}

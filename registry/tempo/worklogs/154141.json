@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154141",
+  "tempoWorklogId": 154141,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-29",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-29T09:00:00Z",
+  "description": "MOB-6589: TEST FAIL: історія зберігається після фону і логауту, блок над рейтингом, заголовок «Переглянуті товари»; QA-білди 6.3.0 (12) і 6.3.0 (14).",
+  "createdAt": "2026-10-30T13:30:43Z",
+  "updatedAt": "2026-10-30T13:30:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154141/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154263",
+  "tempoWorklogId": 154263,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102749",
+    "id": 102749
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-26",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-26T14:00:00Z",
+  "description": "Онбординг на проєкті за чек-листом: ознайомлення з матеріалами пре-діскавері (матеріали клієнта, дослідження ринку й цільової аудиторії, UX-аудит, прототипи, беклог і роадмап), з BA-артефактами проєкту (загальний опис, функціональний беклог, реєстр відкритих питань, глосарій, бізнес-правила) і з чинними специфікаціями (авторизація, лікарі); розібрано скоуп епіку FA-09 «Послуги й чекапи».",
+  "createdAt": "2026-10-30T21:47:44Z",
+  "updatedAt": "2026-11-01T21:10:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154263/work-attribute-values",
+    "values": []
+  }
+}

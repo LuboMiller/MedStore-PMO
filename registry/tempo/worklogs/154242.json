@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154242",
+  "tempoWorklogId": 154242,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102714",
+    "id": 102714
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-30",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-30T07:00:00Z",
+  "description": "написання тест-кейсів",
+  "createdAt": "2026-10-30T20:29:07Z",
+  "updatedAt": "2026-10-30T20:29:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154242/work-attribute-values",
+    "values": []
+  }
+}

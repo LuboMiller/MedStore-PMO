@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154138",
+  "tempoWorklogId": 154138,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-29",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-29T06:00:00Z",
+  "description": "MOB-6483: TEST FAIL на 6.3.0 (8): відео вписане в картку, відтворюються лише картки, видимі більш ніж наполовину; передано в тестування на 6.3.0 (10) QA.",
+  "createdAt": "2026-10-30T13:30:42Z",
+  "updatedAt": "2026-10-30T13:30:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154138/work-attribute-values",
+    "values": []
+  }
+}

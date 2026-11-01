@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152721",
+  "tempoWorklogId": 152721,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33412",
+    "id": 33412
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-21",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-10-21T08:45:00Z",
+  "description": "Testing TR-1001 [aOS] - Магазини",
+  "createdAt": "2026-10-21T16:00:22Z",
+  "updatedAt": "2026-10-21T16:00:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152721/work-attribute-values",
+    "values": []
+  }
+}

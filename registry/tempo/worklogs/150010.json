@@ -7,12 +7,12 @@
   },
   "timeSpentSeconds": 3600,
   "billableSeconds": 3600,
-  "startDate": "2026-10-05",
+  "startDate": "2026-10-22",
   "startTime": "13:00:00",
-  "startDateTimeUtc": "2026-10-05T10:00:00Z",
+  "startDateTimeUtc": "2026-10-22T10:00:00Z",
   "description": "Тестування аос. Фіксація баг.",
   "createdAt": "2026-10-05T11:55:08Z",
-  "updatedAt": "2026-10-05T11:55:08Z",
+  "updatedAt": "2026-10-15T12:49:56Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
     "accountId": "631f2155b0ac1ba7b8711614"

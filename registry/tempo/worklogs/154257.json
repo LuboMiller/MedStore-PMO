@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154257",
+  "tempoWorklogId": 154257,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-27",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-27T12:00:00Z",
+  "description": "Підготовка до показу макетів RSG (документи й фото, підписання): вичитано специфікації й звірено з макетами, щоб пройти кожен екран і стан. Окремо розібрано перевірку номера рахунку IBAN за контрольною сумою при введенні реквізитів: вона ловить помилку в номері ще до виплати. Специфікації: [F-5.1|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11370497/F-5.1], [F-5.2|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11468801/F-5.2], [F-5.3|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11567105/F-5.3+GPS], [F-5.4|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11468824/F-5.4+.Sharing], [F-5.6|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11370521/F-5.6], [F-5.7|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11468848/F-5.7], [F-6.2|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/12025857/F-6.2], [F-6.3|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11927559/F-6.3], [F-6.4|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11862030/F-6.4+.]",
+  "createdAt": "2026-10-30T21:39:13Z",
+  "updatedAt": "2026-10-30T21:39:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154257/work-attribute-values",
+    "values": []
+  }
+}

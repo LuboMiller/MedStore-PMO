@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153962",
+  "tempoWorklogId": 153962,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-28",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-28T07:30:00Z",
+  "description": "Presentation design",
+  "createdAt": "2026-10-28T17:55:48Z",
+  "updatedAt": "2026-10-28T17:57:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153962/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153289",
+  "tempoWorklogId": 153289,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103694",
+    "id": 103694
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-22",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-22T10:15:00Z",
+  "description": "Merchant portal icons follow-up: media origin config on AWS dev",
+  "createdAt": "2026-10-26T09:23:29Z",
+  "updatedAt": "2026-10-26T09:23:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153289/work-attribute-values",
+    "values": []
+  }
+}

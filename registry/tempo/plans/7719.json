@@ -1,0 +1,34 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7719",
+  "id": 7719,
+  "startDate": "2026-10-07",
+  "endDate": "2026-10-07",
+  "description": "створення фото для сайту",
+  "createdAt": "2026-10-25T21:02:07Z",
+  "updatedAt": "2026-10-25T21:02:07Z",
+  "plannedSecondsPerDay": 10800,
+  "totalPlannedSeconds": 10800,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": true,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-07",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "id": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100690",
+    "id": "100690",
+    "type": "ISSUE"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7719?from=2026-10-07&to=2026-10-07"
+    }
+  },
+  "totalPlannedSecondsInScope": 10800,
+  "planCreatorId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+}

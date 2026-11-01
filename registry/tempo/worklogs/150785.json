@@ -6,13 +6,13 @@
     "id": 50632
   },
   "timeSpentSeconds": 7200,
-  "billableSeconds": 7200,
+  "billableSeconds": 0,
   "startDate": "2026-10-05",
   "startTime": "06:13:00",
   "startDateTimeUtc": "2026-10-05T03:13:00Z",
   "description": "Завантаження скріншотів екрану в Гугл Плей і реліз оновлень",
   "createdAt": "2026-10-12T03:14:20Z",
-  "updatedAt": "2026-10-12T03:14:20Z",
+  "updatedAt": "2026-11-01T16:09:22Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
     "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"

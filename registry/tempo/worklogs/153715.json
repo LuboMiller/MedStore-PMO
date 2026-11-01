@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153715",
+  "tempoWorklogId": 153715,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/84436",
+    "id": 84436
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-29",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-29T10:00:00Z",
+  "description": "Review and align requirements with wbs",
+  "createdAt": "2026-10-27T09:04:50Z",
+  "updatedAt": "2026-10-29T13:37:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153715/work-attribute-values",
+    "values": []
+  }
+}

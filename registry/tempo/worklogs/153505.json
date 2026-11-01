@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153505",
+  "tempoWorklogId": 153505,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33412",
+    "id": 33412
+  },
+  "timeSpentSeconds": 3360,
+  "billableSeconds": 3360,
+  "startDate": "2026-10-26",
+  "startTime": "12:24:00",
+  "startDateTimeUtc": "2026-10-26T10:24:00Z",
+  "description": "Setup skill mobile-wiki + huddle with team, pinpointing skill problem & defect creation",
+  "createdAt": "2026-10-26T12:20:21Z",
+  "updatedAt": "2026-10-26T12:20:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153505/work-attribute-values",
+    "values": []
+  }
+}

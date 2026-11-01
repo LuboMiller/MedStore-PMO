@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153652",
+  "tempoWorklogId": 153652,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98643",
+    "id": 98643
+  },
+  "timeSpentSeconds": 5340,
+  "billableSeconds": 5340,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Пілот: розгортання, інтерфейс, прогін сценаріїв: Шторка рекламацій у користувача в /search, примітка Agent Deployer на сторінці викладок, Agent Deployer: перевірки перед викладкою (контракт API, тести, тести безпеки)",
+  "createdAt": "2026-10-26T18:21:52Z",
+  "updatedAt": "2026-10-26T18:21:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153652/work-attribute-values",
+    "values": []
+  }
+}

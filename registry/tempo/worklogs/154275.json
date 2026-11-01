@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154275",
+  "tempoWorklogId": 154275,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-28",
+  "startTime": "13:45:00",
+  "startDateTimeUtc": "2026-10-28T11:45:00Z",
+  "description": "Підготовлено для клієнта одну сторінку вимог простими словами: 143 функції в 18 розділах, під кожною галочка «Погоджено». Під рішення 28.10 дочищено застарілі абзаци в специфікаціях F-04.03, F-04.11, F-08.01 і F-09.04. Сторінку опубліковано: [https://devlight.atlassian.net/wiki/spaces/KA/pages/6145867784/KAN.|https://devlight.atlassian.net/wiki/spaces/KA/pages/6145867784/KAN.|smart-link]  Підготовлено повідомлення клієнту в Telegram з проханням переглянути й погодити.",
+  "createdAt": "2026-10-30T21:55:51Z",
+  "updatedAt": "2026-10-30T21:55:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154275/work-attribute-values",
+    "values": []
+  }
+}

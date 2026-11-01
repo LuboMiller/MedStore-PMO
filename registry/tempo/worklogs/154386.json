@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154386",
+  "tempoWorklogId": 154386,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 19800,
+  "billableSeconds": 19800,
+  "startDate": "2026-10-26",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-26T07:30:00Z",
+  "description": "Meeting \"Update on changes to the loan issuance process\". Updated Epic 5–9 wireframes based on the internal review summary: replaced the support button with a header icon on all screens, fixed cropped screens and the loader, added a flashlight to video verification. Applied changes for the updated loan issuance process.\nhttps://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=854-359",
+  "createdAt": "2026-11-01T16:53:07Z",
+  "updatedAt": "2026-11-01T16:53:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154386/work-attribute-values",
+    "values": []
+  }
+}

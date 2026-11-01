@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153796",
+  "tempoWorklogId": 153796,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-27",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-27T12:00:00Z",
+  "description": "Дзвінок по функціоналу оплати (передача інформації)",
+  "createdAt": "2026-10-27T20:27:07Z",
+  "updatedAt": "2026-10-27T20:27:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153796/work-attribute-values",
+    "values": []
+  }
+}

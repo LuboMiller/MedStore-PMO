@@ -27,7 +27,7 @@
       "all": "https://api.eu.tempo.io/4/plans/7465?from=2026-09-01&to=2026-10-31"
     }
   },
-  "totalPlannedSecondsInScope": 403200,
+  "totalPlannedSecondsInScope": 633600,
   "planApproval": {
     "status": "REQUESTED",
     "reviewer": {

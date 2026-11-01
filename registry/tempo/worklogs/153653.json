@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153653",
+  "tempoWorklogId": 153653,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92041",
+    "id": 92041
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Ревʼю Taxes research (WBS-0005): update 2026-10-18-taxes-research-review.md + https://devlight.slack.com/archives/C0B3EC38KHR/p1792489380324149?thread_ts=1791957604.515339&cid=C0B3EC38KHR",
+  "createdAt": "2026-10-26T18:21:52Z",
+  "updatedAt": "2026-10-26T18:21:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153653/work-attribute-values",
+    "values": []
+  }
+}

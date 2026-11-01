@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153935",
+  "tempoWorklogId": 153935,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 0,
+  "startDate": "2026-10-28",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-28T09:00:00Z",
+  "description": "- синки;\n- куа пайплайн;\n- аі ревью;\n- планування;\n",
+  "createdAt": "2026-10-28T14:54:11Z",
+  "updatedAt": "2026-10-28T14:54:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153935/work-attribute-values",
+    "values": []
+  }
+}

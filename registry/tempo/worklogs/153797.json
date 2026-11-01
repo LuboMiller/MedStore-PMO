@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153797",
+  "tempoWorklogId": 153797,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-27",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-27T13:00:00Z",
+  "description": "FRI-569 - Ресечь, пропозиція як реалізувати функціонал seo-фільтрів",
+  "createdAt": "2026-10-27T20:27:42Z",
+  "updatedAt": "2026-10-27T20:27:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153797/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154147",
+  "tempoWorklogId": 154147,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-30",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-30T12:30:00Z",
+  "description": "MOB-6440: Регрес 6.3.0: оновлено підпис у меню рефералки для ru і kk.",
+  "createdAt": "2026-10-30T13:30:46Z",
+  "updatedAt": "2026-10-30T13:30:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154147/work-attribute-values",
+    "values": []
+  }
+}

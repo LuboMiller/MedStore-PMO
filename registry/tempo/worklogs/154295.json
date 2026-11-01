@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154295",
+  "tempoWorklogId": 154295,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102749",
+    "id": 102749
+  },
+  "timeSpentSeconds": 4800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-30",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-30T08:15:00Z",
+  "description": "Розібрано записи дейлі 26.10 і 27.10. Розібрано прототип карток послуги й чекапу (Figma) і звірено з API CMS Doctor Eleks: для чекапу даних вистачає, для послуги бракує переліку клінік і діапазону тривалості. Доповнено беклог (F-09.02, F-09.05) і написано специфікації «Переглянути деталі послуги» (F-09.02) і «Переглянути деталі чекапу» (F-09.05). До реєстру додано 10 нових питань; зібрано 31 питання до PO по FA-09 з варіантами відповіді; підготовлено чернетку оцінки BA-робіт по блоку (192–269 год) для звірки з Мартою.",
+  "createdAt": "2026-10-30T22:15:27Z",
+  "updatedAt": "2026-11-01T21:10:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154295/work-attribute-values",
+    "values": []
+  }
+}

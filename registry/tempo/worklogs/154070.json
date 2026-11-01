@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154070",
+  "tempoWorklogId": 154070,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33412",
+    "id": 33412
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-29",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-29T11:30:00Z",
+  "description": "Testing TR-1016 [iOS] - Головна та товари",
+  "createdAt": "2026-10-29T16:01:02Z",
+  "updatedAt": "2026-10-29T16:01:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154070/work-attribute-values",
+    "values": []
+  }
+}

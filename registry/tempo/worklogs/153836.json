@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153836",
+  "tempoWorklogId": 153836,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-21",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-21T08:00:00Z",
+  "description": "Дзвінок із Ярославою",
+  "createdAt": "2026-10-28T05:49:48Z",
+  "updatedAt": "2026-10-28T05:49:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153836/work-attribute-values",
+    "values": []
+  }
+}

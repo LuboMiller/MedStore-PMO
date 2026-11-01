@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153371",
+  "tempoWorklogId": 153371,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-22",
+  "startTime": "16:45:00",
+  "startDateTimeUtc": "2026-10-22T13:45:00Z",
+  "description": "design review session skill",
+  "createdAt": "2026-10-26T11:01:57Z",
+  "updatedAt": "2026-10-26T11:01:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153371/work-attribute-values",
+    "values": []
+  }
+}

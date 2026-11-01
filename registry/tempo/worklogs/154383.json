@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154383",
+  "tempoWorklogId": 154383,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99866",
+    "id": 99866
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-02",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-11-02T12:30:00Z",
+  "description": "[попередній слот] Підготовчий дзвінок перед зустріччю з КАН - Обговорити останні документи і питання від КАН, підготуватися до зустрічі із замовником\n\n- Підняли питання платного провайдера ще раз\n- Відкриті питання КАН\n- КАН отримав пропозицію від Пріоком\n- Відповіді від Віатек\n- Секюріті Хаб: відповіді по HikCentral",
+  "createdAt": "2026-11-01T15:25:05Z",
+  "updatedAt": "2026-11-01T15:25:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154383/work-attribute-values",
+    "values": []
+  }
+}

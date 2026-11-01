@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154063",
+  "tempoWorklogId": 154063,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-29",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-29T12:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- MOB-4498 Tech debt. Вібрації (haptic feedback) на ключових діях\n-MOB-4489 Tech debt. Прибрати шум у Crashlytics + не змінювати іконку Rori на iPad",
+  "createdAt": "2026-10-29T14:45:53Z",
+  "updatedAt": "2026-10-29T14:45:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154063/work-attribute-values",
+    "values": []
+  }
+}

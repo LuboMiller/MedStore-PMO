@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153544",
+  "tempoWorklogId": 153544,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100881",
+    "id": 100881
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-20",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-19T21:00:00Z",
+  "description": "Final questions letter to RSG (release, data, BAS, providers, process, financial monitoring) and a separate questions letter to BA, fair copies of both; BAF system clarification with Denis Regera. Stories in the RSG letter: F-1.1, F-1.11, F-1.13, F-1.14, F-7.5, F-8.19, F-12.5, F-13.2. BA letter: epic FA-8, stories F-1.11, F-6.3, F-8.1, F-8.23, F-12.2, F-12.3, F-12.6. Results: https://devlight.slack.com/archives/C0C12V3B6SH/p1792518624718849?thread_ts=1792518624.718849 and https://devlight.slack.com/archives/C0C12V3B6SH/p1792518660739179?thread_ts=1792518624.718849",
+  "createdAt": "2026-10-26T15:12:15Z",
+  "updatedAt": "2026-10-26T15:12:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153544/work-attribute-values",
+    "values": []
+  }
+}

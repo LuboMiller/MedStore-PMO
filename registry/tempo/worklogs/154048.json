@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154048",
+  "tempoWorklogId": 154048,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103928",
+    "id": 103928
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-29",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-29T12:30:00Z",
+  "description": "Spilqa Presale - підготувати беклог",
+  "createdAt": "2026-10-29T13:17:50Z",
+  "updatedAt": "2026-10-29T13:52:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154048/work-attribute-values",
+    "values": []
+  }
+}

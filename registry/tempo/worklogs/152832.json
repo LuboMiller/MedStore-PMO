@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152832",
+  "tempoWorklogId": 152832,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-22",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-22T06:00:00Z",
+  "description": "- avrora | mobile daily + pull-to-refresh mini refinement\n- internal communication regarding bugs with QA and features with Android dev\n- avrora-internal-sync\n- MOB-4493 Tech debt. Штрихкод на касі: максимальна яскравість і без автоблокування екрана\n- MOB-4409 Прибрати локальнку тоглу лояльності перед релізом 3.0.0 (одразу після релізу 2.1.0)\n- MOB-4508 Перехід на картку PDP з корзини",
+  "createdAt": "2026-10-22T17:53:26Z",
+  "updatedAt": "2026-10-22T17:53:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152832/work-attribute-values",
+    "values": []
+  }
+}

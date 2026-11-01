@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152892",
+  "tempoWorklogId": 152892,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102006",
+    "id": 102006
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-20",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-20T05:00:00Z",
+  "description": "блури на слайдерах і логіка (в процесі)",
+  "createdAt": "2026-10-23T10:22:35Z",
+  "updatedAt": "2026-10-23T10:22:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152892/work-attribute-values",
+    "values": []
+  }
+}

@@ -24,18 +24,18 @@
       }
     ]
   },
-  "jira_updated": "2026-10-12T10:21:04.329+0300",
+  "jira_updated": "2026-11-01T23:54:01.979+0200",
   "jira_created": "2026-10-09T11:50:45.512+0300",
   "raw_fields": {
     "timetracking": {
-      "timeSpent": "4h",
-      "timeSpentSeconds": 14400
+      "timeSpent": "6h",
+      "timeSpentSeconds": 21600
     },
     "timeoriginalestimate": null,
-    "timespent": 14400,
+    "timespent": 21600,
     "customfield_10016": null
   },
   "dirty": false,
-  "content_hash": "19571cfb57f9ae05",
-  "local_updated": "2026-10-20T09:38:23.562277+00:00"
+  "content_hash": "7d85a365cd73c55e",
+  "local_updated": "2026-11-01T21:58:01.148884+00:00"
 }

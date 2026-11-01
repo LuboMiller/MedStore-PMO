@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152732",
+  "tempoWorklogId": 152732,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/38724",
+    "id": 38724
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-21",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-21T12:00:00Z",
+  "description": "Зустріч по новому функціоналу | GM&Devlight",
+  "createdAt": "2026-10-21T16:03:25Z",
+  "updatedAt": "2026-10-21T16:03:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152732/work-attribute-values",
+    "values": []
+  }
+}

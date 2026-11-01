@@ -6,13 +6,13 @@
     "id": 98027
   },
   "timeSpentSeconds": 7200,
-  "billableSeconds": 7200,
+  "billableSeconds": 0,
   "startDate": "2026-10-01",
   "startTime": "08:00:00",
-  "startDateTimeUtc": "2026-10-01T06:00:00Z",
+  "startDateTimeUtc": "2026-10-01T05:00:00Z",
   "description": "сапорт",
   "createdAt": "2026-10-02T13:15:58Z",
-  "updatedAt": "2026-10-02T13:15:58Z",
+  "updatedAt": "2026-11-01T15:53:56Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
     "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"

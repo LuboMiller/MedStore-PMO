@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153207",
+  "tempoWorklogId": 153207,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-20",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-20T06:45:00Z",
+  "description": "Continued working on wireframes for Epics 5–9. Reviewed the relevant functional requirements and developed the corresponding user flows and screen structures, including alternative scenarios and interface states where required.\n\nEpic 5: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=854-359&t=PcePu7QtiQgkpJ4u-11\nEpic 6: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=860-416&t=PcePu7QtiQgkpJ4u-11\nEpic 7: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=860-430&t=PcePu7QtiQgkpJ4u-11\nEpic 8: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=1025-463&t=PcePu7QtiQgkpJ4u-11\nEpic 9: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=1036-527&t=PcePu7QtiQgkpJ4u-11\n",
+  "createdAt": "2026-10-26T08:11:10Z",
+  "updatedAt": "2026-10-26T08:11:10Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153207/work-attribute-values",
+    "values": []
+  }
+}

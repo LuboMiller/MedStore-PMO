@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152666",
+  "tempoWorklogId": 152666,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40269",
+    "id": 40269
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-19",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-19T06:15:00Z",
+  "description": "sync with Sofia (SingUp/ ResetPassword/Login flow)",
+  "createdAt": "2026-10-21T07:02:45Z",
+  "updatedAt": "2026-10-21T07:02:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152666/work-attribute-values",
+    "values": []
+  }
+}

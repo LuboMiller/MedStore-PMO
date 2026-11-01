@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154423",
+  "tempoWorklogId": 154423,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98643",
+    "id": 98643
+  },
+  "timeSpentSeconds": 3300,
+  "billableSeconds": 3300,
+  "startDate": "2026-10-30",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-30T12:00:00Z",
+  "description": "Пілот: розгортання, інтерфейс, прогін сценаріїв: Шаблон саммарі клініки (документ Summary 26102026): звірка; саммарі складних історій у кілька проходів різними моделями і вища інтенсивність (пакет дає 41..63 саммарі на добу, 858 пацієнтів з понад 25 документами не вміщуються у вікно моделі); план заміру моделей gemma4 26B-A4B, qwen3:30b-a3b і gpt-oss:20b на 01.11",
+  "createdAt": "2026-11-01T19:36:30Z",
+  "updatedAt": "2026-11-01T19:36:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154423/work-attribute-values",
+    "values": []
+  }
+}

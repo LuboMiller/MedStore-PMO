@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152945",
+  "tempoWorklogId": 152945,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 27000,
+  "billableSeconds": 27000,
+  "startDate": "2026-10-23",
+  "startTime": "06:00:00",
+  "startDateTimeUtc": "2026-10-23T03:00:00Z",
+  "description": "Дзвінок з ПМ по датах видачі прототипу\nДзвінок з Павлом по затверджені мед картки\nДвінок з колегою Добробут по страхових випадках\nПравки по мед картці\nШвидкий клод прототип для презентації ідеї клієнту\nПравки по каталогу",
+  "createdAt": "2026-10-23T14:47:51Z",
+  "updatedAt": "2026-10-23T14:48:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152945/work-attribute-values",
+    "values": []
+  }
+}

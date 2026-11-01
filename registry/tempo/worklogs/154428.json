@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154428",
+  "tempoWorklogId": 154428,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101817",
+    "id": 101817
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-01",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-11-01T06:30:00Z",
+  "description": "Опрацювання переоцінки проєкту: порівняльний аналіз, збір інформації по беклогам і попередніх оцінок",
+  "createdAt": "2026-11-01T20:03:16Z",
+  "updatedAt": "2026-11-01T20:03:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154428/work-attribute-values",
+    "values": []
+  }
+}

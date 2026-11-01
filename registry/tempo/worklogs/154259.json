@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154259",
+  "tempoWorklogId": 154259,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-27",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-27T09:15:00Z",
+  "description": "Доопрацьовано звіт для PM про роботу BA на KAN за 27.08–16.10 за його коментарями: залишено лише зустрічі, де я був учасником, години розписано по днях з прив'язкою до результатів (специфікації, питання, зміни в репозиторії).",
+  "createdAt": "2026-10-30T21:39:13Z",
+  "updatedAt": "2026-10-30T21:39:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154259/work-attribute-values",
+    "values": []
+  }
+}

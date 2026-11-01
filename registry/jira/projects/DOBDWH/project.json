@@ -120,5 +120,6 @@
   "simplified": false,
   "style": "classic",
   "isPrivate": false,
-  "properties": {}
+  "properties": {},
+  "isLiveTemplate": false
 }

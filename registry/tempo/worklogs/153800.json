@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153800",
+  "tempoWorklogId": 153800,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-27",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-27T08:15:00Z",
+  "description": "Cинк з Вікою",
+  "createdAt": "2026-10-27T21:21:33Z",
+  "updatedAt": "2026-10-27T21:21:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153800/work-attribute-values",
+    "values": []
+  }
+}

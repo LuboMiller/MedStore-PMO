@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152914",
+  "tempoWorklogId": 152914,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39695",
+    "id": 39695
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-13",
+  "startTime": "14:53:00",
+  "startDateTimeUtc": "2026-10-13T11:53:00Z",
+  "description": "Оновлення метаданих",
+  "createdAt": "2026-10-23T11:54:06Z",
+  "updatedAt": "2026-10-23T11:54:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
+    "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152914/work-attribute-values",
+    "values": []
+  }
+}

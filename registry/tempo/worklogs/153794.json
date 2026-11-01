@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153794",
+  "tempoWorklogId": 153794,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-27",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-27T11:15:00Z",
+  "description": "FRI-564 - [Особистий кабінет] Прибрати dummy text з сторінки /account/refunds",
+  "createdAt": "2026-10-27T20:25:45Z",
+  "updatedAt": "2026-10-27T20:25:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153794/work-attribute-values",
+    "values": []
+  }
+}

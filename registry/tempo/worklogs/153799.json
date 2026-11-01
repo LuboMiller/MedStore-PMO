@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153799",
+  "tempoWorklogId": 153799,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-27",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-27T06:15:00Z",
+  "description": "Презентація пропозиції замовнику\nПравки до артефактів\nФоловап замовнику",
+  "createdAt": "2026-10-27T21:17:20Z",
+  "updatedAt": "2026-10-27T21:17:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153799/work-attribute-values",
+    "values": []
+  }
+}

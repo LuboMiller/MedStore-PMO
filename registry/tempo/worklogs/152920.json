@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152920",
+  "tempoWorklogId": 152920,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39693",
+    "id": 39693
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-23",
+  "startTime": "14:59:00",
+  "startDateTimeUtc": "2026-10-23T11:59:00Z",
+  "description": "Аналіз відгуків",
+  "createdAt": "2026-10-23T12:00:12Z",
+  "updatedAt": "2026-10-23T12:00:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
+    "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152920/work-attribute-values",
+    "values": []
+  }
+}

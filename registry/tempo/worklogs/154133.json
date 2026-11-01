@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154133",
+  "tempoWorklogId": 154133,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-27",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-27T06:00:00Z",
+  "description": "MOB-6752: Атрибуція Retail Media: план, рев'ю, передача session_id у gtm кошика і в purchase, повний прогін тестів, перевірка на препроді на новому чекауті, MR !423, передано в тестування на 6.3.0 (9) QA.",
+  "createdAt": "2026-10-30T13:30:39Z",
+  "updatedAt": "2026-10-30T13:30:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154133/work-attribute-values",
+    "values": []
+  }
+}

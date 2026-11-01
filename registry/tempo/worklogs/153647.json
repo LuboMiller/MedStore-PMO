@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153647",
+  "tempoWorklogId": 153647,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 5520,
+  "billableSeconds": 5520,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: \"Правила за рішеннями 19.10: супутні діагнози без самої хвороби когорти, перенесений інсульт з наслідками I69.0-I69.4, злоякісні новоутворення C00-C97; чернетки груп понять на сервері, викладка 343, закриття рекламацій 414 і 427, перевірка сторінки \"\"Якість даних\"\"\"",
+  "createdAt": "2026-10-26T18:21:48Z",
+  "updatedAt": "2026-10-26T18:21:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153647/work-attribute-values",
+    "values": []
+  }
+}

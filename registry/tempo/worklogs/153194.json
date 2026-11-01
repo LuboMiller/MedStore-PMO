@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153194",
+  "tempoWorklogId": 153194,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-19",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-19T05:00:00Z",
+  "description": "- [MOB-4307] Default ErrorModel status is a general error, not \"no internet\" \n- [MOB-4022] Always rotate the requested token type on 401 instead of reusing a stale lease \n- daily \n- code review",
+  "createdAt": "2026-10-26T08:00:44Z",
+  "updatedAt": "2026-10-26T08:00:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153194/work-attribute-values",
+    "values": []
+  }
+}

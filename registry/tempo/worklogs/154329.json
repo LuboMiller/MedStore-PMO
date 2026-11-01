@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154329",
+  "tempoWorklogId": 154329,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103944",
+    "id": 103944
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-30",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-30T10:00:00Z",
+  "description": "-інвестігейт, спроби відтворити проблему, робота над фіксом для анімації тексту",
+  "createdAt": "2026-10-31T13:19:48Z",
+  "updatedAt": "2026-10-31T13:19:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154329/work-attribute-values",
+    "values": []
+  }
+}

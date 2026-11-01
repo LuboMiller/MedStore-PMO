@@ -6,13 +6,13 @@
     "id": 34359
   },
   "timeSpentSeconds": 1800,
-  "billableSeconds": 1800,
+  "billableSeconds": 0,
   "startDate": "2026-10-14",
   "startTime": "10:00:00",
   "startDateTimeUtc": "2026-10-14T07:00:00Z",
   "description": "Daily",
   "createdAt": "2026-10-19T07:20:14Z",
-  "updatedAt": "2026-10-19T07:20:14Z",
+  "updatedAt": "2026-10-28T06:07:13Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
     "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"

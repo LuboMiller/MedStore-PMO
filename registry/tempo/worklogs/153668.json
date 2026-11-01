@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153668",
+  "tempoWorklogId": 153668,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98642",
+    "id": 98642
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-22",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-22T12:00:00Z",
+  "description": "Золота когорта: розбір, переліки кодів, критерії приймання: Прогонник золотої когорти: локальний режим на vm-db і звіт зі збереженого прогону",
+  "createdAt": "2026-10-26T18:22:00Z",
+  "updatedAt": "2026-10-26T18:22:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153668/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154249",
+  "tempoWorklogId": 154249,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-26",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-26T07:30:00Z",
+  "description": "Дейлі команди проєкту RSG: статус робіт з бізнес-аналізу, синхронізація з дизайном і розробкою.",
+  "createdAt": "2026-10-30T21:30:57Z",
+  "updatedAt": "2026-10-30T21:30:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154249/work-attribute-values",
+    "values": []
+  }
+}

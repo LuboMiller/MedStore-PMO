@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152630",
+  "tempoWorklogId": 152630,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/89976",
+    "id": 89976
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-21",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-21T09:30:00Z",
+  "description": "Align requirements\n1) https://devlight.atlassian.net/browse/PST-1156?focusedCommentId=78805\n2) QA questions \n3) no show and close are only shown for booking started already, until then - we show cancel button",
+  "createdAt": "2026-10-20T17:57:48Z",
+  "updatedAt": "2026-10-20T17:57:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152630/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153246",
+  "tempoWorklogId": 153246,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40268",
+    "id": 40268
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-19T09:30:00Z",
+  "description": "Allsettled || Authentication onto Amazon Cognito sync",
+  "createdAt": "2026-10-26T09:08:17Z",
+  "updatedAt": "2026-10-26T09:08:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153246/work-attribute-values",
+    "values": []
+  }
+}

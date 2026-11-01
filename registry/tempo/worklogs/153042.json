@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153042",
+  "tempoWorklogId": 153042,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103730",
+    "id": 103730
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-23",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-22T21:00:00Z",
+  "description": "дизайн статики для відео, створення відео в клоді ",
+  "createdAt": "2026-10-25T20:08:19Z",
+  "updatedAt": "2026-10-27T06:04:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153042/work-attribute-values",
+    "values": []
+  }
+}

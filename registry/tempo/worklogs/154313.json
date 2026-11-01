@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154313",
+  "tempoWorklogId": 154313,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-28",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-28T09:30:00Z",
+  "description": "Redesign of the Portfolio Visuals, work with examples, brainstorm with the team",
+  "createdAt": "2026-10-30T22:57:50Z",
+  "updatedAt": "2026-10-30T23:00:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154313/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152737",
+  "tempoWorklogId": 152737,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40269",
+    "id": 40269
+  },
+  "timeSpentSeconds": 1500,
+  "billableSeconds": 1500,
+  "startDate": "2026-10-21",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-21T05:15:00Z",
+  "description": "sync with Viktor",
+  "createdAt": "2026-10-21T16:09:03Z",
+  "updatedAt": "2026-10-21T16:09:03Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152737/work-attribute-values",
+    "values": []
+  }
+}

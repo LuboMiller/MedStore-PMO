@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153326",
+  "tempoWorklogId": 153326,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-19",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-19T08:00:00Z",
+  "description": "SO#2 + ДУ ВП на пролонгаію | статус алайнмент",
+  "createdAt": "2026-10-26T11:01:40Z",
+  "updatedAt": "2026-10-26T11:01:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153326/work-attribute-values",
+    "values": []
+  }
+}

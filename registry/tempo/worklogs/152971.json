@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152971",
+  "tempoWorklogId": 152971,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102245",
+    "id": 102245
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-22",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-22T07:00:00Z",
+  "description": "deploy api-gateway",
+  "createdAt": "2026-10-23T15:23:11Z",
+  "updatedAt": "2026-10-23T15:23:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152971/work-attribute-values",
+    "values": []
+  }
+}

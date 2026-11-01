@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154247",
+  "tempoWorklogId": 154247,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/77775",
+    "id": 77775
+  },
+  "timeSpentSeconds": 300,
+  "billableSeconds": 300,
+  "startDate": "2026-10-30",
+  "startTime": "16:10:00",
+  "startDateTimeUtc": "2026-10-30T15:10:00Z",
+  "description": "синк по плануванню на наступні тижні",
+  "createdAt": "2026-10-30T20:31:35Z",
+  "updatedAt": "2026-10-30T20:31:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154247/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153189",
+  "tempoWorklogId": 153189,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102166",
+    "id": 102166
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-22",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-22T12:15:00Z",
+  "description": "Design",
+  "createdAt": "2026-10-26T07:58:35Z",
+  "updatedAt": "2026-10-26T07:58:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153189/work-attribute-values",
+    "values": []
+  }
+}

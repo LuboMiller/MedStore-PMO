@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153524",
+  "tempoWorklogId": 153524,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34360",
+    "id": 34360
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-26",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-26T12:00:00Z",
+  "description": "пленінг",
+  "createdAt": "2026-10-26T15:00:38Z",
+  "updatedAt": "2026-10-26T15:00:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153524/work-attribute-values",
+    "values": []
+  }
+}

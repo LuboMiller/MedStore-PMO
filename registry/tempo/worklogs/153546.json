@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153546",
+  "tempoWorklogId": 153546,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100881",
+    "id": 100881
+  },
+  "timeSpentSeconds": 5760,
+  "billableSeconds": 5760,
+  "startDate": "2026-10-20",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-19T21:00:00Z",
+  "description": "Architecture vision: internal questions to the team, integration input for the vision, Creatio API research (FA-12 Integrations), Diia documents converted to md (FA-6, F-1.14), product description and glossary, assumption log, decision D-33. Epics: FA-12 Integrations, FA-6. Story: F-1.14.",
+  "createdAt": "2026-10-26T15:12:16Z",
+  "updatedAt": "2026-10-26T15:12:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153546/work-attribute-values",
+    "values": []
+  }
+}

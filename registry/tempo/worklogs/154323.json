@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154323",
+  "tempoWorklogId": 154323,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103716",
+    "id": 103716
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-30",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-30T07:00:00Z",
+  "description": "-переробка логіки роботи полінгу (замість використання того самого ендпоінту є окремий ендпоінт для отримання статусу операції)\n-репорт проблеми в логіці бекенду стосовно статусу partially_approved",
+  "createdAt": "2026-10-31T12:32:38Z",
+  "updatedAt": "2026-10-31T12:32:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154323/work-attribute-values",
+    "values": []
+  }
+}

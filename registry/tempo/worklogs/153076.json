@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153076",
+  "tempoWorklogId": 153076,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75347",
+    "id": 75347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-22",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-22T05:00:00Z",
+  "description": "MOB-4430 foldable phone base adaptation\nMOB-4408 Прибрати локальнку тоглу лояльності перед релізом 3.0.0 (одразу після релізу 2.1.0)",
+  "createdAt": "2026-10-25T23:15:49Z",
+  "updatedAt": "2026-10-25T23:15:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6cc65fc-d88c-4b83-b421-8973371c405b",
+    "accountId": "712020:f6cc65fc-d88c-4b83-b421-8973371c405b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153076/work-attribute-values",
+    "values": []
+  }
+}

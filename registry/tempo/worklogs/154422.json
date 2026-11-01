@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154422",
+  "tempoWorklogId": 154422,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 5220,
+  "billableSeconds": 5220,
+  "startDate": "2026-10-30",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-30T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Рекламація 574 (результати знайдено, але не показано) і 578 (доказ діагнозу зі станом, SR-DSP-29, обовʼязкова вимога сценарію: в таблиці результатів лише документ чи фрагмент, на який спрацювало правило); культура: організм перед фразою про культуру, мазок, чутливість організму (SR-CON-38), поділ на вакциновані і ні в більшій кількості форм (SR-BRK-13), SR-TXT-30; питання, що починається із запиту про когорту (SR-PRT-21, 22); повторні запити рекламацій",
+  "createdAt": "2026-11-01T19:36:30Z",
+  "updatedAt": "2026-11-01T19:36:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154422/work-attribute-values",
+    "values": []
+  }
+}

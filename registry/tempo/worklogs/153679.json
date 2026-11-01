@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153679",
+  "tempoWorklogId": 153679,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 5220,
+  "billableSeconds": 5220,
+  "startDate": "2026-10-24",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-24T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Агент Anomaly Watch: аномалії даних і відповідей зі світлофором, сторінка Аномалії, схема, викладка 377, перший прогін; виправлення саммарі пацієнта (викладка 378)",
+  "createdAt": "2026-10-26T18:22:05Z",
+  "updatedAt": "2026-10-26T18:22:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153679/work-attribute-values",
+    "values": []
+  }
+}

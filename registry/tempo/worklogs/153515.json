@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153515",
+  "tempoWorklogId": 153515,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103711",
+    "id": 103711
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-19",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-19T06:00:00Z",
+  "description": "Reviewed sCard fuel payment requirements and API contracts",
+  "createdAt": "2026-10-26T13:34:51Z",
+  "updatedAt": "2026-10-26T13:34:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:464dccdf-73dd-4028-afa8-0887c3508938",
+    "accountId": "712020:464dccdf-73dd-4028-afa8-0887c3508938"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153515/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,15 +1,15 @@
 {
   "spaceOwnerId": "712020:db4f2a9e-8c72-4de8-ba4d-aada0524b2a8",
-  "authorId": "627904558395420069673b37",
   "homepageId": "5947916617",
-  "createdAt": "2026-08-11T14:24:04.692Z",
   "icon": null,
+  "createdAt": "2026-08-11T14:24:04.692Z",
+  "authorId": "627904558395420069673b37",
+  "description": null,
+  "status": "current",
   "name": "Dobrobut  MedStore",
   "key": "DD1",
   "id": "5947916292",
   "type": "global",
-  "description": null,
-  "status": "current",
   "_links": {
     "webui": "/spaces/DD1"
   },

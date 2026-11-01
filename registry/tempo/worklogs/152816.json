@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152816",
+  "tempoWorklogId": 152816,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102741",
+    "id": 102741
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-22",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-22T06:00:00Z",
+  "description": "Гейти та дебрифи. Фіналізація по ФА 1 в розрізі МЗ",
+  "createdAt": "2026-10-22T15:30:46Z",
+  "updatedAt": "2026-10-22T15:30:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152816/work-attribute-values",
+    "values": []
+  }
+}

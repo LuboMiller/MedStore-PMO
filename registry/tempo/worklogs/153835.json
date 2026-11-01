@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153835",
+  "tempoWorklogId": 153835,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-20",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-20T10:30:00Z",
+  "description": "Грумінг фільтрів із сортуванням із командою",
+  "createdAt": "2026-10-28T05:49:04Z",
+  "updatedAt": "2026-10-28T05:49:04Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153835/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154182",
+  "tempoWorklogId": 154182,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103901",
+    "id": 103901
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-30",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-30T09:30:00Z",
+  "description": "Ревʼю",
+  "createdAt": "2026-10-30T15:36:48Z",
+  "updatedAt": "2026-10-30T15:37:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154182/work-attribute-values",
+    "values": []
+  }
+}

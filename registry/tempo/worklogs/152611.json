@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152611",
+  "tempoWorklogId": 152611,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100357",
+    "id": 100357
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-13",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-13T08:15:00Z",
+  "description": "Activity: Jira",
+  "createdAt": "2026-10-20T12:50:59Z",
+  "updatedAt": "2026-10-20T12:51:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152611/work-attribute-values",
+    "values": []
+  }
+}

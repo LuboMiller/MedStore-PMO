@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153279",
+  "tempoWorklogId": 153279,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103070",
+    "id": 103070
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-21",
+  "startTime": "14:51:00",
+  "startDateTimeUtc": "2026-10-21T11:51:00Z",
+  "description": "Subscription fee tax: implementation across merchant-service, infra, ps-tests",
+  "createdAt": "2026-10-26T09:23:24Z",
+  "updatedAt": "2026-10-26T09:23:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153279/work-attribute-values",
+    "values": []
+  }
+}

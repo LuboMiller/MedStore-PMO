@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153222",
+  "tempoWorklogId": 153222,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-23",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-23T13:00:00Z",
+  "description": "Epic 5-9 Internal Review",
+  "createdAt": "2026-10-26T08:25:27Z",
+  "updatedAt": "2026-10-26T08:25:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153222/work-attribute-values",
+    "values": []
+  }
+}

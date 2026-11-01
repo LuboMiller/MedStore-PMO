@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154190",
+  "tempoWorklogId": 154190,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-27",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-27T06:00:00Z",
+  "description": "Дзвінок з Павлом по напрацюваннях\nПравки, зміни по записах через послугу та графік лікаря",
+  "createdAt": "2026-10-30T15:44:46Z",
+  "updatedAt": "2026-10-30T15:50:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154190/work-attribute-values",
+    "values": []
+  }
+}

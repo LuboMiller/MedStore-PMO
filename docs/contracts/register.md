@@ -2,8 +2,8 @@
 
 > Локальний SoT дедлайнів контрактів / етапів. PDF/Docs — у Drive `google-directories` → `contracts`. Оновлення: `python3 scripts/integrations/cli.py google contracts-status --write`.
 
-- **As of:** 2026-10-20
-- **Generated (UTC):** 2026-10-20T09:38:27Z
+- **As of:** 2026-11-02
+- **Generated (UTC):** 2026-11-01T22:07:33Z
 - **Warn / critical windows:** ≤14д 🟡 / ≤7д 🔴
 - **Config:** `config/contracts.json`
 - **Playbook:** [operating-playbook.md](./operating-playbook.md)
@@ -22,7 +22,7 @@
 | Light | Kind | ID | Title | Status | End | Days left | Drive |
 |---|---|---|---|---|---|---|---|
 | ⚪ | contract | CTR-001 | Framework Agreement №150626 — Добробут × Devlight | active | — | — | `1myV946kpmKQNQXAIqioVaLQr7XbAvlOD` |
-| 🟢 | stage | STG-01 | Framework Agreement №150626 — Добробут × Devlight · Додаток №3 / Discovery–Pilot MedStore (T&M) | active | 2026-11-30 | 41 | — |
+| 🟢 | stage | STG-01 | Framework Agreement №150626 — Добробут × Devlight · Додаток №3 / Discovery–Pilot MedStore (T&M) | active | 2026-11-30 | 28 | — |
 
 ## Action needed (≤ warn / overdue)
 

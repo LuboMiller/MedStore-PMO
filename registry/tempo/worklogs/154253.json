@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154253",
+  "tempoWorklogId": 154253,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-26",
+  "startTime": "13:45:00",
+  "startDateTimeUtc": "2026-10-26T11:45:00Z",
+  "description": "Аналіз змін у процесі видачі кредиту (продовження): оновлення вимог за результатами апдейту від RSG. Беклог: [https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/34275329/Backlog+2|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/34275329/Backlog+2|smart-link]",
+  "createdAt": "2026-10-30T21:32:25Z",
+  "updatedAt": "2026-10-30T21:32:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154253/work-attribute-values",
+    "values": []
+  }
+}

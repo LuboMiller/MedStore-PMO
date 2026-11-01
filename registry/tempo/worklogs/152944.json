@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152944",
+  "tempoWorklogId": 152944,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-20",
+  "startTime": "06:00:00",
+  "startDateTimeUtc": "2026-10-20T03:00:00Z",
+  "description": "Затверження флоу родиного акаунту (додавання дорослого + дитини + підтвердження через діп лінк)",
+  "createdAt": "2026-10-23T14:45:49Z",
+  "updatedAt": "2026-10-23T14:48:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152944/work-attribute-values",
+    "values": []
+  }
+}

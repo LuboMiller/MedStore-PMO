@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152874",
+  "tempoWorklogId": 152874,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103569",
+    "id": 103569
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-20",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-20T06:45:00Z",
+  "description": "research review",
+  "createdAt": "2026-10-23T09:16:57Z",
+  "updatedAt": "2026-10-23T09:16:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152874/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153509",
+  "tempoWorklogId": 153509,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92482",
+    "id": 92482
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-20",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-20T08:00:00Z",
+  "description": "Формування першої версії архітектурної записки: межі системи, модулі, інтеграційний шар",
+  "createdAt": "2026-10-26T12:40:08Z",
+  "updatedAt": "2026-10-26T12:40:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:be4c11e6-0741-4175-ba81-b721bb496b68",
+    "accountId": "712020:be4c11e6-0741-4175-ba81-b721bb496b68"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153509/work-attribute-values",
+    "values": []
+  }
+}

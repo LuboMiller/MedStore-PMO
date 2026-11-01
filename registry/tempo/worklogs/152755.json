@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152755",
+  "tempoWorklogId": 152755,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103402",
+    "id": 103402
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-22",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-22T06:00:00Z",
+  "description": "D3. Цільова модель першого запуску (КП 1.2a)",
+  "createdAt": "2026-10-22T06:25:27Z",
+  "updatedAt": "2026-10-22T06:25:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152755/work-attribute-values",
+    "values": []
+  }
+}

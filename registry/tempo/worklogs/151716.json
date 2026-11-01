@@ -6,13 +6,13 @@
     "id": 58629
   },
   "timeSpentSeconds": 900,
-  "billableSeconds": 900,
+  "billableSeconds": 0,
   "startDate": "2026-10-15",
   "startTime": "10:30:00",
   "startDateTimeUtc": "2026-10-15T07:30:00Z",
   "description": "Координація по задачам",
   "createdAt": "2026-10-15T17:59:47Z",
-  "updatedAt": "2026-10-15T17:59:47Z",
+  "updatedAt": "2026-11-01T15:54:08Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
     "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"

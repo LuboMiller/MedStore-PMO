@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153657",
+  "tempoWorklogId": 153657,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103571",
+    "id": 103571
+  },
+  "timeSpentSeconds": 4020,
+  "billableSeconds": 4020,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Обговорення PR по архітектурі: https://devlight.slack.com/archives/C0AFEJJFEAK/p1792499902531219?thread_ts=1792142899.026049&cid=C0AFEJJFEAK+ зустріч Veselka - Nazar+Dmytro arch sync + follow-up",
+  "createdAt": "2026-10-26T18:21:54Z",
+  "updatedAt": "2026-10-26T18:21:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153657/work-attribute-values",
+    "values": []
+  }
+}

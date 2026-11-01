@@ -5,14 +5,14 @@
     "self": "https://devlight.atlassian.net/rest/api/2/issue/40267",
     "id": 40267
   },
-  "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
   "startDate": "2026-10-20",
   "startTime": "13:00:00",
   "startDateTimeUtc": "2026-10-20T10:00:00Z",
   "description": "AllSettled | Taxes sync ",
   "createdAt": "2026-10-19T16:32:31Z",
-  "updatedAt": "2026-10-20T07:08:50Z",
+  "updatedAt": "2026-10-20T10:18:26Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
     "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153804",
+  "tempoWorklogId": 153804,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92809",
+    "id": 92809
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-27",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-27T07:00:00Z",
+  "description": "тестування",
+  "createdAt": "2026-10-27T22:23:11Z",
+  "updatedAt": "2026-10-27T22:23:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
+    "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153804/work-attribute-values",
+    "values": []
+  }
+}

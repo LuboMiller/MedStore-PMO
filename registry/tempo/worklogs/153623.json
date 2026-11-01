@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153623",
+  "tempoWorklogId": 153623,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34360",
+    "id": 34360
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-26",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-26T08:30:00Z",
+  "description": "Planing",
+  "createdAt": "2026-10-26T16:35:29Z",
+  "updatedAt": "2026-10-26T16:35:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153623/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153300",
+  "tempoWorklogId": 153300,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103754",
+    "id": 103754
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-23",
+  "startTime": "13:18:00",
+  "startDateTimeUtc": "2026-10-23T10:18:00Z",
+  "description": "Node.js security release bump and pnpm release-age cooldown across 7 repos, review",
+  "createdAt": "2026-10-26T09:23:35Z",
+  "updatedAt": "2026-10-26T09:23:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153300/work-attribute-values",
+    "values": []
+  }
+}

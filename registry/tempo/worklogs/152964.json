@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152964",
+  "tempoWorklogId": 152964,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 19800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-23",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-23T08:30:00Z",
+  "description": "Redesign of the “Intertop” case",
+  "createdAt": "2026-10-23T15:16:46Z",
+  "updatedAt": "2026-10-27T06:04:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152964/work-attribute-values",
+    "values": []
+  }
+}

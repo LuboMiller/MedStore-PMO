@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154311",
+  "tempoWorklogId": 154311,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-26",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-26T11:00:00Z",
+  "description": "Working with Feedback - Dnipro-M, Intertop cases",
+  "createdAt": "2026-10-30T22:54:04Z",
+  "updatedAt": "2026-10-30T22:54:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:4a88232f-a6df-4019-ac48-1235ce17ed25",
+    "accountId": "712020:4a88232f-a6df-4019-ac48-1235ce17ed25"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154311/work-attribute-values",
+    "values": []
+  }
+}

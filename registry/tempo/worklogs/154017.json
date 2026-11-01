@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154017",
+  "tempoWorklogId": 154017,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-29",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-29T12:00:00Z",
+  "description": "MOB-4532: Tech debt. QA build optimization",
+  "createdAt": "2026-10-29T11:28:06Z",
+  "updatedAt": "2026-10-29T11:28:06Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154017/work-attribute-values",
+    "values": []
+  }
+}

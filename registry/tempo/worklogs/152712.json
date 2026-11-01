@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152712",
+  "tempoWorklogId": 152712,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-21",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-21T07:00:00Z",
+  "description": "- Опрацювала флоу реєстрації, авторизації тдля двох ролей - користувача й продавця, включно зі станами успішного виконання, помилок і завершення входу. \n- промалювала флоу відновлення пароль з введенням коду (Нові компоненти занесла до юай кіта) для двох ролей\n\n- Міт з Totis та після нього доопрацювала затверджений варіант Product Detail Page та адаптувала інші варіації карток  та екранів відповідно до погодженого дизайну. \n- Також розпочала роботу над Product Listing Page: підготувала відображення карток товарів і почала розробляти фільтри першого рівня. Додатково внесла правки до UI Kit і наявних компонентів.",
+  "createdAt": "2026-10-21T13:51:27Z",
+  "updatedAt": "2026-10-28T07:04:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152712/work-attribute-values",
+    "values": []
+  }
+}

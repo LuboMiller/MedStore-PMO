@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152976",
+  "tempoWorklogId": 152976,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66797",
+    "id": 66797
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-23",
+  "startTime": "18:00:00",
+  "startDateTimeUtc": "2026-10-23T15:00:00Z",
+  "description": "Focus time / Комунікація - - Бриф по ПЛ",
+  "createdAt": "2026-10-23T16:18:14Z",
+  "updatedAt": "2026-10-23T16:18:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152976/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154091",
+  "tempoWorklogId": 154091,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101817",
+    "id": 101817
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-29",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-29T09:15:00Z",
+  "description": "Взаємодія із замовником щодо відкритих питань\nПитання Cr\nНаступні кроки по закриттю діскавері і переоцінки",
+  "createdAt": "2026-10-29T20:52:11Z",
+  "updatedAt": "2026-10-29T20:52:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154091/work-attribute-values",
+    "values": []
+  }
+}

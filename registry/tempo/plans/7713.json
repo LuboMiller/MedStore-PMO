@@ -1,0 +1,34 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7713",
+  "id": 7713,
+  "startDate": "2026-10-13",
+  "endDate": "2026-10-13",
+  "description": "дизайн каруселі постів, анімація відео. генерація відео ",
+  "createdAt": "2026-10-25T20:48:06Z",
+  "updatedAt": "2026-10-25T20:50:33Z",
+  "plannedSecondsPerDay": 28800,
+  "totalPlannedSeconds": 28800,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": true,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-10-13",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "id": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103056",
+    "id": "103056",
+    "type": "ISSUE"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7713?from=2026-10-13&to=2026-10-13"
+    }
+  },
+  "totalPlannedSecondsInScope": 28800,
+  "planCreatorId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+}

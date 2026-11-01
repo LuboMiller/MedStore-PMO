@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153682",
+  "tempoWorklogId": 153682,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101355",
+    "id": 101355
+  },
+  "timeSpentSeconds": 1560,
+  "billableSeconds": 1560,
+  "startDate": "2026-10-25",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-25T12:00:00Z",
+  "description": "Проєктна комунікація за регламентом: Пульс тижня 19..25.10 і ворклог тижня, доповнення за 25.10",
+  "createdAt": "2026-10-26T18:22:07Z",
+  "updatedAt": "2026-10-26T18:22:07Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153682/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154234",
+  "tempoWorklogId": 154234,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103810",
+    "id": 103810
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-30",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-30T07:15:00Z",
+  "description": "PST-1955 · [CR] [F-12.12] [BE] Let an administrator set a portal user's photo when creating or editing the user",
+  "createdAt": "2026-10-30T19:56:49Z",
+  "updatedAt": "2026-10-30T19:56:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154234/work-attribute-values",
+    "values": []
+  }
+}

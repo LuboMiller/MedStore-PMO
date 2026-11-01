@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152740",
+  "tempoWorklogId": 152740,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101957",
+    "id": 101957
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-21",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-21T07:00:00Z",
+  "description": "Doctor view",
+  "createdAt": "2026-10-21T16:33:21Z",
+  "updatedAt": "2026-10-21T16:33:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152740/work-attribute-values",
+    "values": []
+  }
+}

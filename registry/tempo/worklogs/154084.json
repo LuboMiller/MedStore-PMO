@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154084",
+  "tempoWorklogId": 154084,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103127",
+    "id": 103127
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-29",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-29T11:00:00Z",
+  "description": "Реалізація старого виду діалогу для оновлення",
+  "createdAt": "2026-10-29T18:31:38Z",
+  "updatedAt": "2026-10-29T18:31:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154084/work-attribute-values",
+    "values": []
+  }
+}

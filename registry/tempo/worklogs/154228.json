@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154228",
+  "tempoWorklogId": 154228,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103765",
+    "id": 103765
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-26",
+  "startTime": "13:15:00",
+  "startDateTimeUtc": "2026-10-26T11:15:00Z",
+  "description": "Add resource photoUrl to GET /api/v1/merchants/{merchantId}/bookings response",
+  "createdAt": "2026-10-30T19:50:28Z",
+  "updatedAt": "2026-10-30T19:50:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154228/work-attribute-values",
+    "values": []
+  }
+}

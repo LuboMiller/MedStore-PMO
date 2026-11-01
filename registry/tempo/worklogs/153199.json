@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153199",
+  "tempoWorklogId": 153199,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-23",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-23T05:00:00Z",
+  "description": "- [MOB-4511] C&C. Checkout. Min order amount banner is not clickable after the sum drops below 199 hrn \n- [MOB-4509] Scan&Go. Basket. Stale saving in footer and Оплатити clickable during delete cooldown  \n- [MOB-4488] Tech debt. WebView: контекст помилок, системні посилання, перезапуск після збою",
+  "createdAt": "2026-10-26T08:03:58Z",
+  "updatedAt": "2026-10-26T08:03:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153199/work-attribute-values",
+    "values": []
+  }
+}

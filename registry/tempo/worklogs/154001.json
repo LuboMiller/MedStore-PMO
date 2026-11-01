@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154001",
+  "tempoWorklogId": 154001,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103914",
+    "id": 103914
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-29",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-29T07:00:00Z",
+  "description": "- оцінка проекту;",
+  "createdAt": "2026-10-29T09:22:28Z",
+  "updatedAt": "2026-10-29T09:22:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
+    "accountId": "5f7c2ca025fbdf00686d7ae3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154001/work-attribute-values",
+    "values": []
+  }
+}

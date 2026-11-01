@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153468",
+  "tempoWorklogId": 153468,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-21",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-21T09:30:00Z",
+  "description": "PMO sync",
+  "createdAt": "2026-10-26T11:17:45Z",
+  "updatedAt": "2026-10-26T11:17:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:2c14d506-f4c7-4639-a369-459f3b9614db",
+    "accountId": "712020:2c14d506-f4c7-4639-a369-459f3b9614db"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153468/work-attribute-values",
+    "values": []
+  }
+}

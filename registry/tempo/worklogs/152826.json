@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152826",
+  "tempoWorklogId": 152826,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/36369",
+    "id": 36369
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-22",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-22T05:00:00Z",
+  "description": "Daily",
+  "createdAt": "2026-10-22T17:41:31Z",
+  "updatedAt": "2026-10-22T17:41:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152826/work-attribute-values",
+    "values": []
+  }
+}

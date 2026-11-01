@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152735",
+  "tempoWorklogId": 152735,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33311",
+    "id": 33311
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-21",
+  "startTime": "12:45:00",
+  "startDateTimeUtc": "2026-10-21T09:45:00Z",
+  "description": "Порівняння товарів",
+  "createdAt": "2026-10-21T16:04:37Z",
+  "updatedAt": "2026-10-21T16:04:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152735/work-attribute-values",
+    "values": []
+  }
+}

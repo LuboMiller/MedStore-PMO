@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154166",
+  "tempoWorklogId": 154166,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102759",
+    "id": 102759
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-30",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-30T11:00:00Z",
+  "description": "Фінальний рефакторинг коду. Уніфікація логіки подібних асинхронних запитів під один впізнаваних стилістичний підхід.",
+  "createdAt": "2026-10-30T14:33:58Z",
+  "updatedAt": "2026-10-30T14:33:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154166/work-attribute-values",
+    "values": []
+  }
+}

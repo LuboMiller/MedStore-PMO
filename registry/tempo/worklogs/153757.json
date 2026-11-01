@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153757",
+  "tempoWorklogId": 153757,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103849",
+    "id": 103849
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-27",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-27T10:00:00Z",
+  "description": "Виправлення кольору для фону пошуку",
+  "createdAt": "2026-10-27T15:12:26Z",
+  "updatedAt": "2026-10-27T15:12:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153757/work-attribute-values",
+    "values": []
+  }
+}

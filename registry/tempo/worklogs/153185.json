@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153185",
+  "tempoWorklogId": 153185,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103716",
+    "id": 103716
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-22",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-22T08:00:00Z",
+  "description": "-додано логіку очікування на статус готовності (робота з апі hold/purchase)",
+  "createdAt": "2026-10-26T07:47:55Z",
+  "updatedAt": "2026-10-26T07:47:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153185/work-attribute-values",
+    "values": []
+  }
+}

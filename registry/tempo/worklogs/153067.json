@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153067",
+  "tempoWorklogId": 153067,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102212",
+    "id": 102212
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-09",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-08T21:00:00Z",
+  "description": "створення статики дашборта для відео з відео агентом ",
+  "createdAt": "2026-10-25T21:03:20Z",
+  "updatedAt": "2026-10-27T06:04:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153067/work-attribute-values",
+    "values": []
+  }
+}

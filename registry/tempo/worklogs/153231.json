@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153231",
+  "tempoWorklogId": 153231,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-21",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-21T07:00:00Z",
+  "description": "Середа, 21.10.2026 — ~1 год 30 хв\n\nРозбір «Задач розробникам» від архітектора (229 задач) і звірка з артефактами BA. Там, де є розбіжності, взято варіант архітектора. Оновлено бізнес-правила, NFR, беклог і реєстр питань, у списку питань до клієнта тепер 24.\n\n Оновлено 28 специфікацій, яких це торкнулося. Пройдено Gate 2 по беклогу і Gates 3 + 4 по F-15.12 та Сервіс+. Оновлено глосарій, матрицю ролей і карту сутностей. Роботу продовжено в четвер.",
+  "createdAt": "2026-10-26T08:43:30Z",
+  "updatedAt": "2026-10-26T08:43:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153231/work-attribute-values",
+    "values": []
+  }
+}

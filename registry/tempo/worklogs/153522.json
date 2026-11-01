@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153522",
+  "tempoWorklogId": 153522,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103763",
+    "id": 103763
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-26",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-26T09:30:00Z",
+  "description": "Додавання менеджеру для всіх кешів в застосунку",
+  "createdAt": "2026-10-26T13:49:52Z",
+  "updatedAt": "2026-10-26T14:15:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153522/work-attribute-values",
+    "values": []
+  }
+}

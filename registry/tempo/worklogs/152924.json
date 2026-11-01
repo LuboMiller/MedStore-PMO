@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152924",
+  "tempoWorklogId": 152924,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40270",
+    "id": 40270
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-23",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-23T09:00:00Z",
+  "description": "AllSettled | Daily + Communication with devs, sinc with Evgeniy Mazur before demo",
+  "createdAt": "2026-10-23T14:02:28Z",
+  "updatedAt": "2026-10-23T14:02:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152924/work-attribute-values",
+    "values": []
+  }
+}

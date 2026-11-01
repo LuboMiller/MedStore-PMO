@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153845",
+  "tempoWorklogId": 153845,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-23",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-23T14:00:00Z",
+  "description": "Синк із Русланом по наступним планам і блокерам",
+  "createdAt": "2026-10-28T05:54:47Z",
+  "updatedAt": "2026-10-28T05:54:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153845/work-attribute-values",
+    "values": []
+  }
+}

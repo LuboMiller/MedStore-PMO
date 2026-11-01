@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153196",
+  "tempoWorklogId": 153196,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39151",
+    "id": 39151
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T05:00:00Z",
+  "description": "- daily \n- pr review \n- [MOB-4459] Update the icon for the loyalty rules in profile \n- [MOB-4457] Offline mode loyalty card is not fully displayed",
+  "createdAt": "2026-10-26T08:02:05Z",
+  "updatedAt": "2026-10-26T08:02:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:26af3118-0a1a-4807-946a-71ed05a459ea",
+    "accountId": "712020:26af3118-0a1a-4807-946a-71ed05a459ea"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153196/work-attribute-values",
+    "values": []
+  }
+}

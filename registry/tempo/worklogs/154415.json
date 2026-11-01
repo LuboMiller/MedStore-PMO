@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154415",
+  "tempoWorklogId": 154415,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98644",
+    "id": 98644
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-27",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-27T12:00:00Z",
+  "description": "Архітектура, скоуп, оцінка повного пілота, звіт: Чекліст сесії системного дизайну повномасштабної версії: 64 питання NFR і 50 FR до замовника з тим, що вже відомо (RFP, Q&A, пошта, Teams), хто відповідає і пріоритет; як тримати одночасно кілька моделей на vm-llm (розбір, AI-саммарі, переклад, аномалії)",
+  "createdAt": "2026-11-01T19:36:27Z",
+  "updatedAt": "2026-11-01T19:36:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154415/work-attribute-values",
+    "values": []
+  }
+}

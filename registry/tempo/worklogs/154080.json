@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154080",
+  "tempoWorklogId": 154080,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103128",
+    "id": 103128
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-29",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-29T10:00:00Z",
+  "description": "Реалізація нового UI блоку самовивозу",
+  "createdAt": "2026-10-29T17:16:45Z",
+  "updatedAt": "2026-10-29T17:16:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154080/work-attribute-values",
+    "values": []
+  }
+}

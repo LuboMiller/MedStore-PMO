@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153379",
+  "tempoWorklogId": 153379,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-23",
+  "startTime": "18:00:00",
+  "startDateTimeUtc": "2026-10-23T15:00:00Z",
+  "description": "передати залишкові задачі на UAT + білд + документація uat/specifications + пм тест",
+  "createdAt": "2026-10-26T11:02:00Z",
+  "updatedAt": "2026-10-26T11:02:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153379/work-attribute-values",
+    "values": []
+  }
+}

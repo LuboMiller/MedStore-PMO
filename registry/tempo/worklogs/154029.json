@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154029",
+  "tempoWorklogId": 154029,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103923",
+    "id": 103923
+  },
+  "timeSpentSeconds": 3480,
+  "billableSeconds": 3480,
+  "startDate": "2026-10-07",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-06T21:00:00Z",
+  "description": "S1 Presale: Estimate Review",
+  "createdAt": "2026-10-12T11:41:53Z",
+  "updatedAt": "2026-10-29T12:52:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154029/work-attribute-values",
+    "values": []
+  }
+}

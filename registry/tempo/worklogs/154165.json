@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154165",
+  "tempoWorklogId": 154165,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102558",
+    "id": 102558
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-30",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-30T10:00:00Z",
+  "description": "Регрес тест конфліктів в дебаг билді та з іншими інтереспторами. Перевірка послідовності застосууванні інтерсепторів.",
+  "createdAt": "2026-10-30T14:32:52Z",
+  "updatedAt": "2026-10-30T14:32:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154165/work-attribute-values",
+    "values": []
+  }
+}

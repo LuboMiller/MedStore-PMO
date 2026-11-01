@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154291",
+  "tempoWorklogId": 154291,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102749",
+    "id": 102749
+  },
+  "timeSpentSeconds": 2400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-30",
+  "startTime": "11:35:00",
+  "startDateTimeUtc": "2026-10-30T09:35:00Z",
+  "description": "Перевірено підстави кожного висновку (записи дейлі, прототип, документація й перевірка API CMS), зміни передано в репозиторій. Переглянуто розділ каталогу й пошуку послуг у прототипі, щоб спланувати наступну частину роботи.",
+  "createdAt": "2026-10-30T22:15:27Z",
+  "updatedAt": "2026-11-01T21:10:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154291/work-attribute-values",
+    "values": []
+  }
+}

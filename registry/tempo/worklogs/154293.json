@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154293",
+  "tempoWorklogId": 154293,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102749",
+    "id": 102749
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-30",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-30T12:00:00Z",
+  "description": "Аналіз каталогу й пошуку послуг: розібрано розділи прототипу «Послуги та лікарі (каталог)» і «Пошук послуг» (головний екран, списки послуг, пошук, фільтри) і звірено з даними API CMS; підготовка вимог до функцій «Переглянути каталог послуг» (F-09.01) і «Знайти послугу в каталозі» (F-09.03).",
+  "createdAt": "2026-10-30T22:15:27Z",
+  "updatedAt": "2026-11-01T21:10:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154293/work-attribute-values",
+    "values": []
+  }
+}

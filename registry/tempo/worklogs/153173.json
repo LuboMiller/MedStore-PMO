@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153173",
+  "tempoWorklogId": 153173,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40222",
+    "id": 40222
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-20",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-20T06:45:00Z",
+  "description": "\nE-31 | Review design",
+  "createdAt": "2026-10-26T07:44:42Z",
+  "updatedAt": "2026-10-26T07:44:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153173/work-attribute-values",
+    "values": []
+  }
+}

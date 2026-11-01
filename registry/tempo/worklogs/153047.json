@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153047",
+  "tempoWorklogId": 153047,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-19",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-19T09:30:00Z",
+  "description": "Marketing/Design Discussion - Проговорюємо майбутні завдання та робимо ретроспективу.",
+  "createdAt": "2026-10-25T20:31:02Z",
+  "updatedAt": "2026-10-25T20:31:02Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153047/work-attribute-values",
+    "values": []
+  }
+}

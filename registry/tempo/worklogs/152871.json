@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152871",
+  "tempoWorklogId": 152871,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103459",
+    "id": 103459
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-19",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-19T09:30:00Z",
+  "description": "PST-1878 · [BE] [Merchant Portal → Manage Resources] Resource can be deleted despite active AwaitingConfirmation and Confirmed bookings",
+  "createdAt": "2026-10-23T09:13:26Z",
+  "updatedAt": "2026-10-23T09:13:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152871/work-attribute-values",
+    "values": []
+  }
+}

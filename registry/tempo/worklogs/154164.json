@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154164",
+  "tempoWorklogId": 154164,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102344",
+    "id": 102344
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-30",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-30T09:00:00Z",
+  "description": "Невеликий фікс емпті стейту",
+  "createdAt": "2026-10-30T14:31:44Z",
+  "updatedAt": "2026-10-30T14:31:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5cc2d1909e792a0e3faaee1d",
+    "accountId": "5cc2d1909e792a0e3faaee1d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154164/work-attribute-values",
+    "values": []
+  }
+}

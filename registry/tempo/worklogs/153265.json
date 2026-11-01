@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153265",
+  "tempoWorklogId": 153265,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103582",
+    "id": 103582
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-20",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-20T09:30:00Z",
+  "description": "Merchant category catalogue: taxonomy package, offline seed generator and HTTP seeder",
+  "createdAt": "2026-10-26T09:23:15Z",
+  "updatedAt": "2026-10-26T09:23:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153265/work-attribute-values",
+    "values": []
+  }
+}

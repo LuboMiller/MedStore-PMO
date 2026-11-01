@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153659",
+  "tempoWorklogId": 153659,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 4380,
+  "billableSeconds": 4380,
+  "startDate": "2026-10-21",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-21T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Нові рекламації після прогріву; рекламація 494 і правило SR-PER-17 (діагноз з анамнезу не датується датою документа), пояснення агента в повідомленні автору",
+  "createdAt": "2026-10-26T18:21:56Z",
+  "updatedAt": "2026-10-26T18:21:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153659/work-attribute-values",
+    "values": []
+  }
+}

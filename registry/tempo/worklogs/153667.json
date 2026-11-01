@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153667",
+  "tempoWorklogId": 153667,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102077",
+    "id": 102077
+  },
+  "timeSpentSeconds": 3300,
+  "billableSeconds": 3300,
+  "startDate": "2026-10-22",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-22T12:00:00Z",
+  "description": "Модель даних, індекси, якість пошуку: Рік народження в питаннях (рекламація 495), без власної межі віку моделі",
+  "createdAt": "2026-10-26T18:22:00Z",
+  "updatedAt": "2026-10-26T18:22:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153667/work-attribute-values",
+    "values": []
+  }
+}

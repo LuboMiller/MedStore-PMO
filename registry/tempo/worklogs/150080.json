@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/150080",
+  "tempoWorklogId": 150080,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102760",
+    "id": 102760
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T05:00:00Z",
+  "description": "Опис тікетів та задач.",
+  "createdAt": "2026-10-05T19:24:49Z",
+  "updatedAt": "2026-10-20T07:47:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/150080/work-attribute-values",
+    "values": []
+  }
+}

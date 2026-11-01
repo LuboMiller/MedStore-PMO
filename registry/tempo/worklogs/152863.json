@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152863",
+  "tempoWorklogId": 152863,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103560",
+    "id": 103560
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-21",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-21T07:15:00Z",
+  "description": "PST-1881 · [BE] [Merchant Portal → Staff Admin → Locations] Add photoUrl to GET /api/v1/portal/me/locations response",
+  "createdAt": "2026-10-23T09:05:13Z",
+  "updatedAt": "2026-10-23T09:05:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152863/work-attribute-values",
+    "values": []
+  }
+}

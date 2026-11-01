@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154302",
+  "tempoWorklogId": 154302,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102240",
+    "id": 102240
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-30",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-30T08:00:00Z",
+  "description": "Clinics list",
+  "createdAt": "2026-10-30T22:40:16Z",
+  "updatedAt": "2026-10-30T22:40:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154302/work-attribute-values",
+    "values": []
+  }
+}

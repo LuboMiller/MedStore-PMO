@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152879",
+  "tempoWorklogId": 152879,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103569",
+    "id": 103569
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-21",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-21T07:30:00Z",
+  "description": "research fixes after arch review",
+  "createdAt": "2026-10-23T09:40:20Z",
+  "updatedAt": "2026-10-23T09:40:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152879/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152706",
+  "tempoWorklogId": 152706,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90514",
+    "id": 90514
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-21",
+  "startTime": "09:20:00",
+  "startDateTimeUtc": "2026-10-21T06:20:00Z",
+  "description": "Invistigating and reporting issue in Jira: PST-1913",
+  "createdAt": "2026-10-21T12:16:21Z",
+  "updatedAt": "2026-10-21T12:16:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152706/work-attribute-values",
+    "values": []
+  }
+}

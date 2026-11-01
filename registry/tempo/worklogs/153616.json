@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153616",
+  "tempoWorklogId": 153616,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-26",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-26T06:00:00Z",
+  "description": "doc 14-15 finished + unblocked - 85% pass/ retests (8 ok)/ 21-26 doc started/ sync/ R-120(11)",
+  "createdAt": "2026-10-26T16:23:52Z",
+  "updatedAt": "2026-10-27T06:05:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153616/work-attribute-values",
+    "values": []
+  }
+}

@@ -6,13 +6,13 @@
     "id": 103119
   },
   "timeSpentSeconds": 25200,
-  "billableSeconds": 25200,
+  "billableSeconds": 0,
   "startDate": "2026-10-12",
   "startTime": "11:00:00",
   "startDateTimeUtc": "2026-10-12T08:00:00Z",
   "description": "Onboarding",
   "createdAt": "2026-10-19T07:26:51Z",
-  "updatedAt": "2026-10-19T07:26:51Z",
+  "updatedAt": "2026-10-28T06:07:39Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
     "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"

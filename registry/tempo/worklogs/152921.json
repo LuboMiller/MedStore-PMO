@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152921",
+  "tempoWorklogId": 152921,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/32463",
+    "id": 32463
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-23",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-23T05:00:00Z",
+  "description": "Fullstack weekly",
+  "createdAt": "2026-10-23T12:19:10Z",
+  "updatedAt": "2026-10-27T06:04:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152921/work-attribute-values",
+    "values": []
+  }
+}

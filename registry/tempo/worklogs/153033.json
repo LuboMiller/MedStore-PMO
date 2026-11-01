@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153033",
+  "tempoWorklogId": 153033,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102440",
+    "id": 102440
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-20",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-20T12:30:00Z",
+  "description": "correction and refinement of contracts and database schemas",
+  "createdAt": "2026-10-23T20:45:17Z",
+  "updatedAt": "2026-10-23T20:45:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3",
+    "accountId": "712020:e05a9ce3-1d7c-4fd5-9715-97599005eee3"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153033/work-attribute-values",
+    "values": []
+  }
+}

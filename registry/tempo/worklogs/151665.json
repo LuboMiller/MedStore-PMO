@@ -6,13 +6,13 @@
     "id": 54263
   },
   "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "billableSeconds": 7200,
   "startDate": "2026-10-16",
   "startTime": "11:30:00",
   "startDateTimeUtc": "2026-10-16T08:30:00Z",
   "description": "- виправлення помилок;",
   "createdAt": "2026-10-15T11:16:18Z",
-  "updatedAt": "2026-10-15T11:16:18Z",
+  "updatedAt": "2026-11-01T21:15:10Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
     "accountId": "5f7c2ca025fbdf00686d7ae3"

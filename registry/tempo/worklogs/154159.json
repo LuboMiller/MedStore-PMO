@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154159",
+  "tempoWorklogId": 154159,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41058",
+    "id": 41058
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-29",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-29T08:00:00Z",
+  "description": "[MOB-4658] MobApp Daily Meeting [MOB-6772] [Android] виводити тост меседж про помилку списання бонусів [MOB-4583] MobApp Releases [MOB-6785] [Android] Кодировать Google Pay token в Base64 перед созданием заказа [MOB-6779] [Android] Convention plugins setup",
+  "createdAt": "2026-10-30T14:11:18Z",
+  "updatedAt": "2026-10-30T14:11:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa",
+    "accountId": "712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154159/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153318",
+  "tempoWorklogId": 153318,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40447",
+    "id": 40447
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-26",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-26T08:00:00Z",
+  "description": "Обговорення спецпропозицій в застосунку + онбординг за тиждень відсутності",
+  "createdAt": "2026-10-26T09:56:36Z",
+  "updatedAt": "2026-10-26T13:37:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153318/work-attribute-values",
+    "values": []
+  }
+}

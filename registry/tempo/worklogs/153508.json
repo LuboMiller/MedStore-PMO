@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153508",
+  "tempoWorklogId": 153508,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92479",
+    "id": 92479
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-20",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-20T07:00:00Z",
+  "description": "Ознайомлення з актуальним беклогом і Lo-Fi прототипами, онбординг у матеріали Discovery",
+  "createdAt": "2026-10-26T12:39:30Z",
+  "updatedAt": "2026-10-26T12:39:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:be4c11e6-0741-4175-ba81-b721bb496b68",
+    "accountId": "712020:be4c11e6-0741-4175-ba81-b721bb496b68"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153508/work-attribute-values",
+    "values": []
+  }
+}

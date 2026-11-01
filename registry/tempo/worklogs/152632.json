@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152632",
+  "tempoWorklogId": 152632,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T05:00:00Z",
+  "description": "MOB-4049: [AOS] Catalogue search. Invalid search query parameter is sent when scrolling the page",
+  "createdAt": "2026-10-20T18:10:30Z",
+  "updatedAt": "2026-10-21T09:24:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152632/work-attribute-values",
+    "values": []
+  }
+}

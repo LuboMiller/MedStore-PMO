@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153075",
+  "tempoWorklogId": 153075,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75347",
+    "id": 75347
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T05:00:00Z",
+  "description": "MOB-4368 [AOS] Benefit Store. Loyalty Card. Internet connection error screen is displayed when the WebSocket reconnects\nMOB-4401 analytics | Відображення терміну дії знижки на сторінці товару\nMOB-4396 analytics | Метод оплати ABB\nMOB-4430 foldable phone base adaptation",
+  "createdAt": "2026-10-25T23:15:48Z",
+  "updatedAt": "2026-10-25T23:15:48Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6cc65fc-d88c-4b83-b421-8973371c405b",
+    "accountId": "712020:f6cc65fc-d88c-4b83-b421-8973371c405b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153075/work-attribute-values",
+    "values": []
+  }
+}

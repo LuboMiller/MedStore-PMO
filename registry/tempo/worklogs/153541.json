@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153541",
+  "tempoWorklogId": 153541,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/67972",
+    "id": 67972
+  },
+  "timeSpentSeconds": 3000,
+  "billableSeconds": 3000,
+  "startDate": "2026-10-20",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-20T10:30:00Z",
+  "description": "Energis sync",
+  "createdAt": "2026-10-26T15:12:14Z",
+  "updatedAt": "2026-10-26T15:12:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153541/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154258",
+  "tempoWorklogId": 154258,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102749",
+    "id": 102749
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-27",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-27T08:00:00Z",
+  "description": "Дейлі команди: PO погодив прототип каталогу лікарів і послуг, його беруть у роботу; обговорено доступність PO для рев'ю і порядок закриття питань (спершу письмово, потім спільний прохід флоу).",
+  "createdAt": "2026-10-30T21:39:13Z",
+  "updatedAt": "2026-11-01T21:10:05Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154258/work-attribute-values",
+    "values": []
+  }
+}

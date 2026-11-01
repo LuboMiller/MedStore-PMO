@@ -7,12 +7,12 @@
   },
   "timeSpentSeconds": 1800,
   "billableSeconds": 1800,
-  "startDate": "2026-10-20",
+  "startDate": "2026-10-22",
   "startTime": "09:00:00",
-  "startDateTimeUtc": "2026-10-20T06:00:00Z",
+  "startDateTimeUtc": "2026-10-22T06:00:00Z",
   "description": "Daily",
   "createdAt": "2026-10-19T13:20:38Z",
-  "updatedAt": "2026-10-20T07:03:29Z",
+  "updatedAt": "2026-10-22T08:19:57Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
     "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"

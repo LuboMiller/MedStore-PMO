@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153957",
+  "tempoWorklogId": 153957,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39152",
+    "id": 39152
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-28",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-28T12:00:00Z",
+  "description": "- avrora | mobile daily\n- code review\n- MOB-4498 Tech debt. Вібрації (haptic feedback) на ключових діях\n- MOB-4523 Divograi. Send cid 700-707 after the game ends to update the button state",
+  "createdAt": "2026-10-28T16:12:36Z",
+  "updatedAt": "2026-10-28T16:12:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f6e465d4-b9cc-4416-aa82-447ce6b41027",
+    "accountId": "712020:f6e465d4-b9cc-4416-aa82-447ce6b41027"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153957/work-attribute-values",
+    "values": []
+  }
+}

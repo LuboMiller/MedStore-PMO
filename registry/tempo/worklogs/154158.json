@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154158",
+  "tempoWorklogId": 154158,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41058",
+    "id": 41058
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-28",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-28T08:00:00Z",
+  "description": "[MOB-6629] [Android] Додати виклик реклами для deals [MOB-6642] [Fraud OTP][Android] Оценить аттестацию приложения (Play Integrity / App Attest) для OTP [MOB-6768] [Android] Привязать доступность кнопки Google Pay к readiness.can_be_created",
+  "createdAt": "2026-10-30T14:11:16Z",
+  "updatedAt": "2026-10-30T14:11:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa",
+    "accountId": "712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154158/work-attribute-values",
+    "values": []
+  }
+}

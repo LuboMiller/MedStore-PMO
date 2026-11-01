@@ -6,13 +6,13 @@
     "id": 58629
   },
   "timeSpentSeconds": 2700,
-  "billableSeconds": 2700,
+  "billableSeconds": 0,
   "startDate": "2026-10-06",
   "startTime": "11:15:00",
   "startDateTimeUtc": "2026-10-06T08:15:00Z",
   "description": "Координація по багам та відкритим питанням",
   "createdAt": "2026-10-06T18:55:29Z",
-  "updatedAt": "2026-10-06T18:55:29Z",
+  "updatedAt": "2026-11-01T15:54:01Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
     "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"

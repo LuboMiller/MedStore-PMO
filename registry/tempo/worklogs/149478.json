@@ -9,10 +9,10 @@
   "billableSeconds": 3600,
   "startDate": "2026-10-01",
   "startTime": "08:45:00",
-  "startDateTimeUtc": "2026-10-01T06:45:00Z",
-  "description": "Improving wireframes Epic 1,2,3",
+  "startDateTimeUtc": "2026-10-01T05:45:00Z",
+  "description": "Improved existing wireframes for Epics 1–3 based on project specifications. Reviewed screen layouts, user interactions, and navigation logic, and refined the corresponding Figma designs.\nArtifacts:\n- Epic 1 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-690&t=WLpM9QDSWKcHumnI-11\n- Epic 2 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-703&t=WLpM9QDSWKcHumnI-11\n- Epic 3 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-717&t=WLpM9QDSWKcHumnI-11",
   "createdAt": "2026-10-01T13:05:23Z",
-  "updatedAt": "2026-10-01T13:10:18Z",
+  "updatedAt": "2026-10-20T11:20:47Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
     "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"

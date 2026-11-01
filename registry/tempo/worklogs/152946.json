@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152946",
+  "tempoWorklogId": 152946,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99776",
+    "id": 99776
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-23",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-23T10:30:00Z",
+  "description": "Перевірка дизайну на приклад даних які приходитимуть з беку",
+  "createdAt": "2026-10-23T14:49:43Z",
+  "updatedAt": "2026-10-23T14:49:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152946/work-attribute-values",
+    "values": []
+  }
+}

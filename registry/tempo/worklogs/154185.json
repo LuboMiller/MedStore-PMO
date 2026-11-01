@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154185",
+  "tempoWorklogId": 154185,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 13500,
+  "billableSeconds": 13500,
+  "startDate": "2026-10-30",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-10-30T12:30:00Z",
+  "description": "Spaceplace - Career правки",
+  "createdAt": "2026-10-30T15:37:32Z",
+  "updatedAt": "2026-10-30T15:38:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154185/work-attribute-values",
+    "values": []
+  }
+}

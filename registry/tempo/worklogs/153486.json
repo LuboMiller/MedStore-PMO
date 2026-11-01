@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153486",
+  "tempoWorklogId": 153486,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-21",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-21T11:00:00Z",
+  "description": "MOB-6482: Перегляд стану блокерів (дизайн, звук, прев'ю), оновлення статусу задачі.",
+  "createdAt": "2026-10-26T11:45:11Z",
+  "updatedAt": "2026-10-26T11:45:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153486/work-attribute-values",
+    "values": []
+  }
+}

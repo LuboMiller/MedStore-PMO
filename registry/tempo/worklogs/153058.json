@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153058",
+  "tempoWorklogId": 153058,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103322",
+    "id": 103322
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-12",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-11T21:00:00Z",
+  "description": "дизайн екранів для aso в хеловін стилі, ресайз екранів ",
+  "createdAt": "2026-10-25T20:52:48Z",
+  "updatedAt": "2026-10-27T06:04:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153058/work-attribute-values",
+    "values": []
+  }
+}

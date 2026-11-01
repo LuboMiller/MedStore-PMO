@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153496",
+  "tempoWorklogId": 153496,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40347",
+    "id": 40347
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-26",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-26T06:00:00Z",
+  "description": "MOB-4060: [AOS] Click&Collect. Basket. Button Оформити button is clickable while the delete cooldown is active",
+  "createdAt": "2026-10-26T11:55:51Z",
+  "updatedAt": "2026-10-26T11:55:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:6ca871a9-0467-4651-b357-02f6ef5c4221",
+    "accountId": "712020:6ca871a9-0467-4651-b357-02f6ef5c4221"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153496/work-attribute-values",
+    "values": []
+  }
+}

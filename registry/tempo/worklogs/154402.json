@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154402",
+  "tempoWorklogId": 154402,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101355",
+    "id": 101355
+  },
+  "timeSpentSeconds": 5820,
+  "billableSeconds": 5820,
+  "startDate": "2026-10-26",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-26T12:00:00Z",
+  "description": "Проєктна комунікація за регламентом: зустріч \"МедДВХ (обговорення питань з лікарями)\" + аналіз відповідей та фоллоу-ап",
+  "createdAt": "2026-11-01T19:36:18Z",
+  "updatedAt": "2026-11-01T19:36:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154402/work-attribute-values",
+    "values": []
+  }
+}

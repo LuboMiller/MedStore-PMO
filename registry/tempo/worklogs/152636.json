@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152636",
+  "tempoWorklogId": 152636,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/32305",
+    "id": 32305
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-13",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-13T05:00:00Z",
+  "description": "Бек синк",
+  "createdAt": "2026-10-20T18:48:28Z",
+  "updatedAt": "2026-10-20T18:48:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3172aa7a-141f-4d74-83fc-b48335430511",
+    "accountId": "712020:3172aa7a-141f-4d74-83fc-b48335430511"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152636/work-attribute-values",
+    "values": []
+  }
+}

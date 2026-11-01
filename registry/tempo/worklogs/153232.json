@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153232",
+  "tempoWorklogId": 153232,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-23",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-23T07:00:00Z",
+  "description": "**П'ятниця, 23.10.2026 — ~1 год 30 хв**\n* Закомічено раунд по задачах архітектора (v18.1.0) і злито з origin. Розібрано видіння архітектора від 22.10, правки внесено у FA-01/FA-02: код підтвердження лише SMS, вхід закривається, якщо сховище стану недоступне, відомий пристрій зберігається 90 днів (v18.2.0).\n* Вручну прогнано Gates 1–4 по шести специфікаціях входу й профілю, усі пройдено (v18.3.0). Розібрано другий коміт архітектора: змін в артефактах BA він не потребує (v18.3.1).\n*  Зміни запушено. Confluence оновлено: 122 сторінки оновлено, 21 опубліковано, усі 144 актуальні (v18.3.2). Підготовлено відповідь PM про нові рядки беклогу і переглянутий звіт по годинах.",
+  "createdAt": "2026-10-26T08:47:27Z",
+  "updatedAt": "2026-10-26T08:47:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153232/work-attribute-values",
+    "values": []
+  }
+}

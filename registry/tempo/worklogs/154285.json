@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154285",
+  "tempoWorklogId": 154285,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-29",
+  "startTime": "17:00:00",
+  "startDateTimeUtc": "2026-10-29T15:00:00Z",
+  "description": "У документації замінено Flutter на Kotlin Multiplatform (README, загальний опис проєкту, NFR-008) за рішенням PM від 29.10, Confluence оновлено. Під пріоритети після Діскавері підготовлено: вимоги до CRM без прив'язки до вендора (57 вимог), огляд ринку CRM із шортлистом (Creatio, Dynamics 365, Odoo, EspoCRM, Zoho), карту залежності беклогу від CRM (145 рядків: 85 без CRM, 48 частково, 12 лише з CRM). До журналу змін додано CR-32 «Заявки мешканців розглядає менеджер у CRM». Опубліковано журнал змін (v4): https://devlight.atlassian.net/wiki/spaces/KA/pages/6149701643 і погоджений беклог (v10): https://devlight.atlassian.net/wiki/spaces/KA/pages/5806718978",
+  "createdAt": "2026-10-30T22:02:13Z",
+  "updatedAt": "2026-10-30T22:02:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154285/work-attribute-values",
+    "values": []
+  }
+}

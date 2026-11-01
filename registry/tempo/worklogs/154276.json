@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154276",
+  "tempoWorklogId": 154276,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-28",
+  "startTime": "15:45:00",
+  "startDateTimeUtc": "2026-10-28T13:45:00Z",
+  "description": "Фінальна підготовка до зустрічі з RSG: перевірено макети й посилання для показу.",
+  "createdAt": "2026-10-30T21:57:18Z",
+  "updatedAt": "2026-10-30T21:57:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154276/work-attribute-values",
+    "values": []
+  }
+}

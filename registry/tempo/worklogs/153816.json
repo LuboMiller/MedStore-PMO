@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153816",
+  "tempoWorklogId": 153816,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-20",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-20T07:00:00Z",
+  "description": "Заведення змін на садівничого",
+  "createdAt": "2026-10-28T05:40:16Z",
+  "updatedAt": "2026-10-28T05:40:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153816/work-attribute-values",
+    "values": []
+  }
+}

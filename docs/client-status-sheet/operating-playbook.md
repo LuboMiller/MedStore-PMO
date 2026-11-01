@@ -8,11 +8,11 @@
 
 | Поле | Значення |
 |---|---|
-| Файл | MedStore \| Client Project status report \| Updated 20-10-26 |
+| Файл | MedStore \| Client Project status report (Overview «Current date» 01.11.2026) |
 | File ID | `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo` (`config/client-status-sheet.json`) |
 | URL | https://docs.google.com/spreadsheets/d/1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo/edit |
-| Drive modifiedTime | 2026-10-20T01:57:07Z |
-| Daily live hydrate | `docs/_hydrate/google/sheets/client-status-live-2026-10-20/` (export 2026-10-20) |
+| Drive modifiedTime | не зчитано в sync 2026-11-02 (export 2026-11-01T22:07Z) |
+| Daily live hydrate | `docs/_hydrate/google/sheets/client-status-live-2026-11-02/` (export 2026-11-02) |
 
 > Перед live-операціями онови hydrate. AppScript зазвичай оновлює вкладку Data щодня (ніч / ранок).
 

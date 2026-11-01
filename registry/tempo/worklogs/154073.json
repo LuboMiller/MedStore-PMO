@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154073",
+  "tempoWorklogId": 154073,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102741",
+    "id": 102741
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-27",
+  "startTime": "20:00:00",
+  "startDateTimeUtc": "2026-10-27T18:00:00Z",
+  "description": "FA-01 Автентифікація:\n\n* F-01.28 Зміна мови до входу: питання PO про перемикач мови на екранах входу й реєстрації, збереження його відповіді як джерела.\n* Розбір відповіді: мову змінюють ще до входу, на вибір лише українська й англійська.\n* Звірка з чинними спеками входу й реєстрації (F-01.01, F-01.02, F-01.04) і правилами про мову акаунта: що в них треба змінити.\n* Нове питання до PO: чия мова діє після входу, коли обрана на екрані входу й збережена в акаунті різні. Підготовлено рекомендацію й текст повідомлення Павлу.",
+  "createdAt": "2026-10-29T16:15:12Z",
+  "updatedAt": "2026-10-29T16:15:12Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154073/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153056",
+  "tempoWorklogId": 153056,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103056",
+    "id": 103056
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-13",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-12T21:00:00Z",
+  "description": "дизайн каруселі постів, анімація відео. генерація відео ",
+  "createdAt": "2026-10-25T20:50:35Z",
+  "updatedAt": "2026-10-27T06:04:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153056/work-attribute-values",
+    "values": []
+  }
+}

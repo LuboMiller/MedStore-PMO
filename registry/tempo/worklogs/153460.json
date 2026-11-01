@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153460",
+  "tempoWorklogId": 153460,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/96433",
+    "id": 96433
+  },
+  "timeSpentSeconds": 9900,
+  "billableSeconds": 9900,
+  "startDate": "2026-10-20",
+  "startTime": "19:15:00",
+  "startDateTimeUtc": "2026-10-20T16:15:00Z",
+  "description": "add resourse",
+  "createdAt": "2026-10-26T11:16:15Z",
+  "updatedAt": "2026-10-26T11:16:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b",
+    "accountId": "712020:9608fa1e-0fe6-424e-9531-e59ea8ba3a2b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153460/work-attribute-values",
+    "values": []
+  }
+}

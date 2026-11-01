@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154371",
+  "tempoWorklogId": 154371,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66797",
+    "id": 66797
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-26",
+  "startTime": "12:30:00",
+  "startDateTimeUtc": "2026-10-26T10:30:00Z",
+  "description": "Devlight - презентація напрацювань по лояльності - \n________________________________________________________________________________\nНарада в Microsoft Teams\nПриєднатися: https://teams.microsoft.com/meet/3497401311448768?p=pGTszc39q4kf9z8hlw\nІдентифікатор наради: 349 740 131 144 876 8\nКод доступу: Tf22D8gR\n________________________________\nПотрібна допомога? | Довідка із системи\nПриєднатися за допомогою телефону\n+380 89 323 9523,,645344850# Україна, All locations\nЗнайти місцевий номер\nІдентифікатор телефонної конференції: 645 344 850#\nПриєднатися за допомогою пристрою для відеоконференцій\nКлюч осередку: ukrsibanksip@m.webex.com\nІдентифікатор відео: 128 847 386 1\nДодаткові відомості\nДля організаторів: Параметри наради | Скинути PIN-код для додзвону\n________________________________________________________________________________\n\n",
+  "createdAt": "2026-11-01T13:50:57Z",
+  "updatedAt": "2026-11-01T13:50:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154371/work-attribute-values",
+    "values": []
+  }
+}

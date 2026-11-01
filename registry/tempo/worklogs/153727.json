@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153727",
+  "tempoWorklogId": 153727,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101972",
+    "id": 101972
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-27",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-27T07:30:00Z",
+  "description": "VESELKA-507: [FE] [F-07.03] Переглянути список послуг",
+  "createdAt": "2026-10-27T10:42:35Z",
+  "updatedAt": "2026-10-27T10:42:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153727/work-attribute-values",
+    "values": []
+  }
+}

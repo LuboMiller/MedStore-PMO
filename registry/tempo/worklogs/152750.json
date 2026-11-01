@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152750",
+  "tempoWorklogId": 152750,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103625",
+    "id": 103625
+  },
+  "timeSpentSeconds": 16200,
+  "billableSeconds": 16200,
+  "startDate": "2026-10-21",
+  "startTime": "11:25:00",
+  "startDateTimeUtc": "2026-10-21T08:25:00Z",
+  "description": "start task + redesign",
+  "createdAt": "2026-10-21T18:28:32Z",
+  "updatedAt": "2026-10-21T18:28:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152750/work-attribute-values",
+    "values": []
+  }
+}

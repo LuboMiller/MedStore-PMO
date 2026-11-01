@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154044",
+  "tempoWorklogId": 154044,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103926",
+    "id": 103926
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 0,
+  "startDate": "2026-10-23",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-23T12:00:00Z",
+  "description": "Presale Anoli - підготувати бриф",
+  "createdAt": "2026-10-23T09:59:00Z",
+  "updatedAt": "2026-10-29T13:14:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154044/work-attribute-values",
+    "values": []
+  }
+}

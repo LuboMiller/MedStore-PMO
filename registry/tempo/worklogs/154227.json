@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154227",
+  "tempoWorklogId": 154227,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103626",
+    "id": 103626
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-30",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-30T11:30:00Z",
+  "description": "Реалізація видалення груп ",
+  "createdAt": "2026-10-30T19:50:19Z",
+  "updatedAt": "2026-10-30T19:50:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154227/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153801",
+  "tempoWorklogId": 153801,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-10-27",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-10-27T08:45:00Z",
+  "description": "Оновлення планування",
+  "createdAt": "2026-10-27T21:21:42Z",
+  "updatedAt": "2026-10-27T21:21:42Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153801/work-attribute-values",
+    "values": []
+  }
+}

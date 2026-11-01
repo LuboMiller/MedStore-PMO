@@ -5,14 +5,14 @@
     "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
     "id": 28923
   },
-  "timeSpentSeconds": 18000,
+  "timeSpentSeconds": 10800,
   "billableSeconds": 0,
   "startDate": "2026-10-05",
   "startTime": "10:00:00",
   "startDateTimeUtc": "2026-10-05T07:00:00Z",
-  "description": "- синки;\n- сдд;",
+  "description": "- синки;",
   "createdAt": "2026-10-05T15:38:24Z",
-  "updatedAt": "2026-10-05T15:38:29Z",
+  "updatedAt": "2026-10-29T12:54:32Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
     "accountId": "5f7c2ca025fbdf00686d7ae3"

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153312",
+  "tempoWorklogId": 153312,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103403",
+    "id": 103403
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-26",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-26T09:00:00Z",
+  "description": "RFM сегментація і економіка ПЛ - research&prepare artifacts",
+  "createdAt": "2026-10-26T09:36:24Z",
+  "updatedAt": "2026-10-26T13:24:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153312/work-attribute-values",
+    "values": []
+  }
+}

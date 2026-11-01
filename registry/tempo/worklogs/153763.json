@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153763",
+  "tempoWorklogId": 153763,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-27",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-27T06:00:00Z",
+  "description": "- Відмалювала модальне вікно відкриття відео на сторінці \"Бренд\"\n- Зробила мод адаптацію для Product List - всіх стейтів\n- Відмалювала адаптацію всіх стейтів фільтрів та пошуку\n- Сінк з Костянтином, після чого внесли правки у мобільну адаптацію розділу Product Detail Page. \n- Зробила мобільну адаптацію Home Page (два види)\n- Зробила мобільну адаптацію всіх System Pages\n- Моб адаптація для логіну, forgot password та реєстрації для двох ролей\n- Фікси та оновлення компонентів у UI Kit",
+  "createdAt": "2026-10-27T16:00:57Z",
+  "updatedAt": "2026-10-27T16:00:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153763/work-attribute-values",
+    "values": []
+  }
+}

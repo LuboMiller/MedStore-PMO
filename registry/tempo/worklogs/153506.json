@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153506",
+  "tempoWorklogId": 153506,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103762",
+    "id": 103762
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-28",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-28T08:00:00Z",
+  "description": "Спека, тікети для дева.",
+  "createdAt": "2026-10-26T12:38:03Z",
+  "updatedAt": "2026-10-28T15:32:31Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153506/work-attribute-values",
+    "values": []
+  }
+}

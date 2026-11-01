@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152562",
+  "tempoWorklogId": 152562,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93028",
+    "id": 93028
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-19",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-10-19T10:15:00Z",
+  "description": "merging conflicts",
+  "createdAt": "2026-10-20T10:45:45Z",
+  "updatedAt": "2026-10-20T10:45:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152562/work-attribute-values",
+    "values": []
+  }
+}

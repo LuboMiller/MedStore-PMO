@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153942",
+  "tempoWorklogId": 153942,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34359",
+    "id": 34359
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-28",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-28T06:00:00Z",
+  "description": "Комунікація по багам які знайшла, з Володимиром.",
+  "createdAt": "2026-10-28T15:31:25Z",
+  "updatedAt": "2026-10-28T15:31:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153942/work-attribute-values",
+    "values": []
+  }
+}

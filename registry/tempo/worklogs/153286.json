@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153286",
+  "tempoWorklogId": 153286,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103645",
+    "id": 103645
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-22",
+  "startTime": "11:15:00",
+  "startDateTimeUtc": "2026-10-22T08:15:00Z",
+  "description": "AWS console and DB access (DevAdministrator permission set), tunnel, PR review fixes (#38)",
+  "createdAt": "2026-10-26T09:23:28Z",
+  "updatedAt": "2026-10-26T09:23:28Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153286/work-attribute-values",
+    "values": []
+  }
+}

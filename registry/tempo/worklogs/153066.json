@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153066",
+  "tempoWorklogId": 153066,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100690",
+    "id": 100690
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-08",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-07T21:00:00Z",
+  "description": "створення фото для сайту",
+  "createdAt": "2026-10-25T21:03:12Z",
+  "updatedAt": "2026-10-27T06:04:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3dca7b02-d6ad-4590-911b-b8143fcb911a",
+    "accountId": "712020:3dca7b02-d6ad-4590-911b-b8143fcb911a"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153066/work-attribute-values",
+    "values": []
+  }
+}

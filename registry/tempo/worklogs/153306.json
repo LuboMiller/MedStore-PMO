@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153306",
+  "tempoWorklogId": 153306,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102218",
+    "id": 102218
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-23",
+  "startTime": "17:33:00",
+  "startDateTimeUtc": "2026-10-23T14:33:00Z",
+  "description": "e2e: dev-only fixed-code test phones branch merges and review",
+  "createdAt": "2026-10-26T09:23:39Z",
+  "updatedAt": "2026-10-26T09:23:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153306/work-attribute-values",
+    "values": []
+  }
+}

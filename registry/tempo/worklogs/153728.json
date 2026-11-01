@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153728",
+  "tempoWorklogId": 153728,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101996",
+    "id": 101996
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-28",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-28T07:30:00Z",
+  "description": "VESELKA-531: [FE] [F-07.05] Шукати послуги",
+  "createdAt": "2026-10-27T10:43:09Z",
+  "updatedAt": "2026-10-28T08:34:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153728/work-attribute-values",
+    "values": []
+  }
+}

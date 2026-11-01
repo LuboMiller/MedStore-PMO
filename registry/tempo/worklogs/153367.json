@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153367",
+  "tempoWorklogId": 153367,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/76030",
+    "id": 76030
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-22",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-22T08:30:00Z",
+  "description": "додати курс до тайм ріпорту",
+  "createdAt": "2026-10-26T11:01:56Z",
+  "updatedAt": "2026-10-26T11:01:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153367/work-attribute-values",
+    "values": []
+  }
+}

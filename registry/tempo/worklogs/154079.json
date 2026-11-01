@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154079",
+  "tempoWorklogId": 154079,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-29",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-29T06:00:00Z",
+  "description": "retests (21 ok, 1 reopen)/ call/ doc oct 21 +20%/ R-122(8)",
+  "createdAt": "2026-10-29T16:46:37Z",
+  "updatedAt": "2026-10-29T16:46:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154079/work-attribute-values",
+    "values": []
+  }
+}

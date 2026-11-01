@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153511",
+  "tempoWorklogId": 153511,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92480",
+    "id": 92480
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-10-22",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-22T07:00:00Z",
+  "description": "Валідація документації API Dr.Eleks (поліси, статуси гарантування, запис за полісом), формування переліку питань вендору",
+  "createdAt": "2026-10-26T12:41:17Z",
+  "updatedAt": "2026-10-26T12:41:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:be4c11e6-0741-4175-ba81-b721bb496b68",
+    "accountId": "712020:be4c11e6-0741-4175-ba81-b721bb496b68"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153511/work-attribute-values",
+    "values": []
+  }
+}

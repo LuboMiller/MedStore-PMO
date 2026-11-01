@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153444",
+  "tempoWorklogId": 153444,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 5100,
+  "billableSeconds": 5100,
+  "startDate": "2026-10-20",
+  "startTime": "20:30:00",
+  "startDateTimeUtc": "2026-10-20T17:30:00Z",
+  "description": "pm activities",
+  "createdAt": "2026-10-26T11:11:04Z",
+  "updatedAt": "2026-10-26T11:11:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153444/work-attribute-values",
+    "values": []
+  }
+}

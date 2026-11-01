@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154274",
+  "tempoWorklogId": 154274,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-28",
+  "startTime": "15:15:00",
+  "startDateTimeUtc": "2026-10-28T13:15:00Z",
+  "description": "Аналіз, що можна починати розробляти без CRM: за залежностями в беклозі без CRM можна робити близько 35–40 функцій (адмінка, контент, інфраструктура), а функції мешканця залежать від реєстрації та об'єктів із CRM. Підготовлено структуру пропозиції щодо скоупу й роадмапу для обговорення з Андрієм і Сашею.",
+  "createdAt": "2026-10-30T21:55:51Z",
+  "updatedAt": "2026-10-30T21:55:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154274/work-attribute-values",
+    "values": []
+  }
+}

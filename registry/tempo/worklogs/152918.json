@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152918",
+  "tempoWorklogId": 152918,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/39697",
+    "id": 39697
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-21",
+  "startTime": "14:57:00",
+  "startDateTimeUtc": "2026-10-21T11:57:00Z",
+  "description": "Робота з метаданими",
+  "createdAt": "2026-10-23T11:58:19Z",
+  "updatedAt": "2026-10-23T11:58:19Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:420b8801-c535-43db-a863-bec8d8b0c81f",
+    "accountId": "712020:420b8801-c535-43db-a863-bec8d8b0c81f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152918/work-attribute-values",
+    "values": []
+  }
+}

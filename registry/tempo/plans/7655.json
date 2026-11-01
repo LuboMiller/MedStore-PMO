@@ -1,0 +1,33 @@
+{
+  "self": "https://api.eu.tempo.io/4/plans/7655",
+  "id": 7655,
+  "startDate": "2026-10-21",
+  "endDate": "2026-11-30",
+  "description": "Remaining Discovery hours",
+  "createdAt": "2026-10-20T10:35:15Z",
+  "updatedAt": "2026-10-20T10:35:15Z",
+  "plannedSecondsPerDay": 1800,
+  "effortPersistenceType": "SECONDS_PER_DAY",
+  "syncSource": "NONE",
+  "includeNonWorkingDays": false,
+  "rule": "NEVER",
+  "recurrenceEndDate": "2026-11-30",
+  "startTime": "00:00",
+  "assignee": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "id": "712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "type": "USER"
+  },
+  "planItem": {
+    "self": "https://devlight.atlassian.net/rest/api/2/project/11963",
+    "id": "11963",
+    "type": "PROJECT"
+  },
+  "plannedTime": {
+    "metadata": {
+      "all": "https://api.eu.tempo.io/4/plans/7655?from=2026-10-21&to=2026-11-30"
+    }
+  },
+  "totalPlannedSecondsInScope": 16200,
+  "planCreatorId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+}

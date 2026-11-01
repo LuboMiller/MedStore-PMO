@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153547",
+  "tempoWorklogId": 153547,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100457",
+    "id": 100457
+  },
+  "timeSpentSeconds": 2040,
+  "billableSeconds": 2040,
+  "startDate": "2026-10-20",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-19T21:00:00Z",
+  "description": "Moris — Cowork Agent",
+  "createdAt": "2026-10-26T15:12:17Z",
+  "updatedAt": "2026-10-26T15:12:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153547/work-attribute-values",
+    "values": []
+  }
+}

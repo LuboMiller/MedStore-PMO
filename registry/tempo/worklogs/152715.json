@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152715",
+  "tempoWorklogId": 152715,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103696",
+    "id": 103696
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-21",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-21T08:00:00Z",
+  "description": "Investigation the issue, defect entry",
+  "createdAt": "2026-10-21T14:36:38Z",
+  "updatedAt": "2026-10-21T14:36:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152715/work-attribute-values",
+    "values": []
+  }
+}

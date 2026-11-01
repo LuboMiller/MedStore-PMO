@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154191",
+  "tempoWorklogId": 154191,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 27600,
+  "billableSeconds": 27600,
+  "startDate": "2026-10-28",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-10-28T06:45:00Z",
+  "description": "Правки, зміни по всьому файлу фіналізація + Наповнення прототипу Сlaude",
+  "createdAt": "2026-10-30T15:45:07Z",
+  "updatedAt": "2026-10-30T15:50:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154191/work-attribute-values",
+    "values": []
+  }
+}

@@ -5,14 +5,14 @@
     "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
     "id": 28923
   },
-  "timeSpentSeconds": 18000,
+  "timeSpentSeconds": 10800,
   "billableSeconds": 0,
   "startDate": "2026-10-01",
   "startTime": "11:00:00",
   "startDateTimeUtc": "2026-10-01T08:00:00Z",
-  "description": "- синки з командою;\n- 1:1;\n- перформанс ревью;\n- сдд;\n",
+  "description": "- синки з командою;\n- 1:1;\n- перформанс ревью;\n",
   "createdAt": "2026-10-02T07:51:38Z",
-  "updatedAt": "2026-10-02T07:51:38Z",
+  "updatedAt": "2026-10-29T12:52:44Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
     "accountId": "5f7c2ca025fbdf00686d7ae3"

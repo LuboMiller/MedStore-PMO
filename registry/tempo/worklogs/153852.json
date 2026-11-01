@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153852",
+  "tempoWorklogId": 153852,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34448",
+    "id": 34448
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-26",
+  "startTime": "17:45:00",
+  "startDateTimeUtc": "2026-10-26T15:45:00Z",
+  "description": "Планування",
+  "createdAt": "2026-10-28T05:58:16Z",
+  "updatedAt": "2026-10-28T05:58:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153852/work-attribute-values",
+    "values": []
+  }
+}

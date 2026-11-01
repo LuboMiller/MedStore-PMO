@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153035",
+  "tempoWorklogId": 153035,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-22",
+  "startTime": "15:30:00",
+  "startDateTimeUtc": "2026-10-22T12:30:00Z",
+  "description": "Комунікація з пм, куа, дзвінок по діплінкам та поширити. Виявлення проблеми по поширити для вебу - комунікація проблеми.",
+  "createdAt": "2026-10-24T08:19:16Z",
+  "updatedAt": "2026-10-24T08:19:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153035/work-attribute-values",
+    "values": []
+  }
+}

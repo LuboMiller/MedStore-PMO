@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154236",
+  "tempoWorklogId": 154236,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102334",
+    "id": 102334
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-29",
+  "startTime": "09:15:00",
+  "startDateTimeUtc": "2026-10-29T07:15:00Z",
+  "description": " Show and edit the merchant's business details on Edit merchant",
+  "createdAt": "2026-10-30T19:58:24Z",
+  "updatedAt": "2026-10-30T19:58:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154236/work-attribute-values",
+    "values": []
+  }
+}

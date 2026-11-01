@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152581",
+  "tempoWorklogId": 152581,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100883",
+    "id": 100883
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-19",
+  "startTime": "09:45:00",
+  "startDateTimeUtc": "2026-10-19T06:45:00Z",
+  "description": "Worked on reviewing and refining the completed RSG wireframes for Epics 1–4 based on feedback from the project design review. Focused on improving user flow clarity, screen sequencing, and consistency between the main demo flow and detailed scenarios.\n\nAnalyzed the required adjustments to authentication and account management states, preliminary credit decisions, vehicle information, application continuation, and error handling. Reviewed outstanding Figma comments and prepared the relevant design sections for further review.\n\nEpic / Feature: Epics 1–4 — Post-review UX/UI refinements\n\nArtifacts:\nMain demo user flow: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=603-302&t=WLpM9QDSWKcHumnI-11\nEpic 1 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-690&t=WLpM9QDSWKcHumnI-11\nEpic 2 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-703&t=WLpM9QDSWKcHumnI-11\nEpic 3 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-717&t=WLpM9QDSWKcHumnI-11\nEpic 4 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-731&t=WLpM9QDSWKcHumnI-11",
+  "createdAt": "2026-10-20T11:25:43Z",
+  "updatedAt": "2026-10-20T11:25:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152581/work-attribute-values",
+    "values": []
+  }
+}

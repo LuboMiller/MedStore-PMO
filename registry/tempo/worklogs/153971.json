@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153971",
+  "tempoWorklogId": 153971,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-28",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-28T06:15:00Z",
+  "description": "Оновлення статусів по девайсам\nКоординація по наступним крокам",
+  "createdAt": "2026-10-28T20:08:15Z",
+  "updatedAt": "2026-10-28T20:08:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153971/work-attribute-values",
+    "values": []
+  }
+}

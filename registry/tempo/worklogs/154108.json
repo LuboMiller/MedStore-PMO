@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154108",
+  "tempoWorklogId": 154108,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103938",
+    "id": 103938
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-30",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-30T06:00:00Z",
+  "description": "Додати нижній tab bar на сторінки Пошуку, Категорій та Деталей товару",
+  "createdAt": "2026-10-30T09:34:41Z",
+  "updatedAt": "2026-11-01T15:54:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:0d3f0013-48bc-4e18-b359-58d1b14258ed",
+    "accountId": "712020:0d3f0013-48bc-4e18-b359-58d1b14258ed"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154108/work-attribute-values",
+    "values": []
+  }
+}

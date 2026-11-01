@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152819",
+  "tempoWorklogId": 152819,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93534",
+    "id": 93534
+  },
+  "timeSpentSeconds": 23400,
+  "billableSeconds": 23400,
+  "startDate": "2026-10-23",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-23T06:30:00Z",
+  "description": "AG-2276",
+  "createdAt": "2026-10-22T16:26:44Z",
+  "updatedAt": "2026-10-26T07:40:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152819/work-attribute-values",
+    "values": []
+  }
+}

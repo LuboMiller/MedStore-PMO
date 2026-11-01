@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153938",
+  "tempoWorklogId": 153938,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/30925",
+    "id": 30925
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-30",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-30T06:00:00Z",
+  "description": "Трекінг і логування часу",
+  "createdAt": "2026-10-28T15:01:44Z",
+  "updatedAt": "2026-10-28T15:01:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153938/work-attribute-values",
+    "values": []
+  }
+}

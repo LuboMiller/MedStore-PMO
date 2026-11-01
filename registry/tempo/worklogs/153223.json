@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153223",
+  "tempoWorklogId": 153223,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28917",
+    "id": 28917
+  },
+  "timeSpentSeconds": 2400,
+  "billableSeconds": 0,
+  "startDate": "2026-10-22",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-22T13:00:00Z",
+  "description": "1 to 1 with team lead",
+  "createdAt": "2026-10-26T08:27:33Z",
+  "updatedAt": "2026-10-26T08:27:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153223/work-attribute-values",
+    "values": []
+  }
+}

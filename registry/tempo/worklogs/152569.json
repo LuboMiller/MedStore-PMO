@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152569",
+  "tempoWorklogId": 152569,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100882",
+    "id": 100882
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-02",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-02T07:00:00Z",
+  "description": "Перевірка опублікованих сторінок фіч у Confluence: перехресні посилання між специфікаціями, рішення щодо старої зведеної сторінки епіку 1; аналіз епіків і фіч, пов'язаних з Дією: [F-1.12|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/20054017/F-1.12], [F-1.14|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/18382880/F-1.14], [F-3.9|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/9797634/F-3.9], [F-5.4|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11468824/F-5.4+.Sharing], [F-6.4|https://rsg-ua.atlassian.net/wiki/spaces/RSGmobilea/pages/11862030/F-6.4+.]",
+  "createdAt": "2026-10-20T10:49:29Z",
+  "updatedAt": "2026-10-20T10:49:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152569/work-attribute-values",
+    "values": []
+  }
+}

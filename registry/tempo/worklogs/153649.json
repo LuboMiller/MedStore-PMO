@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153649",
+  "tempoWorklogId": 153649,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98641",
+    "id": 98641
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Знеособлення: правила, модель, контрольна вибірка, вимір повноти: Самоперевірка: виправлення пошуку і рекламацій не змінюють знеособлених даних",
+  "createdAt": "2026-10-26T18:21:50Z",
+  "updatedAt": "2026-10-26T18:21:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153649/work-attribute-values",
+    "values": []
+  }
+}

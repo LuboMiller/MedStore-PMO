@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154069",
+  "tempoWorklogId": 154069,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103898",
+    "id": 103898
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-29",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-29T09:00:00Z",
+  "description": "Додавання лоадеру перед навігацію яка протребує дозавантаження даних",
+  "createdAt": "2026-10-29T15:55:21Z",
+  "updatedAt": "2026-10-29T15:55:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154069/work-attribute-values",
+    "values": []
+  }
+}

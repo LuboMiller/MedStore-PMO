@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152693",
+  "tempoWorklogId": 152693,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103588",
+    "id": 103588
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-21",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-21T05:00:00Z",
+  "description": "Invistigating and reporting issues in Jira: PST-1909, PST-1910, PST-1918, PST-1920",
+  "createdAt": "2026-10-21T10:16:53Z",
+  "updatedAt": "2026-10-21T14:22:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152693/work-attribute-values",
+    "values": []
+  }
+}

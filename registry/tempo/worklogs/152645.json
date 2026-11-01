@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152645",
+  "tempoWorklogId": 152645,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-20",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-20T05:00:00Z",
+  "description": "Тижневий звіт + аналітика",
+  "createdAt": "2026-10-20T19:10:08Z",
+  "updatedAt": "2026-10-20T19:10:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152645/work-attribute-values",
+    "values": []
+  }
+}

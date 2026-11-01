@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154290",
+  "tempoWorklogId": 154290,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/97812",
+    "id": 97812
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-30",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-10-30T11:30:00Z",
+  "description": "Сторінку «Зміни після Діскавері відносно погодженого беклогу» переведено на надану структуру таблиці CR (CR ID, дата, автор, причина, очікуваний результат, вплив на скоуп, строки й бюджет, ризики, погодження) і розгорнуто на всю ширину: https://devlight.atlassian.net/wiki/spaces/KA/pages/6149701643",
+  "createdAt": "2026-10-30T22:15:27Z",
+  "updatedAt": "2026-10-30T22:15:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5",
+    "accountId": "712020:f8effe11-b6f9-4ad3-85e6-b0e3c1fcafa5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154290/work-attribute-values",
+    "values": []
+  }
+}

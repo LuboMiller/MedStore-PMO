@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154171",
+  "tempoWorklogId": 154171,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102261",
+    "id": 102261
+  },
+  "timeSpentSeconds": 19800,
+  "billableSeconds": 19800,
+  "startDate": "2026-10-30",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-30T09:30:00Z",
+  "description": "VESELKA-576: [FE] [F-08.02] Переглянути деталі клініки",
+  "createdAt": "2026-10-30T14:56:53Z",
+  "updatedAt": "2026-10-30T14:56:56Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70",
+    "accountId": "712020:ab889f1f-1c7b-4c82-b930-2939fd6e4f70"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154171/work-attribute-values",
+    "values": []
+  }
+}

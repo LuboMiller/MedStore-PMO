@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153875",
+  "tempoWorklogId": 153875,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41588",
+    "id": 41588
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-28",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-28T08:30:00Z",
+  "description": "КАН: зібрати changelog відносно підписаного договору",
+  "createdAt": "2026-10-28T09:43:22Z",
+  "updatedAt": "2026-10-28T10:51:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153875/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153669",
+  "tempoWorklogId": 153669,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98641",
+    "id": 98641
+  },
+  "timeSpentSeconds": 4020,
+  "billableSeconds": 4020,
+  "startDate": "2026-10-22",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-22T12:00:00Z",
+  "description": "Знеособлення: правила, модель, контрольна вибірка, вимір повноти: Перенесення v3: як підключити 499 190 знеособлених документів з виправленими помилками, аналіз пакета transfer_deid_v3, нова версія даних поруч (search-next.sh), запуск розгортання v3",
+  "createdAt": "2026-10-26T18:22:00Z",
+  "updatedAt": "2026-10-26T18:22:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153669/work-attribute-values",
+    "values": []
+  }
+}

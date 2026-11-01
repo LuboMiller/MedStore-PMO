@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153967",
+  "tempoWorklogId": 153967,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99300",
+    "id": 99300
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-28",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-10-28T14:00:00Z",
+  "description": "Spaceplace - Career design",
+  "createdAt": "2026-10-28T17:56:44Z",
+  "updatedAt": "2026-10-28T17:57:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153967/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153166",
+  "tempoWorklogId": 153166,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103716",
+    "id": 103716
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-10-21",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-21T06:30:00Z",
+  "description": "-додано екран для введення пін(з мінімальним опрацюванням апі, очікування на реальні контракти)",
+  "createdAt": "2026-10-26T07:42:35Z",
+  "updatedAt": "2026-10-26T07:42:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153166/work-attribute-values",
+    "values": []
+  }
+}

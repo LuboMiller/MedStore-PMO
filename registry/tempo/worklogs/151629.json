@@ -6,13 +6,13 @@
     "id": 102904
   },
   "timeSpentSeconds": 2400,
-  "billableSeconds": 2400,
+  "billableSeconds": 840,
   "startDate": "2026-10-15",
   "startTime": "09:20:00",
   "startDateTimeUtc": "2026-10-15T06:20:00Z",
   "description": "Testing the implemented functional",
   "createdAt": "2026-10-15T08:00:35Z",
-  "updatedAt": "2026-10-15T08:00:35Z",
+  "updatedAt": "2026-11-01T16:25:15Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
     "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"

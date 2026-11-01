@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152864",
+  "tempoWorklogId": 152864,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103693",
+    "id": 103693
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-21",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-10-21T08:45:00Z",
+  "description": "PST-1918 · [BE] [Admin Portal → Create Merchant User] POST /api/v1/merchant-users returns 409 MERCHANT_NOT_ACTIVE when creating a Merchant Admin for an inactive merchant",
+  "createdAt": "2026-10-23T09:08:47Z",
+  "updatedAt": "2026-10-23T09:08:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03",
+    "accountId": "712020:f71987b3-dd7b-4a86-a1cf-cd10875e0a03"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152864/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153838",
+  "tempoWorklogId": 153838,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28918",
+    "id": 28918
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 0,
+  "startDate": "2026-10-21",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-21T11:00:00Z",
+  "description": "ПМ синк",
+  "createdAt": "2026-10-28T05:50:33Z",
+  "updatedAt": "2026-10-28T05:50:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5",
+    "accountId": "712020:cd35585c-8486-4a2f-97ea-a7f4142af2a5"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153838/work-attribute-values",
+    "values": []
+  }
+}

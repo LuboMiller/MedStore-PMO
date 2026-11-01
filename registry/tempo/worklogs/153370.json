@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153370",
+  "tempoWorklogId": 153370,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101351",
+    "id": 101351
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-22",
+  "startTime": "16:15:00",
+  "startDateTimeUtc": "2026-10-22T13:15:00Z",
+  "description": "самарі + туду",
+  "createdAt": "2026-10-26T11:01:57Z",
+  "updatedAt": "2026-10-26T11:01:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153370/work-attribute-values",
+    "values": []
+  }
+}

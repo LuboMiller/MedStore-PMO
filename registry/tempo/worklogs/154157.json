@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154157",
+  "tempoWorklogId": 154157,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/41058",
+    "id": 41058
+  },
+  "timeSpentSeconds": 25200,
+  "billableSeconds": 25200,
+  "startDate": "2026-10-27",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-10-27T08:00:00Z",
+  "description": "[MOB-6760] PROD: після успішного створення замовлення checkout не закривається, повторний place order — toast «помилка прорахунку» [MOB-4658] MobApp Daily Meeting [MOB-6639] [Fraud OTP][Android] Проверить передачу токена в registration/phone всеми поддерживаемыми версиями [MOB-6753] [Android] Зберігати атрибуцію Рітейл медіа та передавати в Firebase для purchase",
+  "createdAt": "2026-10-30T14:11:15Z",
+  "updatedAt": "2026-10-30T14:11:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa",
+    "accountId": "712020:64ac32ba-ebe0-46c0-ad4e-634d09e3c8aa"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154157/work-attribute-values",
+    "values": []
+  }
+}

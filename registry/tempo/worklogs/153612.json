@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153612",
+  "tempoWorklogId": 153612,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/64405",
+    "id": 64405
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-21",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-10-21T08:00:00Z",
+  "description": "Супровід команди; Комунікація з клієнтом; Звіти",
+  "createdAt": "2026-10-26T16:04:57Z",
+  "updatedAt": "2026-10-26T16:04:57Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:f2b5a225-d2e7-4a32-8dcd-dfbe729b2660",
+    "accountId": "712020:f2b5a225-d2e7-4a32-8dcd-dfbe729b2660"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153612/work-attribute-values",
+    "values": []
+  }
+}

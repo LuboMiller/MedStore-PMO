@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153759",
+  "tempoWorklogId": 153759,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103847",
+    "id": 103847
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-27",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-27T13:00:00Z",
+  "description": "Відкат минулого фікса для блокування пушів на неавторизованому користувачі ",
+  "createdAt": "2026-10-27T15:13:46Z",
+  "updatedAt": "2026-10-27T15:13:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153759/work-attribute-values",
+    "values": []
+  }
+}

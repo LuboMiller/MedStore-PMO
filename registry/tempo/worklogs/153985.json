@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153985",
+  "tempoWorklogId": 153985,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34378",
+    "id": 34378
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-27",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-10-27T07:30:00Z",
+  "description": "Agrigator || Дзвінок по логіну",
+  "createdAt": "2026-10-29T07:51:38Z",
+  "updatedAt": "2026-10-29T07:51:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153985/work-attribute-values",
+    "values": []
+  }
+}

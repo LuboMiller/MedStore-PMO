@@ -10,9 +10,9 @@
   "startDate": "2026-10-09",
   "startTime": "14:00:00",
   "startDateTimeUtc": "2026-10-09T11:00:00Z",
-  "description": "- sdd;\n- ai idp;",
+  "description": "- ai idp;",
   "createdAt": "2026-10-09T10:00:10Z",
-  "updatedAt": "2026-10-09T10:00:12Z",
+  "updatedAt": "2026-10-29T12:55:40Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5f7c2ca025fbdf00686d7ae3",
     "accountId": "5f7c2ca025fbdf00686d7ae3"

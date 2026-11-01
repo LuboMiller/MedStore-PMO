@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153217",
+  "tempoWorklogId": 153217,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103458",
+    "id": 103458
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-23",
+  "startTime": "14:45:00",
+  "startDateTimeUtc": "2026-10-23T12:45:00Z",
+  "description": "Continued refining the catalog filtering and sorting design for web and mobile based on the received feedback. Reviewed the current implementation of filter controls, selected filter states, sorting options, and related user interactions.\n\nWorked on identifying and addressing inconsistencies between the design and the documented functional requirements.",
+  "createdAt": "2026-10-26T08:14:43Z",
+  "updatedAt": "2026-10-26T08:14:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
+    "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153217/work-attribute-values",
+    "values": []
+  }
+}

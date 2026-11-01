@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153650",
+  "tempoWorklogId": 153650,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101355",
+    "id": 101355
+  },
+  "timeSpentSeconds": 1500,
+  "billableSeconds": 1500,
+  "startDate": "2026-10-20",
+  "startTime": "15:00:00",
+  "startDateTimeUtc": "2026-10-20T12:00:00Z",
+  "description": "Проєктна комунікація за регламентом: внутрішня переписа + чат з лікарями https://teams.cloud.microsoft/l/chat/19:42e5d045b7714fdcac4b9039f2f3c358@thread.v2/conversations?context=%7B%22contextType%22%3A%22chat%22%7D",
+  "createdAt": "2026-10-26T18:21:51Z",
+  "updatedAt": "2026-10-26T18:21:51Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153650/work-attribute-values",
+    "values": []
+  }
+}

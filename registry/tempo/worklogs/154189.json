@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154189",
+  "tempoWorklogId": 154189,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/90186",
+    "id": 90186
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-10-26",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-26T06:00:00Z",
+  "description": "Дзвінок з Павлом по напрацюваннях\nПравки, зміни по страхових компаніях",
+  "createdAt": "2026-10-30T15:44:18Z",
+  "updatedAt": "2026-10-30T15:44:18Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6036509cac6e4e0069e4531d",
+    "accountId": "6036509cac6e4e0069e4531d"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154189/work-attribute-values",
+    "values": []
+  }
+}

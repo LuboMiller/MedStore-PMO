@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153280",
+  "tempoWorklogId": 153280,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102845",
+    "id": 102845
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-21",
+  "startTime": "15:36:00",
+  "startDateTimeUtc": "2026-10-21T12:36:00Z",
+  "description": "Booking tax phase 1: PR review fixes (#328, ps-tests #8), CI snapshot heal",
+  "createdAt": "2026-10-26T09:23:24Z",
+  "updatedAt": "2026-10-26T09:23:24Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153280/work-attribute-values",
+    "values": []
+  }
+}

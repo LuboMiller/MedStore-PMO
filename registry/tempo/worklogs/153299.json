@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153299",
+  "tempoWorklogId": 153299,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103065",
+    "id": 103065
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-23",
+  "startTime": "11:18:00",
+  "startDateTimeUtc": "2026-10-23T08:18:00Z",
+  "description": "Booking tax phase 2: sdd prepare and design",
+  "createdAt": "2026-10-26T09:23:35Z",
+  "updatedAt": "2026-10-26T09:23:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153299/work-attribute-values",
+    "values": []
+  }
+}

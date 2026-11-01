@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153351",
+  "tempoWorklogId": 153351,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-10-20",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-20T11:00:00Z",
+  "description": "написати командам про зимові вихідні щоб букали завчасно",
+  "createdAt": "2026-10-26T11:01:50Z",
+  "updatedAt": "2026-10-26T11:01:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153351/work-attribute-values",
+    "values": []
+  }
+}

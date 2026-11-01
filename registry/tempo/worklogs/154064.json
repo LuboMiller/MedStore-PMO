@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154064",
+  "tempoWorklogId": 154064,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103929",
+    "id": 103929
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-29",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-29T06:30:00Z",
+  "description": "Після мінорного автооновлення потребувався додатковий ключ для авторизації гугл, підключено та виправлено ",
+  "createdAt": "2026-10-29T15:12:00Z",
+  "updatedAt": "2026-10-29T15:12:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154064/work-attribute-values",
+    "values": []
+  }
+}

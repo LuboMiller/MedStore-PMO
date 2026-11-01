@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152894",
+  "tempoWorklogId": 152894,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103240",
+    "id": 103240
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-10-23",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-23T05:00:00Z",
+  "description": "investigate and grooming requirements ",
+  "createdAt": "2026-10-23T10:29:59Z",
+  "updatedAt": "2026-10-23T10:29:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152894/work-attribute-values",
+    "values": []
+  }
+}

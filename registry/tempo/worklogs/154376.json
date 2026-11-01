@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154376",
+  "tempoWorklogId": 154376,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66688",
+    "id": 66688
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-28",
+  "startTime": "13:00:00",
+  "startDateTimeUtc": "2026-10-28T11:00:00Z",
+  "description": "Sofiia / Roman | proto consistency check",
+  "createdAt": "2026-11-01T13:51:22Z",
+  "updatedAt": "2026-11-01T13:51:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=61321055036d9e006ac5dde2",
+    "accountId": "61321055036d9e006ac5dde2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154376/work-attribute-values",
+    "values": []
+  }
+}

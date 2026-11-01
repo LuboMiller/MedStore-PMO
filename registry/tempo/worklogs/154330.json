@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154330",
+  "tempoWorklogId": 154330,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101883",
+    "id": 101883
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-10-29",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-10-29T09:00:00Z",
+  "description": "-додано підтримку режиму simple для спрощеного відображення статусу електропостачання магазинів",
+  "createdAt": "2026-10-31T13:20:26Z",
+  "updatedAt": "2026-10-31T13:20:26Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=63c6c815176040ff3bd1a1cb",
+    "accountId": "63c6c815176040ff3bd1a1cb"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154330/work-attribute-values",
+    "values": []
+  }
+}

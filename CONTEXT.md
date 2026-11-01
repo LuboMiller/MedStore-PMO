@@ -93,23 +93,23 @@
 
 | Параметр | Значення | Джерело |
 |---|---|---|
-| Baseline cost | $33 520 | Client status sheet Overview 2026-10-20 |
-| Current cost (fact) | $17 365 | Client status sheet Overview 2026-10-20 |
-| Estim. cost | $173 652 | Client status sheet Overview 2026-10-20 |
-| PERT | $34 260 | Scope Dashboard 2026-10-20 |
-| Cost variance | −$14 013 | Overview 2026-10-20 |
+| Baseline cost | $33 520 | Client status sheet Overview 2026-11-02 |
+| Current cost (fact) | $20 615 | Client status sheet Overview 2026-11-02 |
+| Estim. cost | $206 148 | Client status sheet Overview 2026-11-02 |
+| PERT | $34 260 | Scope Dashboard 2026-11-02 |
+| Cost variance | −$17 263 | Overview 2026-11-02 |
 | Contract value | <!-- PM: уточнити --> | |
 | Margin target | <!-- PM: уточнити --> | |
 | Contingency | <!-- PM: уточнити --> | |
-| CPI | 19% | Client status sheet Overview 2026-10-20 |
-| SPI | 16% | Client status sheet Overview 2026-10-20 |
-| Project completion % | 10% | Client status sheet Overview 2026-10-20 |
-| Budget completion % | 52% | Client status sheet Overview 2026-10-20 |
+| CPI | 16% | Client status sheet Overview 2026-11-02 |
+| SPI | 14% | Client status sheet Overview 2026-11-02 |
+| Project completion % | 10% | Client status sheet Overview 2026-11-02 (без змін з 20.10) |
+| Budget completion % | 62% | Client status sheet Overview 2026-11-02 |
 | Start date | 01.08.2026 | Overview |
 | Baseline end | 08.12.2026 | Overview |
-| Estim. completion | 09.10.2028 | Overview — ⚠️ підозріло далеко |
+| Estim. completion | 06.02.2029 | Overview 2026-11-02 — ⚠️ підозріло далеко (OQ-006) |
 
-> ⚠️ CPI 19% / SPI 16% / Estim. completion 09.10.2028 — критична увага PM. Start date виправлено на 01.08.2026 (раніше шаблон 01.12.2025). Валютний символ у sheet змінився з € (зріз 08.10) на $ — PM верифікувати, чи це rebaseline, чи формат відображення.
+> ⚠️ CPI 16% / SPI 14% / Estim. completion 06.02.2029 (2026-11-02; на 20.10 було 19% / 16% / 09.10.2028) — критична увага PM. Project completion % стоїть на 10% з 20.10 при +$3 250 факту — або прогрес не оновлюється в sheet, або реально немає закритих результатів. Start date виправлено на 01.08.2026 (раніше шаблон 01.12.2025). Валютний символ у sheet змінився з € (зріз 08.10) на $ — PM верифікувати, чи це rebaseline, чи формат відображення.
 
 ---
 
@@ -157,17 +157,20 @@
 - Jira: `DOBDWH`
 - Confluence space: `DD1`
 - Lead (Jira): Viktoriia Sukharevska
-- Hydrated: 2026-10-20 (jira/confluence sync-pull)
+- Hydrated: 2026-11-02 (jira/confluence sync-pull)
 
 <!-- hydrate:google -->
 - Client status sheet: `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo`
-- Drive title: `MedStore | Client Project status report | Updated 20-10-26` (modifiedTime 2026-10-20T01:57Z)
+- Drive title: `MedStore | Client Project status report` — Overview «Current date» 01.11.2026 (export 2026-11-01T22:07Z)
 - Calendar plan: `100F5PIfBaTrr1u_hji9-witEhKkIBIWXFAy5uoxcizQ`
-- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-10-20/`
+- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-11-02/`
 - Drive folders: `main` + `contracts` OK; `commercial` / `finance` / `client-share` — folder_id not set
 
 ## 9. Нотатки сесії
 
+- 2026-11-02: Morning sync Phase A+B. Overview: AC $20 615 (+$3 250 vs 20.10), EAC $206 148, budget burn 62%, project completion 10% (без змін), CPI 16%, SPI 14%, Estim. completion 06.02.2029, schedule deviation 791. Перевитрата vs Refine: 1.1.1 ($1 410 / $860), 1.1.6 ($5 719 / $4 280), 1.1.8 ($2 651 / $2 600 при epic 0% / TO DO).
+- Jira DOBDWH 20.10→02.11: статуси без змін; +≈64,5 год логів (DOBDWH-28 +22,2 · DOBDWH-10 +19,1 · DOBDWH-8 +5,7 · DOBDWH-11 +5,4 · DOBDWH-15 +4,8 · DOBDWH-9 +3,7 · інші ≤2). Розбіжність sheet↔Jira: 1.1.8 TO DO vs DOBDWH-10 In Progress; 1.1.7 IN REVIEW vs DOBDWH-9 In Progress.
+- Контракт STG-01 end 2026-11-30 — 28 дн. · 🟢 (з ~16.11 стане 🟡). Fireflies 0 hits. Confluence DD1 без змін контенту.
 - 2026-10-20: Morning sync Phase A+B. Overview rebaseline vs 08.10: BAC $33 520 (було €70,6K), AC $17 365, EAC $173 652, completion 10% / budget burn 52%, CPI 19%, SPI 16%. Scope: 1.1.1 і 1.1.7 IN REVIEW (~80% epic); 1.1.2 і 1.1.8 TO DO; решта IN PROGRESS.
 - Jira DOBDWH (зріз sync): Backlog 11 · In Progress 8 · In Review 2 · To Do 2 · Done 2 · Released 1 · Cancelled 4.
 - Estim. completion 09.10.2028 і schedule deviation 671 дн. — далі підозрілі (OQ-006); start date уже 01.08.2026.

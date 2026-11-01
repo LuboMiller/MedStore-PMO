@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153267",
+  "tempoWorklogId": 153267,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100067",
+    "id": 100067
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-20",
+  "startTime": "14:15:00",
+  "startDateTimeUtc": "2026-10-20T11:15:00Z",
+  "description": "Merchant cancels confirmed booking: PR review fixes (merchant-service #314, gateway #51)",
+  "createdAt": "2026-10-26T09:23:17Z",
+  "updatedAt": "2026-10-26T09:23:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153267/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/152668",
+  "tempoWorklogId": 152668,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40269",
+    "id": 40269
+  },
+  "timeSpentSeconds": 1080,
+  "billableSeconds": 1080,
+  "startDate": "2026-10-20",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-10-20T05:15:00Z",
+  "description": "sync with Viktor (SignUp flow)",
+  "createdAt": "2026-10-21T07:03:54Z",
+  "updatedAt": "2026-10-21T07:03:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/152668/work-attribute-values",
+    "values": []
+  }
+}

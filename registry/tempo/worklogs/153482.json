@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153482",
+  "tempoWorklogId": 153482,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-10-20",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-10-20T08:30:00Z",
+  "description": "MOB-6482: Аналіз тікета відео на детальній сторінці капсули: AC, медіанавігація, кнопка звуку, повноекранний перегляд; питання до SA, оцінка 12h.",
+  "createdAt": "2026-10-26T11:45:09Z",
+  "updatedAt": "2026-10-26T11:45:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153482/work-attribute-values",
+    "values": []
+  }
+}

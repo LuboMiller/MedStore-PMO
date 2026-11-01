@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154319",
+  "tempoWorklogId": 154319,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103315",
+    "id": 103315
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-11-02T06:00:00Z",
+  "description": "Реалізація передачі та відображення таблиця порівняння",
+  "createdAt": "2026-10-31T11:57:49Z",
+  "updatedAt": "2026-10-31T11:57:49Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154319/work-attribute-values",
+    "values": []
+  }
+}

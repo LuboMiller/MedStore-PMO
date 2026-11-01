@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153889",
+  "tempoWorklogId": 153889,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "17:45:00",
+  "startDateTimeUtc": "2026-10-19T15:45:00Z",
+  "description": "PODOROZHNYK-HEALTH-2026 estimates",
+  "createdAt": "2026-10-26T08:08:19Z",
+  "updatedAt": "2026-10-28T11:42:38Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153889/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153492",
+  "tempoWorklogId": 153492,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 12600,
+  "billableSeconds": 12600,
+  "startDate": "2026-10-23",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-23T05:00:00Z",
+  "description": "MOB-6483: Відео в блоці L: звірка контракту бекенду MOB-6479 (відео першим, mp4 у big, прев'ю в small/middle), підготовка сценаріїв прокрутки і черги відтворення.",
+  "createdAt": "2026-10-26T11:45:14Z",
+  "updatedAt": "2026-10-26T11:45:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153492/work-attribute-values",
+    "values": []
+  }
+}

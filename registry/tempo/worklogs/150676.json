@@ -9,10 +9,10 @@
   "billableSeconds": 900,
   "startDate": "2026-10-08",
   "startTime": "16:30:00",
-  "startDateTimeUtc": "2026-10-08T14:30:00Z",
-  "description": "Attended a project discussion.",
+  "startDateTimeUtc": "2026-10-08T13:30:00Z",
+  "description": "Reviewed RSG project updates and clarified the next design priorities.",
   "createdAt": "2026-10-09T16:42:45Z",
-  "updatedAt": "2026-10-09T16:42:45Z",
+  "updatedAt": "2026-10-20T11:21:59Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
     "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"

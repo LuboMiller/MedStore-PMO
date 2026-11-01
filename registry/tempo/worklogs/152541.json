@@ -6,13 +6,13 @@
     "id": 45243
   },
   "timeSpentSeconds": 10800,
-  "billableSeconds": 10800,
+  "billableSeconds": 0,
   "startDate": "2026-10-19",
   "startTime": "11:50:00",
   "startDateTimeUtc": "2026-10-19T08:50:00Z",
   "description": "fix spm to start project",
   "createdAt": "2026-10-20T09:15:20Z",
-  "updatedAt": "2026-10-20T09:15:20Z",
+  "updatedAt": "2026-10-26T14:31:45Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
     "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"

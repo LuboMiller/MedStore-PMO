@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153225",
+  "tempoWorklogId": 153225,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28924",
+    "id": 28924
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-10-20",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-19T21:00:00Z",
+  "description": "Paid Time Off",
+  "createdAt": "2026-10-26T08:33:58Z",
+  "updatedAt": "2026-10-26T08:33:58Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153225/work-attribute-values",
+    "values": []
+  }
+}

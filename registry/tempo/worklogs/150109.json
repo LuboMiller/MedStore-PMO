@@ -6,13 +6,13 @@
     "id": 98027
   },
   "timeSpentSeconds": 14400,
-  "billableSeconds": 14400,
+  "billableSeconds": 0,
   "startDate": "2026-10-05",
   "startTime": "10:00:00",
-  "startDateTimeUtc": "2026-10-05T08:00:00Z",
+  "startDateTimeUtc": "2026-10-05T07:00:00Z",
   "description": "валідація знайдених багів тестувальниками інтегро",
   "createdAt": "2026-10-05T21:34:20Z",
-  "updatedAt": "2026-10-05T21:34:20Z",
+  "updatedAt": "2026-11-01T15:54:00Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa",
     "accountId": "712020:5bbc7582-34ba-4fb6-ad9d-427fba6f13fa"

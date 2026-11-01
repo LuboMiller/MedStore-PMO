@@ -6,13 +6,13 @@
     "id": 67816
   },
   "timeSpentSeconds": 3600,
-  "billableSeconds": 3600,
+  "billableSeconds": 0,
   "startDate": "2026-10-13",
   "startTime": "15:00:00",
   "startDateTimeUtc": "2026-10-13T12:00:00Z",
   "description": "Review Requirements",
   "createdAt": "2026-10-13T11:52:07Z",
-  "updatedAt": "2026-10-13T13:54:27Z",
+  "updatedAt": "2026-11-01T16:29:22Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
     "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"

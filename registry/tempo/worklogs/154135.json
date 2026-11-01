@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154135",
+  "tempoWorklogId": 154135,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/48273",
+    "id": 48273
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-28",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-28T06:00:00Z",
+  "description": "MOB-6668: Збірка .app для iOS Simulator 6.2.0 (9) на препрод для QA, архів на 4 частини через ліміт вкладень Jira, коментар у тікеті.",
+  "createdAt": "2026-10-30T13:30:40Z",
+  "updatedAt": "2026-10-30T13:30:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=6317a8d58473817d7d05c111",
+    "accountId": "6317a8d58473817d7d05c111"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154135/work-attribute-values",
+    "values": []
+  }
+}

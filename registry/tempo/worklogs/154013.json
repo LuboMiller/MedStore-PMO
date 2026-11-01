@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154013",
+  "tempoWorklogId": 154013,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74419",
+    "id": 74419
+  },
+  "timeSpentSeconds": 21600,
+  "billableSeconds": 21600,
+  "startDate": "2026-10-08",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-10-08T05:00:00Z",
+  "description": "пошук персонала (mobile)",
+  "createdAt": "2026-10-29T10:58:29Z",
+  "updatedAt": "2026-10-29T10:58:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3e07b58e-5f9c-4db5-a3a3-f1b6f9e5c576",
+    "accountId": "712020:3e07b58e-5f9c-4db5-a3a3-f1b6f9e5c576"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154013/work-attribute-values",
+    "values": []
+  }
+}

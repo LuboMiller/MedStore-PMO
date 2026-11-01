@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153363",
+  "tempoWorklogId": 153363,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34524",
+    "id": 34524
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-21",
+  "startTime": "19:15:00",
+  "startDateTimeUtc": "2026-10-21T16:15:00Z",
+  "description": "improvements ticket management",
+  "createdAt": "2026-10-26T11:01:55Z",
+  "updatedAt": "2026-10-26T11:01:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:471071e2-a782-4ed9-ba50-839738461d01",
+    "accountId": "712020:471071e2-a782-4ed9-ba50-839738461d01"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153363/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154408",
+  "tempoWorklogId": 154408,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/98643",
+    "id": 98643
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-10-26",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-10-26T12:00:00Z",
+  "description": "Пілот: розгортання, інтерфейс, прогін сценаріїв: Сторінки прогріву відкриваються швидко (список питань у памʼяті); сторінка \"AI-саммарі пацієнтів\" в адмінці: лише пацієнти з готовим саммарі, фільтр за ід, заголовок і дії сторінки; панель стану ресурсів показує всі розділи диска обох машин; права шторка \"Питання когорти\" на сторінці пошуку для швидкого тестування (золота когорта і похідні питання)",
+  "createdAt": "2026-11-01T19:36:23Z",
+  "updatedAt": "2026-11-01T19:36:23Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a096e2c8-7a24-4535-a380-270c70b4c839",
+    "accountId": "712020:a096e2c8-7a24-4535-a380-270c70b4c839"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154408/work-attribute-values",
+    "values": []
+  }
+}

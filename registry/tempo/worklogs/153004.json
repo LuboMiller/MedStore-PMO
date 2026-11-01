@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153004",
+  "tempoWorklogId": 153004,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-10-20",
+  "startTime": "12:00:00",
+  "startDateTimeUtc": "2026-10-20T09:00:00Z",
+  "description": "Ознайомлення з сервісами (sign-in до кожного)",
+  "createdAt": "2026-10-23T16:48:53Z",
+  "updatedAt": "2026-10-23T16:48:53Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153004/work-attribute-values",
+    "values": []
+  }
+}

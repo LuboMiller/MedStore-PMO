@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153535",
+  "tempoWorklogId": 153535,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/100881",
+    "id": 100881
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-10-19",
+  "startTime": "00:00:00",
+  "startDateTimeUtc": "2026-10-18T21:00:00Z",
+  "description": "Design vs BA cross-review (BA package v2.6): 34 features, 330 states and 288 frames checked, discrepancy list produced. Epics: FA-1 Authorization & Identification, FA-2 Credit Calculator & Programs, FA-3 Questionnaire (KYC), FA-4 Vehicle Data & Valuation. Stories with discrepancies: F-1.4, F-1.5, F-1.11, F-1.12, F-1.14, F-1.17, F-2.6, F-2.7, F-3.2, F-3.4, F-3.5, F-3.6, F-3.8, F-4.2. Result: https://devlight.slack.com/archives/C0C12V3B6SH/p1792417236878289?thread_ts=1792400493.637629",
+  "createdAt": "2026-10-26T15:12:11Z",
+  "updatedAt": "2026-10-26T15:12:11Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644",
+    "accountId": "712020:3ecc6ecb-0654-41c4-b4c6-c7dc013d5644"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153535/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154338",
+  "tempoWorklogId": 154338,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92843",
+    "id": 92843
+  },
+  "timeSpentSeconds": 14400,
+  "billableSeconds": 14400,
+  "startDate": "2026-10-26",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-10-26T06:30:00Z",
+  "description": "Інвестігейт планів, виконання Open Models Progamm",
+  "createdAt": "2026-10-31T19:37:27Z",
+  "updatedAt": "2026-10-31T19:37:27Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:eec299b8-5455-48b6-bbef-92c7eda17f27",
+    "accountId": "712020:eec299b8-5455-48b6-bbef-92c7eda17f27"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154338/work-attribute-values",
+    "values": []
+  }
+}

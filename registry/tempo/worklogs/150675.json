@@ -9,10 +9,10 @@
   "billableSeconds": 14400,
   "startDate": "2026-10-09",
   "startTime": "12:45:00",
-  "startDateTimeUtc": "2026-10-09T10:45:00Z",
-  "description": "Reviewed client Miro materials and discussed next UX design steps.",
+  "startDateTimeUtc": "2026-10-09T09:45:00Z",
+  "description": "Reviewed updated client requirements and user flows in Miro. Compared the revised business scenarios with the existing Figma wireframes and identified necessary changes to application screens, navigation, and user flow logic. Discussed design priorities and next steps for updating the wireframes.\n\nEpic / Feature: Epics 1–4 — Requirements review and user flow alignment\n\nArtifacts:\nEpic 1 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-690&t=WLpM9QDSWKcHumnI-11\nEpic 2 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-703&t=WLpM9QDSWKcHumnI-11\nEpic 3 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-717&t=WLpM9QDSWKcHumnI-11\nEpic 4 wireframes: https://www.figma.com/design/qNreRjt7LaI5IrWO0RSAgu/Royal-Standard-Group?node-id=586-731&t=WLpM9QDSWKcHumnI-11",
   "createdAt": "2026-10-09T16:42:16Z",
-  "updatedAt": "2026-10-09T16:42:51Z",
+  "updatedAt": "2026-10-20T11:22:52Z",
   "author": {
     "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:b0b88eef-6288-4350-aaee-925647bd318f",
     "accountId": "712020:b0b88eef-6288-4350-aaee-925647bd318f"

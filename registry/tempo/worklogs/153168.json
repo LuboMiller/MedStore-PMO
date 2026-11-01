@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/153168",
+  "tempoWorklogId": 153168,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/69194",
+    "id": 69194
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-10-22",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-10-22T08:30:00Z",
+  "description": "\nProtyping scopping sync",
+  "createdAt": "2026-10-26T07:43:59Z",
+  "updatedAt": "2026-10-26T07:43:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/153168/work-attribute-values",
+    "values": []
+  }
+}

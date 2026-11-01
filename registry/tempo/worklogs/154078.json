@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154078",
+  "tempoWorklogId": 154078,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/92479",
+    "id": 92479
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-10-29",
+  "startTime": "10:15:00",
+  "startDateTimeUtc": "2026-10-29T08:15:00Z",
+  "description": "Питання від CTO (Середенко):\n\n* Ознайомлення з документом питань, звірка кожного з беклогом, специфікаціями й відкритими питаннями (фіскальні чеки, оплати, поліси, пошук пацієнта за телефоном, безпека).\n* Коментарі в документі до питань, де є що уточнити: що вже вирішено або відкрито в нас, які методи МІС стосуються, посилання на опис привʼязки пацієнтів.",
+  "createdAt": "2026-10-29T16:38:08Z",
+  "updatedAt": "2026-10-29T16:38:08Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154078/work-attribute-values",
+    "values": []
+  }
+}
