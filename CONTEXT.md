@@ -94,20 +94,21 @@
 | Параметр | Значення | Джерело |
 |---|---|---|
 | Baseline cost | $33 520 | Client status sheet Overview 2026-11-02 |
-| Current cost (fact) | $20 615 | Client status sheet Overview 2026-11-02 |
-| Estim. cost | $206 148 | Client status sheet Overview 2026-11-02 |
-| PERT | $34 260 | Scope Dashboard 2026-11-02 |
-| Cost variance | −$17 263 | Overview 2026-11-02 |
+| Current cost (fact) | $22 440 | Client status sheet Overview 2026-11-03 |
+| Estim. cost | $39 743 | Client status sheet Overview 2026-11-03 |
+| WBS ESTIM Opt / ML / Pes / PERT | $24 960 / $31 200 / $37 440 / $33 520 (360 / 450 / 540 / 484 год) | WBS ESTIM 2026-11-03; Baseline = PERT; Pes клієнт знає |
+| Presale cost (Scope Dashboard) | $34 260 | Scope Dashboard 2026-11-02 |
+| Cost variance | −$3 513 | Overview 2026-11-03 |
 | Contract value | <!-- PM: уточнити --> | |
 | Margin target | <!-- PM: уточнити --> | |
 | Contingency | <!-- PM: уточнити --> | |
-| CPI | 16% | Client status sheet Overview 2026-11-02 |
-| SPI | 14% | Client status sheet Overview 2026-11-02 |
-| Project completion % | 10% | Client status sheet Overview 2026-11-02 (без змін з 20.10) |
-| Budget completion % | 62% | Client status sheet Overview 2026-11-02 |
+| CPI | 84% | Client status sheet Overview 2026-11-03 |
+| SPI | 78% | Client status sheet Overview 2026-11-03 |
+| Project completion % | 56% | Client status sheet Overview 2026-11-03 (PM оновив Epic % за оцінкою Дмитра) |
+| Budget completion % | 67% | Client status sheet Overview 2026-11-03 |
 | Start date | 01.08.2026 | Overview |
 | Baseline end | 08.12.2026 | Overview |
-| Estim. completion | 06.02.2029 | Overview 2026-11-02 — ⚠️ підозріло далеко (OQ-006) |
+| Estim. completion | 12.01.2027 | Overview 2026-11-03 — після оновлення %; пізніше за SoW-песимістичну 23.12 |
 
 > ⚠️ CPI 16% / SPI 14% / Estim. completion 06.02.2029 (2026-11-02; на 20.10 було 19% / 16% / 09.10.2028) — критична увага PM. Project completion % стоїть на 10% з 20.10 при +$3 250 факту — або прогрес не оновлюється в sheet, або реально немає закритих результатів. Start date виправлено на 01.08.2026 (раніше шаблон 01.12.2025). Валютний символ у sheet змінився з € (зріз 08.10) на $ — PM верифікувати, чи це rebaseline, чи формат відображення.
 
@@ -168,6 +169,8 @@
 
 ## 9. Нотатки сесії
 
+- 2026-11-03: PM оновив client status sheet за % Дмитра → completion 56%, budget 67%, CPI 84%, SPI 78%, EAC $39 743, CV −$3 513, Estim. 12.01.2027. Baseline = PERT $33 520; Pes $37 440 (WBS ESTIM, клієнт знає). У годинах прогноз Дмитра (480-512) < Pes 540, у грошах EAC вище Pes: BA/PM-обсяг ($40) робить DE ($80) (OQ-013).
+- 2026-11-03: Дмитро (через CTO) — SoW-готовність на 02.11: 303,45 год, прогноз 480-512 год (60-64 л/д) із 448-536 SoW; оптимістична межа недосяжна, запас до песимістичної 24-56 год, драйвер — 1.1.4 + темп клієнта (еталонні відповіді, тестування). CTO: чи комунікувати клієнту завчасно → PM: так, разом із продовженням Додатку №3 (end 30.11) і після вирівнювання sheet (OQ-013). `docs/status-reports/2026-11-02/sow-readiness-yefimenko-2026-11-02.md`
 - 2026-11-02: Morning sync Phase A+B. Overview: AC $20 615 (+$3 250 vs 20.10), EAC $206 148, budget burn 62%, project completion 10% (без змін), CPI 16%, SPI 14%, Estim. completion 06.02.2029, schedule deviation 791. Перевитрата vs Refine: 1.1.1 ($1 410 / $860), 1.1.6 ($5 719 / $4 280), 1.1.8 ($2 651 / $2 600 при epic 0% / TO DO).
 - Jira DOBDWH 20.10→02.11: статуси без змін; +≈64,5 год логів (DOBDWH-28 +22,2 · DOBDWH-10 +19,1 · DOBDWH-8 +5,7 · DOBDWH-11 +5,4 · DOBDWH-15 +4,8 · DOBDWH-9 +3,7 · інші ≤2). Розбіжність sheet↔Jira: 1.1.8 TO DO vs DOBDWH-10 In Progress; 1.1.7 IN REVIEW vs DOBDWH-9 In Progress.
 - Контракт STG-01 end 2026-11-30 — 28 дн. · 🟢 (з ~16.11 стане 🟡). Fireflies 0 hits. Confluence DD1 без змін контенту.

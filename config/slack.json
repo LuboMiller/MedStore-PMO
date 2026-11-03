@@ -1,0 +1,21 @@
+{
+  "default_channel": "C0BR7DNA934",
+  "channels": {
+    "team": "C0BR7DNA934"
+  },
+  "users": {
+    "liubomyr_miller": "U05G9M856LS",
+    "viktoriia_sukharevska": "U05NSP488SD",
+    "dmytro_yefimenko": "U0680D8AYEP",
+    "oleksandr_seredenko": "U075U2DPU31",
+    "kateryna_kovshar": "U07GDU5K213"
+  },
+  "notes": "Members of #dobrobut_medstore_internal (C0BR7DNA934), refreshed 2026-11-03. Personal messages go as DM (--channel <user_id>), not to the channel. Mentions: <@USER_ID>.",
+  "roles": {
+    "liubomyr_miller": "PM (this repo owner)",
+    "viktoriia_sukharevska": "DM / Delivery Director",
+    "dmytro_yefimenko": "Data/AI Engineer (SA+DE+AIE)",
+    "oleksandr_seredenko": "CTO",
+    "kateryna_kovshar": "BA"
+  }
+}

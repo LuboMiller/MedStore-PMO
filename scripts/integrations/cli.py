@@ -559,6 +559,71 @@ def cmd_google(args: argparse.Namespace) -> int:
     raise SystemExit(f"Unknown google action: {action}")
 
 
+def cmd_slack(args: argparse.Namespace) -> int:
+    from pmo_integrations.slack_client import (
+        SlackClient,
+        extract_slack_body,
+        load_slack_project_config,
+    )
+
+    prefer = getattr(args, "as_who", None) or None
+    action = args.action
+    if action == "ping":
+        cfg = load_config(require=("slack",))
+        _print(SlackClient.from_config(cfg, prefer=prefer).ping())
+        return 0
+
+    if action == "channels":
+        cfg = load_config(require=("slack",))
+        client = SlackClient.from_config(cfg, prefer=prefer)
+        rows = client.list_channels(limit=args.limit or 200)
+        _print({"count": len(rows), "auth_as": client.kind, "channels": rows})
+        return 0
+
+    if action == "post":
+        cfg = load_config(require=("slack",))
+        proj = load_slack_project_config()
+        channel = (
+            args.channel
+            or cfg.slack_default_channel
+            or proj.get("default_channel")
+            or (proj.get("channels") or {}).get("team")
+        )
+        if not channel:
+            raise SystemExit(
+                "slack post requires --channel or SLACK_DEFAULT_CHANNEL / config/slack.json default_channel"
+            )
+        if args.file:
+            path = Path(args.file)
+            if not path.is_absolute():
+                path = ROOT / path
+            if not path.exists():
+                raise SystemExit(f"File not found: {path}")
+            text = extract_slack_body(path)
+        elif args.text:
+            text = args.text
+        else:
+            raise SystemExit("slack post requires --text or --file")
+        client = SlackClient.from_config(cfg, prefer=prefer)
+        if args.dry_run:
+            _print(
+                {
+                    "dry_run": True,
+                    "auth_as": client.kind,
+                    "channel": channel,
+                    "chars": len(text),
+                    "preview": text[:500],
+                }
+            )
+            return 0
+        report = client.post_message(channel, text, thread_ts=args.thread_ts)
+        report["auth_as"] = client.kind
+        _print(report)
+        return 0 if report.get("ok") else 1
+
+    raise SystemExit(f"Unknown slack action: {action}")
+
+
 def cmd_fireflies(args: argparse.Namespace) -> int:
     from pmo_integrations.fireflies import FirefliesClient
     from pmo_integrations.fireflies_sync import pull_transcript, sync_pull
@@ -1499,6 +1564,26 @@ def build_parser() -> argparse.ArgumentParser:
     ff.add_argument("--no-audio", action="store_true", help="Skip audio.mp3 download")
     ff.add_argument("--dry-run", action="store_true")
     ff.set_defaults(func=cmd_fireflies)
+
+    sk = sub.add_parser(
+        "slack",
+        help="Slack Web API — post as you (User Token) or as bot — ping / channels / post",
+    )
+    sk.add_argument("action", choices=["ping", "channels", "post"])
+    sk.add_argument("--channel", default=None, help="Channel id (C…) or #name (overrides default)")
+    sk.add_argument("--text", default=None, help="Message body (mrkdwn)")
+    sk.add_argument("--file", default=None, help="Path to MD with ```slack fence or plain text")
+    sk.add_argument("--thread-ts", default=None, dest="thread_ts", help="Reply in thread")
+    sk.add_argument(
+        "--as",
+        dest="as_who",
+        choices=["user", "bot"],
+        default=None,
+        help="Which token: user (xoxp-, as you) or bot (xoxb-). Default: SLACK_PREFER / user",
+    )
+    sk.add_argument("--limit", type=int, default=None, help="channels: max rows")
+    sk.add_argument("--dry-run", action="store_true", help="post: show payload without sending")
+    sk.set_defaults(func=cmd_slack)
 
     r = sub.add_parser("repos", help="Optional linked BA / codebase repositories")
     r.add_argument("action", choices=["list", "status", "pull", "push", "discover"])

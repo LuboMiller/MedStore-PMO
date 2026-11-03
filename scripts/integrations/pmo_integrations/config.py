@@ -48,6 +48,11 @@ class Config:
     fireflies_keyword_scope: str = "title"
     fireflies_download_audio: bool = True
     fireflies_from_date: str = ""
+    slack_bot_token: str = ""
+    slack_user_token: str = ""
+    slack_api_base: str = "https://slack.com/api"
+    slack_default_channel: str = ""
+    slack_prefer: str = "user"  # user | bot — which token to use when both set
 
     @property
     def confluence_ok(self) -> bool:
@@ -83,6 +88,25 @@ class Config:
     @property
     def fireflies_ok(self) -> bool:
         return bool(self.fireflies_api_key)
+
+    @property
+    def slack_ok(self) -> bool:
+        return bool(self.slack_user_token or self.slack_bot_token)
+
+    def slack_token(self, *, prefer: str | None = None) -> tuple[str, str]:
+        """Return (token, kind) where kind is 'user' or 'bot'."""
+        pref = (prefer or self.slack_prefer or "user").strip().lower()
+        if pref not in ("user", "bot"):
+            pref = "user"
+        if pref == "user" and self.slack_user_token:
+            return self.slack_user_token, "user"
+        if pref == "bot" and self.slack_bot_token:
+            return self.slack_bot_token, "bot"
+        if self.slack_user_token:
+            return self.slack_user_token, "user"
+        if self.slack_bot_token:
+            return self.slack_bot_token, "bot"
+        return "", ""
 
 
 def load_config(*, require: tuple[str, ...] = ()) -> Config:
@@ -138,6 +162,12 @@ def load_config(*, require: tuple[str, ...] = ()) -> Config:
         fireflies_download_audio=get("FIREFLIES_DOWNLOAD_AUDIO", default="1").lower()
         not in ("0", "false", "no", "off"),
         fireflies_from_date=get("FIREFLIES_FROM_DATE"),
+        slack_bot_token=get("SLACK_BOT_TOKEN"),
+        slack_user_token=get("SLACK_USER_TOKEN"),
+        slack_api_base=get("SLACK_API_BASE", default="https://slack.com/api").rstrip("/")
+        or "https://slack.com/api",
+        slack_default_channel=get("SLACK_DEFAULT_CHANNEL"),
+        slack_prefer=get("SLACK_PREFER", default="user") or "user",
     )
 
     checks = {
@@ -146,6 +176,7 @@ def load_config(*, require: tuple[str, ...] = ()) -> Config:
         "tempo": cfg.tempo_ok,
         "google": cfg.google_ok,
         "fireflies": cfg.fireflies_ok,
+        "slack": cfg.slack_ok,
     }
     missing = [name for name in require if not checks.get(name)]
     if missing:
@@ -156,6 +187,7 @@ def load_config(*, require: tuple[str, ...] = ()) -> Config:
             "google": "secrets/google-oauth-client.json + `cli.py google auth` "
             "OR GOOGLE_APPLICATION_CREDENTIALS (see secrets/README.md)",
             "fireflies": "FIREFLIES_API_KEY (Fireflies → Integrations → Fireflies API)",
+            "slack": "SLACK_USER_TOKEN (xoxp-, posts as you) and/or SLACK_BOT_TOKEN (xoxb-)",
         }
         lines = [f"Missing config for: {', '.join(missing)}"]
         for m in missing:

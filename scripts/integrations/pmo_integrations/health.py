@@ -171,6 +171,32 @@ def check_fireflies(cfg: Config) -> CheckResult:
         return CheckResult("fireflies", False, str(e), required=False)
 
 
+def check_slack(cfg: Config) -> CheckResult:
+    """Optional until SLACK_BOT_TOKEN is set — does not fail mandatory health."""
+    if not cfg.slack_ok:
+        return CheckResult(
+            "slack",
+            True,
+            "skipped (add SLACK_USER_TOKEN xoxp- and/or SLACK_BOT_TOKEN xoxb-)",
+            required=False,
+        )
+    try:
+        from .slack_client import SlackClient
+
+        client = SlackClient.from_config(cfg)
+        info = client.ping()
+        team = info.get("team") or info.get("team_id") or "?"
+        user = info.get("user") or info.get("user_id") or "?"
+        detail = f"auth ok as {user} @ {team} ({info.get('auth_as')})"
+        if cfg.slack_default_channel:
+            detail += f"; default_channel={cfg.slack_default_channel!r}"
+        return CheckResult("slack", True, detail, required=False)
+    except ApiError as e:
+        return CheckResult("slack", False, str(e), required=False)
+    except Exception as e:  # noqa: BLE001
+        return CheckResult("slack", False, str(e), required=False)
+
+
 def run_health(cfg: Optional[Config] = None) -> list[CheckResult]:
     cfg = cfg or load_config()
     return [
@@ -179,4 +205,5 @@ def run_health(cfg: Optional[Config] = None) -> list[CheckResult]:
         check_tempo(cfg),
         check_google(cfg),
         check_fireflies(cfg),
+        check_slack(cfg),
     ]
