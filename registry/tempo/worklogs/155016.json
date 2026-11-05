@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155016",
+  "tempoWorklogId": 155016,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/73243",
+    "id": 73243
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-11-04",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-11-04T12:00:00Z",
+  "description": "Apply Arch feedback",
+  "createdAt": "2026-11-04T12:27:40Z",
+  "updatedAt": "2026-11-04T12:37:22Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155016/work-attribute-values",
+    "values": []
+  }
+}

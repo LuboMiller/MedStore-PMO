@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155064",
+  "tempoWorklogId": 155064,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28375",
+    "id": 28375
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-02",
+  "startTime": "12:20:00",
+  "startDateTimeUtc": "2026-11-02T10:20:00Z",
+  "description": "Тижневий статус синк. Комунікація з командою",
+  "createdAt": "2026-11-04T15:19:16Z",
+  "updatedAt": "2026-11-04T15:19:16Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155064/work-attribute-values",
+    "values": []
+  }
+}

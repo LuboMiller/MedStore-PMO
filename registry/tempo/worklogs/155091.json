@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155091",
+  "tempoWorklogId": 155091,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103899",
+    "id": 103899
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-11-03",
+  "startTime": "14:12:00",
+  "startDateTimeUtc": "2026-11-03T12:12:00Z",
+  "description": "PR review — paystate-backoffice #164 service JWT reads for cockpit (re-review)",
+  "createdAt": "2026-11-04T15:42:37Z",
+  "updatedAt": "2026-11-04T15:42:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155091/work-attribute-values",
+    "values": []
+  }
+}

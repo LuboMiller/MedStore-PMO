@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154753",
+  "tempoWorklogId": 154753,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 0,
+  "startDate": "2026-11-02",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-11-02T06:00:00Z",
+  "description": "doc since oct 28 - section A 65% + questions awaiting answers/ R-124(4)/ sync",
+  "createdAt": "2026-11-02T18:34:22Z",
+  "updatedAt": "2026-11-03T06:03:46Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154753/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155139",
+  "tempoWorklogId": 155139,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102921",
+    "id": 102921
+  },
+  "timeSpentSeconds": 11700,
+  "billableSeconds": 11700,
+  "startDate": "2026-11-04",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-11-04T14:00:00Z",
+  "description": "правки в макети",
+  "createdAt": "2026-11-04T16:54:47Z",
+  "updatedAt": "2026-11-04T16:55:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd",
+    "accountId": "712020:381cc0ca-0447-4dcb-80e3-d2e246a25ffd"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155139/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155088",
+  "tempoWorklogId": 155088,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103062",
+    "id": 103062
+  },
+  "timeSpentSeconds": 2700,
+  "billableSeconds": 2700,
+  "startDate": "2026-11-03",
+  "startTime": "12:15:00",
+  "startDateTimeUtc": "2026-11-03T10:15:00Z",
+  "description": "Record refund credit-note data in the refund result transaction, internal credit-note read, e2e and review fixes",
+  "createdAt": "2026-11-04T15:42:35Z",
+  "updatedAt": "2026-11-04T15:42:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155088/work-attribute-values",
+    "values": []
+  }
+}

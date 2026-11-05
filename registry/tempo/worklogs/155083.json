@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155083",
+  "tempoWorklogId": 155083,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103062",
+    "id": 103062
+  },
+  "timeSpentSeconds": 8100,
+  "billableSeconds": 8100,
+  "startDate": "2026-11-02",
+  "startTime": "14:30:00",
+  "startDateTimeUtc": "2026-11-02T12:30:00Z",
+  "description": "Credit-note data for refunded tax: requirement prep and design (Q-1..Q-5), design ready for approval",
+  "createdAt": "2026-11-04T15:42:32Z",
+  "updatedAt": "2026-11-04T15:42:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155083/work-attribute-values",
+    "values": []
+  }
+}

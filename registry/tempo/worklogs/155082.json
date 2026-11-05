@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155082",
+  "tempoWorklogId": 155082,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102167",
+    "id": 102167
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-11-02",
+  "startTime": "13:31:00",
+  "startDateTimeUtc": "2026-11-02T11:31:00Z",
+  "description": "PR review — merchant-service #410 delete portal user",
+  "createdAt": "2026-11-04T15:42:32Z",
+  "updatedAt": "2026-11-04T15:42:32Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155082/work-attribute-values",
+    "values": []
+  }
+}

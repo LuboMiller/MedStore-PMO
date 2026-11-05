@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154889",
+  "tempoWorklogId": 154889,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/71287",
+    "id": 71287
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-02",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-11-02T09:00:00Z",
+  "description": "Prepare business requirements for Notifications",
+  "createdAt": "2026-11-03T13:55:34Z",
+  "updatedAt": "2026-11-03T13:55:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154889/work-attribute-values",
+    "values": []
+  }
+}

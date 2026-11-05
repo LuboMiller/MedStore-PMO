@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155159",
+  "tempoWorklogId": 155159,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40269",
+    "id": 40269
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-11-03",
+  "startTime": "14:45:00",
+  "startDateTimeUtc": "2026-11-03T12:45:00Z",
+  "description": "sync with Andriy",
+  "createdAt": "2026-11-05T08:19:13Z",
+  "updatedAt": "2026-11-05T08:19:13Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155159/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155128",
+  "tempoWorklogId": 155128,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/93019",
+    "id": 93019
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-11-04",
+  "startTime": "14:40:00",
+  "startDateTimeUtc": "2026-11-04T12:40:00Z",
+  "description": "Functional Testing",
+  "createdAt": "2026-11-04T16:38:46Z",
+  "updatedAt": "2026-11-05T08:19:01Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9",
+    "accountId": "712020:5b40ab62-7ea4-4833-b069-80e3b22a7da9"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155128/work-attribute-values",
+    "values": []
+  }
+}

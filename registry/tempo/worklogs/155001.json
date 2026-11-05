@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155001",
+  "tempoWorklogId": 155001,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/40447",
+    "id": 40447
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-04",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-11-04T07:00:00Z",
+  "description": "Обговорення пустих значень через вимкнуті АПІ + Зустріч по пуш повідомленням | GM&Devlgiht",
+  "createdAt": "2026-11-04T08:55:52Z",
+  "updatedAt": "2026-11-04T13:19:54Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155001/work-attribute-values",
+    "values": []
+  }
+}

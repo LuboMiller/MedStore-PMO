@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155013",
+  "tempoWorklogId": 155013,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/104064",
+    "id": 104064
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-04",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-11-04T08:30:00Z",
+  "description": "Оновлення текстовок для неавторизованого/без-лояльності умов ",
+  "createdAt": "2026-11-04T11:04:00Z",
+  "updatedAt": "2026-11-04T11:04:00Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155013/work-attribute-values",
+    "values": []
+  }
+}

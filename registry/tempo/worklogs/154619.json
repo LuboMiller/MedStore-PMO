@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154619",
+  "tempoWorklogId": 154619,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102920",
+    "id": 102920
+  },
+  "timeSpentSeconds": 10800,
+  "billableSeconds": 10800,
+  "startDate": "2026-11-02",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-11-02T08:00:00Z",
+  "description": "Внесення правок по відповідям BA та SDK по пропускам з реалізації агента",
+  "createdAt": "2026-11-02T10:19:14Z",
+  "updatedAt": "2026-11-02T13:06:55Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154619/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155106",
+  "tempoWorklogId": 155106,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103995",
+    "id": 103995
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-04",
+  "startTime": "08:15:00",
+  "startDateTimeUtc": "2026-11-04T07:15:00Z",
+  "description": "merging, data backup in s3 & scaling heroku to 0",
+  "createdAt": "2026-11-04T15:48:45Z",
+  "updatedAt": "2026-11-04T15:48:45Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155106/work-attribute-values",
+    "values": []
+  }
+}

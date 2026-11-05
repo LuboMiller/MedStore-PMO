@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154761",
+  "tempoWorklogId": 154761,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 0,
+  "startDate": "2026-11-02",
+  "startTime": "11:00:00",
+  "startDateTimeUtc": "2026-11-02T09:00:00Z",
+  "description": "Місячні інвойси і звірка годин",
+  "createdAt": "2026-11-02T20:29:37Z",
+  "updatedAt": "2026-11-02T20:29:37Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154761/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155002",
+  "tempoWorklogId": 155002,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/104056",
+    "id": 104056
+  },
+  "timeSpentSeconds": 6720,
+  "billableSeconds": 6720,
+  "startDate": "2026-11-04",
+  "startTime": "08:25:00",
+  "startDateTimeUtc": "2026-11-04T06:25:00Z",
+  "description": "Testing the implemented changes + defect entry + Testing bugfixes",
+  "createdAt": "2026-11-04T09:30:02Z",
+  "updatedAt": "2026-11-04T11:47:44Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155002/work-attribute-values",
+    "values": []
+  }
+}

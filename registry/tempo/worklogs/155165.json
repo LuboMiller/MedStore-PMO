@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155165",
+  "tempoWorklogId": 155165,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/104083",
+    "id": 104083
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-05",
+  "startTime": "08:30:00",
+  "startDateTimeUtc": "2026-11-05T06:30:00Z",
+  "description": "Додано новий блок та прибрано старий",
+  "createdAt": "2026-11-05T09:56:15Z",
+  "updatedAt": "2026-11-05T09:56:15Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155165/work-attribute-values",
+    "values": []
+  }
+}

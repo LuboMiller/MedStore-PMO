@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155084",
+  "tempoWorklogId": 155084,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103068",
+    "id": 103068
+  },
+  "timeSpentSeconds": 9000,
+  "billableSeconds": 9000,
+  "startDate": "2026-11-02",
+  "startTime": "16:45:00",
+  "startDateTimeUtc": "2026-11-02T14:45:00Z",
+  "description": "Settlement 1788/1789/1794 design approved; implementation start: commission rate pinned at booking create, e2e settlement suites",
+  "createdAt": "2026-11-04T15:42:33Z",
+  "updatedAt": "2026-11-04T15:42:33Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155084/work-attribute-values",
+    "values": []
+  }
+}

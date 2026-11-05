@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155096",
+  "tempoWorklogId": 155096,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103686",
+    "id": 103686
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-11-03",
+  "startTime": "16:05:00",
+  "startDateTimeUtc": "2026-11-03T14:05:00Z",
+  "description": "booking.settled v2 and booking.commission.corrected: allsettled-common v0.20.0, merchant-service publish, backoffice consumer, infra queue; PR #50 fixes",
+  "createdAt": "2026-11-04T15:42:39Z",
+  "updatedAt": "2026-11-04T15:42:39Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155096/work-attribute-values",
+    "values": []
+  }
+}

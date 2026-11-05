@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154978",
+  "tempoWorklogId": 154978,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103240",
+    "id": 103240
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-03",
+  "startTime": "16:05:00",
+  "startDateTimeUtc": "2026-11-03T14:05:00Z",
+  "description": "Onboarding + start task",
+  "createdAt": "2026-11-03T18:48:09Z",
+  "updatedAt": "2026-11-03T18:48:09Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:8bfdf499-7dbc-4661-8854-ef87286b8425",
+    "accountId": "712020:8bfdf499-7dbc-4661-8854-ef87286b8425"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154978/work-attribute-values",
+    "values": []
+  }
+}

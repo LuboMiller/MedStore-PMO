@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155063",
+  "tempoWorklogId": 155063,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102741",
+    "id": 102741
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-03",
+  "startTime": "16:00:00",
+  "startDateTimeUtc": "2026-11-03T14:00:00Z",
+  "description": "* Опрацьовано API підрядників Doctor Eleks v1.1: звужено 12 відкритих питань, підготовлено 5 нових питань до Doctor Eleks\n* F-01.01, F-01.02, F-01.04: оновлено за API підрядників, повторно пройдено Gates 3 + 4\n* Підготовлено файл із рештою питань по FA-01 і МІС\n* Опрацьовано відповіді мережі від 03.11: F-01.14, F-01.15, F-01.22 (журнал дій, перший адміністратор панелі), повторно пройдено Gates 3 + 4",
+  "createdAt": "2026-11-04T15:14:20Z",
+  "updatedAt": "2026-11-04T15:14:20Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155063/work-attribute-values",
+    "values": []
+  }
+}

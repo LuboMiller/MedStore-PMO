@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154858",
+  "tempoWorklogId": 154858,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103997",
+    "id": 103997
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-03",
+  "startTime": "10:30:00",
+  "startDateTimeUtc": "2026-11-03T08:30:00Z",
+  "description": "Виправлення дизайну для 2 елементів ",
+  "createdAt": "2026-11-03T10:16:43Z",
+  "updatedAt": "2026-11-03T10:16:43Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9458ab6a-563c-4b78-bdda-9ccc045c0885",
+    "accountId": "712020:9458ab6a-563c-4b78-bdda-9ccc045c0885"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154858/work-attribute-values",
+    "values": []
+  }
+}

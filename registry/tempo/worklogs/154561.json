@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154561",
+  "tempoWorklogId": 154561,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/66688",
+    "id": 66688
+  },
+  "timeSpentSeconds": 18000,
+  "billableSeconds": 18000,
+  "startDate": "2026-11-01",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-11-01T07:00:00Z",
+  "description": "B2C Proto, IA, Hypothesis, Credits and Savings, Onboarding",
+  "createdAt": "2026-11-02T08:32:21Z",
+  "updatedAt": "2026-11-02T08:32:21Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=5c59885e3949e91403047073",
+    "accountId": "5c59885e3949e91403047073"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154561/work-attribute-values",
+    "values": []
+  }
+}

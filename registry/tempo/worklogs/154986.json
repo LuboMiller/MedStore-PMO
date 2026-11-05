@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154986",
+  "tempoWorklogId": 154986,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/28923",
+    "id": 28923
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 0,
+  "startDate": "2026-11-03",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-11-03T09:30:00Z",
+  "description": "Перевірка актів",
+  "createdAt": "2026-11-03T20:15:50Z",
+  "updatedAt": "2026-11-03T20:15:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154986/work-attribute-values",
+    "values": []
+  }
+}

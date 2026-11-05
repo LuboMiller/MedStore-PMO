@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155078",
+  "tempoWorklogId": 155078,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103074",
+    "id": 103074
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-02",
+  "startTime": "10:45:00",
+  "startDateTimeUtc": "2026-11-02T08:45:00Z",
+  "description": "Settlement design for paid no-shows and retained cancellations; e2e scenarios for merchant own commission routes",
+  "createdAt": "2026-11-04T15:42:30Z",
+  "updatedAt": "2026-11-04T15:42:30Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155078/work-attribute-values",
+    "values": []
+  }
+}

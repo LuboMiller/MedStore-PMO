@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155147",
+  "tempoWorklogId": 155147,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103564",
+    "id": 103564
+  },
+  "timeSpentSeconds": 900,
+  "billableSeconds": 900,
+  "startDate": "2026-11-04",
+  "startTime": "11:45:00",
+  "startDateTimeUtc": "2026-11-04T09:45:00Z",
+  "description": "FRI-406 - СЕО - Реалізація файлу Robots.txt",
+  "createdAt": "2026-11-04T17:51:40Z",
+  "updatedAt": "2026-11-04T17:51:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:9544e4ff-1a36-4af7-9834-f38a2026494f",
+    "accountId": "712020:9544e4ff-1a36-4af7-9834-f38a2026494f"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155147/work-attribute-values",
+    "values": []
+  }
+}

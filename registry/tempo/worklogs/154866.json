@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154866",
+  "tempoWorklogId": 154866,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/104034",
+    "id": 104034
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-11-03",
+  "startTime": "11:20:00",
+  "startDateTimeUtc": "2026-11-03T09:20:00Z",
+  "description": "CR implemented",
+  "createdAt": "2026-11-03T11:53:47Z",
+  "updatedAt": "2026-11-03T11:53:47Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154866/work-attribute-values",
+    "values": []
+  }
+}

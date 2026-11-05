@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154918",
+  "tempoWorklogId": 154918,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/75418",
+    "id": 75418
+  },
+  "timeSpentSeconds": 28800,
+  "billableSeconds": 28800,
+  "startDate": "2026-11-03",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-11-03T06:00:00Z",
+  "description": "dnipro_m transcripts (13 full)",
+  "createdAt": "2026-11-03T16:28:14Z",
+  "updatedAt": "2026-11-03T16:28:14Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:a3919382-cfec-40d5-bb47-bf899be9c513",
+    "accountId": "712020:a3919382-cfec-40d5-bb47-bf899be9c513"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154918/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155110",
+  "tempoWorklogId": 155110,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/74237",
+    "id": 74237
+  },
+  "timeSpentSeconds": 3600,
+  "billableSeconds": 3600,
+  "startDate": "2026-11-04",
+  "startTime": "08:45:00",
+  "startDateTimeUtc": "2026-11-04T06:45:00Z",
+  "description": "Синк з замовником\nСинк з лідом щодо пристроїв\nОновлення статусів та фоловапи вендорів",
+  "createdAt": "2026-11-04T15:52:17Z",
+  "updatedAt": "2026-11-04T15:52:17Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155110/work-attribute-values",
+    "values": []
+  }
+}

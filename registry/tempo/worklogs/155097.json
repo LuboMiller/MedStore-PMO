@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155097",
+  "tempoWorklogId": 155097,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/99497",
+    "id": 99497
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-03",
+  "startTime": "17:35:00",
+  "startDateTimeUtc": "2026-11-03T15:35:00Z",
+  "description": "Receipt producer and credit-note document: requirement prep",
+  "createdAt": "2026-11-04T15:42:40Z",
+  "updatedAt": "2026-11-04T15:42:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155097/work-attribute-values",
+    "values": []
+  }
+}

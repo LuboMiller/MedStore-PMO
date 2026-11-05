@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154856",
+  "tempoWorklogId": 154856,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103885",
+    "id": 103885
+  },
+  "timeSpentSeconds": 1200,
+  "billableSeconds": 1200,
+  "startDate": "2026-11-03",
+  "startTime": "10:00:00",
+  "startDateTimeUtc": "2026-11-03T08:00:00Z",
+  "description": "bugfix and refactoring",
+  "createdAt": "2026-11-03T09:51:29Z",
+  "updatedAt": "2026-11-03T09:51:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154856/work-attribute-values",
+    "values": []
+  }
+}

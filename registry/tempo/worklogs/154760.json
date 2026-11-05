@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154760",
+  "tempoWorklogId": 154760,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/101817",
+    "id": 101817
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-02",
+  "startTime": "09:00:00",
+  "startDateTimeUtc": "2026-11-02T07:00:00Z",
+  "description": "Синк щодо відкритих питань\nДзвінок по огляду беклогу\nФоловап\nОновлення репо + дебриф + наступні кроки",
+  "createdAt": "2026-11-02T20:29:25Z",
+  "updatedAt": "2026-11-02T20:29:25Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:61d5d19b-5c46-4520-8779-41c359e363f2",
+    "accountId": "712020:61d5d19b-5c46-4520-8779-41c359e363f2"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154760/work-attribute-values",
+    "values": []
+  }
+}

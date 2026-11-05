@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154980",
+  "tempoWorklogId": 154980,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/67816",
+    "id": 67816
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-04",
+  "startTime": "11:30:00",
+  "startDateTimeUtc": "2026-11-04T09:30:00Z",
+  "description": "KAN: Internal Sync - CR format discussion",
+  "createdAt": "2026-11-03T19:01:01Z",
+  "updatedAt": "2026-11-04T09:18:59Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436",
+    "accountId": "712020:1f971a46-c81f-46dd-a0e6-c06e5ab95436"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154980/work-attribute-values",
+    "values": []
+  }
+}

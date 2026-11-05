@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155102",
+  "tempoWorklogId": 155102,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103995",
+    "id": 103995
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-02",
+  "startTime": "14:00:00",
+  "startDateTimeUtc": "2026-11-02T13:00:00Z",
+  "description": "implementation by repositories (merchant service, api-gateway, backoffice, ps-landing, ps-merchant-portal, aws-infra)",
+  "createdAt": "2026-11-04T15:45:52Z",
+  "updatedAt": "2026-11-04T15:45:52Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:206931e4-aa4d-425d-8446-6546e7323e31",
+    "accountId": "712020:206931e4-aa4d-425d-8446-6546e7323e31"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155102/work-attribute-values",
+    "values": []
+  }
+}

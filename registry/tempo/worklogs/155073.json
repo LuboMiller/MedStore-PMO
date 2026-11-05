@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155073",
+  "tempoWorklogId": 155073,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103586",
+    "id": 103586
+  },
+  "timeSpentSeconds": 26400,
+  "billableSeconds": 26400,
+  "startDate": "2026-11-04",
+  "startTime": "08:00:00",
+  "startDateTimeUtc": "2026-11-04T06:00:00Z",
+  "description": "- завершила модальні вікна для дравера корзини\n- працювала над розділом Sellers (ще в процесі)\n- провели довгий сінк у з Костянтином і Тетяною, де ми робили рев'ю та збирали фідбеки для опрацювання",
+  "createdAt": "2026-11-04T15:35:35Z",
+  "updatedAt": "2026-11-04T15:35:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b",
+    "accountId": "712020:db6b8b9e-ab3f-4cc3-b84d-80ab2c9ab16b"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155073/work-attribute-values",
+    "values": []
+  }
+}

@@ -93,24 +93,24 @@
 
 | Параметр | Значення | Джерело |
 |---|---|---|
-| Baseline cost | $33 520 | Client status sheet Overview 2026-11-02 |
-| Current cost (fact) | $22 440 | Client status sheet Overview 2026-11-03 |
-| Estim. cost | $39 743 | Client status sheet Overview 2026-11-03 |
+| Baseline cost | $33 520 | Client status sheet Overview 2026-11-05 |
+| Current cost (fact) | $22 440 | Client status sheet Overview 2026-11-05 |
+| Estim. cost | $39 743 | Client status sheet Overview 2026-11-05 |
 | WBS ESTIM Opt / ML / Pes / PERT | $24 960 / $31 200 / $37 440 / $33 520 (360 / 450 / 540 / 484 год) | WBS ESTIM 2026-11-03; Baseline = PERT; Pes клієнт знає |
-| Presale cost (Scope Dashboard) | $34 260 | Scope Dashboard 2026-11-02 |
-| Cost variance | −$3 513 | Overview 2026-11-03 |
+| Presale cost (Scope Dashboard) | $34 260 | Scope Dashboard 2026-11-05 |
+| Cost variance | −$3 513 | Overview 2026-11-05 |
 | Contract value | <!-- PM: уточнити --> | |
 | Margin target | <!-- PM: уточнити --> | |
 | Contingency | <!-- PM: уточнити --> | |
-| CPI | 84% | Client status sheet Overview 2026-11-03 |
-| SPI | 78% | Client status sheet Overview 2026-11-03 |
-| Project completion % | 56% | Client status sheet Overview 2026-11-03 (PM оновив Epic % за оцінкою Дмитра) |
-| Budget completion % | 67% | Client status sheet Overview 2026-11-03 |
+| CPI | 84% | Client status sheet Overview 2026-11-05 |
+| SPI | 76% | Client status sheet Overview 2026-11-05 (було 78% на 03.11) |
+| Project completion % | 56% | Client status sheet Overview 2026-11-05 |
+| Budget completion % | 67% | Client status sheet Overview 2026-11-05 |
 | Start date | 01.08.2026 | Overview |
 | Baseline end | 08.12.2026 | Overview |
-| Estim. completion | 12.01.2027 | Overview 2026-11-03 — після оновлення %; пізніше за SoW-песимістичну 23.12 |
+| Estim. completion | 18.01.2027 | Overview 2026-11-05 (було 12.01.2027 на 03.11; SV зріс 36→41 дн.) |
 
-> ⚠️ CPI 16% / SPI 14% / Estim. completion 06.02.2029 (2026-11-02; на 20.10 було 19% / 16% / 09.10.2028) — критична увага PM. Project completion % стоїть на 10% з 20.10 при +$3 250 факту — або прогрес не оновлюється в sheet, або реально немає закритих результатів. Start date виправлено на 01.08.2026 (раніше шаблон 01.12.2025). Валютний символ у sheet змінився з € (зріз 08.10) на $ — PM верифікувати, чи це rebaseline, чи формат відображення.
+> ⚠️ SPI 76% / SV 41 дн. / Estim. completion 18.01.2027 — відставання від baseline зростає (+5 дн. SV vs 03.11). Контрактний етап STG-01 закінчується 30.11.2026 (Estim. completion +49 дн. після end). AC/EAC з 03.11 без змін — Tempo за 04–05.11 ще може не відбитись у sheet. Drive label «Updated 05-10-26» не збігається з Overview Current date 05.11.2026 — PM верифікувати modifiedTime.
 
 ---
 
@@ -162,13 +162,15 @@
 
 <!-- hydrate:google -->
 - Client status sheet: `1dtRGvD-5IeuXvzN9JGuv-OpO2H4JRsdeyBkWSTmcTuo`
-- Drive title: `MedStore | Client Project status report` — Overview «Current date» 01.11.2026 (export 2026-11-01T22:07Z)
+- Drive title: `MedStore | Client Project status report | Updated 05-10-26` — Overview «Current date» 05.11.2026 (export 2026-11-05T10:18:11Z)
 - Calendar plan: `100F5PIfBaTrr1u_hji9-witEhKkIBIWXFAy5uoxcizQ`
-- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-11-02/`
+- Sheets hydrate: `docs/_hydrate/google/sheets/client-status-live-2026-11-05/`
 - Drive folders: `main` + `contracts` OK; `commercial` / `finance` / `client-share` — folder_id not set
+- ⚠️ Drive label stamp «05-10-26» — ймовірно дата останнього редагування шаблону (05 жовт.), не дата звіту. PM верифікувати.
 
 ## 9. Нотатки сесії
 
+- 2026-11-05: Morning sync Phase A+B. Overview: AC $22 440 (без змін), EAC $39 743, CPI 84%, SPI 76% (↓2 пп vs 03.11), SV 41 дн. (↑5 дн.), completion 56%, budget 67%, Estim. completion 18.01.2027 (↑6 дн.). Drive label stamp «05-10-26» — аномалія (ймовірно дата редагування шаблону, не звітна дата). STG-01 end 30.11, 25 дн. до warn-вікна. 1.1.8 (Пілот) змінено з TO DO→IN PROGRESS з Epic % 52%. Контракт пролонгація ще не підтверджена.
 - 2026-11-03: PM оновив client status sheet за % Дмитра → completion 56%, budget 67%, CPI 84%, SPI 78%, EAC $39 743, CV −$3 513, Estim. 12.01.2027. Baseline = PERT $33 520; Pes $37 440 (WBS ESTIM, клієнт знає). У годинах прогноз Дмитра (480-512) < Pes 540, у грошах EAC вище Pes: BA/PM-обсяг ($40) робить DE ($80) (OQ-013).
 - 2026-11-03: Дмитро (через CTO) — SoW-готовність на 02.11: 303,45 год, прогноз 480-512 год (60-64 л/д) із 448-536 SoW; оптимістична межа недосяжна, запас до песимістичної 24-56 год, драйвер — 1.1.4 + темп клієнта (еталонні відповіді, тестування). CTO: чи комунікувати клієнту завчасно → PM: так, разом із продовженням Додатку №3 (end 30.11) і після вирівнювання sheet (OQ-013). `docs/status-reports/2026-11-02/sow-readiness-yefimenko-2026-11-02.md`
 - 2026-11-02: Morning sync Phase A+B. Overview: AC $20 615 (+$3 250 vs 20.10), EAC $206 148, budget burn 62%, project completion 10% (без змін), CPI 16%, SPI 14%, Estim. completion 06.02.2029, schedule deviation 791. Перевитрата vs Refine: 1.1.1 ($1 410 / $860), 1.1.6 ($5 719 / $4 280), 1.1.8 ($2 651 / $2 600 при epic 0% / TO DO).

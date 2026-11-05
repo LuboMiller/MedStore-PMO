@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155085",
+  "tempoWorklogId": 155085,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103068",
+    "id": 103068
+  },
+  "timeSpentSeconds": 7200,
+  "billableSeconds": 7200,
+  "startDate": "2026-11-03",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-11-03T07:30:00Z",
+  "description": "Settlement on pre-tax merchant nets with commission HST and in-app payout; review fixes, e2e on default pins; receipt-matrix prep and design",
+  "createdAt": "2026-11-04T15:42:34Z",
+  "updatedAt": "2026-11-04T15:42:34Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155085/work-attribute-values",
+    "values": []
+  }
+}

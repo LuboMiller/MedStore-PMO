@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155090",
+  "tempoWorklogId": 155090,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103689",
+    "id": 103689
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-03",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-11-03T11:30:00Z",
+  "description": "PR #411 refund split: addressed review comments, merged develop",
+  "createdAt": "2026-11-04T15:42:36Z",
+  "updatedAt": "2026-11-04T15:42:36Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155090/work-attribute-values",
+    "values": []
+  }
+}

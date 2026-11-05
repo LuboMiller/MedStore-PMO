@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155066",
+  "tempoWorklogId": 155066,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/102747",
+    "id": 102747
+  },
+  "timeSpentSeconds": 5400,
+  "billableSeconds": 5400,
+  "startDate": "2026-11-04",
+  "startTime": "13:30:00",
+  "startDateTimeUtc": "2026-11-04T11:30:00Z",
+  "description": "* Дебриф сесії питань з PO від 04.11: розділ лікарів у панелі прибрано, лікарів ведуть лише в CMS сайту мережі\n* F-07.09, F-07.10, F-07.11 знято з беклогу (перелік, редагування й публікація лікаря в панелі)\n* F-07.01–F-07.08: видимість лікаря за ознаками CMS (активний і позначений для показу), повторно пройдено Gates 3 + 4\n* F-07.12: фото й усі поля лікаря приходять із синхронізації, обома мовами з CMS\n* Оновлено правила, глосарій, рольову матрицю, NFR, бриф і карту сутностей під джерело лікарів\n* F-09.02: картка послуги показує лікарів за ознаками джерела, перші звіти Gates 3 + 4\n* Сформовано нові питання по FA-07 після гейтів",
+  "createdAt": "2026-11-04T15:25:40Z",
+  "updatedAt": "2026-11-04T15:25:40Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=631f2155b0ac1ba7b8711614",
+    "accountId": "631f2155b0ac1ba7b8711614"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155066/work-attribute-values",
+    "values": []
+  }
+}

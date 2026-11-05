@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/154867",
+  "tempoWorklogId": 154867,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/34359",
+    "id": 34359
+  },
+  "timeSpentSeconds": 1800,
+  "billableSeconds": 1800,
+  "startDate": "2026-11-03",
+  "startTime": "11:40:00",
+  "startDateTimeUtc": "2026-11-03T09:40:00Z",
+  "description": "daily meeting",
+  "createdAt": "2026-11-03T12:05:50Z",
+  "updatedAt": "2026-11-03T12:05:50Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42",
+    "accountId": "712020:fa8b0004-561a-4eae-b9d2-7b9e0232fd42"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/154867/work-attribute-values",
+    "values": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155056",
+  "tempoWorklogId": 155056,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/33412",
+    "id": 33412
+  },
+  "timeSpentSeconds": 1860,
+  "billableSeconds": 1860,
+  "startDate": "2026-11-04",
+  "startTime": "11:57:00",
+  "startDateTimeUtc": "2026-11-04T09:57:00Z",
+  "description": "Testing TR-1025 [aOS][iOS] - Авторизація [aOS 1.10.5 (43) / iOS 2.0.0 (135)]",
+  "createdAt": "2026-11-04T14:31:35Z",
+  "updatedAt": "2026-11-04T14:31:35Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269",
+    "accountId": "712020:c8a7a357-8318-4d85-b1ae-c472a0f9e269"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155056/work-attribute-values",
+    "values": []
+  }
+}

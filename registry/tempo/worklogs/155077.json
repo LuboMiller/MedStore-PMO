@@ -1,0 +1,24 @@
+{
+  "self": "https://api.eu.tempo.io/4/worklogs/155077",
+  "tempoWorklogId": 155077,
+  "issue": {
+    "self": "https://devlight.atlassian.net/rest/api/2/issue/103689",
+    "id": 103689
+  },
+  "timeSpentSeconds": 4500,
+  "billableSeconds": 4500,
+  "startDate": "2026-11-02",
+  "startTime": "09:30:00",
+  "startDateTimeUtc": "2026-11-02T07:30:00Z",
+  "description": "PR #165 refund split: addressed review comments (4 fix commits), merged develop into the branch",
+  "createdAt": "2026-11-04T15:42:29Z",
+  "updatedAt": "2026-11-04T15:42:29Z",
+  "author": {
+    "self": "https://devlight.atlassian.net/rest/api/2/user?accountId=712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128",
+    "accountId": "712020:c2dd35f3-bc0e-4ce2-8ae8-b744deef1128"
+  },
+  "attributes": {
+    "self": "https://api.eu.tempo.io/4/worklogs/155077/work-attribute-values",
+    "values": []
+  }
+}
